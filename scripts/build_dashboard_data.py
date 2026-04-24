@@ -176,7 +176,7 @@ def summarize_positions(alpaca_positions, trades, orders):
             'engine_label': ENGINE_LABELS.get(engine, engine),
             'stop_loss': stop_prices[0] if stop_prices else t.get('stop_loss'),
             'take_profit': t.get('take_profit'),
-            'opened_at': t.get('timestamp_entry'),
+            'opened_at': t.get('timestamp_entry') or t.get('entry_time_cet'),
             'protection': 'protected' if stops or p.get('asset_class') == 'crypto' else 'missing_stop',
             'protection_orders': len(stops),
             'stop_prices': stop_prices,
