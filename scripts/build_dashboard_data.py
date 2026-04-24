@@ -242,11 +242,15 @@ def summarize_engines(trades, health, positions_summary):
             pnl = pnl_of(t); row['pnl'] += pnl; row['wins'] += pnl > 0
         dt = parse_dt(t.get('timestamp_exit') or t.get('timestamp_entry'))
         if dt and (row['last_trade_at'] is None or dt > row['last_trade_at']): row['last_trade_at'] = dt
+    # Live Alpaca positions are the authority for open count.
+    for row in grouped.values():
+        row['open'] = 0
+        row['unrealized'] = 0.0
     for p in positions_summary.get('rows', []):
         row = grouped[p['engine']]; row['engine'] = p['engine']; row['open'] += 1; row['unrealized'] += p['unrealized_pl']
     rows = []
     for engine, row in grouped.items():
-        closed = max(row['trades'] - row['open'], 0); wr = round((row['wins'] / closed * 100), 1) if closed else 0.0
+        closed = sum(1 for t in trades if trade_engine(t) == engine and status_of_trade(t) != 'open'); wr = round((row['wins'] / closed * 100), 1) if closed else 0.0
         cfg = next((c for c in CONFIGURED_ENGINES if c['key'] == engine), {})
         rows.append({
             'engine': engine, 'label': cfg.get('label') or ENGINE_LABELS.get(engine, engine), 'channel': cfg.get('channel', '-'),
