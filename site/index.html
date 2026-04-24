@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trader Dashboard</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #121a31;
+      --muted: #8ea0c9;
+      --text: #e8eefc;
+      --green: #32d583;
+      --red: #f97066;
+      --yellow: #fdb022;
+      --blue: #60a5fa;
+      --border: #22314f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+      background: linear-gradient(180deg, #09101d 0%, #0d1324 100%);
+      color: var(--text);
+    }
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 24px; }
+    .top {
+      display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+    h1 { margin: 0; font-size: 32px; }
+    .sub { color: var(--muted); margin-top: 6px; }
+    .pill {
+      display: inline-block; padding: 6px 10px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted);
+      font-size: 12px;
+    }
+    .grid { display: grid; gap: 16px; }
+    .kpis { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-bottom: 16px; }
+    .two { grid-template-columns: 1.3fr 1fr; margin-bottom: 16px; }
+    .card {
+      background: rgba(18, 26, 49, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    }
+    .card h2 { margin: 0 0 12px; font-size: 16px; }
+    .kpi-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
+    .kpi-value { font-size: 28px; font-weight: 700; margin-top: 6px; }
+    .pos { color: var(--green); }
+    .neg { color: var(--red); }
+    .warn { color: var(--yellow); }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid #1f2a44; font-size: 14px; }
+    th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; }
+    .state { text-transform: uppercase; font-size: 12px; padding: 4px 8px; border-radius: 999px; border: 1px solid var(--border); }
+    .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    ul { margin: 0; padding-left: 18px; }
+    li { margin: 8px 0; }
+    @media (max-width: 960px) {
+      .two, .cols { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>Trader Dashboard</h1>
+        <div class="sub">24/7 cloud dashboard scaffold for trader.nordgrindberg.com</div>
+      </div>
+      <div class="pill" id="generatedAt">Laddar...</div>
+    </div>
+
+    <div class="grid kpis">
+      <div class="card"><div class="kpi-label">Portfolio value</div><div class="kpi-value" id="portfolioValue">-</div></div>
+      <div class="card"><div class="kpi-label">Daily P/L</div><div class="kpi-value" id="dailyPnl">-</div></div>
+      <div class="card"><div class="kpi-label">Trades today</div><div class="kpi-value" id="tradesToday">-</div></div>
+      <div class="card"><div class="kpi-label">Open positions</div><div class="kpi-value" id="openPositions">-</div></div>
+    </div>
+
+    <div class="grid two">
+      <div class="card">
+        <h2>Engines</h2>
+        <table>
+          <thead>
+            <tr><th>Engine</th><th>P/L</th><th>WR</th><th>Closed</th><th>Open</th><th>Health</th></tr>
+          </thead>
+          <tbody id="engineRows"></tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h2>Periods</h2>
+        <table>
+          <thead>
+            <tr><th>Period</th><th>P/L</th><th>Trades</th><th>WR</th></tr>
+          </thead>
+          <tbody id="periodRows"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:16px;">
+      <h2>Recent trades</h2>
+      <table>
+        <thead>
+          <tr><th>Time</th><th>Engine</th><th>Symbol</th><th>Side</th><th>Status</th><th>P/L</th><th>Reason</th></tr>
+        </thead>
+        <tbody id="tradeRows"></tbody>
+      </table>
+    </div>
+
+    <div class="cols">
+      <div class="card">
+        <h2>Leader setups</h2>
+        <ul id="leaderList"></ul>
+      </div>
+      <div class="card">
+        <h2>Paused setups</h2>
+        <ul id="pausedList"></ul>
+      </div>
+      <div class="card">
+        <h2>Cooldown setups</h2>
+        <ul id="cooldownList"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const fmtUsd = (v) => {
+      if (v === null || v === undefined || Number.isNaN(Number(v))) return '-';
+      const n = Number(v);
+      return `${n > 0 ? '+' : ''}$${n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    };
+    const cls = (v) => Number(v) > 0 ? 'pos' : Number(v) < 0 ? 'neg' : '';
+
+    async function loadJson(name) {
+      const res = await fetch(`../data/${name}`);
+      if (!res.ok) throw new Error(`Failed ${name}`);
+      return res.json();
+    }
+
+    function fillList(id, rows, formatter) {
+      const el = document.getElementById(id);
+      el.innerHTML = rows.length ? rows.map(formatter).join('') : '<li>Inget ännu</li>';
+    }
+
+    async function main() {
+      const [overview, engines, periods, trades, health, status] = await Promise.all([
+        loadJson('overview.json'),
+        loadJson('engines.json'),
+        loadJson('periods.json'),
+        loadJson('trades.json'),
+        loadJson('health.json'),
+        loadJson('status.json'),
+      ]);
+
+      document.getElementById('generatedAt').textContent = `Uppdaterad ${new Date(overview.generated_at).toLocaleString()}`;
+      document.getElementById('portfolioValue').textContent = fmtUsd(overview.portfolio_value);
+      document.getElementById('dailyPnl').innerHTML = `<span class="${cls(overview.daily_pnl)}">${fmtUsd(overview.daily_pnl)}</span>`;
+      document.getElementById('tradesToday').textContent = overview.trades_today ?? '-';
+      document.getElementById('openPositions').textContent = status?.alpaca?.positions_count ?? '-';
+
+      document.getElementById('engineRows').innerHTML = engines.map(e => `
+        <tr>
+          <td>${e.label}</td>
+          <td class="${cls(e.pnl)}">${fmtUsd(e.pnl)}</td>
+          <td>${e.win_rate}%</td>
+          <td>${e.closed_trades}</td>
+          <td>${e.open_positions}</td>
+          <td><span class="state">${e.health_state || 'unknown'}</span></td>
+        </tr>
+      `).join('');
+
+      document.getElementById('periodRows').innerHTML = Object.entries(periods).map(([k, v]) => `
+        <tr>
+          <td>${k}</td>
+          <td class="${cls(v.pnl)}">${fmtUsd(v.pnl)}</td>
+          <td>${v.trades}</td>
+          <td>${v.win_rate}%</td>
+        </tr>
+      `).join('');
+
+      document.getElementById('tradeRows').innerHTML = trades.slice(0, 20).map(t => `
+        <tr>
+          <td>${new Date(t.timestamp).toLocaleString()}</td>
+          <td>${t.label}</td>
+          <td>${t.symbol || '-'}</td>
+          <td>${t.side || '-'}</td>
+          <td>${t.status || '-'}</td>
+          <td class="${cls(t.pnl)}">${fmtUsd(t.pnl)}</td>
+          <td>${t.reason || '-'}</td>
+        </tr>
+      `).join('');
+
+      fillList('leaderList', health.leaders || [], x => `<li><b>${x.engine}</b> / ${x.setup} <span class="pos">${x.win_rate ?? '-'}%</span></li>`);
+      fillList('pausedList', health.paused || [], x => `<li><b>${x.engine}</b> / ${x.setup}</li>`);
+      fillList('cooldownList', health.cooldown || [], x => `<li><b>${x.engine}</b> / ${x.setup}</li>`);
+    }
+
+    main().catch(err => {
+      document.getElementById('generatedAt').textContent = `Fel: ${err.message}`;
+      console.error(err);
+    });
+  </script>
+</body>
+</html>

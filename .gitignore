@@ -1,0 +1,3 @@
+﻿# Ignore generated local snapshots and secrets
+data/*.json
+!data/.gitkeep
