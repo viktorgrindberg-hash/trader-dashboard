@@ -106,26 +106,59 @@ def alpaca_get(path, default):
 
 
 def latest_open_trade_by_symbol(trades):
-    out = {}
+    grouped = defaultdict(list)
     for t in trades:
         if status_of_trade(t) != 'open':
             continue
         sym = str(t.get('symbol') or '').replace('/', '')
-        dt = parse_dt(t.get('timestamp_entry')) or datetime.min.replace(tzinfo=CET)
-        if sym and (sym not in out or dt > out[sym]['_dt']):
-            out[sym] = {**t, '_dt': dt}
+        if not sym:
+            continue
+        dt = parse_dt(t.get('timestamp_entry') or t.get('entry_time_cet')) or datetime.min.replace(tzinfo=CET)
+        grouped[sym].append({**t, '_dt': dt})
+    out = {}
+    for sym, rows in grouped.items():
+        known = [r for r in rows if trade_engine(r) != 'unknown']
+        pool = known or rows
+        out[sym] = sorted(pool, key=lambda r: r['_dt'], reverse=True)[0]
     return out
 
 
-def summarize_positions(alpaca_positions, trades):
+def protection_by_symbol(orders):
+    out = defaultdict(list)
+    if not isinstance(orders, list):
+        return out
+    for o in orders:
+        if o.get('type') in ('stop', 'stop_limit', 'trailing_stop') or o.get('stop_price'):
+            out[str(o.get('symbol')).replace('/', '')].append(o)
+    return out
+
+
+def stale_open_trades(trades, alpaca_positions):
+    live = {str(p.get('symbol')).replace('/', '') for p in alpaca_positions if isinstance(p, dict)} if isinstance(alpaca_positions, list) else set()
+    stale = []
+    for t in trades:
+        sym = str(t.get('symbol') or '').replace('/', '')
+        if status_of_trade(t) == 'open' and sym and sym not in live:
+            stale.append({
+                'symbol': t.get('symbol'), 'engine': trade_engine(t), 'engine_label': ENGINE_LABELS.get(trade_engine(t), trade_engine(t)),
+                'side': t.get('side'), 'entry_price': t.get('entry_price'), 'qty': t.get('qty'),
+                'opened_at': t.get('timestamp_entry') or t.get('entry_time_cet'), 'stop_loss': t.get('stop_loss'), 'take_profit': t.get('take_profit')
+            })
+    return stale[-30:]
+
+
+def summarize_positions(alpaca_positions, trades, orders):
     if isinstance(alpaca_positions, dict) and 'error' in alpaca_positions:
-        return {'error': alpaca_positions['error'], 'rows': [], 'count': 0, 'total_unrealized_pl': 0}
+        return {'error': alpaca_positions['error'], 'rows': [], 'count': 0, 'total_unrealized_pl': 0, 'stale_journal_opens': []}
     open_by_symbol = latest_open_trade_by_symbol(trades)
+    protection = protection_by_symbol(orders)
     rows = []
     for p in alpaca_positions if isinstance(alpaca_positions, list) else []:
         sym = p.get('symbol')
         t = open_by_symbol.get(str(sym).replace('/', ''), {})
         engine = trade_engine(t) if t else infer_engine(sym)
+        stops = protection.get(str(sym).replace('/', ''), [])
+        stop_prices = [float(o.get('stop_price')) for o in stops if o.get('stop_price')]
         qty = float(p.get('qty') or 0)
         rows.append({
             'symbol': sym,
@@ -141,9 +174,12 @@ def summarize_positions(alpaca_positions, trades):
             'asset_class': p.get('asset_class'),
             'engine': engine,
             'engine_label': ENGINE_LABELS.get(engine, engine),
-            'stop_loss': t.get('stop_loss'),
+            'stop_loss': stop_prices[0] if stop_prices else t.get('stop_loss'),
             'take_profit': t.get('take_profit'),
             'opened_at': t.get('timestamp_entry'),
+            'protection': 'protected' if stops or p.get('asset_class') == 'crypto' else 'missing_stop',
+            'protection_orders': len(stops),
+            'stop_prices': stop_prices,
         })
     rows.sort(key=lambda x: x['unrealized_pl'])
     return {
@@ -152,6 +188,9 @@ def summarize_positions(alpaca_positions, trades):
         'longs': sum(1 for x in rows if x['side'] == 'long'),
         'shorts': sum(1 for x in rows if x['side'] == 'short'),
         'rows': rows,
+        'protected_count': sum(1 for x in rows if x.get('protection') == 'protected'),
+        'missing_stop_count': sum(1 for x in rows if x.get('protection') == 'missing_stop'),
+        'stale_journal_opens': stale_open_trades(trades, alpaca_positions),
     }
 
 
@@ -241,7 +280,7 @@ def build():
     account = alpaca_get('/v2/account', {})
     alpaca_positions = alpaca_get('/v2/positions', [])
     orders = alpaca_get('/v2/orders?status=open&limit=100&nested=true', [])
-    positions = summarize_positions(alpaca_positions, trades)
+    positions = summarize_positions(alpaca_positions, trades, orders)
     overview = {
         'generated_at': datetime.now(CET).isoformat(),
         'portfolio_value': float(account.get('portfolio_value') or daily.get('portfolio_value_current') or 0) if isinstance(account, dict) else daily.get('portfolio_value_current'),
