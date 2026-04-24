@@ -3,205 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Trader Dashboard</title>
+  <title>Trader Command Center</title>
   <style>
-    :root {
-      --bg: #0b1020;
-      --card: #121a31;
-      --muted: #8ea0c9;
-      --text: #e8eefc;
-      --green: #32d583;
-      --red: #f97066;
-      --yellow: #fdb022;
-      --blue: #60a5fa;
-      --border: #22314f;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Inter, Segoe UI, Arial, sans-serif;
-      background: linear-gradient(180deg, #09101d 0%, #0d1324 100%);
-      color: var(--text);
-    }
-    .wrap { max-width: 1280px; margin: 0 auto; padding: 24px; }
-    .top {
-      display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 24px;
-      flex-wrap: wrap;
-    }
-    h1 { margin: 0; font-size: 32px; }
-    .sub { color: var(--muted); margin-top: 6px; }
-    .pill {
-      display: inline-block; padding: 6px 10px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted);
-      font-size: 12px;
-    }
-    .grid { display: grid; gap: 16px; }
-    .kpis { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-bottom: 16px; }
-    .two { grid-template-columns: 1.3fr 1fr; margin-bottom: 16px; }
-    .card {
-      background: rgba(18, 26, 49, 0.94);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 18px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.2);
-    }
-    .card h2 { margin: 0 0 12px; font-size: 16px; }
-    .kpi-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
-    .kpi-value { font-size: 28px; font-weight: 700; margin-top: 6px; }
-    .pos { color: var(--green); }
-    .neg { color: var(--red); }
-    .warn { color: var(--yellow); }
-    table { width: 100%; border-collapse: collapse; }
-    th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid #1f2a44; font-size: 14px; }
-    th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; }
-    .state { text-transform: uppercase; font-size: 12px; padding: 4px 8px; border-radius: 999px; border: 1px solid var(--border); }
-    .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-    ul { margin: 0; padding-left: 18px; }
-    li { margin: 8px 0; }
-    @media (max-width: 960px) {
-      .two, .cols { grid-template-columns: 1fr; }
-    }
+    :root{--bg:#070a12;--panel:#0d1424;--panel2:#111b31;--line:#23324f;--muted:#8ea0c9;--text:#edf4ff;--green:#32d583;--red:#f97066;--yellow:#fdb022;--blue:#60a5fa;--purple:#b692f6;--cyan:#22d3ee}*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at top left,#172554 0,#070a12 34%,#05070d 100%);color:var(--text)}.wrap{max-width:1500px;margin:0 auto;padding:24px}.top{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;flex-wrap:wrap;margin-bottom:18px}h1{font-size:34px;margin:0}.sub{color:var(--muted);margin-top:6px}.pill{border:1px solid var(--line);background:rgba(17,27,49,.8);border-radius:999px;padding:8px 12px;color:var(--muted);font-size:12px}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 20px}.btn,.input{background:#0b1220;border:1px solid var(--line);color:var(--text);border-radius:12px;padding:10px 12px}.btn{cursor:pointer}.btn.active{border-color:var(--blue);box-shadow:0 0 0 2px rgba(96,165,250,.18)}.input{min-width:230px}.grid{display:grid;gap:16px}.kpis{grid-template-columns:repeat(6,minmax(155px,1fr));margin-bottom:16px}.main{grid-template-columns:1.35fr .85fr}.cols3{grid-template-columns:repeat(3,1fr)}.card{background:linear-gradient(180deg,rgba(17,27,49,.96),rgba(13,20,36,.96));border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 18px 50px rgba(0,0,0,.28)}.card h2{margin:0 0 14px;font-size:16px;display:flex;justify-content:space-between;gap:10px}.kpi-label{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.kpi-value{font-size:25px;font-weight:800;margin-top:7px}.pos{color:var(--green)}.neg{color:var(--red)}.warn{color:var(--yellow)}.blue{color:var(--blue)}.muted{color:var(--muted)}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px 8px;border-bottom:1px solid #1f2a44;font-size:13px;vertical-align:middle}th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em;cursor:pointer}.badge{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:4px 8px;font-size:12px;background:#0b1220}.long{color:var(--green)}.short{color:var(--red)}.riskbar{height:8px;background:#182338;border-radius:999px;overflow:hidden;margin-top:6px}.riskbar>span{display:block;height:100%;background:linear-gradient(90deg,var(--green),var(--yellow),var(--red));border-radius:999px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.tab{padding:8px 11px;border:1px solid var(--line);border-radius:999px;background:#0b1220;color:var(--muted);cursor:pointer}.tab.active{color:var(--text);border-color:var(--cyan)}.panel{display:none}.panel.active{display:block}.engine{display:grid;grid-template-columns:1fr auto;gap:8px;padding:10px 0;border-bottom:1px solid #1f2a44}.engine:last-child{border-bottom:0}.spark{height:10px;border-radius:999px;background:#182338;overflow:hidden}.spark span{display:block;height:100%;background:var(--purple)}@media(max-width:1100px){.kpis{grid-template-columns:repeat(2,1fr)}.main,.cols3{grid-template-columns:1fr}.wrap{padding:14px}}@media(max-width:640px){th:nth-child(6),td:nth-child(6),th:nth-child(8),td:nth-child(8){display:none}.kpis{grid-template-columns:1fr}}
   </style>
 </head>
-<body>
-  <div class="wrap">
-    <div class="top">
-      <div>
-        <h1>Trader Dashboard</h1>
-        <div class="sub">24/7 cloud dashboard scaffold for trader.nordgrindberg.com</div>
-      </div>
-      <div class="pill" id="generatedAt">Laddar...</div>
-    </div>
-
-    <div class="grid kpis">
-      <div class="card"><div class="kpi-label">Portfolio value</div><div class="kpi-value" id="portfolioValue">-</div></div>
-      <div class="card"><div class="kpi-label">Daily P/L</div><div class="kpi-value" id="dailyPnl">-</div></div>
-      <div class="card"><div class="kpi-label">Trades today</div><div class="kpi-value" id="tradesToday">-</div></div>
-      <div class="card"><div class="kpi-label">Open positions</div><div class="kpi-value" id="openPositions">-</div></div>
-    </div>
-
-    <div class="grid two">
-      <div class="card">
-        <h2>Engines</h2>
-        <table>
-          <thead>
-            <tr><th>Engine</th><th>P/L</th><th>WR</th><th>Closed</th><th>Open</th><th>Health</th></tr>
-          </thead>
-          <tbody id="engineRows"></tbody>
-        </table>
-      </div>
-      <div class="card">
-        <h2>Periods</h2>
-        <table>
-          <thead>
-            <tr><th>Period</th><th>P/L</th><th>Trades</th><th>WR</th></tr>
-          </thead>
-          <tbody id="periodRows"></tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="card" style="margin-bottom:16px;">
-      <h2>Recent trades</h2>
-      <table>
-        <thead>
-          <tr><th>Time</th><th>Engine</th><th>Symbol</th><th>Side</th><th>Status</th><th>P/L</th><th>Reason</th></tr>
-        </thead>
-        <tbody id="tradeRows"></tbody>
-      </table>
-    </div>
-
-    <div class="cols">
-      <div class="card">
-        <h2>Leader setups</h2>
-        <ul id="leaderList"></ul>
-      </div>
-      <div class="card">
-        <h2>Paused setups</h2>
-        <ul id="pausedList"></ul>
-      </div>
-      <div class="card">
-        <h2>Cooldown setups</h2>
-        <ul id="cooldownList"></ul>
-      </div>
-    </div>
+<body><div class="wrap">
+  <div class="top"><div><h1>Trader Command Center</h1><div class="sub">Live paper trading, engines, risk och aktiva positioner</div></div><div><div class="pill" id="generatedAt">Laddar...</div></div></div>
+  <div class="toolbar"><input id="search" class="input" placeholder="Sök symbol, engine, side..."/><button class="btn active" data-filter="all">Alla</button><button class="btn" data-filter="long">Long</button><button class="btn" data-filter="short">Short</button><button class="btn" data-filter="red">Förlorare</button><button class="btn" onclick="location.reload()">Refresh</button></div>
+  <div class="grid kpis">
+    <div class="card"><div class="kpi-label">Portfolio</div><div class="kpi-value" id="portfolioValue">-</div></div>
+    <div class="card"><div class="kpi-label">Open P/L</div><div class="kpi-value" id="dailyPnl">-</div></div>
+    <div class="card"><div class="kpi-label">Active positions</div><div class="kpi-value" id="openPositions">-</div></div>
+    <div class="card"><div class="kpi-label">Open orders</div><div class="kpi-value" id="ordersCount">-</div></div>
+    <div class="card"><div class="kpi-label">Buying power</div><div class="kpi-value" id="buyingPower">-</div></div>
+    <div class="card"><div class="kpi-label">Engines tracked</div><div class="kpi-value" id="engineCount">-</div></div>
   </div>
-
-  <script>
-    const fmtUsd = (v) => {
-      if (v === null || v === undefined || Number.isNaN(Number(v))) return '-';
-      const n = Number(v);
-      return `${n > 0 ? '+' : ''}$${n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-    };
-    const cls = (v) => Number(v) > 0 ? 'pos' : Number(v) < 0 ? 'neg' : '';
-
-    async function loadJson(name) {
-      const res = await fetch(`data/${name}`);
-      if (!res.ok) throw new Error(`Failed ${name}`);
-      return res.json();
-    }
-
-    function fillList(id, rows, formatter) {
-      const el = document.getElementById(id);
-      el.innerHTML = rows.length ? rows.map(formatter).join('') : '<li>Inget ännu</li>';
-    }
-
-    async function main() {
-      const [overview, engines, periods, trades, health, status] = await Promise.all([
-        loadJson('overview.json'),
-        loadJson('engines.json'),
-        loadJson('periods.json'),
-        loadJson('trades.json'),
-        loadJson('health.json'),
-        loadJson('status.json'),
-      ]);
-
-      document.getElementById('generatedAt').textContent = `Uppdaterad ${new Date(overview.generated_at).toLocaleString()}`;
-      document.getElementById('portfolioValue').textContent = fmtUsd(overview.portfolio_value);
-      document.getElementById('dailyPnl').innerHTML = `<span class="${cls(overview.daily_pnl)}">${fmtUsd(overview.daily_pnl)}</span>`;
-      document.getElementById('tradesToday').textContent = overview.trades_today ?? '-';
-      document.getElementById('openPositions').textContent = status?.alpaca?.positions_count ?? '-';
-
-      document.getElementById('engineRows').innerHTML = engines.map(e => `
-        <tr>
-          <td>${e.label}</td>
-          <td class="${cls(e.pnl)}">${fmtUsd(e.pnl)}</td>
-          <td>${e.win_rate}%</td>
-          <td>${e.closed_trades}</td>
-          <td>${e.open_positions}</td>
-          <td><span class="state">${e.health_state || 'unknown'}</span></td>
-        </tr>
-      `).join('');
-
-      document.getElementById('periodRows').innerHTML = Object.entries(periods).map(([k, v]) => `
-        <tr>
-          <td>${k}</td>
-          <td class="${cls(v.pnl)}">${fmtUsd(v.pnl)}</td>
-          <td>${v.trades}</td>
-          <td>${v.win_rate}%</td>
-        </tr>
-      `).join('');
-
-      document.getElementById('tradeRows').innerHTML = trades.slice(0, 20).map(t => `
-        <tr>
-          <td>${new Date(t.timestamp).toLocaleString()}</td>
-          <td>${t.label}</td>
-          <td>${t.symbol || '-'}</td>
-          <td>${t.side || '-'}</td>
-          <td>${t.status || '-'}</td>
-          <td class="${cls(t.pnl)}">${fmtUsd(t.pnl)}</td>
-          <td>${t.reason || '-'}</td>
-        </tr>
-      `).join('');
-
-      fillList('leaderList', health.leaders || [], x => `<li><b>${x.engine}</b> / ${x.setup} <span class="pos">${x.win_rate ?? '-'}%</span></li>`);
-      fillList('pausedList', health.paused || [], x => `<li><b>${x.engine}</b> / ${x.setup}</li>`);
-      fillList('cooldownList', health.cooldown || [], x => `<li><b>${x.engine}</b> / ${x.setup}</li>`);
-    }
-
-    main().catch(err => {
-      document.getElementById('generatedAt').textContent = `Fel: ${err.message}`;
-      console.error(err);
-    });
-  </script>
-</body>
-</html>
+  <div class="grid main">
+    <div class="card"><h2>Aktiva positioner <span class="muted" id="posSummary"></span></h2><table><thead><tr><th>Symbol</th><th>Side</th><th>Qty</th><th>Entry</th><th>Now</th><th>Value</th><th>P/L</th><th>Engine</th><th>Risk</th></tr></thead><tbody id="positionRows"></tbody></table></div>
+    <div class="card"><h2>Engine status</h2><div id="engineCards"></div></div>
+  </div>
+  <div class="grid cols3" style="margin-top:16px">
+    <div class="card"><h2>Perioder</h2><table><tbody id="periodRows"></tbody></table></div>
+    <div class="card"><h2>Öppna orders</h2><table><thead><tr><th>Symbol</th><th>Side</th><th>Typ</th><th>Status</th></tr></thead><tbody id="orderRows"></tbody></table></div>
+    <div class="card"><h2>Risk snapshot</h2><div id="riskBox" class="muted">Laddar...</div></div>
+  </div>
+  <div class="card" style="margin-top:16px"><h2>Trade journal</h2><div class="tabs"><button class="tab active" data-panel="recent">Senaste trades</button><button class="tab" data-panel="engines">Engine tabell</button></div><div id="recent" class="panel active"><table><thead><tr><th>Tid</th><th>Engine</th><th>Symbol</th><th>Side</th><th>Status</th><th>P/L</th><th>Reason</th></tr></thead><tbody id="tradeRows"></tbody></table></div><div id="engines" class="panel"><table><thead><tr><th>Engine</th><th>Channel</th><th>Script</th><th>Cadence</th><th>Open</th><th>Closed</th><th>Realized</th><th>Unrealized</th></tr></thead><tbody id="engineRows"></tbody></table></div></div>
+</div>
+<script>
+const fmtUsd=v=>{if(v===null||v===undefined||Number.isNaN(Number(v)))return'-';const n=Number(v);return `${n>0?'+':''}$${n.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}`};
+const fmtNum=v=>Number(v||0).toLocaleString(undefined,{maximumFractionDigits:6}); const cls=v=>Number(v)>0?'pos':Number(v)<0?'neg':'';
+let positions=[]; let activeFilter='all';
+async function loadJson(name){const res=await fetch(`data/${name}?v=${Date.now()}`); if(!res.ok) throw new Error(`Failed ${name}`); return res.json()}
+function renderPositions(){const q=document.getElementById('search').value.toLowerCase();let rows=positions.filter(p=>`${p.symbol} ${p.side} ${p.engine_label}`.toLowerCase().includes(q)); if(activeFilter==='long')rows=rows.filter(p=>p.side==='long'); if(activeFilter==='short')rows=rows.filter(p=>p.side==='short'); if(activeFilter==='red')rows=rows.filter(p=>Number(p.unrealized_pl)<0); document.getElementById('positionRows').innerHTML=rows.length?rows.map(p=>{const risk=Math.min(Math.abs(Number(p.unrealized_plpc)||0)*12,100);return `<tr><td><b>${p.symbol}</b><div class="muted">${p.asset_class||''}</div></td><td><span class="badge ${p.side}">${p.side}</span></td><td>${fmtNum(p.qty)}</td><td>$${Number(p.avg_entry_price).toFixed(4)}</td><td>$${Number(p.current_price).toFixed(4)}</td><td>${fmtUsd(Math.abs(p.market_value))}</td><td class="${cls(p.unrealized_pl)}"><b>${fmtUsd(p.unrealized_pl)}</b><div>${p.unrealized_plpc}%</div></td><td>${p.engine_label||'unknown'}</td><td><span class="muted">${p.change_today}% idag</span><div class="riskbar"><span style="width:${risk}%"></span></div></td></tr>`}).join(''):'<tr><td colspan="9" class="muted">Inga aktiva positioner hittades</td></tr>'}
+async function main(){const [overview,positionsData,orders,engines,periods,trades,status]=await Promise.all(['overview.json','positions.json','orders.json','engines.json','periods.json','trades.json','status.json'].map(loadJson)); positions=positionsData.rows||[]; document.getElementById('generatedAt').textContent=`Uppdaterad ${new Date(overview.generated_at).toLocaleString()}`; document.getElementById('portfolioValue').textContent=fmtUsd(overview.portfolio_value); document.getElementById('dailyPnl').innerHTML=`<span class="${cls(overview.daily_pnl)}">${fmtUsd(overview.daily_pnl)}</span>`; document.getElementById('openPositions').textContent=overview.positions_count??positions.length; document.getElementById('ordersCount').textContent=overview.orders_count??orders.length; document.getElementById('buyingPower').textContent=fmtUsd(overview.buying_power); document.getElementById('engineCount').textContent=(status.configured_engines||engines).length; document.getElementById('posSummary').textContent=`${positionsData.longs||0} long / ${positionsData.shorts||0} short`;
+renderPositions();
+document.getElementById('engineCards').innerHTML=engines.map(e=>`<div class="engine"><div><b>${e.label}</b><div class="muted">${e.channel} · ${e.cadence}</div><div class="spark"><span style="width:${Math.min((e.win_rate||0),100)}%"></span></div></div><div style="text-align:right"><div class="${cls(e.unrealized_pl)}">${fmtUsd(e.unrealized_pl)}</div><div class="muted">open ${e.open_positions}</div></div></div>`).join('');
+document.getElementById('engineRows').innerHTML=engines.map(e=>`<tr><td>${e.label}</td><td>${e.channel}</td><td>${e.script}</td><td>${e.cadence}</td><td>${e.open_positions}</td><td>${e.closed_trades}</td><td class="${cls(e.pnl)}">${fmtUsd(e.pnl)}</td><td class="${cls(e.unrealized_pl)}">${fmtUsd(e.unrealized_pl)}</td></tr>`).join('');
+document.getElementById('periodRows').innerHTML=Object.entries(periods).map(([k,v])=>`<tr><td><b>${k}</b></td><td class="${cls(v.pnl)}">${fmtUsd(v.pnl)}</td><td>${v.trades} trades</td><td>${v.win_rate}% WR</td></tr>`).join('');
+document.getElementById('orderRows').innerHTML=orders.length?orders.map(o=>`<tr><td>${o.symbol}</td><td>${o.side}</td><td>${o.type||o.order_class}</td><td>${o.status}</td></tr>`).join(''):'<tr><td colspan="4" class="muted">Inga öppna orders</td></tr>';
+const losers=positions.filter(p=>p.unrealized_pl<0), crypto=positions.filter(p=>p.asset_class==='crypto').reduce((a,p)=>a+Math.abs(p.market_value),0), port=Number(overview.portfolio_value||1); document.getElementById('riskBox').innerHTML=`<p><b>${positions.length}</b> aktiva positioner live från Alpaca.</p><p><span class="neg">${losers.length}</span> röda positioner, ${fmtUsd(losers.reduce((a,p)=>a+p.unrealized_pl,0))} sammanlagt.</p><p>Crypto exposure: <b>${((crypto/port)*100).toFixed(2)}%</b> av portfölj.</p><p class="muted">Paper trading dashboard. Detta är utbildning, inte investeringsråd.</p>`;
+document.getElementById('tradeRows').innerHTML=trades.slice(0,40).map(t=>`<tr><td>${new Date(t.timestamp).toLocaleString()}</td><td>${t.label}</td><td>${t.symbol||'-'}</td><td>${t.side||'-'}</td><td>${t.status||'-'}</td><td class="${cls(t.pnl)}">${fmtUsd(t.pnl)}</td><td>${t.reason||'-'}</td></tr>`).join('')}
+document.querySelectorAll('.btn[data-filter]').forEach(b=>b.onclick=()=>{document.querySelectorAll('.btn[data-filter]').forEach(x=>x.classList.remove('active'));b.classList.add('active');activeFilter=b.dataset.filter;renderPositions()}); document.getElementById('search').oninput=renderPositions; document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab,.panel').forEach(x=>x.classList.remove('active'));t.classList.add('active');document.getElementById(t.dataset.panel).classList.add('active')}); main().catch(e=>{document.getElementById('generatedAt').textContent=`Fel: ${e.message}`;console.error(e)});
+</script></body></html>

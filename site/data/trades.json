@@ -1,7 +1,19 @@
 [
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
+    "symbol": "META",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 11.18,
+    "entry_price": 668.73,
+    "exit_price": 680.16,
+    "timestamp": "2026-04-24T19:05:10.155886+02:00",
+    "reason": "exit_signals"
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
     "symbol": "DIA",
     "side": "buy",
     "status": "closed",
@@ -13,7 +25,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "DOT/USD",
     "side": "buy",
     "status": "open",
@@ -25,7 +37,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "open",
@@ -37,7 +49,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "AMD",
     "side": "buy",
     "status": "closed",
@@ -73,7 +85,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "open",
@@ -85,7 +97,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "open",
@@ -97,7 +109,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "AVAX/USD",
     "side": "buy",
     "status": "open",
@@ -109,7 +121,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "open",
@@ -121,7 +133,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "open",
@@ -133,7 +145,7 @@
   },
   {
     "engine": "daytrading",
-    "label": "Daytrading",
+    "label": "Daytrading Engine",
     "symbol": "COPX",
     "side": "sell",
     "status": "closed",
@@ -145,7 +157,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "TSLA",
     "side": "buy",
     "status": "closed",
@@ -157,7 +169,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "NVDA",
     "side": "buy",
     "status": "closed",
@@ -169,7 +181,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "URA",
     "side": "sell",
     "status": "closed",
@@ -193,7 +205,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "NFLX",
     "side": "sell",
     "status": "closed",
@@ -205,7 +217,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "ADA/USD",
     "side": "buy",
     "status": "closed",
@@ -217,7 +229,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "AVAX/USD",
     "side": "buy",
     "status": "closed",
@@ -229,7 +241,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -241,7 +253,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -253,7 +265,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "AMD",
     "side": "buy",
     "status": "closed",
@@ -265,7 +277,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "TSLA",
     "side": "sell",
     "status": "closed",
@@ -277,7 +289,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "NVDA",
     "side": "sell",
     "status": "closed",
@@ -289,7 +301,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "MSFT",
     "side": "sell",
     "status": "closed",
@@ -301,7 +313,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "USO",
     "side": "buy",
     "status": "closed",
@@ -325,7 +337,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "AVAX/USD",
     "side": "buy",
     "status": "closed",
@@ -349,7 +361,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -361,7 +373,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -373,7 +385,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "AVAX/USD",
     "side": "buy",
     "status": "closed",
@@ -385,7 +397,7 @@
   },
   {
     "engine": "daytrading",
-    "label": "Daytrading",
+    "label": "Daytrading Engine",
     "symbol": "AMZN",
     "side": "buy",
     "status": "closed",
@@ -397,7 +409,7 @@
   },
   {
     "engine": "daytrading",
-    "label": "Daytrading",
+    "label": "Daytrading Engine",
     "symbol": "AAPL",
     "side": "buy",
     "status": "closed",
@@ -409,7 +421,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "TSLA",
     "side": "buy",
     "status": "closed",
@@ -421,7 +433,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -433,7 +445,7 @@
   },
   {
     "engine": "D",
-    "label": "Crypto 24/7",
+    "label": "Engine D, Volume Scanner",
     "symbol": "QQQ",
     "side": "buy",
     "status": "closed",
@@ -445,7 +457,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "MSFT",
     "side": "buy",
     "status": "closed",
@@ -457,7 +469,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "NVDA",
     "side": "sell",
     "status": "closed",
@@ -469,7 +481,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -481,7 +493,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -493,7 +505,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -505,7 +517,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -517,7 +529,7 @@
   },
   {
     "engine": "C",
-    "label": "Engine C ORB",
+    "label": "Engine C, ORB",
     "symbol": "URA",
     "side": "buy",
     "status": "closed",
@@ -529,7 +541,7 @@
   },
   {
     "engine": "daytrading",
-    "label": "Daytrading",
+    "label": "Daytrading Engine",
     "symbol": "AMD",
     "side": "buy",
     "status": "closed",
@@ -541,7 +553,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -553,7 +565,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -565,7 +577,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -577,7 +589,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -589,7 +601,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
+    "label": "Crypto Engine",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -597,6 +609,354 @@
     "entry_price": 1.432800054550171,
     "exit_price": 1.44727585,
     "timestamp": "2026-04-22T07:33:11.108795+02:00",
+    "reason": "reconciled_to_alpaca_truth"
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto Engine",
+    "symbol": "ETH/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 6.05,
+    "entry_price": 2344.909912109375,
+    "exit_price": 2373.29691271,
+    "timestamp": "2026-04-22T07:33:09.972583+02:00",
+    "reason": "reconciled_to_alpaca_truth"
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto Engine",
+    "symbol": "DOT/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 1.4,
+    "entry_price": 1.2740000486373901,
+    "exit_price": 1.27756669,
+    "timestamp": "2026-04-22T07:18:16.110750+02:00",
+    "reason": "reconciled_to_alpaca_truth"
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto Engine",
+    "symbol": "DOT/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 7.3,
+    "entry_price": 1.3009999990463257,
+    "exit_price": 1.32,
+    "timestamp": "2026-04-22T07:18:16.110750+02:00",
+    "reason": "reconciled_to_alpaca_truth"
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto Engine",
+    "symbol": "ETH/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": -2.53,
+    "entry_price": 2327.800048828125,
+    "exit_price": 2316.02600988,
+    "timestamp": "2026-04-22T05:03:28.844010+02:00",
+    "reason": "reconciled_to_alpaca_truth"
+  },
+  {
+    "engine": "daytrading",
+    "label": "Daytrading Engine",
+    "symbol": "GLD",
+    "side": "sell",
+    "status": "closed",
+    "pnl": 0.21,
+    "entry_price": 431.510009765625,
+    "exit_price": 431.405,
+    "timestamp": "2026-04-21T22:15:35.418617+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "daytrading",
+    "label": "Daytrading Engine",
+    "symbol": "DIA",
+    "side": "sell",
+    "status": "closed",
+    "pnl": 0.22,
+    "entry_price": 492.4049987792969,
+    "exit_price": 492.33,
+    "timestamp": "2026-04-21T22:15:35.415670+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "NVDA",
+    "side": "sell",
+    "status": "closed",
+    "pnl": -0.21,
+    "entry_price": 200.37,
+    "exit_price": 200.4,
+    "timestamp": "2026-04-21T22:15:35.413229+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "JOHN",
+    "label": "Crypto John",
+    "symbol": "SOL/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": -0.0,
+    "entry_price": 86.08999633789062,
+    "exit_price": 86.089842199,
+    "timestamp": "2026-04-21T22:15:35.410776+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "URA",
+    "side": "sell",
+    "status": "closed",
+    "pnl": -1.56,
+    "entry_price": 54.79,
+    "exit_price": 54.85,
+    "timestamp": "2026-04-21T22:15:35.408345+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "META",
+    "side": "sell",
+    "status": "closed",
+    "pnl": 0.02,
+    "entry_price": 674.07,
+    "exit_price": 674.06,
+    "timestamp": "2026-04-21T22:15:35.405803+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "AMD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": -0.08,
+    "entry_price": 281.35,
+    "exit_price": 281.33,
+    "timestamp": "2026-04-21T22:15:35.403415+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "MSFT",
+    "side": "buy",
+    "status": "closed",
+    "pnl": -0.48,
+    "entry_price": 425.27,
+    "exit_price": 425.03,
+    "timestamp": "2026-04-21T22:15:35.401047+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "TSLA",
+    "side": "sell",
+    "status": "closed",
+    "pnl": -0.84,
+    "entry_price": 391.93,
+    "exit_price": 392.21,
+    "timestamp": "2026-04-21T22:15:35.398285+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto Engine",
+    "symbol": "ETH/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 0.13,
+    "entry_price": 2316.389892578125,
+    "exit_price": 2317.0,
+    "timestamp": "2026-04-21T22:15:35.395158+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "AAPL",
+    "side": "sell",
+    "status": "closed",
+    "pnl": 11.84,
+    "entry_price": 269.57,
+    "exit_price": 266.5,
+    "timestamp": "2026-04-21T18:11:30.026956+02:00",
+    "reason": "exit_signals"
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto Engine",
+    "symbol": "DOGE/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 0.84,
+    "entry_price": 0.09572000056505203,
+    "exit_price": 0.09588,
+    "timestamp": "2026-04-20T22:15:49.223179+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto Engine",
+    "symbol": "ETH/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 0.19,
+    "entry_price": 2335.3701171875,
+    "exit_price": 2336.23782,
+    "timestamp": "2026-04-20T22:15:49.220222+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "META",
+    "side": "sell",
+    "status": "closed",
+    "pnl": -0.43,
+    "entry_price": 671.85,
+    "exit_price": 672.28,
+    "timestamp": "2026-04-20T22:15:49.217387+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "NFLX",
+    "side": "sell",
+    "status": "closed",
+    "pnl": 0.68,
+    "entry_price": 94.235,
+    "exit_price": 94.19,
+    "timestamp": "2026-04-20T22:15:49.214170+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "JOHN",
+    "label": "Crypto John",
+    "symbol": "XRP/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 3.29,
+    "entry_price": 1.4278000593185425,
+    "exit_price": 1.430383989,
+    "timestamp": "2026-04-20T22:15:49.210945+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "JOHN",
+    "label": "Crypto John",
+    "symbol": "SOL/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 1.11,
+    "entry_price": 85.5,
+    "exit_price": 85.552422803,
+    "timestamp": "2026-04-20T22:15:49.207849+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "JOHN",
+    "label": "Crypto John",
+    "symbol": "ETH/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 1.34,
+    "entry_price": 2311.39990234375,
+    "exit_price": 2313.1,
+    "timestamp": "2026-04-20T22:15:49.205396+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "MSFT",
+    "side": "buy",
+    "status": "closed",
+    "pnl": -0.95,
+    "entry_price": 421.715,
+    "exit_price": 421.396667,
+    "timestamp": "2026-04-20T22:15:49.202594+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "AAPL",
+    "side": "buy",
+    "status": "closed",
+    "pnl": -1.27,
+    "entry_price": 273.62,
+    "exit_price": 273.3025,
+    "timestamp": "2026-04-20T22:15:49.200221+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "C",
+    "label": "Engine C, ORB",
+    "symbol": "NVDA",
+    "side": "buy",
+    "status": "closed",
+    "pnl": -0.0,
+    "entry_price": 200.235,
+    "exit_price": 200.234286,
+    "timestamp": "2026-04-20T22:15:49.197382+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "JOHN",
+    "label": "Crypto John",
+    "symbol": "ADA/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 1.42,
+    "entry_price": 0.24699999392032623,
+    "exit_price": 0.247481,
+    "timestamp": "2026-04-20T22:15:49.194475+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto Engine",
+    "symbol": "ETH/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 0.27,
+    "entry_price": 2301.780029296875,
+    "exit_price": 2303.0,
+    "timestamp": "2026-04-20T22:15:49.191301+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto Engine",
+    "symbol": "XRP/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": -2.05,
+    "entry_price": 1.4407999515533447,
+    "exit_price": 1.43489838,
+    "timestamp": "2026-04-20T21:29:16.872397+02:00",
+    "reason": "reconciled_to_alpaca_truth"
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto Engine",
+    "symbol": "DOGE/USD",
+    "side": "buy",
+    "status": "closed",
+    "pnl": 1.73,
+    "entry_price": 0.09467999637126923,
+    "exit_price": 0.09500756,
+    "timestamp": "2026-04-20T21:29:01.429329+02:00",
     "reason": "reconciled_to_alpaca_truth"
   }
 ]
