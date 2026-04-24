@@ -1,0 +1,293 @@
+{
+  "generated_at": "2026-04-24T13:50:52.471144+02:00",
+  "portfolio_value": 90752.56,
+  "daily_pnl": -9.60000000000582,
+  "trades_today": 1,
+  "stack_status": {
+    "generated_at": "2026-04-23T23:20:29.509307+02:00",
+    "workspace": "C:\\Users\\vikto\\clawd\\workspaces\\trader",
+    "warnings": [],
+    "alpaca": {
+      "ok": true,
+      "base_url": "https://paper-api.alpaca.markets",
+      "account": {
+        "status": "ACTIVE",
+        "equity": 90752.56,
+        "portfolio_value": 90752.56,
+        "cash": 90752.56,
+        "buying_power": 336582.48,
+        "long_market_value": 0.0,
+        "short_market_value": 0.0,
+        "daytrade_count": 41,
+        "trading_blocked": false,
+        "account_blocked": false,
+        "pattern_day_trader": true
+      },
+      "positions": {
+        "count": 0,
+        "long_count": 0,
+        "short_count": 0,
+        "gross_market_value": 0.0,
+        "total_unrealized_pl": 0.0,
+        "top_positions": []
+      },
+      "open_orders": {
+        "count": 0,
+        "status_counts": {},
+        "side_counts": {},
+        "top_symbols": [],
+        "latest": []
+      },
+      "recent_orders": {
+        "count": 14,
+        "status_counts": {
+          "filled": 10,
+          "canceled": 4
+        },
+        "side_counts": {
+          "buy": 8,
+          "sell": 6
+        },
+        "top_symbols": [
+          [
+            "COPX",
+            4
+          ],
+          [
+            "NVDA",
+            4
+          ],
+          [
+            "TSLA",
+            3
+          ],
+          [
+            "XRP/USD",
+            1
+          ],
+          [
+            "URA",
+            1
+          ]
+        ],
+        "latest": [
+          {
+            "symbol": "COPX",
+            "side": "buy",
+            "status": "filled",
+            "type": "market",
+            "order_class": "",
+            "qty": 3.0,
+            "filled_qty": 3.0,
+            "submitted_at": "2026-04-23T19:41:15.353775Z",
+            "filled_avg_price": 82.513333
+          },
+          {
+            "symbol": "XRP/USD",
+            "side": "sell",
+            "status": "filled",
+            "type": "market",
+            "order_class": "",
+            "qty": 1266.018618,
+            "filled_qty": 1266.018618,
+            "submitted_at": "2026-04-23T19:29:37.376498Z",
+            "filled_avg_price": 1.4314
+          },
+          {
+            "symbol": "URA",
+            "side": "buy",
+            "status": "filled",
+            "type": "market",
+            "order_class": "",
+            "qty": 21.0,
+            "filled_qty": 21.0,
+            "submitted_at": "2026-04-23T19:29:36.883135Z",
+            "filled_avg_price": 56.47
+          },
+          {
+            "symbol": "TSLA",
+            "side": "sell",
+            "status": "filled",
+            "type": "market",
+            "order_class": "",
+            "qty": 2.0,
+            "filled_qty": 2.0,
+            "submitted_at": "2026-04-23T19:29:34.362131Z",
+            "filled_avg_price": 373.91
+          },
+          {
+            "symbol": "NVDA",
+            "side": "sell",
+            "status": "filled",
+            "type": "market",
+            "order_class": "",
+            "qty": 4.0,
+            "filled_qty": 4.0,
+            "submitted_at": "2026-04-23T19:29:31.780582Z",
+            "filled_avg_price": 199.14
+          },
+          {
+            "symbol": "NFLX",
+            "side": "buy",
+            "status": "filled",
+            "type": "market",
+            "order_class": "",
+            "qty": 15.0,
+            "filled_qty": 15.0,
+            "submitted_at": "2026-04-23T19:29:29.124266Z",
+            "filled_avg_price": 93.22
+          },
+          {
+            "symbol": "COPX",
+            "side": "buy",
+            "status": "canceled",
+            "type": "market",
+            "order_class": "",
+            "qty": 17.0,
+            "filled_qty": 14.0,
+            "submitted_at": "2026-04-23T19:29:26.411495Z",
+            "filled_avg_price": 82.71
+          },
+          {
+            "symbol": "COPX",
+            "side": "buy",
+            "status": "canceled",
+            "type": "stop",
+            "order_class": "",
+            "qty": 17.0,
+            "filled_qty": 0.0,
+            "submitted_at": "2026-04-23T18:56:16.9306Z",
+            "filled_avg_price": 0.0
+          }
+        ]
+      },
+      "clock": {
+        "is_open": false,
+        "timestamp": "2026-04-23T17:20:29.391620155-04:00",
+        "next_open": "2026-04-24T09:30:00-04:00",
+        "next_close": "2026-04-24T16:00:00-04:00"
+      }
+    },
+    "local": {
+      "daily_state": {
+        "available": true,
+        "date": "2026-04-23",
+        "portfolio_value_open": 90762.16,
+        "portfolio_value_current": 90752.56,
+        "daily_pnl": -9.60000000000582,
+        "daily_pnl_pct": -0.00010577095124229988,
+        "trading_halted": false,
+        "halt_reason": null,
+        "trades_today": 1,
+        "exits_today": 3,
+        "positions_opened_count": 1,
+        "positions_closed_count": 10,
+        "last_monitor_check": "2026-04-23T21:55:28.764196+02:00"
+      },
+      "trade_journal": {
+        "count": 1110,
+        "open_count": 0,
+        "closed_count": 1110,
+        "realized_pnl_total": -1100.85,
+        "latest": [
+          {
+            "symbol": "COPX",
+            "side": "sell",
+            "status": "closed",
+            "entry": "2026-04-23T20:49:57.987282+02:00",
+            "exit": "2026-04-23T20:15:52.784032+00:00",
+            "realized_pnl": 0.1700518798827062
+          },
+          {
+            "symbol": "TSLA",
+            "side": "buy",
+            "status": "closed",
+            "entry": "2026-04-23T20:01:01.670762+02:00",
+            "exit": "2026-04-23T20:15:52.781634+00:00",
+            "realized_pnl": -0.1999999999999318
+          },
+          {
+            "symbol": "NVDA",
+            "side": "buy",
+            "status": "closed",
+            "entry": "2026-04-23T20:00:59.932241+02:00",
+            "exit": "2026-04-23T20:15:52.779307+00:00",
+            "realized_pnl": -0.4199999999999591
+          },
+          {
+            "symbol": "URA",
+            "side": "sell",
+            "status": "closed",
+            "entry": "2026-04-23T19:31:54.199427+02:00",
+            "exit": "2026-04-23T20:15:52.776873+00:00",
+            "realized_pnl": 0.46500299999999584
+          },
+          {
+            "symbol": "XRP/USD",
+            "side": "buy",
+            "status": "closed",
+            "entry": "2026-04-23T19:12:54.646891+02:00",
+            "exit": "2026-04-23T20:15:52.774494+00:00",
+            "realized_pnl": 2.512272114737233
+          }
+        ]
+      },
+      "learnings": {
+        "available": true,
+        "version": "2.0",
+        "last_updated": "2026-04-23T22:15:52.927441",
+        "pattern_count": 33,
+        "paused_strategy_count": 10
+      },
+      "crypto_stops": {
+        "count": 0,
+        "symbols": []
+      },
+      "discord_queue": {
+        "pending_count": 0,
+        "sent_count": 3637,
+        "latest_pending": [],
+        "queue_dir": "C:\\Users\\vikto\\clawd\\workspaces\\trader\\temp\\discord_queue"
+      },
+      "files": {
+        "daily_state": {
+          "path": "C:\\Users\\vikto\\clawd\\workspaces\\trader\\data\\daily-state.json",
+          "exists": true,
+          "size_bytes": 2976,
+          "modified_at": "2026-04-23T23:20:28.617368+02:00"
+        },
+        "trade_journal": {
+          "path": "C:\\Users\\vikto\\clawd\\workspaces\\trader\\data\\trade-journal.json",
+          "exists": true,
+          "size_bytes": 1243537,
+          "modified_at": "2026-04-23T23:20:28.616368+02:00"
+        },
+        "learnings": {
+          "path": "C:\\Users\\vikto\\clawd\\workspaces\\trader\\data\\learnings.json",
+          "exists": true,
+          "size_bytes": 87424,
+          "modified_at": "2026-04-23T22:15:52.929332+02:00"
+        },
+        "engine_run_log": {
+          "path": "C:\\Users\\vikto\\clawd\\workspaces\\trader\\data\\engine-run.log",
+          "exists": true,
+          "size_bytes": 1516554,
+          "modified_at": "2026-04-23T22:01:28.262215+02:00"
+        },
+        "crypto_stops": {
+          "path": "C:\\Users\\vikto\\clawd\\workspaces\\trader\\data\\crypto-stops.json",
+          "exists": true,
+          "size_bytes": 2,
+          "modified_at": "2026-04-23T23:20:28.617368+02:00"
+        },
+        "xau_grid_state": {
+          "path": "C:\\Users\\vikto\\clawd\\workspaces\\trader\\data\\xau-grid-paper-state.json",
+          "exists": true,
+          "size_bytes": 300,
+          "modified_at": "2026-04-23T22:56:06.118979+02:00"
+        }
+      }
+    },
+    "summary_text": "Trader stack status, 2026-04-23T23:20:29.509307+02:00\nAlpaca: ACTIVE | equity $90,752.56 | cash $90,752.56 | positions 0 | open orders 0 | market_open=False\nLocal: daily pnl $-9.60 (-0.01%) | trades today 1 | exits 3 | journal open 0 / closed 1110\nRouting: discord queue pending 0 | sent archive 3637\nWarnings: none"
+  }
+}

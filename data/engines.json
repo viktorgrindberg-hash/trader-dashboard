@@ -1,0 +1,98 @@
+[
+  {
+    "engine": "B",
+    "label": "Engine B",
+    "trades": 114,
+    "closed_trades": 114,
+    "open_positions": 0,
+    "win_rate": 23.7,
+    "pnl": 1930.2,
+    "health_state": "unknown",
+    "size_multiplier": 0.9,
+    "last_trade_at": "2026-04-16T20:53:08.150653+02:00"
+  },
+  {
+    "engine": "crypto_24_7",
+    "label": "Crypto 24/7",
+    "trades": 172,
+    "closed_trades": 172,
+    "open_positions": 0,
+    "win_rate": 36.6,
+    "pnl": 119.98,
+    "health_state": "unknown",
+    "size_multiplier": 0.75,
+    "last_trade_at": "2026-04-23T22:15:52.769481+02:00"
+  },
+  {
+    "engine": "C",
+    "label": "Engine C ORB",
+    "trades": 88,
+    "closed_trades": 88,
+    "open_positions": 0,
+    "win_rate": 45.5,
+    "pnl": 111.99,
+    "health_state": "unknown",
+    "size_multiplier": null,
+    "last_trade_at": "2026-04-23T22:15:52.776873+02:00"
+  },
+  {
+    "engine": "D",
+    "label": "Crypto 24/7",
+    "trades": 29,
+    "closed_trades": 25,
+    "open_positions": 4,
+    "win_rate": 28.0,
+    "pnl": 87.12,
+    "health_state": "unknown",
+    "size_multiplier": null,
+    "last_trade_at": "2026-04-24T13:18:02.115239+02:00"
+  },
+  {
+    "engine": "JOHN",
+    "label": "Crypto John",
+    "trades": 42,
+    "closed_trades": 42,
+    "open_positions": 0,
+    "win_rate": 45.2,
+    "pnl": -19.3,
+    "health_state": "unknown",
+    "size_multiplier": null,
+    "last_trade_at": "2026-04-23T22:15:52.774494+02:00"
+  },
+  {
+    "engine": "unknown",
+    "label": "unknown",
+    "trades": 140,
+    "closed_trades": 140,
+    "open_positions": 0,
+    "win_rate": 42.1,
+    "pnl": -108.44,
+    "health_state": "unknown",
+    "size_multiplier": 0.9,
+    "last_trade_at": "2026-04-16T21:27:14.157730+02:00"
+  },
+  {
+    "engine": "daytrading",
+    "label": "Daytrading",
+    "trades": 409,
+    "closed_trades": 409,
+    "open_positions": 0,
+    "win_rate": 43.8,
+    "pnl": -344.26,
+    "health_state": "unknown",
+    "size_multiplier": 0.9,
+    "last_trade_at": "2026-04-23T22:15:52.784032+02:00"
+  },
+  {
+    "engine": "A",
+    "label": "Engine A",
+    "trades": 120,
+    "closed_trades": 120,
+    "open_positions": 0,
+    "win_rate": 22.5,
+    "pnl": -592.58,
+    "health_state": "unknown",
+    "size_multiplier": 0.0,
+    "last_trade_at": "2026-03-20T15:00:12.682796+01:00"
+  }
+]
