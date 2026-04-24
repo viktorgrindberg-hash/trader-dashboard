@@ -135,7 +135,7 @@
     const cls = (v) => Number(v) > 0 ? 'pos' : Number(v) < 0 ? 'neg' : '';
 
     async function loadJson(name) {
-      const res = await fetch(`../data/${name}`);
+      const res = await fetch(`data/${name}`);
       if (!res.ok) throw new Error(`Failed ${name}`);
       return res.json();
     }

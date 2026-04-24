@@ -10,6 +10,7 @@ DATA_DIR = BASE_DIR / 'data'
 STATUS_JSON = BASE_DIR / 'temp' / 'status' / 'trading-stack-status.json'
 HEALTH_JSON = DATA_DIR / 'engine-health-report.json'
 OUT_DIR = BASE_DIR / 'dashboard' / 'data'
+SITE_DATA_DIR = BASE_DIR / 'dashboard' / 'site' / 'data'
 CET = ZoneInfo('Europe/Stockholm')
 
 ENGINE_LABELS = {
@@ -196,6 +197,7 @@ def summarize_health(health):
 
 def build():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
     trades = load_trades()
     status = read_json(STATUS_JSON, {})
     health = read_json(HEALTH_JSON, {})
@@ -219,10 +221,11 @@ def build():
     }
 
     for filename, payload in outputs.items():
-        with open(OUT_DIR / filename, 'w', encoding='utf-8') as f:
-            json.dump(payload, f, indent=2, ensure_ascii=False)
+        for out_dir in (OUT_DIR, SITE_DATA_DIR):
+            with open(out_dir / filename, 'w', encoding='utf-8') as f:
+                json.dump(payload, f, indent=2, ensure_ascii=False)
 
-    print(f'Wrote {len(outputs)} dashboard data files to {OUT_DIR}')
+    print(f'Wrote {len(outputs)} dashboard data files to {OUT_DIR} and {SITE_DATA_DIR}')
 
 
 if __name__ == '__main__':
