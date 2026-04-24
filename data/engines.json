@@ -1,21 +1,5 @@
 [
   {
-    "engine": "unknown",
-    "label": "unknown",
-    "channel": "-",
-    "script": "-",
-    "cadence": "-",
-    "configured_status": "seen in journal",
-    "trades": 0,
-    "closed_trades": 0,
-    "open_positions": 5,
-    "win_rate": 0.0,
-    "pnl": 0.0,
-    "unrealized_pl": -16.31,
-    "health_state": "journal",
-    "last_trade_at": null
-  },
-  {
     "engine": "A",
     "label": "Engine A",
     "channel": "#engine-a",
