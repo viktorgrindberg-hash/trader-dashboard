@@ -38,10 +38,10 @@ CONFIGURED_ENGINES = [
     {'key': 'A', 'label': 'Engine A', 'channel': '#engine-a', 'script': 'engine-a-multisignal.py', 'cadence': '5 min market hours', 'status': 'active'},
     {'key': 'B', 'label': 'Engine B', 'channel': '#engine-b', 'script': 'engine-b-scalper.py', 'cadence': '5 min market hours', 'status': 'active'},
     {'key': 'daytrading', 'label': 'Daytrading', 'channel': '#engine-daytrading', 'script': 'daytrading-engine.py', 'cadence': '5 min market hours', 'status': 'active'},
-    {'key': 'C', 'label': 'Engine C ORB', 'channel': '#engine-c-orb', 'script': 'engine-c-orb.py', 'cadence': '5 min market hours', 'status': 'active, recent cron errors'},
+    {'key': 'C', 'label': 'Engine C ORB', 'channel': '#engine-c-orb', 'script': 'engine-c-orb.py', 'cadence': '5 min market hours', 'status': 'active'},
     {'key': 'D', 'label': 'Engine D Scanner', 'channel': '#engine-d-scanner', 'script': 'engine-d-volume.py', 'cadence': '5 min market hours', 'status': 'active'},
     {'key': 'crypto_24_7', 'label': 'Crypto 24/7', 'channel': '#engine-crypto', 'script': 'crypto-engine.py', 'cadence': '15 min 24/7', 'status': 'active'},
-    {'key': 'crypto_john', 'label': 'Crypto John', 'channel': '#engine-john', 'script': 'crypto-engine-john-live.py', 'cadence': '15 min 24/7', 'status': 'active, recent cron errors'},
+    {'key': 'crypto_john', 'label': 'Crypto John Live', 'channel': '#engine-john', 'script': 'crypto-engine-john-live.py', 'cadence': '15 min 24/7', 'status': 'active'},
     {'key': 'xau_grid', 'label': 'XAU Grid', 'channel': '#engine-xau-grid', 'script': 'xau-grid-engine.py', 'cadence': '5 min weekdays', 'status': 'active'},
 ]
 
@@ -76,6 +76,8 @@ def trade_engine(trade):
         'engine_d_volume': 'D',
         'engine_d_vol': 'D',
         'Engine D, Volume Scanner': 'D',
+        'engine_a_multisignal': 'A',
+        'Multi-Signal': 'A',
         'engine_c_orb': 'C',
         'Engine C, ORB': 'C',
         'Daytrading Engine': 'daytrading',
@@ -109,8 +111,6 @@ def engine_explanation(cfg, h, row):
     health = h.get('health')
     if health == 'paused' or float(h.get('size_multiplier') or 1) == 0:
         return 'Auto-paused by health/edge'
-    if 'cron errors' in str(cfg.get('status','')):
-        return 'Cron errors need review'
     if not row.get('last_trade_at'):
         return 'No trade yet'
     return 'No open trade, waiting for signal'
@@ -344,7 +344,7 @@ def summarize_run_monitor(trades, health):
         key=e['engine']; m=monitor.setdefault(key, {'engine':key,'label':e['label']})
         m.update({'last_trade_at': e.get('last_trade_at'), 'health_state': e.get('health_state'), 'why_no_trade': e.get('why_no_trade'), 'size_multiplier': e.get('size_multiplier'), 'recent_pnl': e.get('recent_pnl'), 'recent_win_rate': e.get('recent_win_rate')})
         if not m.get('last_run') and e.get('last_trade_at'): m['last_run'] = e.get('last_trade_at')
-        m['status'] = 'issue' if e.get('health_state') == 'paused' or 'cron' in str(e.get('why_no_trade','')).lower() else 'ok'
+        m['status'] = 'paused' if e.get('health_state') == 'paused' else 'ok'
     return list(monitor.values())
 
 

@@ -5,7 +5,7 @@
     "last_run": "2026-04-24 21:58:26",
     "last_signal": "scanned=0, executed=0",
     "last_skip": null,
-    "status": "issue",
+    "status": "paused",
     "last_trade_at": "2026-03-20T15:00:12.682796+01:00",
     "health_state": "paused",
     "why_no_trade": "Auto-paused by health/edge",
@@ -47,10 +47,10 @@
     "last_run": "2026-04-24T22:15:26.481936+02:00",
     "last_signal": null,
     "last_skip": null,
-    "status": "issue",
+    "status": "ok",
     "last_trade_at": "2026-04-24T22:15:26.481936+02:00",
     "health_state": "neutral",
-    "why_no_trade": "Cron errors need review",
+    "why_no_trade": "No open trade, waiting for signal",
     "size_multiplier": 0.9,
     "recent_pnl": 97.18,
     "recent_win_rate": 87.5
@@ -85,14 +85,14 @@
   },
   {
     "engine": "crypto_john",
-    "label": "Crypto John",
+    "label": "Crypto John Live",
     "last_run": "2026-04-25T14:09:19.952577+02:00",
     "last_signal": null,
     "last_skip": null,
-    "status": "issue",
+    "status": "ok",
     "last_trade_at": "2026-04-25T14:09:19.952577+02:00",
     "health_state": "neutral",
-    "why_no_trade": "Cron errors need review",
+    "why_no_trade": "No open trade, waiting for signal",
     "size_multiplier": 0.9,
     "recent_pnl": 0.21,
     "recent_win_rate": 75.0
@@ -110,17 +110,5 @@
     "size_multiplier": null,
     "recent_pnl": 0.0,
     "recent_win_rate": 0
-  },
-  {
-    "engine": "engine_a_multisignal",
-    "label": "engine_a_multisignal",
-    "last_trade_at": "2026-02-24T17:29:30.716220+01:00",
-    "health_state": "insufficient",
-    "why_no_trade": "No open trade, waiting for signal",
-    "size_multiplier": 1.0,
-    "recent_pnl": 33.77,
-    "recent_win_rate": 66.7,
-    "last_run": "2026-02-24T17:29:30.716220+01:00",
-    "status": "ok"
   }
 ]

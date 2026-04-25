@@ -317,7 +317,7 @@
       "channel": "#engine-c-orb",
       "script": "engine-c-orb.py",
       "cadence": "5 min market hours",
-      "status": "active, recent cron errors"
+      "status": "active"
     },
     {
       "key": "D",
@@ -337,11 +337,11 @@
     },
     {
       "key": "crypto_john",
-      "label": "Crypto John",
+      "label": "Crypto John Live",
       "channel": "#engine-john",
       "script": "crypto-engine-john-live.py",
       "cadence": "15 min 24/7",
-      "status": "active, recent cron errors"
+      "status": "active"
     },
     {
       "key": "xau_grid",
