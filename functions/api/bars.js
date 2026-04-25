@@ -3,7 +3,12 @@ export async function onRequestGet({ request, env }) {
   const inputSymbol = (url.searchParams.get('symbol') || '').toUpperCase();
   const stockSymbol = inputSymbol.replace('/', '');
   const crypto = inputSymbol.includes('/') || (stockSymbol.endsWith('USD') && !['USO'].includes(stockSymbol));
-  const symbol = crypto && inputSymbol.includes('/') ? inputSymbol : stockSymbol;
+  let symbol = crypto && inputSymbol.includes('/') ? inputSymbol : stockSymbol;
+  if (crypto && !symbol.includes('/')) {
+    for (const quote of ['USD','USDT','BTC']) {
+      if (symbol.endsWith(quote) && symbol.length > quote.length) { symbol = `${symbol.slice(0, -quote.length)}/${quote}`; break; }
+    }
+  }
   const timeframe = url.searchParams.get('timeframe') || '5Min';
   const limit = Math.min(Number(url.searchParams.get('limit') || 120), 500);
   if (!symbol) return json({ error: 'Missing symbol' }, 400);
