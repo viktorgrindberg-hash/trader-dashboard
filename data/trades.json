@@ -1,5 +1,17 @@
 [
   {
+    "engine": "crypto_john",
+    "label": "Crypto John Live",
+    "symbol": "ADA/USD",
+    "side": "buy",
+    "status": "closed_reconciled",
+    "pnl": 0.0,
+    "entry_price": 0.25189998745918274,
+    "exit_price": null,
+    "timestamp": "2026-04-25T14:09:19.952577+02:00",
+    "reason": "reconciled: journal open not found in Alpaca live positions on 2026-04-25"
+  },
+  {
     "engine": "crypto_24_7",
     "label": "Crypto 24/7",
     "symbol": "XRP/USD",
@@ -21,18 +33,6 @@
     "entry_price": 86.48999786376953,
     "exit_price": null,
     "timestamp": "2026-04-25T08:48:25.103889+02:00",
-    "reason": ""
-  },
-  {
-    "engine": "crypto_john",
-    "label": "Crypto John Live",
-    "symbol": "ADA/USD",
-    "side": "buy",
-    "status": "open",
-    "pnl": 0.0,
-    "entry_price": 0.25189998745918274,
-    "exit_price": null,
-    "timestamp": "2026-04-24T23:30:18.185366+02:00",
     "reason": ""
   },
   {

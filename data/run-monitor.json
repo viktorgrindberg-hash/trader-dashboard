@@ -86,11 +86,11 @@
   {
     "engine": "crypto_john",
     "label": "Crypto John",
-    "last_run": "2026-04-24T23:30:18.185366+02:00",
+    "last_run": "2026-04-25T14:09:19.952577+02:00",
     "last_signal": null,
     "last_skip": null,
     "status": "issue",
-    "last_trade_at": "2026-04-24T23:30:18.185366+02:00",
+    "last_trade_at": "2026-04-25T14:09:19.952577+02:00",
     "health_state": "neutral",
     "why_no_trade": "Cron errors need review",
     "size_multiplier": 0.9,

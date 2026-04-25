@@ -1,16 +1,1 @@
-[
-  {
-    "symbol": "ADA/USD",
-    "engine": "crypto_john",
-    "engine_label": "Crypto John Live",
-    "side": "buy",
-    "entry_price": 0.25189998745918274,
-    "qty": 2879.11,
-    "opened_at": "2026-04-24T23:30:18.185366+02:00",
-    "stop_loss": 0.25,
-    "take_profit": 0.26,
-    "type": "journal_open_not_in_alpaca",
-    "severity": "warning",
-    "action": "Mark closed/reconcile journal"
-  }
-]
+[]
