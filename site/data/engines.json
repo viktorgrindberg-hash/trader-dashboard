@@ -11,9 +11,14 @@
     "open_positions": 2,
     "win_rate": 32.1,
     "pnl": 105.23,
-    "unrealized_pl": 0.05,
-    "health_state": "active",
-    "last_trade_at": "2026-04-25T10:33:07.796823+02:00"
+    "unrealized_pl": -1.94,
+    "health_state": "cooldown",
+    "size_multiplier": 0.75,
+    "health_note": "winner cooling off, trim size",
+    "recent_pnl": -0.98,
+    "recent_win_rate": 37.5,
+    "last_trade_at": "2026-04-25T10:33:07.796823+02:00",
+    "why_no_trade": "Har live-position nu"
   },
   {
     "engine": "B",
@@ -28,8 +33,13 @@
     "win_rate": 23.7,
     "pnl": 1930.2,
     "unrealized_pl": 0.0,
-    "health_state": "active",
-    "last_trade_at": "2026-04-16T20:53:08.150653+02:00"
+    "health_state": "neutral",
+    "size_multiplier": 0.9,
+    "health_note": "mixed evidence",
+    "recent_pnl": 73.42,
+    "recent_win_rate": 25.0,
+    "last_trade_at": "2026-04-16T20:53:08.150653+02:00",
+    "why_no_trade": "Ingen ?ppen trade, v?ntar p? signal"
   },
   {
     "engine": "crypto_24_7",
@@ -44,8 +54,13 @@
     "win_rate": 34.4,
     "pnl": 112.53,
     "unrealized_pl": 0.0,
-    "health_state": "active",
-    "last_trade_at": "2026-04-24T19:19:37.390117+02:00"
+    "health_state": "cooldown",
+    "size_multiplier": 0.75,
+    "health_note": "winner cooling off, trim size",
+    "recent_pnl": -15.68,
+    "recent_win_rate": 50.0,
+    "last_trade_at": "2026-04-24T19:19:37.390117+02:00",
+    "why_no_trade": "Ingen ?ppen trade, v?ntar p? signal"
   },
   {
     "engine": "C",
@@ -60,8 +75,13 @@
     "win_rate": 45.3,
     "pnl": 97.98,
     "unrealized_pl": 0.0,
-    "health_state": "active",
-    "last_trade_at": "2026-04-24T22:15:26.481936+02:00"
+    "health_state": "neutral",
+    "size_multiplier": 0.9,
+    "health_note": "mixed evidence",
+    "recent_pnl": 97.18,
+    "recent_win_rate": 87.5,
+    "last_trade_at": "2026-04-24T22:15:26.481936+02:00",
+    "why_no_trade": "Cron-fel beh?ver kollas"
   },
   {
     "engine": "xau_grid",
@@ -77,7 +97,12 @@
     "pnl": 0.0,
     "unrealized_pl": 0.0,
     "health_state": "active",
-    "last_trade_at": null
+    "size_multiplier": null,
+    "health_note": "",
+    "recent_pnl": 0.0,
+    "recent_win_rate": 0,
+    "last_trade_at": null,
+    "why_no_trade": "Ingen trade ?nnu"
   },
   {
     "engine": "crypto_john",
@@ -92,8 +117,13 @@
     "win_rate": 44.4,
     "pnl": -33.42,
     "unrealized_pl": 0.0,
-    "health_state": "active",
-    "last_trade_at": "2026-04-24T23:30:18.185366+02:00"
+    "health_state": "neutral",
+    "size_multiplier": 0.9,
+    "health_note": "mixed evidence",
+    "recent_pnl": 0.21,
+    "recent_win_rate": 75.0,
+    "last_trade_at": "2026-04-24T23:30:18.185366+02:00",
+    "why_no_trade": "Cron-fel beh?ver kollas"
   },
   {
     "engine": "daytrading",
@@ -108,8 +138,13 @@
     "win_rate": 43.8,
     "pnl": -344.26,
     "unrealized_pl": 0.0,
-    "health_state": "active",
-    "last_trade_at": "2026-04-23T22:15:52.784032+02:00"
+    "health_state": "neutral",
+    "size_multiplier": 0.9,
+    "health_note": "mixed evidence",
+    "recent_pnl": 29.35,
+    "recent_win_rate": 100.0,
+    "last_trade_at": "2026-04-23T22:15:52.784032+02:00",
+    "why_no_trade": "Ingen ?ppen trade, v?ntar p? signal"
   },
   {
     "engine": "A",
@@ -124,7 +159,12 @@
     "win_rate": 22.5,
     "pnl": -592.58,
     "unrealized_pl": 0.0,
-    "health_state": "active",
-    "last_trade_at": "2026-03-20T15:00:12.682796+01:00"
+    "health_state": "paused",
+    "size_multiplier": 0.0,
+    "health_note": "negative edge, auto-pause",
+    "recent_pnl": -0.97,
+    "recent_win_rate": 12.5,
+    "last_trade_at": "2026-03-20T15:00:12.682796+01:00",
+    "why_no_trade": "Auto-paused av health/edge"
   }
 ]

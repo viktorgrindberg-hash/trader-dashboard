@@ -79,6 +79,38 @@ def trade_engine(trade):
     return aliases.get(raw, raw)
 
 
+
+def health_for_engine(health, engine):
+    if not isinstance(health, dict):
+        return {}
+    engines = health.get('engines') or {}
+    aliases = {
+        'A': ['A','engine_a_multisignal'],
+        'B': ['B'],
+        'C': ['C','engine_c_orb'],
+        'D': ['D','engine_d_vol','engine_d_volume'],
+        'daytrading': ['daytrading'],
+        'crypto_24_7': ['crypto_24_7','crypto'],
+        'crypto_john': ['crypto_john','JOHN'],
+        'xau_grid': ['xau_grid'],
+    }.get(engine, [engine])
+    for key in aliases:
+        if key in engines:
+            return engines[key]
+    return {}
+
+def engine_explanation(cfg, h, row):
+    if row.get('open', 0) > 0:
+        return 'Har live-position nu'
+    health = h.get('health')
+    if health == 'paused' or float(h.get('size_multiplier') or 1) == 0:
+        return 'Auto-paused av health/edge'
+    if 'cron errors' in str(cfg.get('status','')):
+        return 'Cron-fel beh?ver kollas'
+    if not row.get('last_trade_at'):
+        return 'Ingen trade ?nnu'
+    return 'Ingen ?ppen trade, v?ntar p? signal'
+
 def pnl_of(trade):
     return float(trade.get('realized_pnl') or trade.get('pnl') or 0)
 
@@ -267,12 +299,17 @@ def summarize_engines(trades, health, positions_summary):
             continue
         closed = sum(1 for t in trades if trade_engine(t) == engine and status_of_trade(t) != 'open'); wr = round((row['wins'] / closed * 100), 1) if closed else 0.0
         cfg = next((c for c in CONFIGURED_ENGINES if c['key'] == engine), {})
+        h = health_for_engine(health, engine)
         rows.append({
             'engine': engine, 'label': cfg.get('label') or ENGINE_LABELS.get(engine, engine), 'channel': cfg.get('channel', '-'),
             'script': cfg.get('script', '-'), 'cadence': cfg.get('cadence', '-'), 'configured_status': cfg.get('status', 'seen in journal'),
             'trades': row['trades'], 'closed_trades': closed, 'open_positions': row['open'], 'win_rate': wr,
             'pnl': round(row['pnl'], 2), 'unrealized_pl': round(row['unrealized'], 2),
-            'health_state': 'active' if cfg else 'journal', 'last_trade_at': row['last_trade_at'].isoformat() if row['last_trade_at'] else None,
+            'health_state': h.get('health') or ('active' if cfg else 'journal'), 'size_multiplier': h.get('size_multiplier'),
+            'health_note': h.get('note') or '', 'recent_pnl': round(float(h.get('recent_pnl') or 0), 2),
+            'recent_win_rate': round(float(h.get('recent_win_rate') or 0) * 100, 1) if h else 0,
+            'last_trade_at': row['last_trade_at'].isoformat() if row['last_trade_at'] else None,
+            'why_no_trade': engine_explanation(cfg, h, row),
         })
     rows.sort(key=lambda x: (x['open_positions'] > 0, x['pnl'], x['win_rate']), reverse=True)
     return rows
