@@ -1,0 +1,2 @@
+@import "tailwindcss";
+*{box-sizing:border-box} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Arial;background:#050713} button,input{font:inherit} table{border-collapse:collapse} [data-radix-popper-content-wrapper]{z-index:60!important}
