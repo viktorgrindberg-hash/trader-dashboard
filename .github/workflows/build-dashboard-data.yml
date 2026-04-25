@@ -31,11 +31,13 @@ jobs:
           node-version: '24'
           cache: 'npm'
 
-      - name: Install deps
+      - name: Install Python deps
         run: |
           python -m pip install --upgrade pip
           pip install requests
-          npm ci
+
+      - name: Install Node deps
+        run: npm install --no-audit --no-fund
 
       - name: Build dashboard snapshots
         env:
