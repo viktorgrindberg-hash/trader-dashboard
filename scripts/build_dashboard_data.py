@@ -25,12 +25,12 @@ ENGINE_LABELS = {
     'C': 'Engine C, ORB',
     'D': 'Engine D, Volume Scanner',
     'daytrading': 'Daytrading Engine',
-    'crypto_24_7': 'Crypto Engine',
-    'crypto': 'Crypto Engine',
+    'crypto_24_7': 'Crypto 24/7',
+    'crypto': 'Crypto 24/7',
     'engine_c_orb': 'Engine C, ORB',
     'engine_d_volume': 'Engine D, Volume Scanner',
     'JOHN': 'Crypto John',
-    'crypto_john': 'Crypto John',
+    'crypto_john': 'Crypto John Live',
     'xau_grid': 'XAU Grid',
 }
 
@@ -63,14 +63,18 @@ def parse_dt(value):
 
 
 def trade_engine(trade):
-    raw = str(trade.get('engine') or trade.get('trade_mode') or trade.get('engine_name') or 'unknown')
+    mode = str(trade.get('trade_mode') or '')
+    raw = str(mode or trade.get('engine') or trade.get('engine_name') or 'unknown')
     aliases = {
         'JOHN': 'crypto_john',
         'Crypto John': 'crypto_john',
+        'Crypto John Live': 'crypto_john',
         'crypto-john': 'crypto_john',
         'Crypto Engine': 'crypto_24_7',
+        'Crypto 24/7': 'crypto_24_7',
         'crypto': 'crypto_24_7',
         'engine_d_volume': 'D',
+        'engine_d_vol': 'D',
         'Engine D, Volume Scanner': 'D',
         'engine_c_orb': 'C',
         'Engine C, ORB': 'C',
@@ -101,15 +105,15 @@ def health_for_engine(health, engine):
 
 def engine_explanation(cfg, h, row):
     if row.get('open', 0) > 0:
-        return 'Har live-position nu'
+        return 'Has live position now'
     health = h.get('health')
     if health == 'paused' or float(h.get('size_multiplier') or 1) == 0:
-        return 'Auto-paused av health/edge'
+        return 'Auto-paused by health/edge'
     if 'cron errors' in str(cfg.get('status','')):
-        return 'Cron-fel beh?ver kollas'
+        return 'Cron errors need review'
     if not row.get('last_trade_at'):
-        return 'Ingen trade ?nnu'
-    return 'Ingen ?ppen trade, v?ntar p? signal'
+        return 'No trade yet'
+    return 'No open trade, waiting for signal'
 
 def pnl_of(trade):
     return float(trade.get('realized_pnl') or trade.get('pnl') or 0)

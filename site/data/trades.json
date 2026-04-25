@@ -1,7 +1,7 @@
 [
   {
-    "engine": "D",
-    "label": "Engine D, Volume Scanner",
+    "engine": "crypto_24_7",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "open",
@@ -12,8 +12,8 @@
     "reason": ""
   },
   {
-    "engine": "D",
-    "label": "Engine D, Volume Scanner",
+    "engine": "crypto_24_7",
+    "label": "Crypto 24/7",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "open",
@@ -25,7 +25,7 @@
   },
   {
     "engine": "crypto_john",
-    "label": "Crypto John",
+    "label": "Crypto John Live",
     "symbol": "ADA/USD",
     "side": "buy",
     "status": "open",
@@ -37,7 +37,7 @@
   },
   {
     "engine": "crypto_john",
-    "label": "Crypto John",
+    "label": "Crypto John Live",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -169,7 +169,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -205,7 +205,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "DOT/USD",
     "side": "buy",
     "status": "closed",
@@ -241,7 +241,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "DOT/USD",
     "side": "buy",
     "status": "closed",
@@ -253,7 +253,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -265,7 +265,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -289,7 +289,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -325,7 +325,7 @@
   },
   {
     "engine": "crypto_john",
-    "label": "Crypto John",
+    "label": "Crypto John Live",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -373,7 +373,7 @@
   },
   {
     "engine": "crypto_john",
-    "label": "Crypto John",
+    "label": "Crypto John Live",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -385,7 +385,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -397,7 +397,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -409,7 +409,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -421,7 +421,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "AVAX/USD",
     "side": "buy",
     "status": "closed",
@@ -433,7 +433,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -445,7 +445,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -457,7 +457,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -469,7 +469,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "AVAX/USD",
     "side": "buy",
     "status": "closed",
@@ -529,7 +529,7 @@
   },
   {
     "engine": "crypto_john",
-    "label": "Crypto John",
+    "label": "Crypto John Live",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -553,7 +553,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "ADA/USD",
     "side": "buy",
     "status": "closed",
@@ -565,7 +565,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "AVAX/USD",
     "side": "buy",
     "status": "closed",
@@ -577,7 +577,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -589,7 +589,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -661,7 +661,7 @@
   },
   {
     "engine": "crypto_john",
-    "label": "Crypto John",
+    "label": "Crypto John Live",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -673,7 +673,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "AVAX/USD",
     "side": "buy",
     "status": "closed",
@@ -685,7 +685,7 @@
   },
   {
     "engine": "crypto_john",
-    "label": "Crypto John",
+    "label": "Crypto John Live",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -697,7 +697,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -709,7 +709,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -721,7 +721,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "AVAX/USD",
     "side": "buy",
     "status": "closed",
@@ -769,7 +769,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -817,7 +817,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -829,7 +829,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -841,7 +841,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -853,7 +853,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -889,7 +889,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -901,7 +901,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -913,7 +913,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",
@@ -925,7 +925,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "closed",
@@ -937,7 +937,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "XRP/USD",
     "side": "buy",
     "status": "closed",
@@ -949,7 +949,7 @@
   },
   {
     "engine": "crypto_24_7",
-    "label": "Crypto Engine",
+    "label": "Crypto 24/7",
     "symbol": "ETH/USD",
     "side": "buy",
     "status": "closed",

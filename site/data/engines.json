@@ -1,24 +1,24 @@
 [
   {
-    "engine": "D",
-    "label": "Engine D Scanner",
-    "channel": "#engine-d-scanner",
-    "script": "engine-d-volume.py",
-    "cadence": "5 min market hours",
+    "engine": "crypto_24_7",
+    "label": "Crypto 24/7",
+    "channel": "#engine-crypto",
+    "script": "crypto-engine.py",
+    "cadence": "15 min 24/7",
     "configured_status": "active",
-    "trades": 30,
-    "closed_trades": 28,
+    "trades": 188,
+    "closed_trades": 186,
     "open_positions": 2,
-    "win_rate": 32.1,
-    "pnl": 105.23,
-    "unrealized_pl": -1.94,
+    "win_rate": 34.4,
+    "pnl": 112.53,
+    "unrealized_pl": -0.66,
     "health_state": "cooldown",
     "size_multiplier": 0.75,
     "health_note": "winner cooling off, trim size",
-    "recent_pnl": -0.98,
-    "recent_win_rate": 37.5,
+    "recent_pnl": -15.68,
+    "recent_win_rate": 50.0,
     "last_trade_at": "2026-04-25T10:33:07.796823+02:00",
-    "why_no_trade": "Har live-position nu"
+    "why_no_trade": "Has live position now"
   },
   {
     "engine": "B",
@@ -39,28 +39,28 @@
     "recent_pnl": 73.42,
     "recent_win_rate": 25.0,
     "last_trade_at": "2026-04-16T20:53:08.150653+02:00",
-    "why_no_trade": "Ingen ?ppen trade, v?ntar p? signal"
+    "why_no_trade": "No open trade, waiting for signal"
   },
   {
-    "engine": "crypto_24_7",
-    "label": "Crypto 24/7",
-    "channel": "#engine-crypto",
-    "script": "crypto-engine.py",
-    "cadence": "15 min 24/7",
+    "engine": "D",
+    "label": "Engine D Scanner",
+    "channel": "#engine-d-scanner",
+    "script": "engine-d-volume.py",
+    "cadence": "5 min market hours",
     "configured_status": "active",
-    "trades": 186,
-    "closed_trades": 186,
+    "trades": 28,
+    "closed_trades": 28,
     "open_positions": 0,
-    "win_rate": 34.4,
-    "pnl": 112.53,
+    "win_rate": 32.1,
+    "pnl": 105.23,
     "unrealized_pl": 0.0,
     "health_state": "cooldown",
     "size_multiplier": 0.75,
     "health_note": "winner cooling off, trim size",
-    "recent_pnl": -15.68,
-    "recent_win_rate": 50.0,
-    "last_trade_at": "2026-04-24T19:19:37.390117+02:00",
-    "why_no_trade": "Ingen ?ppen trade, v?ntar p? signal"
+    "recent_pnl": -0.98,
+    "recent_win_rate": 37.5,
+    "last_trade_at": "2026-04-24T22:15:26.474512+02:00",
+    "why_no_trade": "No open trade, waiting for signal"
   },
   {
     "engine": "C",
@@ -81,7 +81,28 @@
     "recent_pnl": 97.18,
     "recent_win_rate": 87.5,
     "last_trade_at": "2026-04-24T22:15:26.481936+02:00",
-    "why_no_trade": "Cron-fel beh?ver kollas"
+    "why_no_trade": "Cron errors need review"
+  },
+  {
+    "engine": "engine_a_multisignal",
+    "label": "engine_a_multisignal",
+    "channel": "-",
+    "script": "-",
+    "cadence": "-",
+    "configured_status": "seen in journal",
+    "trades": 3,
+    "closed_trades": 3,
+    "open_positions": 0,
+    "win_rate": 66.7,
+    "pnl": 33.77,
+    "unrealized_pl": 0.0,
+    "health_state": "insufficient",
+    "size_multiplier": 1.0,
+    "health_note": "too few trades",
+    "recent_pnl": 33.77,
+    "recent_win_rate": 66.7,
+    "last_trade_at": "2026-02-24T17:29:30.716220+01:00",
+    "why_no_trade": "No open trade, waiting for signal"
   },
   {
     "engine": "xau_grid",
@@ -102,7 +123,7 @@
     "recent_pnl": 0.0,
     "recent_win_rate": 0,
     "last_trade_at": null,
-    "why_no_trade": "Ingen trade ?nnu"
+    "why_no_trade": "No trade yet"
   },
   {
     "engine": "crypto_john",
@@ -123,7 +144,7 @@
     "recent_pnl": 0.21,
     "recent_win_rate": 75.0,
     "last_trade_at": "2026-04-24T23:30:18.185366+02:00",
-    "why_no_trade": "Cron-fel beh?ver kollas"
+    "why_no_trade": "Cron errors need review"
   },
   {
     "engine": "daytrading",
@@ -144,7 +165,7 @@
     "recent_pnl": 29.35,
     "recent_win_rate": 100.0,
     "last_trade_at": "2026-04-23T22:15:52.784032+02:00",
-    "why_no_trade": "Ingen ?ppen trade, v?ntar p? signal"
+    "why_no_trade": "No open trade, waiting for signal"
   },
   {
     "engine": "A",
@@ -153,11 +174,11 @@
     "script": "engine-a-multisignal.py",
     "cadence": "5 min market hours",
     "configured_status": "active",
-    "trades": 120,
-    "closed_trades": 120,
+    "trades": 117,
+    "closed_trades": 117,
     "open_positions": 0,
-    "win_rate": 22.5,
-    "pnl": -592.58,
+    "win_rate": 21.4,
+    "pnl": -626.35,
     "unrealized_pl": 0.0,
     "health_state": "paused",
     "size_multiplier": 0.0,
@@ -165,6 +186,6 @@
     "recent_pnl": -0.97,
     "recent_win_rate": 12.5,
     "last_trade_at": "2026-03-20T15:00:12.682796+01:00",
-    "why_no_trade": "Auto-paused av health/edge"
+    "why_no_trade": "Auto-paused by health/edge"
   }
 ]
