@@ -2,6 +2,16 @@ name: Build dashboard data
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-dashboard-data.yml'
+      - 'scripts/**'
+      - 'src/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'postcss.config.js'
+      - 'vite.config.*'
   schedule:
     - cron: '*/15 * * * *'
 
