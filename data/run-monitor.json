@@ -72,11 +72,11 @@
   {
     "engine": "crypto_24_7",
     "label": "Crypto 24/7",
-    "last_run": "2026-04-25T10:33:07.796823+02:00",
+    "last_run": "2026-04-25T21:33:39.754823+02:00",
     "last_signal": null,
     "last_skip": null,
     "status": "ok",
-    "last_trade_at": "2026-04-25T10:33:07.796823+02:00",
+    "last_trade_at": "2026-04-25T21:33:39.754823+02:00",
     "health_state": "cooldown",
     "why_no_trade": "No open trade, waiting for signal",
     "size_multiplier": 0.75,
