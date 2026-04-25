@@ -2,6 +2,18 @@
   {
     "engine": "D",
     "label": "Engine D, Volume Scanner",
+    "symbol": "XRP/USD",
+    "side": "buy",
+    "status": "open",
+    "pnl": 0.0,
+    "entry_price": 1.4350999593734741,
+    "exit_price": null,
+    "timestamp": "2026-04-25T10:33:07.796823+02:00",
+    "reason": ""
+  },
+  {
+    "engine": "D",
+    "label": "Engine D, Volume Scanner",
     "symbol": "SOL/USD",
     "side": "buy",
     "status": "open",
@@ -945,18 +957,6 @@
     "entry_price": 2344.909912109375,
     "exit_price": 2373.29691271,
     "timestamp": "2026-04-22T07:33:09.972583+02:00",
-    "reason": "reconciled_to_alpaca_truth"
-  },
-  {
-    "engine": "crypto_24_7",
-    "label": "Crypto Engine",
-    "symbol": "DOT/USD",
-    "side": "buy",
-    "status": "closed",
-    "pnl": 1.4,
-    "entry_price": 1.2740000486373901,
-    "exit_price": 1.27756669,
-    "timestamp": "2026-04-22T07:18:16.110750+02:00",
     "reason": "reconciled_to_alpaca_truth"
   }
 ]
