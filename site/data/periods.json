@@ -6,15 +6,15 @@
     "win_rate": 0.0
   },
   "week": {
-    "pnl": 0.0,
-    "trades": 0,
-    "wins": 0,
-    "win_rate": 0.0
+    "pnl": 112.73,
+    "trades": 109,
+    "wins": 56,
+    "win_rate": 51.4
   },
   "month": {
-    "pnl": 0.0,
-    "trades": 0,
-    "wins": 0,
-    "win_rate": 0.0
+    "pnl": 640.11,
+    "trades": 309,
+    "wins": 146,
+    "win_rate": 47.2
   }
 }

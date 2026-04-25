@@ -33,6 +33,9 @@ jobs:
         run: python scripts/build_dashboard_data.py
 
       - name: Build React dashboard
+        env:
+          VITE_GIT_COMMIT: ${{ github.sha }}
+          VITE_BUILD_TIME: ${{ github.run_started_at }}
         run: npm run build
 
       - name: Commit updated snapshots
