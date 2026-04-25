@@ -1,0 +1,24 @@
+[
+  {
+    "symbol": "XRPUSD",
+    "engine": "Crypto 24/7",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 1.41",
+    "rr": 2.08,
+    "risk_dollars": 9.04
+  },
+  {
+    "symbol": "SOLUSD",
+    "engine": "Crypto 24/7",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 85.11",
+    "rr": 2.15,
+    "risk_dollars": 8.08
+  }
+]

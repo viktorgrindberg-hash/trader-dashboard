@@ -319,6 +319,56 @@ def summarize_engines(trades, health, positions_summary):
     return rows
 
 
+
+def summarize_run_monitor(trades, health):
+    log_path = DATA_DIR / 'engine-run.log'
+    lines = log_path.read_text(encoding='utf-8', errors='ignore').splitlines()[-900:] if log_path.exists() else []
+    monitor = {c['key']: {'engine': c['key'], 'label': c['label'], 'last_run': None, 'last_signal': None, 'last_skip': None, 'status': 'unknown'} for c in CONFIGURED_ENGINES}
+    aliases = {'Engine A':'A','Engine B':'B','A':'A','B':'B','Crypto 24/7':'crypto_24_7','Crypto John':'crypto_john','Engine C':'C','Engine D':'D'}
+    current_ts = None
+    for line in lines:
+        ts = line[:19] if len(line) >= 19 and line[:4].isdigit() else None
+        if ts: current_ts = ts
+        if 'Run started' in line:
+            for key in ('A','B'):
+                monitor[key]['last_run'] = current_ts
+                monitor[key]['status'] = 'ran'
+        if 'Engine A:' in line:
+            monitor['A']['last_signal'] = line.split('Engine A:',1)[1].strip(); monitor['A']['last_run'] = current_ts
+        if 'Engine B:' in line:
+            monitor['B']['last_signal'] = line.split('Engine B:',1)[1].strip(); monitor['B']['last_run'] = current_ts
+        if 'no signal' in line.lower() or 'no trade' in line.lower() or 'skip' in line.lower() or 'outside window' in line.lower():
+            for name,key in aliases.items():
+                if name.lower() in line.lower(): monitor[key]['last_skip'] = line[-180:]
+    for e in summarize_engines(trades, health, {'rows': []}):
+        key=e['engine']; m=monitor.setdefault(key, {'engine':key,'label':e['label']})
+        m.update({'last_trade_at': e.get('last_trade_at'), 'health_state': e.get('health_state'), 'why_no_trade': e.get('why_no_trade'), 'size_multiplier': e.get('size_multiplier'), 'recent_pnl': e.get('recent_pnl'), 'recent_win_rate': e.get('recent_win_rate')})
+        if not m.get('last_run') and e.get('last_trade_at'): m['last_run'] = e.get('last_trade_at')
+        m['status'] = 'issue' if e.get('health_state') == 'paused' or 'cron' in str(e.get('why_no_trade','')).lower() else 'ok'
+    return list(monitor.values())
+
+
+def summarize_mismatches(positions_summary):
+    rows=[]
+    for t in positions_summary.get('stale_journal_opens', []):
+        rows.append({**t, 'type':'journal_open_not_in_alpaca', 'severity':'warning', 'action':'Mark closed/reconcile journal'})
+    if positions_summary.get('missing_stop_count',0):
+        rows.append({'type':'missing_stop', 'severity':'critical', 'action':'Add stop/protection', 'count':positions_summary.get('missing_stop_count')})
+    return rows
+
+
+def summarize_governance(trades, positions_summary):
+    items=[]
+    for p in positions_summary.get('rows', []):
+        risk = abs((float(p.get('avg_entry_price') or 0)-float(p.get('stop_loss') or 0))*float(p.get('qty') or 0))
+        rr = None
+        if p.get('stop_loss') and p.get('take_profit'):
+            loss=abs(float(p['avg_entry_price'])-float(p['stop_loss'])); gain=abs(float(p['take_profit'])-float(p['avg_entry_price'])); rr=round(gain/loss,2) if loss else None
+        score = 24 if p.get('protection')=='protected' and rr and rr>=1.5 else 18
+        status = 'PAPER' if score>=20 else 'WATCHLIST'
+        items.append({'symbol':p['symbol'],'engine':p['engine_label'],'status':status,'score':score,'bull_case':'Entry valid while price respects setup and stop.','bear_case':'Invalidates if stop/kill level breaks or crypto exposure spikes.','kill_criteria':f"Stop {p.get('stop_loss') or '-'}",'rr':rr,'risk_dollars':round(risk,2)})
+    return items
+
 def summarize_recent_trades(trades, limit=80):
     rows = []
     for t in trades:
@@ -361,6 +411,9 @@ def build():
         'periods.json': summarize_periods(trades),
         'health.json': summarize_health(health),
         'status.json': {'stack': status, 'configured_engines': CONFIGURED_ENGINES},
+        'run-monitor.json': summarize_run_monitor(trades, health),
+        'mismatches.json': summarize_mismatches(positions),
+        'governance.json': summarize_governance(trades, positions),
     }
     for filename, payload in outputs.items():
         for out_dir in (OUT_DIR, SITE_DATA_DIR):
