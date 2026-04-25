@@ -44,16 +44,21 @@ function PositionDialog({pos,onOpenChange,trades}){const related=useMemo(()=>pos
 function Chart({pos}){
   const canvas=useRef(null); const [tf,setTf]=useState('5Min'); const [err,setErr]=useState('');
   useEffect(()=>{let alive=true; setErr('');
-    fetch(`/api/bars?symbol=${encodeURIComponent(pos.symbol)}&timeframe=${tf}&limit=${tf==='5Min'?60:tf==='15Min'?80:tf==='1Hour'?96:90}&v=${Date.now()}`,{cache:'no-store'})
+    fetch(`/api/bars?symbol=${encodeURIComponent(pos.symbol)}&timeframe=5Min&limit=${tf==='5Min'?80:500}&v=${Date.now()}`,{cache:'no-store'})
       .then(r=>{if(!r.ok)throw Error('bars '+r.status);return r.json()})
-      .then(d=>{if(alive) drawProChart(canvas.current,d.bars||[],pos,setErr)})
+      .then(d=>{if(alive) drawProChart(canvas.current,aggregateBars(d.bars||[],tf),pos,setErr,tf)})
       .catch(e=>alive&&setErr(String(e.message||e)));
     const on=()=>drawProChart(canvas.current,window.__lastBars||[],pos,setErr); window.addEventListener('resize',on);
     return()=>{alive=false; window.removeEventListener('resize',on)};
   },[pos,tf]);
-  return <div className="mt-4"><div className="mb-2 flex items-center justify-between gap-2"><div className="flex gap-2">{['5Min','15Min','1Hour','1Day'].map(x=><Button key={x} active={tf===x} onClick={()=>setTf(x)}>{x.replace('Min','m').replace('Hour','h').replace('Day','d')}</Button>)}</div><span className="text-xs text-slate-500">Candles ? axes ? SL/TP/entry ? volume</span></div><canvas ref={canvas} className="h-[390px] w-full rounded-2xl border border-slate-800 bg-slate-950 shadow-inner shadow-cyan-950/20"/>{err&&<div className="mt-2 rounded-xl border border-rose-500/30 bg-rose-500/10 p-2 text-sm text-rose-200">Chart: {err}</div>}</div>
+  return <div className="mt-4"><div className="mb-2 flex items-center justify-between gap-2"><div className="flex gap-2">{['5Min','15Min','1Hour','4Hour'].map(x=><Button key={x} active={tf===x} onClick={()=>setTf(x)}>{x.replace('Min','m').replace('Hour','h')}</Button>)}</div><span className="text-xs text-slate-500">Candles ? axes ? SL/TP/entry ? volume</span></div><canvas ref={canvas} className="h-[390px] w-full rounded-2xl border border-slate-800 bg-slate-950 shadow-inner shadow-cyan-950/20"/>{err&&<div className="mt-2 rounded-xl border border-rose-500/30 bg-rose-500/10 p-2 text-sm text-rose-200">Chart: {err}</div>}</div>
 }
-function drawProChart(canvas,bars,pos,setErr){
+function aggregateBars(bars,tf){
+  const factor=tf==='15Min'?3:tf==='1Hour'?12:tf==='4Hour'?48:1; if(factor===1)return bars.slice(-80);
+  const out=[]; for(let i=0;i<bars.length;i+=factor){const g=bars.slice(i,i+factor); if(g.length<Math.min(factor,3))continue; out.push({t:g[0].t,o:g[0].o,h:Math.max(...g.map(x=>+x.h)),l:Math.min(...g.map(x=>+x.l)),c:g.at(-1).c,v:g.reduce((a,x)=>a+(+x.v||0),0)});}
+  return out.slice(tf==='4Hour'?-30:-70);
+}
+function drawProChart(canvas,bars,pos,setErr,tf){
   if(!canvas)return; window.__lastBars=bars; const dpr=window.devicePixelRatio||1,w=Math.max(700,canvas.clientWidth*dpr),h=390*dpr; canvas.width=w; canvas.height=h; const ctx=canvas.getContext('2d'); ctx.clearRect(0,0,w,h);
   const bg=ctx.createLinearGradient(0,0,0,h); bg.addColorStop(0,'#081124'); bg.addColorStop(1,'#030712'); ctx.fillStyle=bg; ctx.fillRect(0,0,w,h);
   const clean=(bars||[]).map(b=>({o:+b.o,h:+b.h,l:+b.l,c:+b.c,v:+(b.v||0),t:b.t})).filter(b=>Number.isFinite(b.c));
@@ -69,7 +74,7 @@ function drawProChart(canvas,bars,pos,setErr){
   clean.forEach((b,i)=>{const xx=x(i),up=b.c>=b.o,col=up?'#22c55e':'#fb7185'; ctx.fillStyle=col+'55'; ctx.fillRect(xx-cw/2,vy(b.v),cw,padT+chartH+gap+volH-vy(b.v)); ctx.strokeStyle=col;ctx.fillStyle=col;ctx.lineWidth=1.3*dpr;ctx.beginPath();ctx.moveTo(xx,y(b.l));ctx.lineTo(xx,y(b.h));ctx.stroke();const yy=Math.min(y(b.o),y(b.c)),hh=Math.max(2*dpr,Math.abs(y(b.o)-y(b.c)));ctx.fillRect(xx-cw/2,yy,cw,hh)});
   function line(v,color,label,dashed=true){if(!v)return; const yy=y(v); ctx.strokeStyle=color; ctx.lineWidth=1.5*dpr; if(dashed)ctx.setLineDash([7*dpr,5*dpr]); ctx.beginPath();ctx.moveTo(padL,yy);ctx.lineTo(w-padR,yy);ctx.stroke();ctx.setLineDash([]); ctx.fillStyle=color; ctx.font=`bold ${12*dpr}px Inter`; ctx.fillText(`${label} $${v.toFixed(cur<10?4:2)}`,padL+8*dpr,yy-7*dpr); ctx.fillStyle=color+'22'; ctx.fillRect(w-padR+4*dpr,yy-12*dpr,64*dpr,20*dpr); ctx.fillStyle=color; ctx.fillText(v.toFixed(cur<10?4:2),w-padR+8*dpr,yy+4*dpr)}
   line(tp,'#f59e0b','TP'); line(entry,pos.side==='short'?'#fb7185':'#22c55e',`ENTRY ${pos.side.toUpperCase()}`); line(cur,'#e2e8f0','NOW'); line(sl,'#f43f5e','SL');
-  ctx.fillStyle='#64748b'; ctx.font=`${11*dpr}px Inter`; ctx.fillText(clean[0].t?.slice(5,16).replace('T',' '),padL,h-16*dpr); ctx.fillText(clean.at(-1).t?.slice(5,16).replace('T',' '),w-padR-90*dpr,h-16*dpr); ctx.fillStyle='#64748b'; ctx.fillText(`${clean.length} candles`,padL+150*dpr,h-16*dpr);
+  ctx.fillStyle='#64748b'; ctx.font=`${11*dpr}px Inter`; ctx.fillText(clean[0].t?.slice(5,16).replace('T',' '),padL,h-16*dpr); ctx.fillText(clean.at(-1).t?.slice(5,16).replace('T',' '),w-padR-90*dpr,h-16*dpr); ctx.fillStyle='#64748b'; ctx.fillText(`${clean.length} candles ? ${tf.replace('Min','m').replace('Hour','h')}`,padL+150*dpr,h-16*dpr);
 }
 
 createRoot(document.getElementById('root')).render(<App/>);
