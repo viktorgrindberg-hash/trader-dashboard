@@ -24,7 +24,7 @@
     "reason": ""
   },
   {
-    "engine": "JOHN",
+    "engine": "crypto_john",
     "label": "Crypto John",
     "symbol": "ADA/USD",
     "side": "buy",
@@ -36,7 +36,7 @@
     "reason": ""
   },
   {
-    "engine": "JOHN",
+    "engine": "crypto_john",
     "label": "Crypto John",
     "symbol": "ETH/USD",
     "side": "buy",
@@ -324,7 +324,7 @@
     "reason": ""
   },
   {
-    "engine": "JOHN",
+    "engine": "crypto_john",
     "label": "Crypto John",
     "symbol": "ETH/USD",
     "side": "buy",
@@ -372,7 +372,7 @@
     "reason": "ghost_cleanup"
   },
   {
-    "engine": "JOHN",
+    "engine": "crypto_john",
     "label": "Crypto John",
     "symbol": "XRP/USD",
     "side": "buy",
@@ -528,7 +528,7 @@
     "reason": ""
   },
   {
-    "engine": "JOHN",
+    "engine": "crypto_john",
     "label": "Crypto John",
     "symbol": "XRP/USD",
     "side": "buy",
@@ -660,7 +660,7 @@
     "reason": "exit_signals"
   },
   {
-    "engine": "JOHN",
+    "engine": "crypto_john",
     "label": "Crypto John",
     "symbol": "SOL/USD",
     "side": "buy",
@@ -684,7 +684,7 @@
     "reason": "reconciled_to_alpaca_truth"
   },
   {
-    "engine": "JOHN",
+    "engine": "crypto_john",
     "label": "Crypto John",
     "symbol": "XRP/USD",
     "side": "buy",

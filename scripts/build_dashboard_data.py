@@ -63,7 +63,20 @@ def parse_dt(value):
 
 
 def trade_engine(trade):
-    return str(trade.get('engine') or trade.get('trade_mode') or trade.get('engine_name') or 'unknown')
+    raw = str(trade.get('engine') or trade.get('trade_mode') or trade.get('engine_name') or 'unknown')
+    aliases = {
+        'JOHN': 'crypto_john',
+        'Crypto John': 'crypto_john',
+        'crypto-john': 'crypto_john',
+        'Crypto Engine': 'crypto_24_7',
+        'crypto': 'crypto_24_7',
+        'engine_d_volume': 'D',
+        'Engine D, Volume Scanner': 'D',
+        'engine_c_orb': 'C',
+        'Engine C, ORB': 'C',
+        'Daytrading Engine': 'daytrading',
+    }
+    return aliases.get(raw, raw)
 
 
 def pnl_of(trade):
@@ -250,6 +263,8 @@ def summarize_engines(trades, health, positions_summary):
         row = grouped[p['engine']]; row['engine'] = p['engine']; row['open'] += 1; row['unrealized'] += p['unrealized_pl']
     rows = []
     for engine, row in grouped.items():
+        if engine == 'unknown' and row['open'] == 0:
+            continue
         closed = sum(1 for t in trades if trade_engine(t) == engine and status_of_trade(t) != 'open'); wr = round((row['wins'] / closed * 100), 1) if closed else 0.0
         cfg = next((c for c in CONFIGURED_ENGINES if c['key'] == engine), {})
         rows.append({

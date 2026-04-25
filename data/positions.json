@@ -52,7 +52,7 @@
   "stale_journal_opens": [
     {
       "symbol": "ADA/USD",
-      "engine": "JOHN",
+      "engine": "crypto_john",
       "engine_label": "Crypto John",
       "side": "buy",
       "entry_price": 0.25189998745918274,
