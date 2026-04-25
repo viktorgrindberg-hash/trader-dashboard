@@ -44,7 +44,7 @@ function PositionDialog({pos,onOpenChange,trades}){const related=useMemo(()=>pos
 function Chart({pos}){
   const canvas=useRef(null); const [tf,setTf]=useState('5Min'); const [err,setErr]=useState('');
   useEffect(()=>{let alive=true; setErr('');
-    fetch(`/api/bars?symbol=${encodeURIComponent(pos.symbol)}&timeframe=${tf}&limit=180&v=${Date.now()}`,{cache:'no-store'})
+    fetch(`/api/bars?symbol=${encodeURIComponent(pos.symbol)}&timeframe=${tf}&limit=${tf==='5Min'?60:tf==='15Min'?80:tf==='1Hour'?96:90}&v=${Date.now()}`,{cache:'no-store'})
       .then(r=>{if(!r.ok)throw Error('bars '+r.status);return r.json()})
       .then(d=>{if(alive) drawProChart(canvas.current,d.bars||[],pos,setErr)})
       .catch(e=>alive&&setErr(String(e.message||e)));
@@ -60,7 +60,7 @@ function drawProChart(canvas,bars,pos,setErr){
   if(!clean.length){setErr?.('Inga candles returnerades f?r '+pos.symbol); return;}
   setErr?.(''); const entry=+pos.avg_entry_price,cur=+pos.current_price,sl=+(pos.stop_loss||0),tp=+(pos.take_profit||0);
   const padL=58*dpr,padR=72*dpr,padT=24*dpr,padB=44*dpr,volH=54*dpr,chartH=h-padT-padB-volH,gap=10*dpr;
-  const prices=clean.flatMap(b=>[b.h,b.l]).concat([entry,cur,sl,tp].filter(Boolean)); let min=Math.min(...prices),max=Math.max(...prices); const span=(max-min)||1; min-=span*.12; max+=span*.12;
+  const candlePrices=clean.flatMap(b=>[b.h,b.l]).concat([entry,cur].filter(Boolean)); let min=Math.min(...candlePrices),max=Math.max(...candlePrices); let span=(max-min)||Math.max(cur*0.002,0.001); min-=span*.45; max+=span*.45; const overlays=[sl,tp].filter(Boolean); const viewSpan=max-min; for(const v of overlays){ if(v<min) min=Math.max(v-viewSpan*.08, cur-viewSpan*1.1); if(v>max) max=Math.min(v+viewSpan*.08, cur+viewSpan*1.1); } span=(max-min)||1;
   const x=i=>padL+i*(w-padL-padR)/Math.max(clean.length-1,1), y=v=>padT+(max-v)/(max-min)*(chartH-gap), vy=v=>padT+chartH+gap+(1-v/Math.max(...clean.map(b=>b.v),1))*volH;
   ctx.strokeStyle='rgba(148,163,184,.10)'; ctx.lineWidth=1*dpr; ctx.font=`${11*dpr}px Inter, system-ui`; ctx.fillStyle='#94a3b8';
   for(let i=0;i<5;i++){const yy=padT+i*(chartH-gap)/4,price=max-(max-min)*i/4; ctx.beginPath();ctx.moveTo(padL,yy);ctx.lineTo(w-padR,yy);ctx.stroke();ctx.fillText('$'+price.toFixed(cur<10?4:2),w-padR+8*dpr,yy+4*dpr)}
@@ -69,7 +69,7 @@ function drawProChart(canvas,bars,pos,setErr){
   clean.forEach((b,i)=>{const xx=x(i),up=b.c>=b.o,col=up?'#22c55e':'#fb7185'; ctx.fillStyle=col+'55'; ctx.fillRect(xx-cw/2,vy(b.v),cw,padT+chartH+gap+volH-vy(b.v)); ctx.strokeStyle=col;ctx.fillStyle=col;ctx.lineWidth=1.3*dpr;ctx.beginPath();ctx.moveTo(xx,y(b.l));ctx.lineTo(xx,y(b.h));ctx.stroke();const yy=Math.min(y(b.o),y(b.c)),hh=Math.max(2*dpr,Math.abs(y(b.o)-y(b.c)));ctx.fillRect(xx-cw/2,yy,cw,hh)});
   function line(v,color,label,dashed=true){if(!v)return; const yy=y(v); ctx.strokeStyle=color; ctx.lineWidth=1.5*dpr; if(dashed)ctx.setLineDash([7*dpr,5*dpr]); ctx.beginPath();ctx.moveTo(padL,yy);ctx.lineTo(w-padR,yy);ctx.stroke();ctx.setLineDash([]); ctx.fillStyle=color; ctx.font=`bold ${12*dpr}px Inter`; ctx.fillText(`${label} $${v.toFixed(cur<10?4:2)}`,padL+8*dpr,yy-7*dpr); ctx.fillStyle=color+'22'; ctx.fillRect(w-padR+4*dpr,yy-12*dpr,64*dpr,20*dpr); ctx.fillStyle=color; ctx.fillText(v.toFixed(cur<10?4:2),w-padR+8*dpr,yy+4*dpr)}
   line(tp,'#f59e0b','TP'); line(entry,pos.side==='short'?'#fb7185':'#22c55e',`ENTRY ${pos.side.toUpperCase()}`); line(cur,'#e2e8f0','NOW'); line(sl,'#f43f5e','SL');
-  ctx.fillStyle='#64748b'; ctx.font=`${11*dpr}px Inter`; ctx.fillText(clean[0].t?.slice(5,16).replace('T',' '),padL,h-16*dpr); ctx.fillText(clean.at(-1).t?.slice(5,16).replace('T',' '),w-padR-90*dpr,h-16*dpr);
+  ctx.fillStyle='#64748b'; ctx.font=`${11*dpr}px Inter`; ctx.fillText(clean[0].t?.slice(5,16).replace('T',' '),padL,h-16*dpr); ctx.fillText(clean.at(-1).t?.slice(5,16).replace('T',' '),w-padR-90*dpr,h-16*dpr); ctx.fillStyle='#64748b'; ctx.fillText(`${clean.length} candles`,padL+150*dpr,h-16*dpr);
 }
 
 createRoot(document.getElementById('root')).render(<App/>);
