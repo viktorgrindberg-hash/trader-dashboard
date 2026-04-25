@@ -16,17 +16,17 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Setup Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Setup Node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
@@ -64,13 +64,17 @@ jobs:
           PY
 
       - name: Commit updated snapshots
+        continue-on-error: true
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git pull --rebase --autostash origin main
           git add data/*.json site/data/*.json site/build.json
-          git diff --cached --quiet || git commit -m "chore: refresh dashboard data"
-          git push
+          if git diff --cached --quiet; then
+            echo "No dashboard snapshot changes to commit."
+          else
+            git commit -m "chore: refresh dashboard data"
+            git push || echo "Snapshot push skipped because remote moved; next scheduled run will refresh again."
+          fi
 
       - name: Deploy to Cloudflare Pages
         env:
