@@ -36,7 +36,16 @@ jobs:
         env:
           VITE_GIT_COMMIT: ${{ github.sha }}
           VITE_BUILD_TIME: ${{ github.run_started_at }}
-        run: npm run build
+        run: |
+          npm run build
+          python - <<'PY'
+          import json, os, datetime
+          open('site/build.json','w',encoding='utf-8').write(json.dumps({
+            'commit': os.environ.get('VITE_GIT_COMMIT','')[:7],
+            'built_at': os.environ.get('VITE_BUILD_TIME') or datetime.datetime.now(datetime.UTC).isoformat(),
+            'source': 'github-actions'
+          }, indent=2))
+          PY
 
       - name: Commit updated snapshots
         run: |
