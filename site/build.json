@@ -1,5 +1,1 @@
-﻿{
-    "source":  "local-deploy",
-    "commit":  "6737374",
-    "built_at":  "2026-04-25T14:36:09.9541131+02:00"
-}
+﻿{"commit":"45de12a","built_at":"2026-04-25T17:35:57.0990041Z","source":"openclaw-cron"}
