@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "symbol": "ETHUSD",
+    "engine": "Crypto 24/7",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop -",
+    "rr": null,
+    "risk_dollars": 1809.13
+  }
+]
