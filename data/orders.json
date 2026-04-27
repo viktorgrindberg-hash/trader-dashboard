@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "symbol": "TSLA",
+    "side": "buy",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "371.63",
+    "created_at": "2026-04-27T14:22:40.76164101Z"
+  },
+  {
+    "symbol": "AMZN",
+    "side": "buy",
+    "qty": "4",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "265.14",
+    "created_at": "2026-04-27T14:22:39.254614Z"
+  },
+  {
+    "symbol": "GOOG",
+    "side": "sell",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "341.85",
+    "created_at": "2026-04-27T14:14:05.486206Z"
+  },
+  {
+    "symbol": "AMD",
+    "side": "buy",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "342.45",
+    "created_at": "2026-04-27T14:14:03.983766Z"
+  },
+  {
+    "symbol": "QQQ",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "673.27",
+    "created_at": "2026-04-27T13:59:09.013714Z"
+  }
+]
