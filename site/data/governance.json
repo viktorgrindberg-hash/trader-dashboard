@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "NVDA",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 208.14",
-    "rr": null,
-    "risk_dollars": 18.45
-  },
-  {
     "symbol": "NFLX",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -31,6 +20,17 @@
     "kill_criteria": "Stop 274.24",
     "rr": null,
     "risk_dollars": 17.84
+  },
+  {
+    "symbol": "NVDA",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 208.14",
+    "rr": null,
+    "risk_dollars": 18.45
   },
   {
     "symbol": "MSFT",
