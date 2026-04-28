@@ -1,10 +1,103 @@
 {
-  "count": 0,
-  "total_unrealized_pl": 0,
-  "longs": 0,
-  "shorts": 0,
-  "rows": [],
-  "protected_count": 0,
+  "count": 4,
+  "total_unrealized_pl": -4.13,
+  "longs": 2,
+  "shorts": 2,
+  "rows": [
+    {
+      "symbol": "NVDA",
+      "side": "long",
+      "qty": 5.0,
+      "avg_entry_price": 211.83,
+      "current_price": 210.22,
+      "market_value": 1051.1,
+      "cost_basis": 1059.15,
+      "unrealized_pl": -8.05,
+      "unrealized_plpc": -0.76,
+      "change_today": -2.95,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 208.14,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        208.14
+      ]
+    },
+    {
+      "symbol": "NFLX",
+      "side": "short",
+      "qty": -16.0,
+      "avg_entry_price": 90.57,
+      "current_price": 90.545,
+      "market_value": -1448.72,
+      "cost_basis": -1449.12,
+      "unrealized_pl": 0.4,
+      "unrealized_plpc": 0.03,
+      "change_today": -0.9,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 91.93,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        91.93
+      ]
+    },
+    {
+      "symbol": "AAPL",
+      "side": "short",
+      "qty": -4.0,
+      "avg_entry_price": 269.78,
+      "current_price": 269.425,
+      "market_value": -1077.7,
+      "cost_basis": -1079.12,
+      "unrealized_pl": 1.42,
+      "unrealized_plpc": 0.13,
+      "change_today": 0.68,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 274.24,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        274.24
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "side": "long",
+      "qty": 1.0,
+      "avg_entry_price": 426.15,
+      "current_price": 428.2498,
+      "market_value": 428.2498,
+      "cost_basis": 426.15,
+      "unrealized_pl": 2.0998,
+      "unrealized_plpc": 0.49,
+      "change_today": 0.81,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 418.67,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        418.67
+      ]
+    }
+  ],
+  "protected_count": 4,
   "missing_stop_count": 0,
   "stale_journal_opens": []
 }
