@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "NFLX",
+    "side": "sell",
+    "qty": "11",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "90.84",
+    "created_at": "2026-04-29T16:26:29.503046625Z"
+  },
+  {
     "symbol": "TSLA",
     "side": "buy",
     "qty": "2",
@@ -8,18 +19,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "378.25",
-    "created_at": "2026-04-29T14:28:07.223693259Z"
-  },
-  {
-    "symbol": "META",
-    "side": "sell",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "660.7",
-    "created_at": "2026-04-29T14:22:43.111791Z"
+    "created_at": "2026-04-29T14:28:07.223693Z"
   },
   {
     "symbol": "GOOG",
