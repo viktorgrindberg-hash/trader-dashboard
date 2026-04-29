@@ -1,26 +1,5 @@
 [
   {
-    "engine": "unknown",
-    "label": "unknown",
-    "channel": "-",
-    "script": "-",
-    "cadence": "-",
-    "configured_status": "seen in journal",
-    "trades": 0,
-    "closed_trades": 0,
-    "open_positions": 6,
-    "win_rate": 0.0,
-    "pnl": 0.0,
-    "unrealized_pl": -6.68,
-    "health_state": "journal",
-    "size_multiplier": null,
-    "health_note": "",
-    "recent_pnl": 0.0,
-    "recent_win_rate": 0,
-    "last_trade_at": null,
-    "why_no_trade": "Has live position now"
-  },
-  {
     "engine": "A",
     "label": "Engine A",
     "channel": "#engine-a",
