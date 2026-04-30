@@ -1,10 +1,32 @@
 {
-  "count": 0,
-  "total_unrealized_pl": 0,
-  "longs": 0,
+  "count": 1,
+  "total_unrealized_pl": -1.1,
+  "longs": 1,
   "shorts": 0,
-  "rows": [],
-  "protected_count": 0,
+  "rows": [
+    {
+      "symbol": "ADAUSD",
+      "side": "long",
+      "qty": 2931.43662,
+      "avg_entry_price": 0.24716,
+      "current_price": 0.246785,
+      "market_value": 723.434586,
+      "cost_basis": 724.533875,
+      "unrealized_pl": -1.099289,
+      "unrealized_plpc": -0.15,
+      "change_today": 0.14,
+      "asset_class": "crypto",
+      "engine": "crypto_24_7",
+      "engine_label": "Crypto 24/7",
+      "stop_loss": null,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 0,
+      "stop_prices": []
+    }
+  ],
+  "protected_count": 1,
   "missing_stop_count": 0,
   "stale_journal_opens": []
 }
