@@ -11,15 +11,15 @@
     "risk_dollars": 28.56
   },
   {
-    "symbol": "AAPL",
+    "symbol": "DIA",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 286.43",
+    "kill_criteria": "Stop 503.68",
     "rr": null,
-    "risk_dollars": 28.8
+    "risk_dollars": 14.88
   },
   {
     "symbol": "META",
@@ -42,5 +42,16 @@
     "kill_criteria": "Stop 407.6",
     "rr": null,
     "risk_dollars": 12.73
+  },
+  {
+    "symbol": "AAPL",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 286.43",
+    "rr": null,
+    "risk_dollars": 28.8
   }
 ]
