@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "AAPL",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 286.43",
+    "rr": null,
+    "risk_dollars": 28.8
+  },
+  {
     "symbol": "NVDA",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -11,37 +22,26 @@
     "risk_dollars": 28.56
   },
   {
-    "symbol": "GOOG",
+    "symbol": "NFLX",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 385.4",
+    "kill_criteria": "Stop 92.85",
     "rr": null,
-    "risk_dollars": 20.31
+    "risk_dollars": 28.94
   },
   {
-    "symbol": "AAPL",
+    "symbol": "SMCI",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 281.7",
+    "kill_criteria": "Stop 27.57",
     "rr": null,
-    "risk_dollars": 8.58
-  },
-  {
-    "symbol": "MSFT",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 407.6",
-    "rr": null,
-    "risk_dollars": 12.73
+    "risk_dollars": 19.78
   },
   {
     "symbol": "SOLUSD",
@@ -64,6 +64,17 @@
     "kill_criteria": "Stop 622.02",
     "rr": null,
     "risk_dollars": 9.19
+  },
+  {
+    "symbol": "MSFT",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 407.6",
+    "rr": null,
+    "risk_dollars": 12.73
   },
   {
     "symbol": "ETHUSD",
