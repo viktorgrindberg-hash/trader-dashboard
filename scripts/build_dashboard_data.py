@@ -15,6 +15,8 @@ REPO_DATA_DIR = REPO_DIR / 'data'
 DATA_DIR = LOCAL_DATA_DIR if (LOCAL_DATA_DIR / 'trade-journal.json').exists() else REPO_DATA_DIR
 STATUS_JSON = WORKSPACE_DIR / 'temp' / 'status' / 'trading-stack-status.json'
 HEALTH_JSON = DATA_DIR / 'engine-health-report.json'
+AIHF_JSON = LOCAL_DATA_DIR / 'ai-hedge-fund-committee-scan.json'
+AIHF_BLIND_JSON = LOCAL_DATA_DIR / 'ai-hedge-fund-committee-blind.json'
 OUT_DIR = REPO_DATA_DIR
 SITE_DATA_DIR = REPO_DIR / 'site' / 'data'
 CET = ZoneInfo('Europe/Stockholm')
@@ -384,6 +386,24 @@ def summarize_health(health):
     return {'leaders': [], 'paused': [], 'cooldown': []} if not isinstance(health, dict) else {'leaders': [], 'paused': [], 'cooldown': []}
 
 
+def summarize_ai_committee():
+    scan = read_json(AIHF_JSON, {})
+    blind = read_json(AIHF_BLIND_JSON, {})
+    decisions = scan.get('decisions') or []
+    top = decisions[:12]
+    counts = {}
+    for d in decisions:
+        counts[d.get('decision', 'UNKNOWN')] = counts.get(d.get('decision', 'UNKNOWN'), 0) + 1
+    return {
+        'generated_at': scan.get('generated_at'),
+        'quality_gate_threshold': scan.get('quality_gate_threshold'),
+        'counts': counts,
+        'top': top,
+        'blind_evaluation': blind.get('blind_evaluation'),
+        'caveat': 'Paper-only architecture port. Fundamentals/news/insider agents abstain until point-in-time data is wired.',
+    }
+
+
 def build():
     OUT_DIR.mkdir(parents=True, exist_ok=True); SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
     trades = load_trades(); status = read_json(STATUS_JSON, {}); health = read_json(HEALTH_JSON, {}); daily = read_json(DATA_DIR / 'daily-state.json', {})
@@ -414,6 +434,7 @@ def build():
         'run-monitor.json': summarize_run_monitor(trades, health),
         'mismatches.json': summarize_mismatches(positions),
         'governance.json': summarize_governance(trades, positions),
+        'ai-committee.json': summarize_ai_committee(),
     }
     for filename, payload in outputs.items():
         for out_dir in (OUT_DIR, SITE_DATA_DIR):
