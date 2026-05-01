@@ -1,10 +1,32 @@
 {
-  "count": 0,
-  "total_unrealized_pl": 0,
-  "longs": 0,
+  "count": 1,
+  "total_unrealized_pl": -1.38,
+  "longs": 1,
   "shorts": 0,
-  "rows": [],
-  "protected_count": 0,
+  "rows": [
+    {
+      "symbol": "ETHUSD",
+      "side": "long",
+      "qty": 0.79734198,
+      "avg_entry_price": 2265.891,
+      "current_price": 2264.162,
+      "market_value": 1805.311412,
+      "cost_basis": 1806.690016,
+      "unrealized_pl": -1.378604,
+      "unrealized_plpc": -0.08,
+      "change_today": -0.14,
+      "asset_class": "crypto",
+      "engine": "crypto_24_7",
+      "engine_label": "Crypto 24/7",
+      "stop_loss": null,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 0,
+      "stop_prices": []
+    }
+  ],
+  "protected_count": 1,
   "missing_stop_count": 0,
   "stale_journal_opens": []
 }
