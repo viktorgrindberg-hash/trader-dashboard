@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "SMCI",
-    "side": "sell",
-    "qty": "43",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "27.57",
-    "created_at": "2026-05-01T15:24:57.235862628Z"
-  },
-  {
     "symbol": "AAPL",
     "side": "buy",
     "qty": "6",
@@ -19,18 +8,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "286.43",
-    "created_at": "2026-05-01T15:08:52.556515Z"
-  },
-  {
-    "symbol": "NFLX",
-    "side": "sell",
-    "qty": "20",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "92.85",
-    "created_at": "2026-05-01T14:58:22.496945Z"
+    "created_at": "2026-05-01T15:08:52.556515392Z"
   },
   {
     "symbol": "NVDA",
