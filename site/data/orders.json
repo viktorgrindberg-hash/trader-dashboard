@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "symbol": "NVDA",
+    "side": "buy",
+    "qty": "7",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "201.78",
+    "created_at": "2026-05-01T14:41:48.474318197Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "281.7",
+    "created_at": "2026-05-01T14:16:19.297204Z"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "407.6",
+    "created_at": "2026-05-01T13:57:45.533205Z"
+  },
+  {
+    "symbol": "META",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "622.02",
+    "created_at": "2026-05-01T13:57:44.118833Z"
+  },
+  {
+    "symbol": "GOOG",
+    "side": "buy",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "385.4",
+    "created_at": "2026-05-01T13:57:42.709326Z"
+  }
+]
