@@ -1,20 +1,41 @@
 {
-  "count": 1,
-  "total_unrealized_pl": -1.57,
-  "longs": 1,
+  "count": 2,
+  "total_unrealized_pl": -3.25,
+  "longs": 2,
   "shorts": 0,
   "rows": [
+    {
+      "symbol": "XRPUSD",
+      "side": "long",
+      "qty": 519.035604,
+      "avg_entry_price": 1.391354,
+      "current_price": 1.38733,
+      "market_value": 720.073664,
+      "cost_basis": 722.162264,
+      "unrealized_pl": -2.0886,
+      "unrealized_plpc": -0.29,
+      "change_today": -0.12,
+      "asset_class": "crypto",
+      "engine": "crypto_24_7",
+      "engine_label": "Crypto 24/7",
+      "stop_loss": null,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 0,
+      "stop_prices": []
+    },
     {
       "symbol": "ETHUSD",
       "side": "long",
       "qty": 1.000228311,
       "avg_entry_price": 2303.874688705,
-      "current_price": 2302.303,
-      "market_value": 2302.828641,
+      "current_price": 2302.71,
+      "market_value": 2303.235734,
       "cost_basis": 2304.400689,
-      "unrealized_pl": -1.572048,
-      "unrealized_plpc": -0.07,
-      "change_today": 0.13,
+      "unrealized_pl": -1.164955,
+      "unrealized_plpc": -0.05,
+      "change_today": 0.14,
       "asset_class": "crypto",
       "engine": "crypto_24_7",
       "engine_label": "Crypto 24/7",
@@ -26,7 +47,7 @@
       "stop_prices": []
     }
   ],
-  "protected_count": 1,
+  "protected_count": 2,
   "missing_stop_count": 0,
   "stale_journal_opens": []
 }
