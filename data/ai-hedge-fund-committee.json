@@ -1,269 +1,62 @@
 {
-  "generated_at": "2026-05-02T05:21:05.211553+00:00",
-  "mode": "blind",
-  "as_of": "2026-01-01",
+  "generated_at": "2026-05-02T06:36:58.236814+00:00",
+  "mode": "scan",
+  "as_of": null,
   "start": "2025-09-01",
   "benchmark": "SPY",
   "quality_gate_threshold": 0.35,
   "snapshot_counts": {
-    "fundamentals": 0,
-    "news": 0,
-    "insiders": 0
+    "fundamentals": 20,
+    "news": 20,
+    "insiders": 20
   },
   "decisions": [
     {
-      "symbol": "LUNR",
-      "sit_score": 0.9,
+      "symbol": "MSFT",
+      "sit_score": 0.58,
       "decision": "INVEST_PAPER",
-      "committee_score": 0.4281,
-      "confidence": 72.0,
+      "committee_score": 0.4332,
+      "confidence": 79.3,
       "risk_state": "NORMAL",
-      "target_weight": 0.0542,
+      "target_weight": 0.0547,
       "votes": [
         {
           "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
           "verdict": "BUY",
-          "confidence": 99.0,
-          "score": 0.6,
-          "rationale": "bullish EMA stack; 20d momentum positive",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 45.0,
-          "score": 0.05,
-          "rationale": "medium-term relative momentum; high volatility haircut",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "confidence-weighted score 0.43; risk=NORMAL; active_agents=2/5"
-    },
-    {
-      "symbol": "RKLB",
-      "sit_score": 0.9,
-      "decision": "INVEST_PAPER",
-      "committee_score": 0.4281,
-      "confidence": 72.0,
-      "risk_state": "NORMAL",
-      "target_weight": 0.0542,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "confidence": 100,
+          "score": 0.7,
+          "rationale": "reasonable PE; debt acceptable; positive free cash flow; ROE quality; profitable margins",
           "data_scope": [
             "fundamentals"
           ]
         },
         {
           "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
-          "verdict": "BUY",
-          "confidence": 99.0,
-          "score": 0.6,
-          "rationale": "bullish EMA stack; 20d momentum positive",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 45.0,
-          "score": 0.05,
-          "rationale": "medium-term relative momentum; high volatility haircut",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "confidence-weighted score 0.43; risk=NORMAL; active_agents=2/5"
-    },
-    {
-      "symbol": "AME",
-      "sit_score": 0.9,
-      "decision": "MONITOR",
-      "committee_score": 0.3369,
-      "confidence": 72.0,
-      "risk_state": "NORMAL",
-      "target_weight": 0.0,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
-          "verdict": "HOLD",
-          "confidence": 84.1,
-          "score": 0.4345,
-          "rationale": "bullish EMA stack; 20d momentum positive",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "HOLD",
-          "confidence": 60.0,
-          "score": 0.2,
-          "rationale": "medium-term relative momentum",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "confidence-weighted score 0.34; risk=NORMAL; active_agents=2/5"
-    },
-    {
-      "symbol": "CCJ",
-      "sit_score": 0.72,
-      "decision": "MONITOR",
-      "committee_score": 0.2863,
-      "confidence": 61.6,
-      "risk_state": "NORMAL",
-      "target_weight": 0.0,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
           "verdict": "HOLD",
           "confidence": 83.2,
-          "score": 0.4239,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 61.8,
+          "score": 0.14,
+          "rationale": "cashflow + growth",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 96.3,
+          "score": 0.5695,
           "rationale": "bullish EMA stack; 20d momentum positive",
           "data_scope": [
             "price",
@@ -274,10 +67,10 @@
         },
         {
           "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 40.0,
-          "score": 0.0,
-          "rationale": "macro neutral",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
           "data_scope": [
             "price",
             "benchmark",
@@ -285,33 +78,240 @@
           ]
         }
       ],
-      "rationale": "confidence-weighted score 0.29; risk=NORMAL; active_agents=2/5"
+      "rationale": "confidence-weighted score 0.43; risk=NORMAL; active_agents=5/5"
+    },
+    {
+      "symbol": "NVDA",
+      "sit_score": 0.9,
+      "decision": "INVEST_PAPER",
+      "committee_score": 0.4061,
+      "confidence": 79.1,
+      "risk_state": "NORMAL",
+      "target_weight": 0.0525,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 92.2,
+          "score": 0.52,
+          "rationale": "debt acceptable; positive free cash flow; ROE quality; profitable margins",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 97.9,
+          "score": 0.5874,
+          "rationale": "bullish EMA stack; 20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 75.0,
+          "score": 0.35,
+          "rationale": "benchmark supportive; medium-term relative momentum",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "confidence-weighted score 0.41; risk=NORMAL; active_agents=5/5"
+    },
+    {
+      "symbol": "AAPL",
+      "sit_score": 0.82,
+      "decision": "INVEST_PAPER",
+      "committee_score": 0.4058,
+      "confidence": 76.8,
+      "risk_state": "NORMAL",
+      "target_weight": 0.0525,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 92.2,
+          "score": 0.52,
+          "rationale": "debt acceptable; positive free cash flow; ROE quality; profitable margins",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 89.2,
+          "score": 0.41,
+          "rationale": "revenue growth; earnings growth; gross margin quality; news tone positive",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.6393,
+          "rationale": "bullish EMA stack; 20d momentum positive; volume expansion",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "confidence-weighted score 0.41; risk=NORMAL; active_agents=5/5"
+    },
+    {
+      "symbol": "VRT",
+      "sit_score": 0.9,
+      "decision": "INVEST_PAPER",
+      "committee_score": 0.3858,
+      "confidence": 78.9,
+      "risk_state": "NORMAL",
+      "target_weight": 0.0509,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "HOLD",
+          "confidence": 75.7,
+          "score": 0.37,
+          "rationale": "expensive PE; debt acceptable; positive free cash flow; ROE quality; profitable margins",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 61.8,
+          "score": 0.14,
+          "rationale": "cashflow + growth",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 75.0,
+          "score": 0.35,
+          "rationale": "benchmark supportive; medium-term relative momentum",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "confidence-weighted score 0.39; risk=NORMAL; active_agents=5/5"
     },
     {
       "symbol": "FSLR",
       "sit_score": 0.52,
-      "decision": "PASS",
-      "committee_score": 0.1143,
-      "confidence": 52.5,
+      "decision": "INVEST_PAPER",
+      "committee_score": 0.367,
+      "confidence": 72.1,
       "risk_state": "NORMAL",
-      "target_weight": 0.0,
+      "target_weight": 0.0494,
       "votes": [
         {
           "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.7,
+          "rationale": "reasonable PE; debt acceptable; positive free cash flow; ROE quality; profitable margins",
           "data_scope": [
             "fundamentals"
           ]
         },
         {
           "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "HOLD",
+          "confidence": 89.2,
+          "score": 0.41,
+          "rationale": "revenue growth; earnings growth; gross margin quality; news tone positive",
           "data_scope": [
             "fundamentals",
             "news"
@@ -319,10 +319,10 @@
         },
         {
           "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell",
           "data_scope": [
             "fundamentals",
             "insider"
@@ -330,10 +330,10 @@
         },
         {
           "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 45.0,
-          "score": 0.0,
-          "rationale": "mixed technicals",
+          "verdict": "HOLD",
+          "confidence": 69.1,
+          "score": 0.2678,
+          "rationale": "20d momentum positive; volume expansion",
           "data_scope": [
             "price",
             "volume",
@@ -344,9 +344,9 @@
         {
           "agent": "Ray Dalio macro/price",
           "verdict": "HOLD",
-          "confidence": 60.0,
-          "score": 0.2,
-          "rationale": "medium-term relative momentum",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
           "data_scope": [
             "price",
             "benchmark",
@@ -354,171 +354,33 @@
           ]
         }
       ],
-      "rationale": "confidence-weighted score 0.11; risk=NORMAL; active_agents=2/5"
+      "rationale": "confidence-weighted score 0.37; risk=NORMAL; active_agents=5/5"
     },
     {
-      "symbol": "NKE",
-      "sit_score": 0.18,
-      "decision": "QUALITY_REJECT",
-      "committee_score": 0.054,
-      "confidence": 0.0,
-      "risk_state": "N/A",
-      "target_weight": 0.0,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 54.0,
-          "score": 0.1,
-          "rationale": "volume expansion",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 40.0,
-          "score": 0.0,
-          "rationale": "macro neutral",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "SIT 0.18 below gate 0.35"
-    },
-    {
-      "symbol": "PLTR",
-      "sit_score": 0.3,
-      "decision": "QUALITY_REJECT",
-      "committee_score": 0.0433,
-      "confidence": 0.0,
-      "risk_state": "N/A",
-      "target_weight": 0.0,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 52.4,
-          "score": 0.0827,
-          "rationale": "20d momentum positive",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 40.0,
-          "score": 0.0,
-          "rationale": "macro neutral",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "SIT 0.30 below gate 0.35"
-    },
-    {
-      "symbol": "NVDA",
+      "symbol": "SMCI",
       "sit_score": 0.34,
       "decision": "QUALITY_REJECT",
-      "committee_score": 0.0278,
+      "committee_score": 0.3367,
       "confidence": 0.0,
       "risk_state": "N/A",
       "target_weight": 0.0,
       "votes": [
         {
           "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.6,
+          "rationale": "reasonable PE; debt acceptable; positive free cash flow; ROE quality",
           "data_scope": [
             "fundamentals"
           ]
         },
         {
           "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; news tone positive",
           "data_scope": [
             "fundamentals",
             "news"
@@ -526,10 +388,10 @@
         },
         {
           "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "MONITOR",
+          "confidence": 61.8,
+          "score": 0.14,
+          "rationale": "cashflow + growth",
           "data_scope": [
             "fundamentals",
             "insider"
@@ -537,9 +399,9 @@
         },
         {
           "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 50.0,
-          "score": 0.0557,
+          "verdict": "HOLD",
+          "confidence": 67.5,
+          "score": 0.25,
           "rationale": "20d momentum positive",
           "data_scope": [
             "price",
@@ -550,10 +412,10 @@
         },
         {
           "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 40.0,
-          "score": 0.0,
-          "rationale": "macro neutral",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
           "data_scope": [
             "price",
             "benchmark",
@@ -564,30 +426,30 @@
       "rationale": "SIT 0.34 below gate 0.35"
     },
     {
-      "symbol": "MSFT",
-      "sit_score": 0.2,
-      "decision": "QUALITY_REJECT",
-      "committee_score": 0.0,
-      "confidence": 0.0,
-      "risk_state": "N/A",
+      "symbol": "AME",
+      "sit_score": 0.82,
+      "decision": "MONITOR",
+      "committee_score": 0.3318,
+      "confidence": 70.2,
+      "risk_state": "NORMAL",
       "target_weight": 0.0,
       "votes": [
         {
           "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "HOLD",
+          "confidence": 72.4,
+          "score": 0.34,
+          "rationale": "debt acceptable; ROE quality; profitable margins",
           "data_scope": [
             "fundamentals"
           ]
         },
         {
           "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality",
           "data_scope": [
             "fundamentals",
             "news"
@@ -595,10 +457,10 @@
         },
         {
           "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
+          "verdict": "MONITOR",
+          "confidence": 45.0,
           "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "rationale": "insider/fundamental neutral",
           "data_scope": [
             "fundamentals",
             "insider"
@@ -606,10 +468,10 @@
         },
         {
           "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 45.0,
-          "score": 0.0,
-          "rationale": "mixed technicals",
+          "verdict": "BUY",
+          "confidence": 95.6,
+          "score": 0.5617,
+          "rationale": "bullish EMA stack; 20d momentum positive; volume expansion",
           "data_scope": [
             "price",
             "volume",
@@ -619,10 +481,10 @@
         },
         {
           "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 40.0,
-          "score": 0.0,
-          "rationale": "macro neutral",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
           "data_scope": [
             "price",
             "benchmark",
@@ -630,33 +492,33 @@
           ]
         }
       ],
-      "rationale": "SIT 0.20 below gate 0.35"
+      "rationale": "confidence-weighted score 0.33; risk=NORMAL; active_agents=5/5"
     },
     {
-      "symbol": "VST",
-      "sit_score": 0.12,
-      "decision": "QUALITY_REJECT",
-      "committee_score": 0.0,
-      "confidence": 0.0,
-      "risk_state": "N/A",
+      "symbol": "CCJ",
+      "sit_score": 0.72,
+      "decision": "MONITOR",
+      "committee_score": 0.3015,
+      "confidence": 70.8,
+      "risk_state": "NORMAL",
       "target_weight": 0.0,
       "votes": [
         {
           "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "HOLD",
+          "confidence": 62.5,
+          "score": 0.25,
+          "rationale": "expensive PE; debt acceptable; positive free cash flow; profitable margins",
           "data_scope": [
             "fundamentals"
           ]
         },
         {
           "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "HOLD",
+          "confidence": 66.4,
+          "score": 0.22,
+          "rationale": "earnings growth; gross margin quality",
           "data_scope": [
             "fundamentals",
             "news"
@@ -664,10 +526,10 @@
         },
         {
           "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "HOLD",
+          "confidence": 81.0,
+          "score": 0.3,
+          "rationale": "cashflow + growth; insider activity skews buy",
           "data_scope": [
             "fundamentals",
             "insider"
@@ -675,10 +537,10 @@
         },
         {
           "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 45.0,
-          "score": 0.0,
-          "rationale": "mixed technicals",
+          "verdict": "BUY",
+          "confidence": 89.3,
+          "score": 0.4927,
+          "rationale": "bullish EMA stack; 20d momentum positive",
           "data_scope": [
             "price",
             "volume",
@@ -688,10 +550,79 @@
         },
         {
           "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "confidence-weighted score 0.30; risk=NORMAL; active_agents=5/5"
+    },
+    {
+      "symbol": "NKE",
+      "sit_score": 0.12,
+      "decision": "QUALITY_REJECT",
+      "committee_score": 0.2992,
+      "confidence": 0.0,
+      "risk_state": "N/A",
+      "target_weight": 0.0,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.6,
+          "rationale": "reasonable PE; debt acceptable; positive free cash flow; ROE quality",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 58.0,
+          "score": 0.15,
+          "rationale": "gross margin quality; news tone positive",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "HOLD",
+          "confidence": 81.0,
+          "score": 0.3,
+          "rationale": "cashflow + growth; insider activity skews buy",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
           "verdict": "MONITOR",
-          "confidence": 40.0,
-          "score": 0.0,
-          "rationale": "macro neutral",
+          "confidence": 45.9,
+          "score": 0.0095,
+          "rationale": "20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
           "data_scope": [
             "price",
             "benchmark",
@@ -702,168 +633,30 @@
       "rationale": "SIT 0.12 below gate 0.35"
     },
     {
-      "symbol": "SMCI",
-      "sit_score": 0.1,
-      "decision": "QUALITY_REJECT",
-      "committee_score": -0.0248,
-      "confidence": 0.0,
-      "risk_state": "N/A",
-      "target_weight": 0.0,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 49.5,
-          "score": -0.05,
-          "rationale": "weak RSI; volume expansion",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 40.0,
-          "score": 0.0,
-          "rationale": "macro neutral",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "SIT 0.10 below gate 0.35"
-    },
-    {
-      "symbol": "CRSP",
-      "sit_score": 0.0,
-      "decision": "QUALITY_REJECT",
-      "committee_score": -0.0648,
-      "confidence": 0.0,
-      "risk_state": "N/A",
-      "target_weight": 0.0,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 55.5,
-          "score": -0.1167,
-          "rationale": "20d momentum positive; weak RSI",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 40.0,
-          "score": 0.0,
-          "rationale": "macro neutral",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "SIT 0.00 below gate 0.35"
-    },
-    {
       "symbol": "IONQ",
-      "sit_score": 0.0,
-      "decision": "QUALITY_REJECT",
-      "committee_score": -0.0825,
-      "confidence": 0.0,
-      "risk_state": "N/A",
+      "sit_score": 0.78,
+      "decision": "MONITOR",
+      "committee_score": 0.2452,
+      "confidence": 68.0,
+      "risk_state": "NORMAL",
       "target_weight": 0.0,
       "votes": [
         {
           "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable",
           "data_scope": [
             "fundamentals"
           ]
         },
         {
           "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "HOLD",
+          "confidence": 68.8,
+          "score": 0.24,
+          "rationale": "revenue growth; gross margin quality",
           "data_scope": [
             "fundamentals",
             "news"
@@ -871,10 +664,10 @@
         },
         {
           "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell",
           "data_scope": [
             "fundamentals",
             "insider"
@@ -882,10 +675,10 @@
         },
         {
           "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 45.0,
-          "score": 0.0,
-          "rationale": "mixed technicals",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive",
           "data_scope": [
             "price",
             "volume",
@@ -895,10 +688,10 @@
         },
         {
           "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 55.0,
-          "score": -0.15,
-          "rationale": "high volatility haircut",
+          "verdict": "HOLD",
+          "confidence": 60.0,
+          "score": 0.2,
+          "rationale": "benchmark supportive; medium-term relative momentum; high volatility haircut",
           "data_scope": [
             "price",
             "benchmark",
@@ -906,33 +699,33 @@
           ]
         }
       ],
-      "rationale": "SIT 0.00 below gate 0.35"
+      "rationale": "confidence-weighted score 0.25; risk=NORMAL; active_agents=5/5"
     },
     {
-      "symbol": "RGTI",
-      "sit_score": 0.0,
+      "symbol": "PLTR",
+      "sit_score": 0.2,
       "decision": "QUALITY_REJECT",
-      "committee_score": -0.0825,
+      "committee_score": 0.2302,
       "confidence": 0.0,
       "risk_state": "N/A",
       "target_weight": 0.0,
       "votes": [
         {
           "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "HOLD",
+          "confidence": 75.7,
+          "score": 0.37,
+          "rationale": "expensive PE; debt acceptable; positive free cash flow; ROE quality; profitable margins",
           "data_scope": [
             "fundamentals"
           ]
         },
         {
           "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "HOLD",
+          "confidence": 89.2,
+          "score": 0.41,
+          "rationale": "revenue growth; earnings growth; gross margin quality; news tone positive",
           "data_scope": [
             "fundamentals",
             "news"
@@ -940,10 +733,10 @@
         },
         {
           "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell",
           "data_scope": [
             "fundamentals",
             "insider"
@@ -964,10 +757,10 @@
         },
         {
           "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
+          "verdict": "HOLD",
           "confidence": 55.0,
-          "score": -0.15,
-          "rationale": "high volatility haircut",
+          "score": 0.15,
+          "rationale": "benchmark supportive",
           "data_scope": [
             "price",
             "benchmark",
@@ -975,33 +768,102 @@
           ]
         }
       ],
-      "rationale": "SIT 0.00 below gate 0.35"
+      "rationale": "SIT 0.20 below gate 0.35"
+    },
+    {
+      "symbol": "RKLB",
+      "sit_score": 0.72,
+      "decision": "MONITOR",
+      "committee_score": 0.2236,
+      "confidence": 65.1,
+      "risk_state": "NORMAL",
+      "target_weight": 0.0,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 38.3,
+          "score": -0.03,
+          "rationale": "expensive PE; debt acceptable",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 68.8,
+          "score": 0.24,
+          "rationale": "revenue growth; gross margin quality",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "confidence-weighted score 0.22; risk=NORMAL; active_agents=5/5"
     },
     {
       "symbol": "QUBT",
-      "sit_score": 0.0,
-      "decision": "QUALITY_REJECT",
-      "committee_score": -0.0825,
-      "confidence": 0.0,
-      "risk_state": "N/A",
+      "sit_score": 0.58,
+      "decision": "MONITOR",
+      "committee_score": 0.204,
+      "confidence": 61.6,
+      "risk_state": "NORMAL",
       "target_weight": 0.0,
       "votes": [
         {
           "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable",
           "data_scope": [
             "fundamentals"
           ]
         },
         {
           "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "MONITOR",
+          "confidence": 56.8,
+          "score": 0.14,
+          "rationale": "revenue growth",
           "data_scope": [
             "fundamentals",
             "news"
@@ -1009,10 +871,10 @@
         },
         {
           "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell",
           "data_scope": [
             "fundamentals",
             "insider"
@@ -1020,79 +882,10 @@
         },
         {
           "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 45.0,
-          "score": 0.0,
-          "rationale": "mixed technicals",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 55.0,
-          "score": -0.15,
-          "rationale": "high volatility haircut",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "SIT 0.00 below gate 0.35"
-    },
-    {
-      "symbol": "AAPL",
-      "sit_score": 0.22,
-      "decision": "QUALITY_REJECT",
-      "committee_score": -0.0877,
-      "confidence": 0.0,
-      "risk_state": "N/A",
-      "target_weight": 0.0,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 58.5,
-          "score": -0.15,
-          "rationale": "weak RSI",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive",
           "data_scope": [
             "price",
             "volume",
@@ -1105,7 +898,7 @@
           "verdict": "MONITOR",
           "confidence": 40.0,
           "score": 0.0,
-          "rationale": "macro neutral",
+          "rationale": "benchmark supportive; high volatility haircut",
           "data_scope": [
             "price",
             "benchmark",
@@ -1113,240 +906,33 @@
           ]
         }
       ],
-      "rationale": "SIT 0.22 below gate 0.35"
-    },
-    {
-      "symbol": "VRT",
-      "sit_score": 0.0,
-      "decision": "QUALITY_REJECT",
-      "committee_score": -0.0877,
-      "confidence": 0.0,
-      "risk_state": "N/A",
-      "target_weight": 0.0,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 58.5,
-          "score": -0.15,
-          "rationale": "weak RSI",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 40.0,
-          "score": 0.0,
-          "rationale": "macro neutral",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "SIT 0.00 below gate 0.35"
-    },
-    {
-      "symbol": "NNE",
-      "sit_score": 0.1,
-      "decision": "QUALITY_REJECT",
-      "committee_score": -0.1026,
-      "confidence": 0.0,
-      "risk_state": "N/A",
-      "target_weight": 0.0,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 49.5,
-          "score": -0.05,
-          "rationale": "weak RSI; volume expansion",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 55.0,
-          "score": -0.15,
-          "rationale": "high volatility haircut",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "SIT 0.10 below gate 0.35"
-    },
-    {
-      "symbol": "NVVE",
-      "sit_score": 0.1,
-      "decision": "QUALITY_REJECT",
-      "committee_score": -0.1026,
-      "confidence": 0.0,
-      "risk_state": "N/A",
-      "target_weight": 0.0,
-      "votes": [
-        {
-          "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals"
-          ]
-        },
-        {
-          "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "news"
-          ]
-        },
-        {
-          "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
-          "data_scope": [
-            "fundamentals",
-            "insider"
-          ]
-        },
-        {
-          "agent": "Steve Cohen technical",
-          "verdict": "MONITOR",
-          "confidence": 49.5,
-          "score": -0.05,
-          "rationale": "weak RSI; volume expansion",
-          "data_scope": [
-            "price",
-            "volume",
-            "ma",
-            "rsi"
-          ]
-        },
-        {
-          "agent": "Ray Dalio macro/price",
-          "verdict": "MONITOR",
-          "confidence": 55.0,
-          "score": -0.15,
-          "rationale": "high volatility haircut",
-          "data_scope": [
-            "price",
-            "benchmark",
-            "volatility"
-          ]
-        }
-      ],
-      "rationale": "SIT 0.10 below gate 0.35"
+      "rationale": "confidence-weighted score 0.20; risk=NORMAL; active_agents=5/5"
     },
     {
       "symbol": "KULR",
-      "sit_score": 0.0,
-      "decision": "QUALITY_REJECT",
-      "committee_score": -0.15,
-      "confidence": 0.0,
-      "risk_state": "N/A",
+      "sit_score": 0.42,
+      "decision": "MONITOR",
+      "committee_score": 0.1325,
+      "confidence": 53.2,
+      "risk_state": "NORMAL",
       "target_weight": 0.0,
       "votes": [
         {
           "agent": "Warren Buffett value",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable",
           "data_scope": [
             "fundamentals"
           ]
         },
         {
           "agent": "Charlie Munger fundamental+news",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
-          "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "verdict": "MONITOR",
+          "confidence": 46.0,
+          "score": 0.05,
+          "rationale": "news tone positive",
           "data_scope": [
             "fundamentals",
             "news"
@@ -1354,10 +940,424 @@
         },
         {
           "agent": "Bill Ackman fundamental+insider",
-          "verdict": "ABSTAIN",
-          "confidence": 0.0,
+          "verdict": "HOLD",
+          "confidence": 64.2,
+          "score": 0.16,
+          "rationale": "insider activity skews buy",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 67.5,
+          "score": 0.25,
+          "rationale": "20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
           "score": 0.0,
-          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage",
+          "rationale": "benchmark supportive; high volatility haircut",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "confidence-weighted score 0.13; risk=NORMAL; active_agents=5/5"
+    },
+    {
+      "symbol": "VST",
+      "sit_score": 0.38,
+      "decision": "MONITOR",
+      "committee_score": 0.1295,
+      "confidence": 58.1,
+      "risk_state": "NORMAL",
+      "target_weight": 0.0,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 37.2,
+          "score": -0.02,
+          "rationale": "high leverage; ROE quality",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 68.8,
+          "score": 0.24,
+          "rationale": "revenue growth; gross margin quality",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 59.4,
+          "score": -0.12,
+          "rationale": "balance sheet activism risk",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 49.9,
+          "score": 0.0542,
+          "rationale": "20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 75.0,
+          "score": 0.35,
+          "rationale": "benchmark supportive; medium-term relative momentum",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "confidence-weighted score 0.13; risk=NORMAL; active_agents=5/5"
+    },
+    {
+      "symbol": "LUNR",
+      "sit_score": 0.9,
+      "decision": "MONITOR",
+      "committee_score": 0.1269,
+      "confidence": 62.1,
+      "risk_state": "NORMAL",
+      "target_weight": 0.0,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 51.5,
+          "score": -0.15,
+          "rationale": "expensive PE",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "MONITOR",
+          "confidence": 46.0,
+          "score": 0.05,
+          "rationale": "news tone positive",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 88.7,
+          "score": 0.4859,
+          "rationale": "bullish EMA stack; 20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 60.0,
+          "score": 0.2,
+          "rationale": "benchmark supportive; medium-term relative momentum; high volatility haircut",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "confidence-weighted score 0.13; risk=NORMAL; active_agents=5/5"
+    },
+    {
+      "symbol": "RGTI",
+      "sit_score": 0.42,
+      "decision": "PASS",
+      "committee_score": 0.0647,
+      "confidence": 54.4,
+      "risk_state": "NORMAL",
+      "target_weight": 0.0,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "MONITOR",
+          "confidence": 52.0,
+          "score": 0.1,
+          "rationale": "news tone positive",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 67.5,
+          "score": 0.25,
+          "rationale": "20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "benchmark supportive; high volatility haircut",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "confidence-weighted score 0.06; risk=NORMAL; active_agents=5/5"
+    },
+    {
+      "symbol": "CRSP",
+      "sit_score": 0.3,
+      "decision": "QUALITY_REJECT",
+      "committee_score": 0.061,
+      "confidence": 0.0,
+      "risk_state": "N/A",
+      "target_weight": 0.0,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 58.0,
+          "score": 0.15,
+          "rationale": "news tone positive",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 52.7,
+          "score": 0.0856,
+          "rationale": "20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "SIT 0.30 below gate 0.35"
+    },
+    {
+      "symbol": "NNE",
+      "sit_score": 0.34,
+      "decision": "QUALITY_REJECT",
+      "committee_score": 0.0369,
+      "confidence": 0.0,
+      "risk_state": "N/A",
+      "target_weight": 0.0,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "MONITOR",
+          "confidence": 46.0,
+          "score": 0.05,
+          "rationale": "news tone positive",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 62.1,
+          "score": 0.1899,
+          "rationale": "20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "benchmark supportive; high volatility haircut",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "rationale": "SIT 0.34 below gate 0.35"
+    },
+    {
+      "symbol": "NVVE",
+      "sit_score": 0.0,
+      "decision": "QUALITY_REJECT",
+      "committee_score": -0.1051,
+      "confidence": 0.0,
+      "risk_state": "N/A",
+      "target_weight": 0.0,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 50.4,
+          "score": -0.14,
+          "rationale": "high leverage",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "MONITOR",
+          "confidence": 56.8,
+          "score": 0.14,
+          "rationale": "revenue growth",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "PASS",
+          "confidence": 78.6,
+          "score": -0.28,
+          "rationale": "balance sheet activism risk; insider activity skews sell",
           "data_scope": [
             "fundamentals",
             "insider"
@@ -1379,9 +1379,9 @@
         {
           "agent": "Ray Dalio macro/price",
           "verdict": "MONITOR",
-          "confidence": 55.0,
-          "score": -0.15,
-          "rationale": "high volatility haircut",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "benchmark supportive; high volatility haircut",
           "data_scope": [
             "price",
             "benchmark",
@@ -1392,24 +1392,867 @@
       "rationale": "SIT 0.00 below gate 0.35"
     }
   ],
-  "blind_evaluation": {
-    "evaluation_end": "2026-04-07",
-    "portfolio_return": 0.0862,
-    "benchmark_return": -0.0328,
-    "excess_return": 0.119,
-    "picks": [
-      {
-        "symbol": "LUNR",
-        "decision": "INVEST_PAPER",
-        "target_weight": 0.0542,
-        "return": 0.2819
-      },
-      {
-        "symbol": "RKLB",
-        "decision": "INVEST_PAPER",
-        "target_weight": 0.0542,
-        "return": -0.1095
-      }
-    ]
-  }
+  "agent_heatmap": [
+    {
+      "symbol": "MSFT",
+      "decision": "INVEST_PAPER",
+      "target_weight": 0.0547,
+      "committee_score": 0.4332,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.7,
+          "rationale": "reasonable PE; debt acceptable; positive free cash flow; ROE quality; profitable margins"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 61.8,
+          "score": 0.14,
+          "rationale": "cashflow + growth"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 96.3,
+          "score": 0.5695,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "decision": "INVEST_PAPER",
+      "target_weight": 0.0525,
+      "committee_score": 0.4061,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 92.2,
+          "score": 0.52,
+          "rationale": "debt acceptable; positive free cash flow; ROE quality; profitable margins"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 97.9,
+          "score": 0.5874,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 75.0,
+          "score": 0.35,
+          "rationale": "benchmark supportive; medium-term relative momentum"
+        }
+      ]
+    },
+    {
+      "symbol": "AAPL",
+      "decision": "INVEST_PAPER",
+      "target_weight": 0.0525,
+      "committee_score": 0.4058,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 92.2,
+          "score": 0.52,
+          "rationale": "debt acceptable; positive free cash flow; ROE quality; profitable margins"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 89.2,
+          "score": 0.41,
+          "rationale": "revenue growth; earnings growth; gross margin quality; news tone positive"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.6393,
+          "rationale": "bullish EMA stack; 20d momentum positive; volume expansion"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive"
+        }
+      ]
+    },
+    {
+      "symbol": "VRT",
+      "decision": "INVEST_PAPER",
+      "target_weight": 0.0509,
+      "committee_score": 0.3858,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "HOLD",
+          "confidence": 75.7,
+          "score": 0.37,
+          "rationale": "expensive PE; debt acceptable; positive free cash flow; ROE quality; profitable margins"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 61.8,
+          "score": 0.14,
+          "rationale": "cashflow + growth"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 75.0,
+          "score": 0.35,
+          "rationale": "benchmark supportive; medium-term relative momentum"
+        }
+      ]
+    },
+    {
+      "symbol": "FSLR",
+      "decision": "INVEST_PAPER",
+      "target_weight": 0.0494,
+      "committee_score": 0.367,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.7,
+          "rationale": "reasonable PE; debt acceptable; positive free cash flow; ROE quality; profitable margins"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 89.2,
+          "score": 0.41,
+          "rationale": "revenue growth; earnings growth; gross margin quality; news tone positive"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 69.1,
+          "score": 0.2678,
+          "rationale": "20d momentum positive; volume expansion"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive"
+        }
+      ]
+    },
+    {
+      "symbol": "SMCI",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": 0.3367,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.6,
+          "rationale": "reasonable PE; debt acceptable; positive free cash flow; ROE quality"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; news tone positive"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 61.8,
+          "score": 0.14,
+          "rationale": "cashflow + growth"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 67.5,
+          "score": 0.25,
+          "rationale": "20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive"
+        }
+      ]
+    },
+    {
+      "symbol": "AME",
+      "decision": "MONITOR",
+      "target_weight": 0.0,
+      "committee_score": 0.3318,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "HOLD",
+          "confidence": 72.4,
+          "score": 0.34,
+          "rationale": "debt acceptable; ROE quality; profitable margins"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 45.0,
+          "score": 0.0,
+          "rationale": "insider/fundamental neutral"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 95.6,
+          "score": 0.5617,
+          "rationale": "bullish EMA stack; 20d momentum positive; volume expansion"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive"
+        }
+      ]
+    },
+    {
+      "symbol": "CCJ",
+      "decision": "MONITOR",
+      "target_weight": 0.0,
+      "committee_score": 0.3015,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "HOLD",
+          "confidence": 62.5,
+          "score": 0.25,
+          "rationale": "expensive PE; debt acceptable; positive free cash flow; profitable margins"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 66.4,
+          "score": 0.22,
+          "rationale": "earnings growth; gross margin quality"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "HOLD",
+          "confidence": 81.0,
+          "score": 0.3,
+          "rationale": "cashflow + growth; insider activity skews buy"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 89.3,
+          "score": 0.4927,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive"
+        }
+      ]
+    },
+    {
+      "symbol": "NKE",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": 0.2992,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.6,
+          "rationale": "reasonable PE; debt acceptable; positive free cash flow; ROE quality"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 58.0,
+          "score": 0.15,
+          "rationale": "gross margin quality; news tone positive"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "HOLD",
+          "confidence": 81.0,
+          "score": 0.3,
+          "rationale": "cashflow + growth; insider activity skews buy"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 45.9,
+          "score": 0.0095,
+          "rationale": "20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive"
+        }
+      ]
+    },
+    {
+      "symbol": "IONQ",
+      "decision": "MONITOR",
+      "target_weight": 0.0,
+      "committee_score": 0.2452,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 68.8,
+          "score": 0.24,
+          "rationale": "revenue growth; gross margin quality"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 60.0,
+          "score": 0.2,
+          "rationale": "benchmark supportive; medium-term relative momentum; high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "PLTR",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": 0.2302,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "HOLD",
+          "confidence": 75.7,
+          "score": 0.37,
+          "rationale": "expensive PE; debt acceptable; positive free cash flow; ROE quality; profitable margins"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 89.2,
+          "score": 0.41,
+          "rationale": "revenue growth; earnings growth; gross margin quality; news tone positive"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 45.0,
+          "score": 0.0,
+          "rationale": "mixed technicals"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive"
+        }
+      ]
+    },
+    {
+      "symbol": "RKLB",
+      "decision": "MONITOR",
+      "target_weight": 0.0,
+      "committee_score": 0.2236,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 38.3,
+          "score": -0.03,
+          "rationale": "expensive PE; debt acceptable"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 68.8,
+          "score": 0.24,
+          "rationale": "revenue growth; gross margin quality"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive"
+        }
+      ]
+    },
+    {
+      "symbol": "QUBT",
+      "decision": "MONITOR",
+      "target_weight": 0.0,
+      "committee_score": 0.204,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "MONITOR",
+          "confidence": 56.8,
+          "score": 0.14,
+          "rationale": "revenue growth"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "benchmark supportive; high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "KULR",
+      "decision": "MONITOR",
+      "target_weight": 0.0,
+      "committee_score": 0.1325,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "MONITOR",
+          "confidence": 46.0,
+          "score": 0.05,
+          "rationale": "news tone positive"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "HOLD",
+          "confidence": 64.2,
+          "score": 0.16,
+          "rationale": "insider activity skews buy"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 67.5,
+          "score": 0.25,
+          "rationale": "20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "benchmark supportive; high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "VST",
+      "decision": "MONITOR",
+      "target_weight": 0.0,
+      "committee_score": 0.1295,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 37.2,
+          "score": -0.02,
+          "rationale": "high leverage; ROE quality"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 68.8,
+          "score": 0.24,
+          "rationale": "revenue growth; gross margin quality"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 59.4,
+          "score": -0.12,
+          "rationale": "balance sheet activism risk"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 49.9,
+          "score": 0.0542,
+          "rationale": "20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 75.0,
+          "score": 0.35,
+          "rationale": "benchmark supportive; medium-term relative momentum"
+        }
+      ]
+    },
+    {
+      "symbol": "LUNR",
+      "decision": "MONITOR",
+      "target_weight": 0.0,
+      "committee_score": 0.1269,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 51.5,
+          "score": -0.15,
+          "rationale": "expensive PE"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "MONITOR",
+          "confidence": 46.0,
+          "score": 0.05,
+          "rationale": "news tone positive"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 88.7,
+          "score": 0.4859,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 60.0,
+          "score": 0.2,
+          "rationale": "benchmark supportive; medium-term relative momentum; high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "RGTI",
+      "decision": "PASS",
+      "target_weight": 0.0,
+      "committee_score": 0.0647,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "MONITOR",
+          "confidence": 52.0,
+          "score": 0.1,
+          "rationale": "news tone positive"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 67.5,
+          "score": 0.25,
+          "rationale": "20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "benchmark supportive; high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "CRSP",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": 0.061,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 58.0,
+          "score": 0.15,
+          "rationale": "news tone positive"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 52.7,
+          "score": 0.0856,
+          "rationale": "20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive"
+        }
+      ]
+    },
+    {
+      "symbol": "NNE",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": 0.0369,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 48.2,
+          "score": 0.12,
+          "rationale": "debt acceptable"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "MONITOR",
+          "confidence": 46.0,
+          "score": 0.05,
+          "rationale": "news tone positive"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 64.2,
+          "score": -0.16,
+          "rationale": "insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 62.1,
+          "score": 0.1899,
+          "rationale": "20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "benchmark supportive; high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "NVVE",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.1051,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "MONITOR",
+          "confidence": 50.4,
+          "score": -0.14,
+          "rationale": "high leverage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "MONITOR",
+          "confidence": 56.8,
+          "score": 0.14,
+          "rationale": "revenue growth"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "PASS",
+          "confidence": 78.6,
+          "score": -0.28,
+          "rationale": "balance sheet activism risk; insider activity skews sell"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 58.5,
+          "score": -0.15,
+          "rationale": "weak RSI"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "benchmark supportive; high volatility haircut"
+        }
+      ]
+    }
+  ],
+  "discord_summary": "🧠 **AI Hedge Fund Committee** (paper-only)\nGate: `0.35` • snapshots: `{'fundamentals': 20, 'news': 20, 'insiders': 20}`\nTop paper decisions:\n• MSFT: **INVEST_PAPER** | score `0.43` | SIT `0.58` | target `5.5%` | confidence-weighted score 0.43; risk=NORMAL; active_agents=5/5\n• NVDA: **INVEST_PAPER** | score `0.41` | SIT `0.90` | target `5.2%` | confidence-weighted score 0.41; risk=NORMAL; active_agents=5/5\n• AAPL: **INVEST_PAPER** | score `0.41` | SIT `0.82` | target `5.2%` | confidence-weighted score 0.41; risk=NORMAL; active_agents=5/5\n• VRT: **INVEST_PAPER** | score `0.39` | SIT `0.90` | target `5.1%` | confidence-weighted score 0.39; risk=NORMAL; active_agents=5/5\n• FSLR: **INVEST_PAPER** | score `0.37` | SIT `0.52` | target `4.9%` | confidence-weighted score 0.37; risk=NORMAL; active_agents=5/5\n• SMCI: **QUALITY_REJECT** | score `0.34` | SIT `0.34` | target `0.0%` | SIT 0.34 below gate 0.35\n• AME: **MONITOR** | score `0.33` | SIT `0.82` | target `0.0%` | confidence-weighted score 0.33; risk=NORMAL; active_agents=5/5\n• CCJ: **MONITOR** | score `0.30` | SIT `0.72` | target `0.0%` | confidence-weighted score 0.30; risk=NORMAL; active_agents=5/5\nNo orders placed. Paper/research only.\n"
 }

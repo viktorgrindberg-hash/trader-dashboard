@@ -397,10 +397,13 @@ def summarize_ai_committee():
     return {
         'generated_at': scan.get('generated_at'),
         'quality_gate_threshold': scan.get('quality_gate_threshold'),
+        'snapshot_counts': scan.get('snapshot_counts'),
         'counts': counts,
         'top': top,
+        'agent_heatmap': scan.get('agent_heatmap') or [],
+        'discord_summary': scan.get('discord_summary'),
         'blind_evaluation': blind.get('blind_evaluation'),
-        'caveat': 'Paper-only architecture port. Fundamentals/news/insider agents abstain until point-in-time data is wired.',
+        'caveat': 'Paper-only architecture port. Votes use dated local snapshots; live orders are never placed.',
     }
 
 

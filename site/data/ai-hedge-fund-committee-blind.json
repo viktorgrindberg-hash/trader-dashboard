@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T05:21:05.211553+00:00",
+  "generated_at": "2026-05-02T06:36:43.531437+00:00",
   "mode": "blind",
   "as_of": "2026-01-01",
   "start": "2025-09-01",
@@ -1411,5 +1411,868 @@
         "return": -0.1095
       }
     ]
-  }
+  },
+  "agent_heatmap": [
+    {
+      "symbol": "LUNR",
+      "decision": "INVEST_PAPER",
+      "target_weight": 0.0542,
+      "committee_score": 0.4281,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 45.0,
+          "score": 0.05,
+          "rationale": "medium-term relative momentum; high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "RKLB",
+      "decision": "INVEST_PAPER",
+      "target_weight": 0.0542,
+      "committee_score": 0.4281,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 45.0,
+          "score": 0.05,
+          "rationale": "medium-term relative momentum; high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "AME",
+      "decision": "MONITOR",
+      "target_weight": 0.0,
+      "committee_score": 0.3369,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 84.1,
+          "score": 0.4345,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 60.0,
+          "score": 0.2,
+          "rationale": "medium-term relative momentum"
+        }
+      ]
+    },
+    {
+      "symbol": "CCJ",
+      "decision": "MONITOR",
+      "target_weight": 0.0,
+      "committee_score": 0.2863,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.4239,
+          "rationale": "bullish EMA stack; 20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "macro neutral"
+        }
+      ]
+    },
+    {
+      "symbol": "FSLR",
+      "decision": "PASS",
+      "target_weight": 0.0,
+      "committee_score": 0.1143,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 45.0,
+          "score": 0.0,
+          "rationale": "mixed technicals"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 60.0,
+          "score": 0.2,
+          "rationale": "medium-term relative momentum"
+        }
+      ]
+    },
+    {
+      "symbol": "NKE",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": 0.054,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 54.0,
+          "score": 0.1,
+          "rationale": "volume expansion"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "macro neutral"
+        }
+      ]
+    },
+    {
+      "symbol": "PLTR",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": 0.0433,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 52.4,
+          "score": 0.0827,
+          "rationale": "20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "macro neutral"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": 0.0278,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 50.0,
+          "score": 0.0557,
+          "rationale": "20d momentum positive"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "macro neutral"
+        }
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": 0.0,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 45.0,
+          "score": 0.0,
+          "rationale": "mixed technicals"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "macro neutral"
+        }
+      ]
+    },
+    {
+      "symbol": "VST",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": 0.0,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 45.0,
+          "score": 0.0,
+          "rationale": "mixed technicals"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "macro neutral"
+        }
+      ]
+    },
+    {
+      "symbol": "SMCI",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.0248,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 49.5,
+          "score": -0.05,
+          "rationale": "weak RSI; volume expansion"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "macro neutral"
+        }
+      ]
+    },
+    {
+      "symbol": "CRSP",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.0648,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 55.5,
+          "score": -0.1167,
+          "rationale": "20d momentum positive; weak RSI"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "macro neutral"
+        }
+      ]
+    },
+    {
+      "symbol": "IONQ",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.0825,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 45.0,
+          "score": 0.0,
+          "rationale": "mixed technicals"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 55.0,
+          "score": -0.15,
+          "rationale": "high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "RGTI",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.0825,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 45.0,
+          "score": 0.0,
+          "rationale": "mixed technicals"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 55.0,
+          "score": -0.15,
+          "rationale": "high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "QUBT",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.0825,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 45.0,
+          "score": 0.0,
+          "rationale": "mixed technicals"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 55.0,
+          "score": -0.15,
+          "rationale": "high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "AAPL",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.0877,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 58.5,
+          "score": -0.15,
+          "rationale": "weak RSI"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "macro neutral"
+        }
+      ]
+    },
+    {
+      "symbol": "VRT",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.0877,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 58.5,
+          "score": -0.15,
+          "rationale": "weak RSI"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 40.0,
+          "score": 0.0,
+          "rationale": "macro neutral"
+        }
+      ]
+    },
+    {
+      "symbol": "NNE",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.1026,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 49.5,
+          "score": -0.05,
+          "rationale": "weak RSI; volume expansion"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 55.0,
+          "score": -0.15,
+          "rationale": "high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "NVVE",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.1026,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 49.5,
+          "score": -0.05,
+          "rationale": "weak RSI; volume expansion"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 55.0,
+          "score": -0.15,
+          "rationale": "high volatility haircut"
+        }
+      ]
+    },
+    {
+      "symbol": "KULR",
+      "decision": "QUALITY_REJECT",
+      "target_weight": 0.0,
+      "committee_score": -0.15,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "ABSTAIN",
+          "confidence": 0.0,
+          "score": 0.0,
+          "rationale": "point-in-time data not wired yet, abstaining to avoid leakage"
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "MONITOR",
+          "confidence": 58.5,
+          "score": -0.15,
+          "rationale": "weak RSI"
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "MONITOR",
+          "confidence": 55.0,
+          "score": -0.15,
+          "rationale": "high volatility haircut"
+        }
+      ]
+    }
+  ],
+  "discord_summary": "🧠 **AI Hedge Fund Committee** (paper-only)\nCutoff: `2026-01-01`\nGate: `0.35` • snapshots: `{'fundamentals': 0, 'news': 0, 'insiders': 0}`\nBlind: portfolio `8.62%` vs benchmark `-3.28%` = excess `11.90%`\nTop paper decisions:\n• LUNR: **INVEST_PAPER** | score `0.43` | SIT `0.90` | target `5.4%` | confidence-weighted score 0.43; risk=NORMAL; active_agents=2/5\n• RKLB: **INVEST_PAPER** | score `0.43` | SIT `0.90` | target `5.4%` | confidence-weighted score 0.43; risk=NORMAL; active_agents=2/5\n• AME: **MONITOR** | score `0.34` | SIT `0.90` | target `0.0%` | confidence-weighted score 0.34; risk=NORMAL; active_agents=2/5\n• CCJ: **MONITOR** | score `0.29` | SIT `0.72` | target `0.0%` | confidence-weighted score 0.29; risk=NORMAL; active_agents=2/5\n• FSLR: **PASS** | score `0.11` | SIT `0.52` | target `0.0%` | confidence-weighted score 0.11; risk=NORMAL; active_agents=2/5\n• NKE: **QUALITY_REJECT** | score `0.05` | SIT `0.18` | target `0.0%` | SIT 0.18 below gate 0.35\n• PLTR: **QUALITY_REJECT** | score `0.04` | SIT `0.30` | target `0.0%` | SIT 0.30 below gate 0.35\n• NVDA: **QUALITY_REJECT** | score `0.03` | SIT `0.34` | target `0.0%` | SIT 0.34 below gate 0.35\nNo orders placed. Paper/research only.\n"
 }
