@@ -7,5 +7,6 @@
   "agent_heatmap": [],
   "discord_summary": null,
   "blind_evaluation": null,
+  "paper_portfolio": {},
   "caveat": "Paper-only architecture port. Votes use dated local snapshots; live orders are never placed."
 }
