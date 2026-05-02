@@ -17,6 +17,7 @@ STATUS_JSON = WORKSPACE_DIR / 'temp' / 'status' / 'trading-stack-status.json'
 HEALTH_JSON = DATA_DIR / 'engine-health-report.json'
 AIHF_JSON = LOCAL_DATA_DIR / 'ai-hedge-fund-committee-scan.json'
 AIHF_BLIND_JSON = LOCAL_DATA_DIR / 'ai-hedge-fund-committee-blind.json'
+AIHF_PORTFOLIO_JSON = LOCAL_DATA_DIR / 'aihf-paper-portfolio.json'
 OUT_DIR = REPO_DATA_DIR
 SITE_DATA_DIR = REPO_DIR / 'site' / 'data'
 CET = ZoneInfo('Europe/Stockholm')
@@ -403,6 +404,7 @@ def summarize_ai_committee():
         'agent_heatmap': scan.get('agent_heatmap') or [],
         'discord_summary': scan.get('discord_summary'),
         'blind_evaluation': blind.get('blind_evaluation'),
+        'paper_portfolio': read_json(AIHF_PORTFOLIO_JSON, {}),
         'caveat': 'Paper-only architecture port. Votes use dated local snapshots; live orders are never placed.',
     }
 

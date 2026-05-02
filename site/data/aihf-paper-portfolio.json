@@ -1,0 +1,470 @@
+{
+  "created_at": "2026-05-02T06:45:30.465845+00:00",
+  "updated_at": "2026-05-02T06:45:32.317464+00:00",
+  "mode": "paper-only",
+  "cash": 74000.0,
+  "starting_cash": 100000.0,
+  "realized_pnl": 0.0,
+  "positions": {
+    "MSFT": {
+      "symbol": "MSFT",
+      "qty": 13.198533,
+      "avg_price": 414.44,
+      "last_price": 414.44,
+      "opened_at": "2026-05-02T06:45:32.315084+00:00",
+      "target_weight": 0.0547,
+      "committee_score": 0.4332,
+      "sit_score": 0.58,
+      "thesis": "confidence-weighted score 0.43; risk=NORMAL; active_agents=5/5",
+      "stop_price": 364.7072,
+      "take_profit": 538.772,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.7,
+          "rationale": "reasonable PE; debt acceptable; positive free cash flow; ROE quality; profitable margins",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 61.8,
+          "score": 0.14,
+          "rationale": "cashflow + growth",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 96.3,
+          "score": 0.5695,
+          "rationale": "bullish EMA stack; 20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "market_value": 5470.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "qty": 26.455027,
+      "avg_price": 198.45,
+      "last_price": 198.45,
+      "opened_at": "2026-05-02T06:45:32.315673+00:00",
+      "target_weight": 0.0525,
+      "committee_score": 0.4061,
+      "sit_score": 0.9,
+      "thesis": "confidence-weighted score 0.41; risk=NORMAL; active_agents=5/5",
+      "stop_price": 174.636,
+      "take_profit": 257.985,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 92.2,
+          "score": 0.52,
+          "rationale": "debt acceptable; positive free cash flow; ROE quality; profitable margins",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 97.9,
+          "score": 0.5874,
+          "rationale": "bullish EMA stack; 20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 75.0,
+          "score": 0.35,
+          "rationale": "benchmark supportive; medium-term relative momentum",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "market_value": 5250.0,
+      "unrealized_pnl": -0.0,
+      "unrealized_pct": -0.0
+    },
+    "AAPL": {
+      "symbol": "AAPL",
+      "qty": 18.740629,
+      "avg_price": 280.14,
+      "last_price": 280.14,
+      "opened_at": "2026-05-02T06:45:32.315989+00:00",
+      "target_weight": 0.0525,
+      "committee_score": 0.4058,
+      "sit_score": 0.82,
+      "thesis": "confidence-weighted score 0.41; risk=NORMAL; active_agents=5/5",
+      "stop_price": 246.5232,
+      "take_profit": 364.182,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 92.2,
+          "score": 0.52,
+          "rationale": "debt acceptable; positive free cash flow; ROE quality; profitable margins",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 89.2,
+          "score": 0.41,
+          "rationale": "revenue growth; earnings growth; gross margin quality; news tone positive",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.6393,
+          "rationale": "bullish EMA stack; 20d momentum positive; volume expansion",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "market_value": 5250.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0
+    },
+    "VRT": {
+      "symbol": "VRT",
+      "qty": 15.50364,
+      "avg_price": 328.31,
+      "last_price": 328.31,
+      "opened_at": "2026-05-02T06:45:32.316812+00:00",
+      "target_weight": 0.0509,
+      "committee_score": 0.3858,
+      "sit_score": 0.9,
+      "thesis": "confidence-weighted score 0.39; risk=NORMAL; active_agents=5/5",
+      "stop_price": 288.9128,
+      "take_profit": 426.803,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "HOLD",
+          "confidence": 75.7,
+          "score": 0.37,
+          "rationale": "expensive PE; debt acceptable; positive free cash flow; ROE quality; profitable margins",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 83.2,
+          "score": 0.36,
+          "rationale": "revenue growth; earnings growth; gross margin quality",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 61.8,
+          "score": 0.14,
+          "rationale": "cashflow + growth",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "BUY",
+          "confidence": 99.0,
+          "score": 0.6,
+          "rationale": "bullish EMA stack; 20d momentum positive",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 75.0,
+          "score": 0.35,
+          "rationale": "benchmark supportive; medium-term relative momentum",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "market_value": 5090.0,
+      "unrealized_pnl": -0.0,
+      "unrealized_pct": -0.0
+    },
+    "FSLR": {
+      "symbol": "FSLR",
+      "qty": 23.333805,
+      "avg_price": 211.71,
+      "last_price": 211.71,
+      "opened_at": "2026-05-02T06:45:32.317065+00:00",
+      "target_weight": 0.0494,
+      "committee_score": 0.367,
+      "sit_score": 0.52,
+      "thesis": "confidence-weighted score 0.37; risk=NORMAL; active_agents=5/5",
+      "stop_price": 186.3048,
+      "take_profit": 275.223,
+      "votes": [
+        {
+          "agent": "Warren Buffett value",
+          "verdict": "BUY",
+          "confidence": 100,
+          "score": 0.7,
+          "rationale": "reasonable PE; debt acceptable; positive free cash flow; ROE quality; profitable margins",
+          "data_scope": [
+            "fundamentals"
+          ]
+        },
+        {
+          "agent": "Charlie Munger fundamental+news",
+          "verdict": "HOLD",
+          "confidence": 89.2,
+          "score": 0.41,
+          "rationale": "revenue growth; earnings growth; gross margin quality; news tone positive",
+          "data_scope": [
+            "fundamentals",
+            "news"
+          ]
+        },
+        {
+          "agent": "Bill Ackman fundamental+insider",
+          "verdict": "MONITOR",
+          "confidence": 47.4,
+          "score": -0.02,
+          "rationale": "cashflow + growth; insider activity skews sell",
+          "data_scope": [
+            "fundamentals",
+            "insider"
+          ]
+        },
+        {
+          "agent": "Steve Cohen technical",
+          "verdict": "HOLD",
+          "confidence": 69.1,
+          "score": 0.2678,
+          "rationale": "20d momentum positive; volume expansion",
+          "data_scope": [
+            "price",
+            "volume",
+            "ma",
+            "rsi"
+          ]
+        },
+        {
+          "agent": "Ray Dalio macro/price",
+          "verdict": "HOLD",
+          "confidence": 55.0,
+          "score": 0.15,
+          "rationale": "benchmark supportive",
+          "data_scope": [
+            "price",
+            "benchmark",
+            "volatility"
+          ]
+        }
+      ],
+      "market_value": 4940.0,
+      "unrealized_pnl": 0.0,
+      "unrealized_pct": 0.0
+    }
+  },
+  "equity_history": [
+    {
+      "timestamp": "2026-05-02T06:45:32.317456+00:00",
+      "equity": 100000.0,
+      "cash": 74000.0,
+      "market_value": 26000.0,
+      "unrealized_pnl": 0.0,
+      "realized_pnl": 0.0,
+      "total_return": 0.0,
+      "positions": 5
+    }
+  ],
+  "last_committee_generated_at": "2026-05-02T06:45:29.938161+00:00",
+  "risk": {
+    "max_gross_exposure": 0.35,
+    "max_position_weight": 0.08,
+    "stop_loss_pct": 0.12,
+    "take_profit_pct": 0.3
+  },
+  "market_value": 26000.0,
+  "unrealized_pnl": 0.0,
+  "equity": 100000.0,
+  "total_return": 0.0,
+  "last_orders": [
+    {
+      "timestamp": "2026-05-02T06:45:32.315092+00:00",
+      "symbol": "MSFT",
+      "side": "BUY",
+      "qty": 13.198533,
+      "price": 414.44,
+      "value": 5470.0,
+      "reason": "AIHF committee INVEST_PAPER",
+      "mode": "paper",
+      "committee_score": 0.4332,
+      "target_weight": 0.0547
+    },
+    {
+      "timestamp": "2026-05-02T06:45:32.315684+00:00",
+      "symbol": "NVDA",
+      "side": "BUY",
+      "qty": 26.455027,
+      "price": 198.45,
+      "value": 5250.0,
+      "reason": "AIHF committee INVEST_PAPER",
+      "mode": "paper",
+      "committee_score": 0.4061,
+      "target_weight": 0.0525
+    },
+    {
+      "timestamp": "2026-05-02T06:45:32.316001+00:00",
+      "symbol": "AAPL",
+      "side": "BUY",
+      "qty": 18.740629,
+      "price": 280.14,
+      "value": 5250.0,
+      "reason": "AIHF committee INVEST_PAPER",
+      "mode": "paper",
+      "committee_score": 0.4058,
+      "target_weight": 0.0525
+    },
+    {
+      "timestamp": "2026-05-02T06:45:32.316822+00:00",
+      "symbol": "VRT",
+      "side": "BUY",
+      "qty": 15.50364,
+      "price": 328.31,
+      "value": 5090.0,
+      "reason": "AIHF committee INVEST_PAPER",
+      "mode": "paper",
+      "committee_score": 0.3858,
+      "target_weight": 0.0509
+    },
+    {
+      "timestamp": "2026-05-02T06:45:32.317073+00:00",
+      "symbol": "FSLR",
+      "side": "BUY",
+      "qty": 23.333805,
+      "price": 211.71,
+      "value": 4940.0,
+      "reason": "AIHF committee INVEST_PAPER",
+      "mode": "paper",
+      "committee_score": 0.367,
+      "target_weight": 0.0494
+    }
+  ]
+}
