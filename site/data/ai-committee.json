@@ -7,6 +7,8 @@
   "agent_heatmap": [],
   "discord_summary": null,
   "blind_evaluation": null,
-  "paper_portfolio": {},
-  "caveat": "Paper-only architecture port. Votes use dated local snapshots; live orders are never placed."
+  "simulation": {},
+  "alpaca_live": {},
+  "execution_model_note": "Simulation is a local research shadow book. Alpaca Paper Live is the broker paper account and is the primary live-paper track. Results differ because of start date, account equity, whole-share/bracket fills, and existing account positions.",
+  "caveat": "AIHF is Alpaca PAPER only. Simulation and broker paper are separated deliberately."
 }
