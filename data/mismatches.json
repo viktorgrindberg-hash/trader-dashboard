@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "type": "missing_stop",
+    "severity": "critical",
+    "action": "Add stop/protection",
+    "count": 5
+  }
+]
