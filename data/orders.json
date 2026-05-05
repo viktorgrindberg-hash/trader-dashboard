@@ -1,58 +1,58 @@
 [
   {
-    "symbol": "AAPL",
+    "symbol": "VRT",
     "side": "sell",
-    "qty": "6",
-    "type": "limit",
-    "order_class": "bracket",
+    "qty": "5",
+    "type": "stop",
+    "order_class": "",
     "status": "new",
-    "limit_price": "353.24",
-    "stop_price": null,
-    "created_at": "2026-05-05T17:00:05.464906Z"
+    "limit_price": null,
+    "stop_price": "333.56",
+    "created_at": "2026-05-05T17:07:25.886312797Z"
   },
   {
     "symbol": "MSFT",
     "side": "sell",
     "qty": "4",
-    "type": "limit",
-    "order_class": "bracket",
+    "type": "stop",
+    "order_class": "",
     "status": "new",
-    "limit_price": "511.99",
-    "stop_price": null,
-    "created_at": "2026-05-05T17:00:07.203027Z"
-  },
-  {
-    "symbol": "AME",
-    "side": "sell",
-    "qty": "7",
-    "type": "limit",
-    "order_class": "bracket",
-    "status": "new",
-    "limit_price": "296.05",
-    "stop_price": null,
-    "created_at": "2026-05-05T17:00:06.327574Z"
+    "limit_price": null,
+    "stop_price": "403.37",
+    "created_at": "2026-05-05T17:07:24.463382Z"
   },
   {
     "symbol": "FSLR",
     "side": "sell",
     "qty": "8",
-    "type": "limit",
-    "order_class": "bracket",
+    "type": "stop",
+    "order_class": "",
     "status": "new",
-    "limit_price": "272.74",
-    "stop_price": null,
-    "created_at": "2026-05-05T17:00:04.593515Z"
+    "limit_price": null,
+    "stop_price": "214.87",
+    "created_at": "2026-05-05T17:07:23.057442Z"
   },
   {
-    "symbol": "VRT",
+    "symbol": "AME",
     "side": "sell",
-    "qty": "5",
-    "type": "limit",
-    "order_class": "bracket",
+    "qty": "7",
+    "type": "stop",
+    "order_class": "",
     "status": "new",
-    "limit_price": "423.37",
-    "stop_price": null,
-    "created_at": "2026-05-05T17:00:03.7219Z"
+    "limit_price": null,
+    "stop_price": "232.88",
+    "created_at": "2026-05-05T17:07:21.640283Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": "6",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "277.93",
+    "created_at": "2026-05-05T17:07:20.213253Z"
   },
   {
     "symbol": "NVDA",
