@@ -18,6 +18,7 @@ HEALTH_JSON = DATA_DIR / 'engine-health-report.json'
 AIHF_JSON = LOCAL_DATA_DIR / 'ai-hedge-fund-committee-scan.json'
 AIHF_BLIND_JSON = LOCAL_DATA_DIR / 'ai-hedge-fund-committee-blind.json'
 AIHF_PORTFOLIO_JSON = LOCAL_DATA_DIR / 'aihf-paper-portfolio.json'
+AIHF_ALPACA_STATE_JSON = LOCAL_DATA_DIR / 'aihf-alpaca-paper-state.json'
 OUT_DIR = REPO_DATA_DIR
 SITE_DATA_DIR = REPO_DIR / 'site' / 'data'
 CET = ZoneInfo('Europe/Stockholm')
@@ -404,8 +405,10 @@ def summarize_ai_committee():
         'agent_heatmap': scan.get('agent_heatmap') or [],
         'discord_summary': scan.get('discord_summary'),
         'blind_evaluation': blind.get('blind_evaluation'),
-        'paper_portfolio': read_json(AIHF_PORTFOLIO_JSON, {}),
-        'caveat': 'Paper-only architecture port. Votes use dated local snapshots; live orders are never placed.',
+        'simulation': read_json(AIHF_PORTFOLIO_JSON, {}),
+        'alpaca_live': read_json(AIHF_ALPACA_STATE_JSON, {}),
+        'execution_model_note': 'Simulation is a local research shadow book. Alpaca Paper Live is the broker paper account and is the primary live-paper track. Results differ because of start date, account equity, whole-share/bracket fills, and existing account positions.',
+        'caveat': 'AIHF is Alpaca PAPER only. Simulation and broker paper are separated deliberately.',
     }
 
 
