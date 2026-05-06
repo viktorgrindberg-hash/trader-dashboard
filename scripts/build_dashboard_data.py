@@ -354,8 +354,20 @@ def summarize_run_monitor(trades, health):
 
 def summarize_mismatches(positions_summary):
     rows=[]
-    for t in positions_summary.get('stale_journal_opens', []):
-        rows.append({**t, 'type':'journal_open_not_in_alpaca', 'severity':'warning', 'action':'Mark closed/reconcile journal'})
+    stale = positions_summary.get('stale_journal_opens', []) or []
+    if stale:
+        by_engine = {}
+        for t in stale:
+            label = t.get('engine_label') or t.get('engine') or 'unknown'
+            by_engine.setdefault(label, set()).add(t.get('symbol') or '?')
+        rows.append({
+            'type': 'journal_open_not_in_alpaca_summary',
+            'severity': 'info',
+            'count': len(stale),
+            'action': 'Historical journal cleanup needed, not live risk',
+            'details': [f"{k}: {len(v)} symbols" for k, v in sorted(by_engine.items())][:8],
+            'symbols': sorted({t.get('symbol') for t in stale if t.get('symbol')})[:12],
+        })
     if positions_summary.get('missing_stop_count',0):
         rows.append({'type':'missing_stop', 'severity':'critical', 'action':'Add stop/protection', 'count':positions_summary.get('missing_stop_count')})
     return rows
