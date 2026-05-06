@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "ETHUSD",
-    "engine": "Crypto 24/7",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop -",
-    "rr": null,
-    "risk_dollars": 1807.34
-  },
-  {
     "symbol": "XRPUSD",
     "engine": "Crypto 24/7",
     "status": "WATCHLIST",
@@ -20,5 +9,16 @@
     "kill_criteria": "Stop -",
     "rr": null,
     "risk_dollars": 728.66
+  },
+  {
+    "symbol": "ETHUSD",
+    "engine": "Crypto 24/7",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop -",
+    "rr": null,
+    "risk_dollars": 1807.34
   }
 ]
