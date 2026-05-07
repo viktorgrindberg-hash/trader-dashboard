@@ -1,32 +1,10 @@
 {
-  "count": 1,
-  "total_unrealized_pl": -3.23,
-  "longs": 1,
+  "count": 0,
+  "total_unrealized_pl": 0,
+  "longs": 0,
   "shorts": 0,
-  "rows": [
-    {
-      "symbol": "XRPUSD",
-      "side": "long",
-      "qty": 513.447924,
-      "avg_entry_price": 1.4243,
-      "current_price": 1.418,
-      "market_value": 728.069156,
-      "cost_basis": 731.303878,
-      "unrealized_pl": -3.234722,
-      "unrealized_plpc": -0.44,
-      "change_today": -0.14,
-      "asset_class": "crypto",
-      "engine": "crypto_24_7",
-      "engine_label": "Crypto 24/7",
-      "stop_loss": null,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 0,
-      "stop_prices": []
-    }
-  ],
-  "protected_count": 1,
+  "rows": [],
+  "protected_count": 0,
   "missing_stop_count": 0,
   "stale_journal_opens": []
 }
