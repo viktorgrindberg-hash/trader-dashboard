@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "AME",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 233.93",
-    "rr": null,
-    "risk_dollars": 32.41
-  },
-  {
     "symbol": "MSFT",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -33,6 +22,39 @@
     "risk_dollars": 9.48
   },
   {
+    "symbol": "URA",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 57.09",
+    "rr": null,
+    "risk_dollars": 16.92
+  },
+  {
+    "symbol": "GOOG",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 399.37",
+    "rr": null,
+    "risk_dollars": 11.8
+  },
+  {
+    "symbol": "QQQ",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 705.59",
+    "rr": null,
+    "risk_dollars": 10.43
+  },
+  {
     "symbol": "AAPL",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -53,16 +75,5 @@
     "kill_criteria": "Stop 209.5",
     "rr": null,
     "risk_dollars": 12.76
-  },
-  {
-    "symbol": "GOOG",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 399.37",
-    "rr": null,
-    "risk_dollars": 11.8
   }
 ]
