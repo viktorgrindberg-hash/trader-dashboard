@@ -44,15 +44,15 @@
     "risk_dollars": 24.95
   },
   {
-    "symbol": "XRPUSD",
-    "engine": "Crypto 24/7",
+    "symbol": "TSLA",
+    "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop -",
+    "kill_criteria": "Stop 417.85",
     "rr": null,
-    "risk_dollars": 721.3
+    "risk_dollars": 12.72
   },
   {
     "symbol": "QQQ",
@@ -64,16 +64,5 @@
     "kill_criteria": "Stop 693.63",
     "rr": null,
     "risk_dollars": 10.56
-  },
-  {
-    "symbol": "TSLA",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 417.85",
-    "rr": null,
-    "risk_dollars": 12.72
   }
 ]
