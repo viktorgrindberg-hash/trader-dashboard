@@ -33,17 +33,6 @@
     "created_at": "2026-05-08T13:56:31.593335Z"
   },
   {
-    "symbol": "VRT",
-    "side": "sell",
-    "qty": "5",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "341.28",
-    "created_at": "2026-05-08T13:44:30.023049Z"
-  },
-  {
     "symbol": "MSFT",
     "side": "sell",
     "qty": "4",
