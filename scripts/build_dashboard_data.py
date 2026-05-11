@@ -20,6 +20,7 @@ AIHF_JSON = LOCAL_DATA_DIR / 'ai-hedge-fund-committee-scan.json'
 AIHF_BLIND_JSON = LOCAL_DATA_DIR / 'ai-hedge-fund-committee-blind.json'
 AIHF_PORTFOLIO_JSON = LOCAL_DATA_DIR / 'aihf-paper-portfolio.json'
 AIHF_ALPACA_STATE_JSON = LOCAL_DATA_DIR / 'aihf-alpaca-paper-state.json'
+ENGINE_A_DIAG_JSON = LOCAL_DATA_DIR / 'engine-a-diagnostics.json'
 MT5_DIR = Path(r'C:\Users\vikto\metatradertest')
 OUT_DIR = REPO_DATA_DIR
 SITE_DATA_DIR = REPO_DIR / 'site' / 'data'
@@ -526,18 +527,25 @@ def summarize_engine_activity(trades, health, positions_summary):
         key=e['engine']; label=e['label']; a=analytics.get(ENGINE_LABELS.get(key,key)) or analytics.get(label) or {}
         month=a.get('month',{}) if isinstance(a,dict) else {}
         r=run.get(key,{})
+        diag = read_json(ENGINE_A_DIAG_JSON, {}) if key == 'A' else {}
         rows.append({
             'engine':key,'label':label,'closed_month_trades':month.get('trades',0),'closed_month_pnl':month.get('pnl',0),
             'open_positions':e.get('open_positions',0),'unrealized_pl':e.get('unrealized_pl',0),'last_trade_at':e.get('last_trade_at'),
             'last_run':r.get('last_run'),'last_signal':r.get('last_signal'),'last_skip':r.get('last_skip'), 'run_status':r.get('status'),
-            'diagnosis':r.get('diagnosis') or e.get('why_no_trade'),'health_state':e.get('health_state'), 'action_hint': engine_action_hint(key,r,e,month)
+            'diagnosis': engine_diagnosis(key,r,e,month,diag),'health_state':e.get('health_state'), 'action_hint': engine_action_hint(key,r,e,month,diag), 'diagnostics': diag
         })
     return rows
 
 
-def engine_action_hint(key,r,e,month):
+def engine_diagnosis(key,r,e,month,diag=None):
+    if key == 'A' and diag:
+        b=diag.get('blocked',{})
+        return f"Latest scan: {diag.get('actionable',0)} actionable, {diag.get('executed',0)} executed; blocked kelly_health={b.get('kelly_health',0)}, mtf={b.get('mtf',0)}, edge={b.get('edge',0)}."
+    return r.get('diagnosis') or e.get('why_no_trade')
+
+def engine_action_hint(key,r,e,month,diag=None):
     if month.get('trades',0)>0: return 'Trading this month; monitor quality not quantity.'
-    if key=='A': return 'Audit Engine A thresholds/edge filters; it scans but does not execute.'
+    if key=='A': return 'Root cause confirmed: Engine A is auto-paused by health/Kelly after weak old A history. Keep paused or enable tiny canary only after teardown.'
     if key=='B': return 'Inspect veto reasons when signals>0 but executed=0.'
     if key=='crypto_24_7': return 'Separate open/unrealized from closed P/L; reconcile stale opens if any.'
     if key=='unknown': return 'Fix engine mapping for live broker positions.'
