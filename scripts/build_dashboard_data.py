@@ -341,31 +341,46 @@ def summarize_engines(trades, health, positions_summary):
 
 def summarize_run_monitor(trades, health):
     log_path = DATA_DIR / 'engine-run.log'
-    lines = log_path.read_text(encoding='utf-8', errors='ignore').splitlines()[-900:] if log_path.exists() else []
-    monitor = {c['key']: {'engine': c['key'], 'label': c['label'], 'last_run': None, 'last_signal': None, 'last_skip': None, 'status': 'unknown'} for c in CONFIGURED_ENGINES}
-    aliases = {'Engine A':'A','Engine B':'B','A':'A','B':'B','Crypto 24/7':'crypto_24_7','Crypto John':'crypto_john','Engine C':'C','Engine D':'D'}
+    lines = log_path.read_text(encoding='utf-8', errors='ignore').splitlines()[-1500:] if log_path.exists() else []
+    monitor = {c['key']: {'engine': c['key'], 'label': c['label'], 'last_run': None, 'last_signal': None, 'last_skip': None, 'status': 'unknown', 'scanned': 0, 'signals': 0, 'executed': 0, 'diagnosis': 'No recent run found'} for c in CONFIGURED_ENGINES}
     current_ts = None
     for line in lines:
         ts = line[:19] if len(line) >= 19 and line[:4].isdigit() else None
         if ts: current_ts = ts
-        if 'Run started' in line:
+        low=line.lower()
+        if 'run started' in low:
             for key in ('A','B'):
-                monitor[key]['last_run'] = current_ts
-                monitor[key]['status'] = 'ran'
-        if 'Engine A:' in line:
-            monitor['A']['last_signal'] = line.split('Engine A:',1)[1].strip(); monitor['A']['last_run'] = current_ts
-        if 'Engine B:' in line:
-            monitor['B']['last_signal'] = line.split('Engine B:',1)[1].strip(); monitor['B']['last_run'] = current_ts
-        if 'no signal' in line.lower() or 'no trade' in line.lower() or 'skip' in line.lower() or 'outside window' in line.lower():
-            for name,key in aliases.items():
-                if name.lower() in line.lower(): monitor[key]['last_skip'] = line[-180:]
+                monitor[key]['last_run'] = current_ts; monitor[key]['status'] = 'ran'
+        m=re.search(r'Engine A: scanned=(\d+), executed=(\d+)', line)
+        if m:
+            mon=monitor['A']; mon['last_run']=current_ts; mon['scanned']=int(m.group(1)); mon['executed']=int(m.group(2)); mon['last_signal']=line.split('Engine A:',1)[1].strip(); mon['status']='blocked' if int(m.group(2))==0 else 'traded'
+        m=re.search(r'Engine B: signals=(\d+), executed=(\d+)', line)
+        if m:
+            mon=monitor['B']; mon['last_run']=current_ts; mon['signals']=int(m.group(1)); mon['executed']=int(m.group(2)); mon['last_signal']=line.split('Engine B:',1)[1].strip(); mon['status']='blocked' if int(m.group(2))==0 else 'traded'
+        if any(x in low for x in ('skip','no signal','no trade','outside window','max trades','negative ev','llm')):
+            for name,key in {'engine a':'A','engine b':'B','crypto 24/7':'crypto_24_7','crypto john':'crypto_john','engine c':'C','engine d':'D','daytrading':'daytrading'}.items():
+                if name in low: monitor[key]['last_skip'] = line[-220:]
     for e in summarize_engines(trades, health, {'rows': []}):
         key=e['engine']; m=monitor.setdefault(key, {'engine':key,'label':e['label']})
         m.update({'last_trade_at': e.get('last_trade_at'), 'health_state': e.get('health_state'), 'why_no_trade': e.get('why_no_trade'), 'size_multiplier': e.get('size_multiplier'), 'recent_pnl': e.get('recent_pnl'), 'recent_win_rate': e.get('recent_win_rate')})
         if not m.get('last_run') and e.get('last_trade_at'): m['last_run'] = e.get('last_trade_at')
-        m['status'] = 'paused' if e.get('health_state') == 'paused' else 'ok'
+    for key,m in monitor.items():
+        if key=='A' and m.get('scanned') and not m.get('executed'):
+            m['diagnosis']='Scanning symbols but no setups pass multi-signal gates; review thresholds/stale edge filters.'
+        elif key=='B' and m.get('signals') and not m.get('executed'):
+            m['diagnosis']='Signals detected but execution vetoed by risk/edge/LLM/position filters.'
+        elif key=='crypto_24_7':
+            open_crypto=[t for t in trades if trade_engine(t)=='crypto_24_7' and status_of_trade(t)=='open']
+            m['diagnosis']=f'{len(open_crypto)} open journal crypto positions; closed P/L is flat until exits reconcile.' if open_crypto else 'Waiting for strict crypto setup.'
+        elif not m.get('last_trade_at') and not m.get('last_signal'):
+            m['diagnosis']='Configured but no usable recent trade/signal in local journal/log.'
+        elif m.get('executed')==0:
+            m['diagnosis']=m.get('last_skip') or 'Ran but did not execute.'
+        else:
+            m['diagnosis']='Healthy/recent activity.'
+        if m.get('health_state') == 'paused': m['status']='paused'
+        elif m.get('status') == 'unknown': m['status']='ok'
     return list(monitor.values())
-
 
 def summarize_mismatches(positions_summary):
     rows=[]
@@ -501,6 +516,33 @@ def summarize_recent_trades(trades, limit=80):
     return rows[:limit]
 
 
+
+def summarize_engine_activity(trades, health, positions_summary):
+    engines=summarize_engines(trades, health, positions_summary)
+    run={r.get('engine'):r for r in summarize_run_monitor(trades, health)}
+    analytics=summarize_analytics(trades).get('by_engine',{})
+    rows=[]
+    for e in engines:
+        key=e['engine']; label=e['label']; a=analytics.get(ENGINE_LABELS.get(key,key)) or analytics.get(label) or {}
+        month=a.get('month',{}) if isinstance(a,dict) else {}
+        r=run.get(key,{})
+        rows.append({
+            'engine':key,'label':label,'closed_month_trades':month.get('trades',0),'closed_month_pnl':month.get('pnl',0),
+            'open_positions':e.get('open_positions',0),'unrealized_pl':e.get('unrealized_pl',0),'last_trade_at':e.get('last_trade_at'),
+            'last_run':r.get('last_run'),'last_signal':r.get('last_signal'),'last_skip':r.get('last_skip'), 'run_status':r.get('status'),
+            'diagnosis':r.get('diagnosis') or e.get('why_no_trade'),'health_state':e.get('health_state'), 'action_hint': engine_action_hint(key,r,e,month)
+        })
+    return rows
+
+
+def engine_action_hint(key,r,e,month):
+    if month.get('trades',0)>0: return 'Trading this month; monitor quality not quantity.'
+    if key=='A': return 'Audit Engine A thresholds/edge filters; it scans but does not execute.'
+    if key=='B': return 'Inspect veto reasons when signals>0 but executed=0.'
+    if key=='crypto_24_7': return 'Separate open/unrealized from closed P/L; reconcile stale opens if any.'
+    if key=='unknown': return 'Fix engine mapping for live broker positions.'
+    return 'Check cron/log coverage and whether this engine is intentionally inactive.'
+
 def summarize_health(health):
     return {'leaders': [], 'paused': [], 'cooldown': []} if not isinstance(health, dict) else {'leaders': [], 'paused': [], 'cooldown': []}
 
@@ -559,6 +601,7 @@ def build():
         'health.json': summarize_health(health),
         'status.json': {'stack': status, 'configured_engines': CONFIGURED_ENGINES},
         'run-monitor.json': summarize_run_monitor(trades, health),
+        'engine-activity.json': summarize_engine_activity(trades, health, positions),
         'mismatches.json': summarize_mismatches(positions),
         'governance.json': summarize_governance(trades, positions),
         'ai-committee.json': summarize_ai_committee(),
