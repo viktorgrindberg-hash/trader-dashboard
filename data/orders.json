@@ -3,12 +3,12 @@
     "symbol": "NFLX",
     "side": "sell",
     "qty": "12",
-    "type": "limit",
-    "order_class": "bracket",
+    "type": "stop",
+    "order_class": "",
     "status": "new",
-    "limit_price": "90.34",
-    "stop_price": null,
-    "created_at": "2026-05-11T14:32:45.852848Z"
+    "limit_price": null,
+    "stop_price": "85.68",
+    "created_at": "2026-05-11T14:38:40.997053178Z"
   },
   {
     "symbol": "GOOG",

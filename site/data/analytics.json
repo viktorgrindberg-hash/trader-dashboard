@@ -1,0 +1,4467 @@
+{
+  "generated_at": "2026-05-11T18:13:34.335266+02:00",
+  "periods": {
+    "all": {
+      "pnl": 1476.44,
+      "trades": 1258,
+      "wins": 503,
+      "losses": 469,
+      "profit": 10126.1,
+      "loss": -8649.67,
+      "best": {
+        "symbol": "ETHUSD",
+        "pnl": 853.32,
+        "date": "2026-03-16T18:50:17.047262+01:00"
+      },
+      "worst": {
+        "symbol": "SLV",
+        "pnl": -543.37,
+        "date": "2026-03-26T17:15:55.288467+01:00"
+      },
+      "win_rate": 40.0,
+      "profit_factor": 1.17,
+      "expectancy": 1.17
+    },
+    "last_30d": {
+      "pnl": 790.06,
+      "trades": 330,
+      "wins": 178,
+      "losses": 102,
+      "profit": 1565.21,
+      "loss": -775.15,
+      "best": {
+        "symbol": "AVAXUSD",
+        "pnl": 189.93,
+        "date": "2026-04-16T20:53:08.150653+02:00"
+      },
+      "worst": {
+        "symbol": "URA",
+        "pnl": -177.25,
+        "date": "2026-04-16T17:53:02.990267+02:00"
+      },
+      "win_rate": 53.9,
+      "profit_factor": 2.02,
+      "expectancy": 2.39
+    },
+    "month": {
+      "pnl": 223.02,
+      "trades": 59,
+      "wins": 43,
+      "losses": 16,
+      "profit": 283.04,
+      "loss": -60.02,
+      "best": {
+        "symbol": "ETH/USD",
+        "pnl": 42.9,
+        "date": "2026-05-01T15:57:50.641883+02:00"
+      },
+      "worst": {
+        "symbol": "ETH/USD",
+        "pnl": -25.82,
+        "date": "2026-05-06T22:16:11.681455+02:00"
+      },
+      "win_rate": 72.9,
+      "profit_factor": 4.72,
+      "expectancy": 3.78
+    },
+    "today": {
+      "pnl": 13.19,
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "profit": 13.98,
+      "loss": -0.79,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 8.1,
+        "date": "2026-05-11T16:31:01.717993+02:00"
+      },
+      "worst": {
+        "symbol": "AMD",
+        "pnl": -0.79,
+        "date": "2026-05-11T16:12:09.502636+02:00"
+      },
+      "win_rate": 66.7,
+      "profit_factor": 17.7,
+      "expectancy": 4.4
+    },
+    "week": {
+      "pnl": 13.19,
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "profit": 13.98,
+      "loss": -0.79,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 8.1,
+        "date": "2026-05-11T16:31:01.717993+02:00"
+      },
+      "worst": {
+        "symbol": "AMD",
+        "pnl": -0.79,
+        "date": "2026-05-11T16:12:09.502636+02:00"
+      },
+      "win_rate": 66.7,
+      "profit_factor": 17.7,
+      "expectancy": 4.4
+    }
+  },
+  "by_engine": {
+    "unknown": {
+      "all": {
+        "pnl": -97.6,
+        "trades": 150,
+        "wins": 60,
+        "losses": 75,
+        "profit": 861.88,
+        "loss": -959.48,
+        "best": {
+          "symbol": "SMCI",
+          "pnl": 86.51,
+          "date": "2026-02-25T21:45:17.498249+01:00"
+        },
+        "worst": {
+          "symbol": "SMCI",
+          "pnl": -75.83,
+          "date": "2026-02-26T16:15:27.916920+01:00"
+        },
+        "win_rate": 40.0,
+        "profit_factor": 0.9,
+        "expectancy": -0.65
+      },
+      "last_30d": {
+        "pnl": 23.5,
+        "trades": 18,
+        "wins": 3,
+        "losses": 3,
+        "profit": 26.5,
+        "loss": -3.0,
+        "best": {
+          "symbol": "SMCI",
+          "pnl": 14.19,
+          "date": "2026-04-16T21:01:36.263314+02:00"
+        },
+        "worst": {
+          "symbol": "COPX",
+          "pnl": -2.53,
+          "date": "2026-04-16T17:54:33.917140+02:00"
+        },
+        "win_rate": 16.7,
+        "profit_factor": 8.83,
+        "expectancy": 1.31
+      },
+      "month": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "today": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "week": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      }
+    },
+    "Crypto 24/7": {
+      "all": {
+        "pnl": 103.77,
+        "trades": 194,
+        "wins": 69,
+        "losses": 42,
+        "profit": 512.17,
+        "loss": -408.4,
+        "best": {
+          "symbol": "XRP/USD",
+          "pnl": 50.9,
+          "date": "2026-04-16T21:38:58.303089+02:00"
+        },
+        "worst": {
+          "symbol": "BTC/USD",
+          "pnl": -76.06,
+          "date": "2026-02-16T16:31:26.690686+01:00"
+        },
+        "win_rate": 35.6,
+        "profit_factor": 1.25,
+        "expectancy": 0.53
+      },
+      "last_30d": {
+        "pnl": 287.1,
+        "trades": 92,
+        "wins": 52,
+        "losses": 21,
+        "profit": 349.48,
+        "loss": -62.38,
+        "best": {
+          "symbol": "XRP/USD",
+          "pnl": 50.9,
+          "date": "2026-04-16T21:38:58.303089+02:00"
+        },
+        "worst": {
+          "symbol": "XRP/USD",
+          "pnl": -7.49,
+          "date": "2026-04-19T16:17:59.508957+02:00"
+        },
+        "win_rate": 56.5,
+        "profit_factor": 5.6,
+        "expectancy": 3.12
+      },
+      "month": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "today": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "week": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      }
+    },
+    "Engine A, Multi-Signal": {
+      "all": {
+        "pnl": -592.58,
+        "trades": 120,
+        "wins": 27,
+        "losses": 40,
+        "profit": 858.24,
+        "loss": -1450.82,
+        "best": {
+          "symbol": "SLV",
+          "pnl": 265.88,
+          "date": "2026-03-19T08:00:19.222683+01:00"
+        },
+        "worst": {
+          "symbol": "SOLUSD",
+          "pnl": -330.82,
+          "date": "2026-03-18T14:00:08.892208+01:00"
+        },
+        "win_rate": 22.5,
+        "profit_factor": 0.59,
+        "expectancy": -4.94
+      },
+      "last_30d": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "month": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "today": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "week": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      }
+    },
+    "Daytrading Engine": {
+      "all": {
+        "pnl": -312.17,
+        "trades": 424,
+        "wins": 191,
+        "losses": 189,
+        "profit": 1473.65,
+        "loss": -1785.82,
+        "best": {
+          "symbol": "URA",
+          "pnl": 61.06,
+          "date": "2026-03-09T21:45:49.224440+01:00"
+        },
+        "worst": {
+          "symbol": "COPX",
+          "pnl": -145.86,
+          "date": "2026-03-31T20:20:57.735213+02:00"
+        },
+        "win_rate": 45.0,
+        "profit_factor": 0.83,
+        "expectancy": -0.74
+      },
+      "last_30d": {
+        "pnl": 61.44,
+        "trades": 23,
+        "wins": 20,
+        "losses": 3,
+        "profit": 63.27,
+        "loss": -1.83,
+        "best": {
+          "symbol": "URA",
+          "pnl": 18.01,
+          "date": "2026-04-30T20:23:00.751178+02:00"
+        },
+        "worst": {
+          "symbol": "URA",
+          "pnl": -1.35,
+          "date": "2026-05-06T22:16:11.678115+02:00"
+        },
+        "win_rate": 87.0,
+        "profit_factor": 34.57,
+        "expectancy": 2.67
+      },
+      "month": {
+        "pnl": -0.86,
+        "trades": 10,
+        "wins": 7,
+        "losses": 3,
+        "profit": 0.97,
+        "loss": -1.83,
+        "best": {
+          "symbol": "URA",
+          "pnl": 0.52,
+          "date": "2026-05-07T22:15:45.818129+02:00"
+        },
+        "worst": {
+          "symbol": "URA",
+          "pnl": -1.35,
+          "date": "2026-05-06T22:16:11.678115+02:00"
+        },
+        "win_rate": 70.0,
+        "profit_factor": 0.53,
+        "expectancy": -0.09
+      },
+      "today": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "week": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      }
+    },
+    "Engine B, Scalper": {
+      "all": {
+        "pnl": 1930.2,
+        "trades": 114,
+        "wins": 27,
+        "losses": 37,
+        "profit": 5341.16,
+        "loss": -3410.95,
+        "best": {
+          "symbol": "ETHUSD",
+          "pnl": 853.32,
+          "date": "2026-03-16T18:50:17.047262+01:00"
+        },
+        "worst": {
+          "symbol": "SLV",
+          "pnl": -543.37,
+          "date": "2026-03-26T17:15:55.288467+01:00"
+        },
+        "win_rate": 23.7,
+        "profit_factor": 1.57,
+        "expectancy": 16.93
+      },
+      "last_30d": {
+        "pnl": 139.13,
+        "trades": 5,
+        "wins": 2,
+        "losses": 3,
+        "profit": 241.75,
+        "loss": -102.62,
+        "best": {
+          "symbol": "AVAXUSD",
+          "pnl": 189.93,
+          "date": "2026-04-16T20:53:08.150653+02:00"
+        },
+        "worst": {
+          "symbol": "MSFT",
+          "pnl": -47.53,
+          "date": "2026-04-16T17:42:01.351095+02:00"
+        },
+        "win_rate": 40.0,
+        "profit_factor": 2.36,
+        "expectancy": 27.83
+      },
+      "month": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "today": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "week": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      }
+    },
+    "Engine C, ORB": {
+      "all": {
+        "pnl": 290.38,
+        "trades": 155,
+        "wins": 78,
+        "losses": 61,
+        "profit": 806.16,
+        "loss": -515.78,
+        "best": {
+          "symbol": "NVDA",
+          "pnl": 177.2,
+          "date": "2026-04-16T21:27:18.383385+02:00"
+        },
+        "worst": {
+          "symbol": "URA",
+          "pnl": -177.25,
+          "date": "2026-04-16T17:53:02.990267+02:00"
+        },
+        "win_rate": 50.3,
+        "profit_factor": 1.56,
+        "expectancy": 1.87
+      },
+      "last_30d": {
+        "pnl": 125.47,
+        "trades": 116,
+        "wins": 58,
+        "losses": 53,
+        "profit": 620.41,
+        "loss": -494.95,
+        "best": {
+          "symbol": "NVDA",
+          "pnl": 177.2,
+          "date": "2026-04-16T21:27:18.383385+02:00"
+        },
+        "worst": {
+          "symbol": "URA",
+          "pnl": -177.25,
+          "date": "2026-04-16T17:53:02.990267+02:00"
+        },
+        "win_rate": 50.0,
+        "profit_factor": 1.25,
+        "expectancy": 1.08
+      },
+      "month": {
+        "pnl": 146.26,
+        "trades": 33,
+        "wins": 22,
+        "losses": 11,
+        "profit": 170.49,
+        "loss": -24.22,
+        "best": {
+          "symbol": "AMD",
+          "pnl": 28.14,
+          "date": "2026-05-06T16:20:30.314821+02:00"
+        },
+        "worst": {
+          "symbol": "GOOG",
+          "pnl": -8.32,
+          "date": "2026-05-01T16:53:56.385481+02:00"
+        },
+        "win_rate": 66.7,
+        "profit_factor": 7.04,
+        "expectancy": 4.43
+      },
+      "today": {
+        "pnl": 7.31,
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "profit": 8.1,
+        "loss": -0.79,
+        "best": {
+          "symbol": "AMD",
+          "pnl": 8.1,
+          "date": "2026-05-11T16:31:01.717993+02:00"
+        },
+        "worst": {
+          "symbol": "AMD",
+          "pnl": -0.79,
+          "date": "2026-05-11T16:12:09.502636+02:00"
+        },
+        "win_rate": 50.0,
+        "profit_factor": 10.25,
+        "expectancy": 3.65
+      },
+      "week": {
+        "pnl": 7.31,
+        "trades": 2,
+        "wins": 1,
+        "losses": 1,
+        "profit": 8.1,
+        "loss": -0.79,
+        "best": {
+          "symbol": "AMD",
+          "pnl": 8.1,
+          "date": "2026-05-11T16:31:01.717993+02:00"
+        },
+        "worst": {
+          "symbol": "AMD",
+          "pnl": -0.79,
+          "date": "2026-05-11T16:12:09.502636+02:00"
+        },
+        "win_rate": 50.0,
+        "profit_factor": 10.25,
+        "expectancy": 3.65
+      }
+    },
+    "Engine D, Volume Scanner": {
+      "all": {
+        "pnl": 112.54,
+        "trades": 34,
+        "wins": 13,
+        "losses": 12,
+        "profit": 118.74,
+        "loss": -6.2,
+        "best": {
+          "symbol": "TSLA",
+          "pnl": 89.9,
+          "date": "2026-04-16T17:32:12.911388+02:00"
+        },
+        "worst": {
+          "symbol": "AAPL",
+          "pnl": -1.7,
+          "date": "2026-04-02T20:40:59.403169+02:00"
+        },
+        "win_rate": 38.2,
+        "profit_factor": 19.15,
+        "expectancy": 3.31
+      },
+      "last_30d": {
+        "pnl": 114.24,
+        "trades": 17,
+        "wins": 9,
+        "losses": 8,
+        "profit": 117.8,
+        "loss": -3.56,
+        "best": {
+          "symbol": "TSLA",
+          "pnl": 89.9,
+          "date": "2026-04-16T17:32:12.911388+02:00"
+        },
+        "worst": {
+          "symbol": "META",
+          "pnl": -1.5,
+          "date": "2026-04-30T22:16:11.423109+02:00"
+        },
+        "win_rate": 52.9,
+        "profit_factor": 33.09,
+        "expectancy": 6.72
+      },
+      "month": {
+        "pnl": 8.92,
+        "trades": 3,
+        "wins": 3,
+        "losses": 0,
+        "profit": 8.92,
+        "loss": 0.0,
+        "best": {
+          "symbol": "AMZN",
+          "pnl": 8.73,
+          "date": "2026-05-06T20:23:52.780651+02:00"
+        },
+        "worst": {
+          "symbol": "GOOG",
+          "pnl": 0.01,
+          "date": "2026-05-06T22:16:11.670516+02:00"
+        },
+        "win_rate": 100.0,
+        "profit_factor": 999,
+        "expectancy": 2.97
+      },
+      "today": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      },
+      "week": {
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0
+      }
+    },
+    "Crypto John Live": {
+      "all": {
+        "pnl": 41.89,
+        "trades": 67,
+        "wins": 38,
+        "losses": 13,
+        "profit": 154.11,
+        "loss": -112.22,
+        "best": {
+          "symbol": "ETH/USD",
+          "pnl": 42.9,
+          "date": "2026-05-01T15:57:50.641883+02:00"
+        },
+        "worst": {
+          "symbol": "ETH/USD",
+          "pnl": -25.82,
+          "date": "2026-05-06T22:16:11.681455+02:00"
+        },
+        "win_rate": 56.7,
+        "profit_factor": 1.37,
+        "expectancy": 0.63
+      },
+      "last_30d": {
+        "pnl": 39.17,
+        "trades": 59,
+        "wins": 34,
+        "losses": 11,
+        "profit": 145.99,
+        "loss": -106.82,
+        "best": {
+          "symbol": "ETH/USD",
+          "pnl": 42.9,
+          "date": "2026-05-01T15:57:50.641883+02:00"
+        },
+        "worst": {
+          "symbol": "ETH/USD",
+          "pnl": -25.82,
+          "date": "2026-05-06T22:16:11.681455+02:00"
+        },
+        "win_rate": 57.6,
+        "profit_factor": 1.37,
+        "expectancy": 0.66
+      },
+      "month": {
+        "pnl": 68.7,
+        "trades": 13,
+        "wins": 11,
+        "losses": 2,
+        "profit": 102.67,
+        "loss": -33.97,
+        "best": {
+          "symbol": "ETH/USD",
+          "pnl": 42.9,
+          "date": "2026-05-01T15:57:50.641883+02:00"
+        },
+        "worst": {
+          "symbol": "ETH/USD",
+          "pnl": -25.82,
+          "date": "2026-05-06T22:16:11.681455+02:00"
+        },
+        "win_rate": 84.6,
+        "profit_factor": 3.02,
+        "expectancy": 5.28
+      },
+      "today": {
+        "pnl": 5.88,
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 5.88,
+        "loss": 0.0,
+        "best": {
+          "symbol": "ADA/USD",
+          "pnl": 5.88,
+          "date": "2026-05-11T16:24:19.756995+02:00"
+        },
+        "worst": {
+          "symbol": "ADA/USD",
+          "pnl": 5.88,
+          "date": "2026-05-11T16:24:19.756995+02:00"
+        },
+        "win_rate": 100.0,
+        "profit_factor": 999,
+        "expectancy": 5.88
+      },
+      "week": {
+        "pnl": 5.88,
+        "trades": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 5.88,
+        "loss": 0.0,
+        "best": {
+          "symbol": "ADA/USD",
+          "pnl": 5.88,
+          "date": "2026-05-11T16:24:19.756995+02:00"
+        },
+        "worst": {
+          "symbol": "ADA/USD",
+          "pnl": 5.88,
+          "date": "2026-05-11T16:24:19.756995+02:00"
+        },
+        "win_rate": 100.0,
+        "profit_factor": 999,
+        "expectancy": 5.88
+      }
+    }
+  },
+  "hedge_overlay": {
+    "all": {
+      "pnl": 1476.44,
+      "trades": 1258,
+      "wins": 503,
+      "losses": 469,
+      "profit": 10126.1,
+      "loss": -8649.67,
+      "best": {
+        "symbol": "ETHUSD",
+        "pnl": 853.32,
+        "date": "2026-03-16T18:50:17.047262+01:00"
+      },
+      "worst": {
+        "symbol": "SLV",
+        "pnl": -543.37,
+        "date": "2026-03-26T17:15:55.288467+01:00"
+      },
+      "win_rate": 40.0,
+      "profit_factor": 1.17,
+      "expectancy": 1.17
+    },
+    "last_30d": {
+      "pnl": 790.06,
+      "trades": 330,
+      "wins": 178,
+      "losses": 102,
+      "profit": 1565.21,
+      "loss": -775.15,
+      "best": {
+        "symbol": "AVAXUSD",
+        "pnl": 189.93,
+        "date": "2026-04-16T20:53:08.150653+02:00"
+      },
+      "worst": {
+        "symbol": "URA",
+        "pnl": -177.25,
+        "date": "2026-04-16T17:53:02.990267+02:00"
+      },
+      "win_rate": 53.9,
+      "profit_factor": 2.02,
+      "expectancy": 2.39
+    },
+    "month": {
+      "pnl": 223.02,
+      "trades": 59,
+      "wins": 43,
+      "losses": 16,
+      "profit": 283.04,
+      "loss": -60.02,
+      "best": {
+        "symbol": "ETH/USD",
+        "pnl": 42.9,
+        "date": "2026-05-01T15:57:50.641883+02:00"
+      },
+      "worst": {
+        "symbol": "ETH/USD",
+        "pnl": -25.82,
+        "date": "2026-05-06T22:16:11.681455+02:00"
+      },
+      "win_rate": 72.9,
+      "profit_factor": 4.72,
+      "expectancy": 3.78
+    },
+    "today": {
+      "pnl": 13.19,
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "profit": 13.98,
+      "loss": -0.79,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 8.1,
+        "date": "2026-05-11T16:31:01.717993+02:00"
+      },
+      "worst": {
+        "symbol": "AMD",
+        "pnl": -0.79,
+        "date": "2026-05-11T16:12:09.502636+02:00"
+      },
+      "win_rate": 66.7,
+      "profit_factor": 17.7,
+      "expectancy": 4.4
+    },
+    "week": {
+      "pnl": 13.19,
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "profit": 13.98,
+      "loss": -0.79,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 8.1,
+        "date": "2026-05-11T16:31:01.717993+02:00"
+      },
+      "worst": {
+        "symbol": "AMD",
+        "pnl": -0.79,
+        "date": "2026-05-11T16:12:09.502636+02:00"
+      },
+      "win_rate": 66.7,
+      "profit_factor": 17.7,
+      "expectancy": 4.4
+    }
+  },
+  "daily": {
+    "2026-02-16": {
+      "pnl": -76.06,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "profit": 0.0,
+      "loss": -76.06,
+      "best": {
+        "symbol": "BTC/USD",
+        "pnl": -76.06,
+        "date": "2026-02-16T16:31:26.690686+01:00"
+      },
+      "worst": {
+        "symbol": "BTC/USD",
+        "pnl": -76.06,
+        "date": "2026-02-16T16:31:26.690686+01:00"
+      },
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy": -76.06
+    },
+    "2026-02-23": {
+      "pnl": 21.2,
+      "trades": 4,
+      "wins": 2,
+      "losses": 2,
+      "profit": 54.86,
+      "loss": -33.66,
+      "best": {
+        "symbol": "NVDA",
+        "pnl": 40.83,
+        "date": "2026-02-23T19:20:05.491836+01:00"
+      },
+      "worst": {
+        "symbol": "MSFT",
+        "pnl": -30.91,
+        "date": "2026-02-23T18:36:39.285390+01:00"
+      },
+      "win_rate": 50.0,
+      "profit_factor": 1.63,
+      "expectancy": 5.3
+    },
+    "2026-02-24": {
+      "pnl": 113.22,
+      "trades": 25,
+      "wins": 18,
+      "losses": 7,
+      "profit": 144.56,
+      "loss": -31.34,
+      "best": {
+        "symbol": "AMZN",
+        "pnl": 50.85,
+        "date": "2026-02-24T17:29:28.757760+01:00"
+      },
+      "worst": {
+        "symbol": "MSFT",
+        "pnl": -9.45,
+        "date": "2026-02-24T20:10:31.952751+01:00"
+      },
+      "win_rate": 72.0,
+      "profit_factor": 4.61,
+      "expectancy": 4.53
+    },
+    "2026-02-25": {
+      "pnl": -4.37,
+      "trades": 108,
+      "wins": 50,
+      "losses": 38,
+      "profit": 501.08,
+      "loss": -505.45,
+      "best": {
+        "symbol": "SMCI",
+        "pnl": 86.51,
+        "date": "2026-02-25T21:45:17.498249+01:00"
+      },
+      "worst": {
+        "symbol": "AVGO",
+        "pnl": -49.55,
+        "date": "2026-02-25T21:45:17.485216+01:00"
+      },
+      "win_rate": 46.3,
+      "profit_factor": 0.99,
+      "expectancy": -0.04
+    },
+    "2026-02-26": {
+      "pnl": -576.71,
+      "trades": 89,
+      "wins": 30,
+      "losses": 59,
+      "profit": 312.15,
+      "loss": -888.86,
+      "best": {
+        "symbol": "MARA",
+        "pnl": 57.33,
+        "date": "2026-02-26T18:40:08.652749+01:00"
+      },
+      "worst": {
+        "symbol": "SMCI",
+        "pnl": -75.83,
+        "date": "2026-02-26T16:15:27.916920+01:00"
+      },
+      "win_rate": 33.7,
+      "profit_factor": 0.35,
+      "expectancy": -6.48
+    },
+    "2026-02-27": {
+      "pnl": 45.09,
+      "trades": 20,
+      "wins": 6,
+      "losses": 14,
+      "profit": 131.44,
+      "loss": -86.35,
+      "best": {
+        "symbol": "ROKU",
+        "pnl": 41.44,
+        "date": "2026-02-27T20:05:08+01:00"
+      },
+      "worst": {
+        "symbol": "SNAP",
+        "pnl": -15.64,
+        "date": "2026-02-27T15:40:13.640794+01:00"
+      },
+      "win_rate": 30.0,
+      "profit_factor": 1.52,
+      "expectancy": 2.25
+    },
+    "2026-03-02": {
+      "pnl": -191.03,
+      "trades": 11,
+      "wins": 2,
+      "losses": 6,
+      "profit": 2.68,
+      "loss": -193.71,
+      "best": {
+        "symbol": "QQQ",
+        "pnl": 1.61,
+        "date": "2026-03-02T21:46:12.126864+01:00"
+      },
+      "worst": {
+        "symbol": "BTC/USD",
+        "pnl": -107.06,
+        "date": "2026-03-02T19:46:21.208330+01:00"
+      },
+      "win_rate": 18.2,
+      "profit_factor": 0.01,
+      "expectancy": -17.37
+    },
+    "2026-03-03": {
+      "pnl": 12.13,
+      "trades": 12,
+      "wins": 5,
+      "losses": 7,
+      "profit": 61.3,
+      "loss": -49.17,
+      "best": {
+        "symbol": "AMZN",
+        "pnl": 19.64,
+        "date": "2026-03-03T21:45:11.203120+01:00"
+      },
+      "worst": {
+        "symbol": "NFLX",
+        "pnl": -10.43,
+        "date": "2026-03-03T19:00:35.218867+01:00"
+      },
+      "win_rate": 41.7,
+      "profit_factor": 1.25,
+      "expectancy": 1.01
+    },
+    "2026-03-04": {
+      "pnl": 126.17,
+      "trades": 18,
+      "wins": 11,
+      "losses": 7,
+      "profit": 159.54,
+      "loss": -33.37,
+      "best": {
+        "symbol": "SOL/USD",
+        "pnl": 41.8,
+        "date": "2026-03-04T21:45:12.632865+01:00"
+      },
+      "worst": {
+        "symbol": "GDX",
+        "pnl": -16.1,
+        "date": "2026-03-04T18:59:58.719010+01:00"
+      },
+      "win_rate": 61.1,
+      "profit_factor": 4.78,
+      "expectancy": 7.01
+    },
+    "2026-03-05": {
+      "pnl": -115.24,
+      "trades": 14,
+      "wins": 2,
+      "losses": 12,
+      "profit": 24.24,
+      "loss": -139.48,
+      "best": {
+        "symbol": "URA",
+        "pnl": 12.3,
+        "date": "2026-03-05T21:15:09.932646+01:00"
+      },
+      "worst": {
+        "symbol": "AMD",
+        "pnl": -29.3,
+        "date": "2026-03-05T21:33:57.377991+01:00"
+      },
+      "win_rate": 14.3,
+      "profit_factor": 0.17,
+      "expectancy": -8.23
+    },
+    "2026-03-09": {
+      "pnl": 276.8,
+      "trades": 14,
+      "wins": 12,
+      "losses": 2,
+      "profit": 281.42,
+      "loss": -4.62,
+      "best": {
+        "symbol": "URA",
+        "pnl": 61.06,
+        "date": "2026-03-09T21:45:49.224440+01:00"
+      },
+      "worst": {
+        "symbol": "GDX",
+        "pnl": -3.77,
+        "date": "2026-03-09T21:45:11.613862+01:00"
+      },
+      "win_rate": 85.7,
+      "profit_factor": 60.91,
+      "expectancy": 19.77
+    },
+    "2026-03-10": {
+      "pnl": -116.53,
+      "trades": 14,
+      "wins": 2,
+      "losses": 12,
+      "profit": 2.34,
+      "loss": -118.87,
+      "best": {
+        "symbol": "AMZN",
+        "pnl": 1.29,
+        "date": "2026-03-10T21:45:57.106769+01:00"
+      },
+      "worst": {
+        "symbol": "SLV",
+        "pnl": -23.14,
+        "date": "2026-03-10T19:17:11.965940+01:00"
+      },
+      "win_rate": 14.3,
+      "profit_factor": 0.02,
+      "expectancy": -8.32
+    },
+    "2026-03-11": {
+      "pnl": 10.46,
+      "trades": 12,
+      "wins": 6,
+      "losses": 4,
+      "profit": 14.14,
+      "loss": -3.68,
+      "best": {
+        "symbol": "NFLX",
+        "pnl": 5.89,
+        "date": "2026-03-11T21:46:02.943993+01:00"
+      },
+      "worst": {
+        "symbol": "AMD",
+        "pnl": -1.08,
+        "date": "2026-03-11T21:46:02.942334+01:00"
+      },
+      "win_rate": 50.0,
+      "profit_factor": 3.84,
+      "expectancy": 0.87
+    },
+    "2026-03-12": {
+      "pnl": -76.8,
+      "trades": 6,
+      "wins": 0,
+      "losses": 6,
+      "profit": 0.0,
+      "loss": -76.8,
+      "best": {
+        "symbol": "AMD",
+        "pnl": -7.68,
+        "date": "2026-03-12T18:20:18.285241+01:00"
+      },
+      "worst": {
+        "symbol": "SMCI",
+        "pnl": -20.3,
+        "date": "2026-03-12T18:45:19.910130+01:00"
+      },
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy": -12.8
+    },
+    "2026-03-13": {
+      "pnl": 21.57,
+      "trades": 10,
+      "wins": 8,
+      "losses": 2,
+      "profit": 23.01,
+      "loss": -1.44,
+      "best": {
+        "symbol": "AAPL",
+        "pnl": 5.38,
+        "date": "2026-03-13T21:45:37.232086+01:00"
+      },
+      "worst": {
+        "symbol": "AMZN",
+        "pnl": -0.72,
+        "date": "2026-03-13T21:45:37.233643+01:00"
+      },
+      "win_rate": 80.0,
+      "profit_factor": 15.98,
+      "expectancy": 2.16
+    },
+    "2026-03-14": {
+      "pnl": -44.48,
+      "trades": 3,
+      "wins": 0,
+      "losses": 1,
+      "profit": 0.0,
+      "loss": -44.48,
+      "best": {
+        "symbol": "AVAX/USD",
+        "pnl": 0.0,
+        "date": "2026-03-14T00:25:30.079978+01:00"
+      },
+      "worst": {
+        "symbol": "ADA/USD",
+        "pnl": -44.48,
+        "date": "2026-03-14T12:02:43.461278+01:00"
+      },
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy": -14.83
+    },
+    "2026-03-15": {
+      "pnl": 44.5,
+      "trades": 36,
+      "wins": 4,
+      "losses": 1,
+      "profit": 45.49,
+      "loss": -0.99,
+      "best": {
+        "symbol": "AVAX/USD",
+        "pnl": 18.33,
+        "date": "2026-03-15T14:05:59.162526+01:00"
+      },
+      "worst": {
+        "symbol": "SOL/USD",
+        "pnl": -0.99,
+        "date": "2026-03-15T14:05:59.162707+01:00"
+      },
+      "win_rate": 11.1,
+      "profit_factor": 45.95,
+      "expectancy": 1.24
+    },
+    "2026-03-16": {
+      "pnl": 3040.85,
+      "trades": 17,
+      "wins": 12,
+      "losses": 5,
+      "profit": 3110.71,
+      "loss": -69.86,
+      "best": {
+        "symbol": "ETHUSD",
+        "pnl": 853.32,
+        "date": "2026-03-16T18:50:17.047262+01:00"
+      },
+      "worst": {
+        "symbol": "SOL/USD",
+        "pnl": -31.86,
+        "date": "2026-03-16T20:16:05.339582+01:00"
+      },
+      "win_rate": 70.6,
+      "profit_factor": 44.53,
+      "expectancy": 178.87
+    },
+    "2026-03-17": {
+      "pnl": -180.63,
+      "trades": 94,
+      "wins": 32,
+      "losses": 62,
+      "profit": 155.26,
+      "loss": -335.89,
+      "best": {
+        "symbol": "SOLUSD",
+        "pnl": 99.3,
+        "date": "2026-03-17T19:55:11.853607+01:00"
+      },
+      "worst": {
+        "symbol": "SLV",
+        "pnl": -67.25,
+        "date": "2026-03-17T16:36:37.049600+01:00"
+      },
+      "win_rate": 34.0,
+      "profit_factor": 0.46,
+      "expectancy": -1.92
+    },
+    "2026-03-18": {
+      "pnl": -1223.23,
+      "trades": 121,
+      "wins": 26,
+      "losses": 44,
+      "profit": 191.62,
+      "loss": -1414.85,
+      "best": {
+        "symbol": "USO",
+        "pnl": 104.0,
+        "date": "2026-03-18T14:10:09.613096+01:00"
+      },
+      "worst": {
+        "symbol": "SOLUSD",
+        "pnl": -330.82,
+        "date": "2026-03-18T14:00:08.892208+01:00"
+      },
+      "win_rate": 21.5,
+      "profit_factor": 0.14,
+      "expectancy": -10.11
+    },
+    "2026-03-19": {
+      "pnl": 127.09,
+      "trades": 30,
+      "wins": 19,
+      "losses": 8,
+      "profit": 897.85,
+      "loss": -770.76,
+      "best": {
+        "symbol": "SLV",
+        "pnl": 265.88,
+        "date": "2026-03-19T08:00:19.222683+01:00"
+      },
+      "worst": {
+        "symbol": "AMZN",
+        "pnl": -225.5,
+        "date": "2026-03-19T14:30:23.241602+01:00"
+      },
+      "win_rate": 63.3,
+      "profit_factor": 1.16,
+      "expectancy": 4.24
+    },
+    "2026-03-20": {
+      "pnl": 629.94,
+      "trades": 45,
+      "wins": 19,
+      "losses": 16,
+      "profit": 1028.41,
+      "loss": -398.47,
+      "best": {
+        "symbol": "QQQ",
+        "pnl": 393.3,
+        "date": "2026-03-20T19:50:13.183831+01:00"
+      },
+      "worst": {
+        "symbol": "COPX",
+        "pnl": -56.52,
+        "date": "2026-03-20T20:05:19.165520+01:00"
+      },
+      "win_rate": 42.2,
+      "profit_factor": 2.58,
+      "expectancy": 14.0
+    },
+    "2026-03-23": {
+      "pnl": -276.34,
+      "trades": 40,
+      "wins": 3,
+      "losses": 8,
+      "profit": 665.42,
+      "loss": -941.76,
+      "best": {
+        "symbol": "AMZN",
+        "pnl": 550.16,
+        "date": "2026-03-23T08:00:12.128370+01:00"
+      },
+      "worst": {
+        "symbol": "URA",
+        "pnl": -211.4,
+        "date": "2026-03-23T08:00:13.668967+01:00"
+      },
+      "win_rate": 7.5,
+      "profit_factor": 0.71,
+      "expectancy": -6.91
+    },
+    "2026-03-24": {
+      "pnl": -89.68,
+      "trades": 15,
+      "wins": 2,
+      "losses": 2,
+      "profit": 45.32,
+      "loss": -135.0,
+      "best": {
+        "symbol": "TSLA",
+        "pnl": 42.72,
+        "date": "2026-03-24T21:25:40.694818+01:00"
+      },
+      "worst": {
+        "symbol": "URA",
+        "pnl": -94.08,
+        "date": "2026-03-24T19:10:59.438522+01:00"
+      },
+      "win_rate": 13.3,
+      "profit_factor": 0.34,
+      "expectancy": -5.98
+    },
+    "2026-03-25": {
+      "pnl": 40.77,
+      "trades": 27,
+      "wins": 1,
+      "losses": 2,
+      "profit": 91.47,
+      "loss": -50.7,
+      "best": {
+        "symbol": "AVAXUSD",
+        "pnl": 91.47,
+        "date": "2026-03-25T11:30:10.600800+01:00"
+      },
+      "worst": {
+        "symbol": "MSFT",
+        "pnl": -48.88,
+        "date": "2026-03-25T18:15:18.021572+01:00"
+      },
+      "win_rate": 3.7,
+      "profit_factor": 1.8,
+      "expectancy": 1.51
+    },
+    "2026-03-26": {
+      "pnl": -701.15,
+      "trades": 9,
+      "wins": 3,
+      "losses": 2,
+      "profit": 178.16,
+      "loss": -879.31,
+      "best": {
+        "symbol": "GOOG",
+        "pnl": 148.43,
+        "date": "2026-03-26T15:10:39.038469+01:00"
+      },
+      "worst": {
+        "symbol": "SLV",
+        "pnl": -543.37,
+        "date": "2026-03-26T17:15:55.288467+01:00"
+      },
+      "win_rate": 33.3,
+      "profit_factor": 0.2,
+      "expectancy": -77.91
+    },
+    "2026-03-27": {
+      "pnl": 45.92,
+      "trades": 8,
+      "wins": 4,
+      "losses": 3,
+      "profit": 74.25,
+      "loss": -28.33,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 32.01,
+        "date": "2026-03-27T15:00:45.956326+01:00"
+      },
+      "worst": {
+        "symbol": "AMD",
+        "pnl": -20.55,
+        "date": "2026-03-27T15:00:09.826500+01:00"
+      },
+      "win_rate": 50.0,
+      "profit_factor": 2.62,
+      "expectancy": 5.74
+    },
+    "2026-03-30": {
+      "pnl": 0.0,
+      "trades": 1,
+      "wins": 0,
+      "losses": 0,
+      "profit": 0.0,
+      "loss": 0.0,
+      "best": {
+        "symbol": "MSFT",
+        "pnl": 0.0,
+        "date": "2026-03-30T20:50:40.067453+02:00"
+      },
+      "worst": {
+        "symbol": "MSFT",
+        "pnl": 0.0,
+        "date": "2026-03-30T20:50:40.067453+02:00"
+      },
+      "win_rate": 0.0,
+      "profit_factor": 0,
+      "expectancy": 0.0
+    },
+    "2026-03-31": {
+      "pnl": -345.49,
+      "trades": 13,
+      "wins": 4,
+      "losses": 6,
+      "profit": 48.72,
+      "loss": -394.21,
+      "best": {
+        "symbol": "NFLX",
+        "pnl": 29.07,
+        "date": "2026-03-31T19:10:53.305670+02:00"
+      },
+      "worst": {
+        "symbol": "COPX",
+        "pnl": -145.86,
+        "date": "2026-03-31T20:20:57.735213+02:00"
+      },
+      "win_rate": 30.8,
+      "profit_factor": 0.12,
+      "expectancy": -26.58
+    },
+    "2026-04-01": {
+      "pnl": 125.35,
+      "trades": 17,
+      "wins": 11,
+      "losses": 3,
+      "profit": 163.76,
+      "loss": -38.41,
+      "best": {
+        "symbol": "MSFT",
+        "pnl": 40.93,
+        "date": "2026-04-01T21:25:31.530304+02:00"
+      },
+      "worst": {
+        "symbol": "COPX",
+        "pnl": -13.64,
+        "date": "2026-04-01T21:25:28.908958+02:00"
+      },
+      "win_rate": 64.7,
+      "profit_factor": 4.26,
+      "expectancy": 7.37
+    },
+    "2026-04-02": {
+      "pnl": 52.63,
+      "trades": 12,
+      "wins": 5,
+      "losses": 3,
+      "profit": 61.59,
+      "loss": -8.96,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 26.45,
+        "date": "2026-04-02T19:55:48.266471+02:00"
+      },
+      "worst": {
+        "symbol": "COPX",
+        "pnl": -6.84,
+        "date": "2026-04-02T19:31:06.801324+02:00"
+      },
+      "win_rate": 41.7,
+      "profit_factor": 6.87,
+      "expectancy": 4.39
+    },
+    "2026-04-06": {
+      "pnl": 45.54,
+      "trades": 15,
+      "wins": 3,
+      "losses": 2,
+      "profit": 47.56,
+      "loss": -2.02,
+      "best": {
+        "symbol": "TSLA",
+        "pnl": 17.91,
+        "date": "2026-04-06T17:46:03.356415+02:00"
+      },
+      "worst": {
+        "symbol": "SOL/USD",
+        "pnl": -1.8,
+        "date": "2026-04-06T21:15:58.378228+02:00"
+      },
+      "win_rate": 20.0,
+      "profit_factor": 23.54,
+      "expectancy": 3.04
+    },
+    "2026-04-07": {
+      "pnl": 10.48,
+      "trades": 15,
+      "wins": 4,
+      "losses": 0,
+      "profit": 10.48,
+      "loss": 0.0,
+      "best": {
+        "symbol": "TSLA",
+        "pnl": 4.76,
+        "date": "2026-04-07T16:25:48.338395+02:00"
+      },
+      "worst": {
+        "symbol": "ETH/USD",
+        "pnl": 0.0,
+        "date": "2026-04-07T11:18:01.224480+02:00"
+      },
+      "win_rate": 26.7,
+      "profit_factor": 999,
+      "expectancy": 0.7
+    },
+    "2026-04-08": {
+      "pnl": -94.18,
+      "trades": 20,
+      "wins": 5,
+      "losses": 7,
+      "profit": 2.19,
+      "loss": -96.37,
+      "best": {
+        "symbol": "BTC/USD",
+        "pnl": 1.02,
+        "date": "2026-04-08T22:16:18.547463+02:00"
+      },
+      "worst": {
+        "symbol": "AAPL",
+        "pnl": -49.42,
+        "date": "2026-04-08T16:15:23.717435+02:00"
+      },
+      "win_rate": 25.0,
+      "profit_factor": 0.02,
+      "expectancy": -4.71
+    },
+    "2026-04-09": {
+      "pnl": 8.33,
+      "trades": 15,
+      "wins": 9,
+      "losses": 4,
+      "profit": 21.68,
+      "loss": -13.35,
+      "best": {
+        "symbol": "META",
+        "pnl": 8.56,
+        "date": "2026-04-09T18:05:50.075307+02:00"
+      },
+      "worst": {
+        "symbol": "COPX",
+        "pnl": -12.87,
+        "date": "2026-04-09T18:15:19.322522+02:00"
+      },
+      "win_rate": 60.0,
+      "profit_factor": 1.62,
+      "expectancy": 0.56
+    },
+    "2026-04-10": {
+      "pnl": 0.26,
+      "trades": 17,
+      "wins": 5,
+      "losses": 9,
+      "profit": 8.2,
+      "loss": -7.94,
+      "best": {
+        "symbol": "ADA/USD",
+        "pnl": 3.78,
+        "date": "2026-04-10T22:15:20.736266+02:00"
+      },
+      "worst": {
+        "symbol": "ETH/USD",
+        "pnl": -2.98,
+        "date": "2026-04-10T22:15:20.708253+02:00"
+      },
+      "win_rate": 29.4,
+      "profit_factor": 1.03,
+      "expectancy": 0.02
+    },
+    "2026-04-11": {
+      "pnl": 0.0,
+      "trades": 9,
+      "wins": 0,
+      "losses": 0,
+      "profit": 0.0,
+      "loss": 0.0,
+      "best": {
+        "symbol": "XRP/USD",
+        "pnl": 0.0,
+        "date": "2026-04-11T04:45:19.911861+02:00"
+      },
+      "worst": {
+        "symbol": "XRP/USD",
+        "pnl": 0.0,
+        "date": "2026-04-11T04:45:19.911861+02:00"
+      },
+      "win_rate": 0.0,
+      "profit_factor": 0,
+      "expectancy": 0.0
+    },
+    "2026-04-12": {
+      "pnl": 0.0,
+      "trades": 4,
+      "wins": 0,
+      "losses": 0,
+      "profit": 0.0,
+      "loss": 0.0,
+      "best": {
+        "symbol": "XRP/USD",
+        "pnl": 0.0,
+        "date": "2026-04-12T08:15:55.788009+02:00"
+      },
+      "worst": {
+        "symbol": "XRP/USD",
+        "pnl": 0.0,
+        "date": "2026-04-12T08:15:55.788009+02:00"
+      },
+      "win_rate": 0.0,
+      "profit_factor": 0,
+      "expectancy": 0.0
+    },
+    "2026-04-13": {
+      "pnl": 74.51,
+      "trades": 19,
+      "wins": 8,
+      "losses": 7,
+      "profit": 102.3,
+      "loss": -27.79,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 51.82,
+        "date": "2026-04-13T21:31:55.867338+02:00"
+      },
+      "worst": {
+        "symbol": "AMZN",
+        "pnl": -10.96,
+        "date": "2026-04-13T20:02:11.553562+02:00"
+      },
+      "win_rate": 42.1,
+      "profit_factor": 3.68,
+      "expectancy": 3.92
+    },
+    "2026-04-16": {
+      "pnl": 256.81,
+      "trades": 54,
+      "wins": 28,
+      "losses": 15,
+      "profit": 727.17,
+      "loss": -470.36,
+      "best": {
+        "symbol": "AVAXUSD",
+        "pnl": 189.93,
+        "date": "2026-04-16T20:53:08.150653+02:00"
+      },
+      "worst": {
+        "symbol": "URA",
+        "pnl": -177.25,
+        "date": "2026-04-16T17:53:02.990267+02:00"
+      },
+      "win_rate": 51.9,
+      "profit_factor": 1.55,
+      "expectancy": 4.76
+    },
+    "2026-04-17": {
+      "pnl": 73.66,
+      "trades": 20,
+      "wins": 12,
+      "losses": 6,
+      "profit": 79.13,
+      "loss": -5.48,
+      "best": {
+        "symbol": "ETH/USD",
+        "pnl": 40.6,
+        "date": "2026-04-17T12:33:21.217941+02:00"
+      },
+      "worst": {
+        "symbol": "URA",
+        "pnl": -3.4,
+        "date": "2026-04-17T22:15:50.001815+02:00"
+      },
+      "win_rate": 60.0,
+      "profit_factor": 14.44,
+      "expectancy": 3.68
+    },
+    "2026-04-19": {
+      "pnl": -26.0,
+      "trades": 4,
+      "wins": 0,
+      "losses": 4,
+      "profit": 0.0,
+      "loss": -26.0,
+      "best": {
+        "symbol": "XRP/USD",
+        "pnl": -2.75,
+        "date": "2026-04-19T08:18:06.999785+02:00"
+      },
+      "worst": {
+        "symbol": "XRP/USD",
+        "pnl": -9.12,
+        "date": "2026-04-19T03:33:04.101180+02:00"
+      },
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy": -6.5
+    },
+    "2026-04-20": {
+      "pnl": -18.99,
+      "trades": 18,
+      "wins": 10,
+      "losses": 8,
+      "profit": 23.39,
+      "loss": -42.38,
+      "best": {
+        "symbol": "NFLX",
+        "pnl": 12.54,
+        "date": "2026-04-20T17:02:23.085255+02:00"
+      },
+      "worst": {
+        "symbol": "SOL/USD",
+        "pnl": -24.96,
+        "date": "2026-04-20T17:08:04.808426+02:00"
+      },
+      "win_rate": 55.6,
+      "profit_factor": 0.55,
+      "expectancy": -1.05
+    },
+    "2026-04-21": {
+      "pnl": 9.25,
+      "trades": 11,
+      "wins": 5,
+      "losses": 6,
+      "profit": 12.43,
+      "loss": -3.17,
+      "best": {
+        "symbol": "AAPL",
+        "pnl": 11.84,
+        "date": "2026-04-21T18:11:30.026956+02:00"
+      },
+      "worst": {
+        "symbol": "URA",
+        "pnl": -1.56,
+        "date": "2026-04-21T22:15:35.408345+02:00"
+      },
+      "win_rate": 45.5,
+      "profit_factor": 3.92,
+      "expectancy": 0.84
+    },
+    "2026-04-22": {
+      "pnl": 67.16,
+      "trades": 22,
+      "wins": 19,
+      "losses": 3,
+      "profit": 73.68,
+      "loss": -6.52,
+      "best": {
+        "symbol": "URA",
+        "pnl": 20.58,
+        "date": "2026-04-22T20:41:29.331482+02:00"
+      },
+      "worst": {
+        "symbol": "SOL/USD",
+        "pnl": -3.69,
+        "date": "2026-04-22T21:02:00.473416+02:00"
+      },
+      "win_rate": 86.4,
+      "profit_factor": 11.3,
+      "expectancy": 3.05
+    },
+    "2026-04-23": {
+      "pnl": 61.93,
+      "trades": 21,
+      "wins": 14,
+      "losses": 7,
+      "profit": 88.64,
+      "loss": -26.71,
+      "best": {
+        "symbol": "USO",
+        "pnl": 37.71,
+        "date": "2026-04-23T19:23:19.711648+02:00"
+      },
+      "worst": {
+        "symbol": "XRP/USD",
+        "pnl": -11.41,
+        "date": "2026-04-23T17:22:58.730413+02:00"
+      },
+      "win_rate": 66.7,
+      "profit_factor": 3.32,
+      "expectancy": 2.95
+    },
+    "2026-04-24": {
+      "pnl": -6.62,
+      "trades": 37,
+      "wins": 8,
+      "losses": 11,
+      "profit": 46.37,
+      "loss": -53.0,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 13.9,
+        "date": "2026-04-24T16:16:18.087944+02:00"
+      },
+      "worst": {
+        "symbol": "USO",
+        "pnl": -25.2,
+        "date": "2026-04-24T17:45:12.009808+02:00"
+      },
+      "win_rate": 21.6,
+      "profit_factor": 0.87,
+      "expectancy": -0.18
+    },
+    "2026-04-25": {
+      "pnl": -10.72,
+      "trades": 3,
+      "wins": 0,
+      "losses": 2,
+      "profit": 0.0,
+      "loss": -10.72,
+      "best": {
+        "symbol": "ADA/USD",
+        "pnl": 0.0,
+        "date": "2026-04-25T14:09:19.952577+02:00"
+      },
+      "worst": {
+        "symbol": "XRP/USD",
+        "pnl": -5.4,
+        "date": "2026-04-25T20:17:52.926631+02:00"
+      },
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy": -3.57
+    },
+    "2026-04-27": {
+      "pnl": 34.63,
+      "trades": 14,
+      "wins": 11,
+      "losses": 3,
+      "profit": 36.96,
+      "loss": -2.33,
+      "best": {
+        "symbol": "NFLX",
+        "pnl": 18.4,
+        "date": "2026-04-27T21:13:13.607410+02:00"
+      },
+      "worst": {
+        "symbol": "QQQ",
+        "pnl": -1.72,
+        "date": "2026-04-27T18:12:15.975298+02:00"
+      },
+      "win_rate": 78.6,
+      "profit_factor": 15.86,
+      "expectancy": 2.47
+    },
+    "2026-04-28": {
+      "pnl": 7.2,
+      "trades": 12,
+      "wins": 6,
+      "losses": 5,
+      "profit": 20.79,
+      "loss": -13.59,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 15.92,
+        "date": "2026-04-28T16:15:58.003206+02:00"
+      },
+      "worst": {
+        "symbol": "TSLA",
+        "pnl": -10.41,
+        "date": "2026-04-28T17:31:31.399527+02:00"
+      },
+      "win_rate": 50.0,
+      "profit_factor": 1.53,
+      "expectancy": 0.6
+    },
+    "2026-04-29": {
+      "pnl": -4.68,
+      "trades": 11,
+      "wins": 7,
+      "losses": 4,
+      "profit": 3.82,
+      "loss": -8.5,
+      "best": {
+        "symbol": "AMZN",
+        "pnl": 1.25,
+        "date": "2026-04-29T22:15:32.995172+02:00"
+      },
+      "worst": {
+        "symbol": "GOOG",
+        "pnl": -5.16,
+        "date": "2026-04-29T20:45:31.848148+02:00"
+      },
+      "win_rate": 63.6,
+      "profit_factor": 0.45,
+      "expectancy": -0.43
+    },
+    "2026-04-30": {
+      "pnl": 48.9,
+      "trades": 12,
+      "wins": 7,
+      "losses": 5,
+      "profit": 67.48,
+      "loss": -18.59,
+      "best": {
+        "symbol": "MSFT",
+        "pnl": 19.38,
+        "date": "2026-04-30T18:52:52.849295+02:00"
+      },
+      "worst": {
+        "symbol": "GOOG",
+        "pnl": -9.66,
+        "date": "2026-04-30T17:01:36.819192+02:00"
+      },
+      "win_rate": 58.3,
+      "profit_factor": 3.63,
+      "expectancy": 4.08
+    },
+    "2026-05-01": {
+      "pnl": 83.27,
+      "trades": 11,
+      "wins": 7,
+      "losses": 4,
+      "profit": 92.49,
+      "loss": -9.22,
+      "best": {
+        "symbol": "ETH/USD",
+        "pnl": 42.9,
+        "date": "2026-05-01T15:57:50.641883+02:00"
+      },
+      "worst": {
+        "symbol": "GOOG",
+        "pnl": -8.32,
+        "date": "2026-05-01T16:53:56.385481+02:00"
+      },
+      "win_rate": 63.6,
+      "profit_factor": 10.03,
+      "expectancy": 7.57
+    },
+    "2026-05-04": {
+      "pnl": 32.75,
+      "trades": 11,
+      "wins": 7,
+      "losses": 4,
+      "profit": 34.72,
+      "loss": -1.97,
+      "best": {
+        "symbol": "AMZN",
+        "pnl": 18.46,
+        "date": "2026-05-04T16:46:27.155327+02:00"
+      },
+      "worst": {
+        "symbol": "NVDA",
+        "pnl": -1.24,
+        "date": "2026-05-04T22:15:30.821127+02:00"
+      },
+      "win_rate": 63.6,
+      "profit_factor": 17.62,
+      "expectancy": 2.98
+    },
+    "2026-05-05": {
+      "pnl": 6.4,
+      "trades": 5,
+      "wins": 4,
+      "losses": 1,
+      "profit": 14.55,
+      "loss": -8.15,
+      "best": {
+        "symbol": "NFLX",
+        "pnl": 12.29,
+        "date": "2026-05-05T17:30:27.145568+02:00"
+      },
+      "worst": {
+        "symbol": "ETH/USD",
+        "pnl": -8.15,
+        "date": "2026-05-05T22:16:00.038679+02:00"
+      },
+      "win_rate": 80.0,
+      "profit_factor": 1.79,
+      "expectancy": 1.28
+    },
+    "2026-05-06": {
+      "pnl": 66.3,
+      "trades": 13,
+      "wins": 10,
+      "losses": 3,
+      "profit": 98.27,
+      "loss": -31.96,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 28.14,
+        "date": "2026-05-06T16:20:30.314821+02:00"
+      },
+      "worst": {
+        "symbol": "ETH/USD",
+        "pnl": -25.82,
+        "date": "2026-05-06T22:16:11.681455+02:00"
+      },
+      "win_rate": 76.9,
+      "profit_factor": 3.07,
+      "expectancy": 5.1
+    },
+    "2026-05-07": {
+      "pnl": 15.25,
+      "trades": 8,
+      "wins": 5,
+      "losses": 3,
+      "profit": 23.18,
+      "loss": -7.93,
+      "best": {
+        "symbol": "NVDA",
+        "pnl": 22.28,
+        "date": "2026-05-07T16:29:42.536015+02:00"
+      },
+      "worst": {
+        "symbol": "META",
+        "pnl": -6.61,
+        "date": "2026-05-07T21:18:14.183014+02:00"
+      },
+      "win_rate": 62.5,
+      "profit_factor": 2.92,
+      "expectancy": 1.91
+    },
+    "2026-05-08": {
+      "pnl": 5.86,
+      "trades": 8,
+      "wins": 8,
+      "losses": 0,
+      "profit": 5.86,
+      "loss": 0.0,
+      "best": {
+        "symbol": "ETH/USD",
+        "pnl": 1.16,
+        "date": "2026-05-08T21:34:39.465186+02:00"
+      },
+      "worst": {
+        "symbol": "QQQ",
+        "pnl": 0.1,
+        "date": "2026-05-08T21:34:39.485266+02:00"
+      },
+      "win_rate": 100.0,
+      "profit_factor": 999,
+      "expectancy": 0.73
+    },
+    "2026-05-11": {
+      "pnl": 13.19,
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "profit": 13.98,
+      "loss": -0.79,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 8.1,
+        "date": "2026-05-11T16:31:01.717993+02:00"
+      },
+      "worst": {
+        "symbol": "AMD",
+        "pnl": -0.79,
+        "date": "2026-05-11T16:12:09.502636+02:00"
+      },
+      "win_rate": 66.7,
+      "profit_factor": 17.7,
+      "expectancy": 4.4
+    }
+  },
+  "weekly": {
+    "2026-W08": {
+      "pnl": -76.06,
+      "trades": 1,
+      "wins": 0,
+      "losses": 1,
+      "profit": 0.0,
+      "loss": -76.06,
+      "best": {
+        "symbol": "BTC/USD",
+        "pnl": -76.06,
+        "date": "2026-02-16T16:31:26.690686+01:00"
+      },
+      "worst": {
+        "symbol": "BTC/USD",
+        "pnl": -76.06,
+        "date": "2026-02-16T16:31:26.690686+01:00"
+      },
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy": -76.06
+    },
+    "2026-W09": {
+      "pnl": -401.57,
+      "trades": 246,
+      "wins": 106,
+      "losses": 120,
+      "profit": 1144.09,
+      "loss": -1545.66,
+      "best": {
+        "symbol": "SMCI",
+        "pnl": 86.51,
+        "date": "2026-02-25T21:45:17.498249+01:00"
+      },
+      "worst": {
+        "symbol": "SMCI",
+        "pnl": -75.83,
+        "date": "2026-02-26T16:15:27.916920+01:00"
+      },
+      "win_rate": 43.1,
+      "profit_factor": 0.74,
+      "expectancy": -1.63
+    },
+    "2026-W10": {
+      "pnl": -167.97,
+      "trades": 55,
+      "wins": 20,
+      "losses": 32,
+      "profit": 247.76,
+      "loss": -415.73,
+      "best": {
+        "symbol": "SOL/USD",
+        "pnl": 41.8,
+        "date": "2026-03-04T21:45:12.632865+01:00"
+      },
+      "worst": {
+        "symbol": "BTC/USD",
+        "pnl": -107.06,
+        "date": "2026-03-02T19:46:21.208330+01:00"
+      },
+      "win_rate": 36.4,
+      "profit_factor": 0.6,
+      "expectancy": -3.05
+    },
+    "2026-W11": {
+      "pnl": 115.52,
+      "trades": 95,
+      "wins": 32,
+      "losses": 28,
+      "profit": 366.4,
+      "loss": -250.88,
+      "best": {
+        "symbol": "URA",
+        "pnl": 61.06,
+        "date": "2026-03-09T21:45:49.224440+01:00"
+      },
+      "worst": {
+        "symbol": "ADA/USD",
+        "pnl": -44.48,
+        "date": "2026-03-14T12:02:43.461278+01:00"
+      },
+      "win_rate": 33.7,
+      "profit_factor": 1.46,
+      "expectancy": 1.22
+    },
+    "2026-W12": {
+      "pnl": 2394.02,
+      "trades": 307,
+      "wins": 108,
+      "losses": 135,
+      "profit": 5383.85,
+      "loss": -2989.83,
+      "best": {
+        "symbol": "ETHUSD",
+        "pnl": 853.32,
+        "date": "2026-03-16T18:50:17.047262+01:00"
+      },
+      "worst": {
+        "symbol": "SOLUSD",
+        "pnl": -330.82,
+        "date": "2026-03-18T14:00:08.892208+01:00"
+      },
+      "win_rate": 35.2,
+      "profit_factor": 1.8,
+      "expectancy": 7.8
+    },
+    "2026-W13": {
+      "pnl": -980.48,
+      "trades": 99,
+      "wins": 13,
+      "losses": 17,
+      "profit": 1054.62,
+      "loss": -2035.1,
+      "best": {
+        "symbol": "AMZN",
+        "pnl": 550.16,
+        "date": "2026-03-23T08:00:12.128370+01:00"
+      },
+      "worst": {
+        "symbol": "SLV",
+        "pnl": -543.37,
+        "date": "2026-03-26T17:15:55.288467+01:00"
+      },
+      "win_rate": 13.1,
+      "profit_factor": 0.52,
+      "expectancy": -9.9
+    },
+    "2026-W14": {
+      "pnl": -167.51,
+      "trades": 43,
+      "wins": 20,
+      "losses": 12,
+      "profit": 274.07,
+      "loss": -441.58,
+      "best": {
+        "symbol": "MSFT",
+        "pnl": 40.93,
+        "date": "2026-04-01T21:25:31.530304+02:00"
+      },
+      "worst": {
+        "symbol": "COPX",
+        "pnl": -145.86,
+        "date": "2026-03-31T20:20:57.735213+02:00"
+      },
+      "win_rate": 46.5,
+      "profit_factor": 0.62,
+      "expectancy": -3.9
+    },
+    "2026-W15": {
+      "pnl": -29.57,
+      "trades": 95,
+      "wins": 26,
+      "losses": 22,
+      "profit": 90.11,
+      "loss": -119.68,
+      "best": {
+        "symbol": "TSLA",
+        "pnl": 17.91,
+        "date": "2026-04-06T17:46:03.356415+02:00"
+      },
+      "worst": {
+        "symbol": "AAPL",
+        "pnl": -49.42,
+        "date": "2026-04-08T16:15:23.717435+02:00"
+      },
+      "win_rate": 27.4,
+      "profit_factor": 0.75,
+      "expectancy": -0.31
+    },
+    "2026-W16": {
+      "pnl": 378.97,
+      "trades": 97,
+      "wins": 48,
+      "losses": 32,
+      "profit": 908.6,
+      "loss": -529.63,
+      "best": {
+        "symbol": "AVAXUSD",
+        "pnl": 189.93,
+        "date": "2026-04-16T20:53:08.150653+02:00"
+      },
+      "worst": {
+        "symbol": "URA",
+        "pnl": -177.25,
+        "date": "2026-04-16T17:53:02.990267+02:00"
+      },
+      "win_rate": 49.5,
+      "profit_factor": 1.72,
+      "expectancy": 3.91
+    },
+    "2026-W17": {
+      "pnl": 102.01,
+      "trades": 112,
+      "wins": 56,
+      "losses": 37,
+      "profit": 244.5,
+      "loss": -142.49,
+      "best": {
+        "symbol": "USO",
+        "pnl": 37.71,
+        "date": "2026-04-23T19:23:19.711648+02:00"
+      },
+      "worst": {
+        "symbol": "USO",
+        "pnl": -25.2,
+        "date": "2026-04-24T17:45:12.009808+02:00"
+      },
+      "win_rate": 50.0,
+      "profit_factor": 1.72,
+      "expectancy": 0.91
+    },
+    "2026-W18": {
+      "pnl": 169.32,
+      "trades": 60,
+      "wins": 38,
+      "losses": 21,
+      "profit": 221.55,
+      "loss": -52.23,
+      "best": {
+        "symbol": "ETH/USD",
+        "pnl": 42.9,
+        "date": "2026-05-01T15:57:50.641883+02:00"
+      },
+      "worst": {
+        "symbol": "TSLA",
+        "pnl": -10.41,
+        "date": "2026-04-28T17:31:31.399527+02:00"
+      },
+      "win_rate": 63.3,
+      "profit_factor": 4.24,
+      "expectancy": 2.82
+    },
+    "2026-W19": {
+      "pnl": 126.56,
+      "trades": 45,
+      "wins": 34,
+      "losses": 11,
+      "profit": 176.57,
+      "loss": -50.01,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 28.14,
+        "date": "2026-05-06T16:20:30.314821+02:00"
+      },
+      "worst": {
+        "symbol": "ETH/USD",
+        "pnl": -25.82,
+        "date": "2026-05-06T22:16:11.681455+02:00"
+      },
+      "win_rate": 75.6,
+      "profit_factor": 3.53,
+      "expectancy": 2.81
+    },
+    "2026-W20": {
+      "pnl": 13.19,
+      "trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "profit": 13.98,
+      "loss": -0.79,
+      "best": {
+        "symbol": "AMD",
+        "pnl": 8.1,
+        "date": "2026-05-11T16:31:01.717993+02:00"
+      },
+      "worst": {
+        "symbol": "AMD",
+        "pnl": -0.79,
+        "date": "2026-05-11T16:12:09.502636+02:00"
+      },
+      "win_rate": 66.7,
+      "profit_factor": 17.7,
+      "expectancy": 4.4
+    }
+  },
+  "monthly": {
+    "2026-02": {
+      "pnl": -477.63,
+      "trades": 247,
+      "wins": 106,
+      "losses": 121,
+      "profit": 1144.09,
+      "loss": -1621.72,
+      "best": {
+        "symbol": "SMCI",
+        "pnl": 86.51,
+        "date": "2026-02-25T21:45:17.498249+01:00"
+      },
+      "worst": {
+        "symbol": "BTC/USD",
+        "pnl": -76.06,
+        "date": "2026-02-16T16:31:26.690686+01:00"
+      },
+      "win_rate": 42.9,
+      "profit_factor": 0.71,
+      "expectancy": -1.93
+    },
+    "2026-03": {
+      "pnl": 1015.6,
+      "trades": 570,
+      "wins": 177,
+      "losses": 218,
+      "profit": 7101.35,
+      "loss": -6085.75,
+      "best": {
+        "symbol": "ETHUSD",
+        "pnl": 853.32,
+        "date": "2026-03-16T18:50:17.047262+01:00"
+      },
+      "worst": {
+        "symbol": "SLV",
+        "pnl": -543.37,
+        "date": "2026-03-26T17:15:55.288467+01:00"
+      },
+      "win_rate": 31.1,
+      "profit_factor": 1.17,
+      "expectancy": 1.78
+    },
+    "2026-04": {
+      "pnl": 715.44,
+      "trades": 382,
+      "wins": 177,
+      "losses": 114,
+      "profit": 1597.62,
+      "loss": -882.18,
+      "best": {
+        "symbol": "AVAXUSD",
+        "pnl": 189.93,
+        "date": "2026-04-16T20:53:08.150653+02:00"
+      },
+      "worst": {
+        "symbol": "URA",
+        "pnl": -177.25,
+        "date": "2026-04-16T17:53:02.990267+02:00"
+      },
+      "win_rate": 46.3,
+      "profit_factor": 1.81,
+      "expectancy": 1.87
+    },
+    "2026-05": {
+      "pnl": 223.02,
+      "trades": 59,
+      "wins": 43,
+      "losses": 16,
+      "profit": 283.04,
+      "loss": -60.02,
+      "best": {
+        "symbol": "ETH/USD",
+        "pnl": 42.9,
+        "date": "2026-05-01T15:57:50.641883+02:00"
+      },
+      "worst": {
+        "symbol": "ETH/USD",
+        "pnl": -25.82,
+        "date": "2026-05-06T22:16:11.681455+02:00"
+      },
+      "win_rate": 72.9,
+      "profit_factor": 4.72,
+      "expectancy": 3.78
+    }
+  },
+  "equity_curve": [
+    {
+      "date": "2026-04-17T16:55:49.796656+02:00",
+      "pnl": 8.88,
+      "cum": 1077.55,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T16:55:50.995035+02:00",
+      "pnl": 5.22,
+      "cum": 1082.77,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T19:23:29.426664+02:00",
+      "pnl": 9.39,
+      "cum": 1092.16,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:49.963770+02:00",
+      "pnl": 0.58,
+      "cum": 1092.74,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:49.968970+02:00",
+      "pnl": 1.28,
+      "cum": 1094.02,
+      "symbol": "DOGE/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:49.971779+02:00",
+      "pnl": 0.92,
+      "cum": 1094.94,
+      "symbol": "ADA/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:49.975774+02:00",
+      "pnl": 0.55,
+      "cum": 1095.49,
+      "symbol": "LINK/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:49.979459+02:00",
+      "pnl": -0.73,
+      "cum": 1094.76,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:49.983095+02:00",
+      "pnl": -0.32,
+      "cum": 1094.44,
+      "symbol": "NFLX",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:49.986560+02:00",
+      "pnl": 0.26,
+      "cum": 1094.7,
+      "symbol": "MSFT",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:49.990322+02:00",
+      "pnl": -0.05,
+      "cum": 1094.65,
+      "symbol": "QQQ",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:49.993926+02:00",
+      "pnl": -0.78,
+      "cum": 1093.87,
+      "symbol": "META",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:49.998316+02:00",
+      "pnl": -0.2,
+      "cum": 1093.67,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:50.001815+02:00",
+      "pnl": -3.4,
+      "cum": 1090.27,
+      "symbol": "URA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:50.005073+02:00",
+      "pnl": 0.67,
+      "cum": 1090.94,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-17T22:15:50.007946+02:00",
+      "pnl": 0.41,
+      "cum": 1091.35,
+      "symbol": "COPX",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-19T03:33:04.101180+02:00",
+      "pnl": -9.12,
+      "cum": 1082.23,
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-19T08:18:06.999785+02:00",
+      "pnl": -2.75,
+      "cum": 1079.48,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-19T15:48:19.202212+02:00",
+      "pnl": -6.63,
+      "cum": 1072.84,
+      "symbol": "DOT/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-19T16:17:59.508957+02:00",
+      "pnl": -7.49,
+      "cum": 1065.35,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T00:03:06.117761+02:00",
+      "pnl": -5.57,
+      "cum": 1059.78,
+      "symbol": "SOL/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T17:02:23.085255+02:00",
+      "pnl": 12.54,
+      "cum": 1072.32,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T17:08:04.808426+02:00",
+      "pnl": -24.96,
+      "cum": 1047.36,
+      "symbol": "SOL/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T20:31:43.448416+02:00",
+      "pnl": -7.14,
+      "cum": 1040.22,
+      "symbol": "COPX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T21:29:01.429329+02:00",
+      "pnl": 1.73,
+      "cum": 1041.95,
+      "symbol": "DOGE/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T21:29:16.872397+02:00",
+      "pnl": -2.05,
+      "cum": 1039.9,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.191301+02:00",
+      "pnl": 0.27,
+      "cum": 1040.17,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.194475+02:00",
+      "pnl": 1.42,
+      "cum": 1041.58,
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.197382+02:00",
+      "pnl": -0.0,
+      "cum": 1041.58,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.200221+02:00",
+      "pnl": -1.27,
+      "cum": 1040.31,
+      "symbol": "AAPL",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.202594+02:00",
+      "pnl": -0.95,
+      "cum": 1039.35,
+      "symbol": "MSFT",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.205396+02:00",
+      "pnl": 1.34,
+      "cum": 1040.69,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.207849+02:00",
+      "pnl": 1.11,
+      "cum": 1041.81,
+      "symbol": "SOL/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.210945+02:00",
+      "pnl": 3.29,
+      "cum": 1045.1,
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.214170+02:00",
+      "pnl": 0.68,
+      "cum": 1045.77,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.217387+02:00",
+      "pnl": -0.43,
+      "cum": 1045.34,
+      "symbol": "META",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.220222+02:00",
+      "pnl": 0.19,
+      "cum": 1045.53,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-20T22:15:49.223179+02:00",
+      "pnl": 0.84,
+      "cum": 1046.36,
+      "symbol": "DOGE/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T18:11:30.026956+02:00",
+      "pnl": 11.84,
+      "cum": 1058.2,
+      "symbol": "AAPL",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T22:15:35.395158+02:00",
+      "pnl": 0.13,
+      "cum": 1058.33,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T22:15:35.398285+02:00",
+      "pnl": -0.84,
+      "cum": 1057.49,
+      "symbol": "TSLA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T22:15:35.401047+02:00",
+      "pnl": -0.48,
+      "cum": 1057.01,
+      "symbol": "MSFT",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T22:15:35.403415+02:00",
+      "pnl": -0.08,
+      "cum": 1056.93,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T22:15:35.405803+02:00",
+      "pnl": 0.02,
+      "cum": 1056.95,
+      "symbol": "META",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T22:15:35.408345+02:00",
+      "pnl": -1.56,
+      "cum": 1055.39,
+      "symbol": "URA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T22:15:35.410776+02:00",
+      "pnl": -0.0,
+      "cum": 1055.39,
+      "symbol": "SOL/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T22:15:35.413229+02:00",
+      "pnl": -0.21,
+      "cum": 1055.18,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T22:15:35.415670+02:00",
+      "pnl": 0.22,
+      "cum": 1055.41,
+      "symbol": "DIA",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-21T22:15:35.418617+02:00",
+      "pnl": 0.21,
+      "cum": 1055.62,
+      "symbol": "GLD",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T05:03:28.844010+02:00",
+      "pnl": -2.53,
+      "cum": 1053.09,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T07:18:16.110750+02:00",
+      "pnl": 1.4,
+      "cum": 1054.49,
+      "symbol": "DOT/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T07:18:16.110750+02:00",
+      "pnl": 7.3,
+      "cum": 1061.79,
+      "symbol": "DOT/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T07:33:09.972583+02:00",
+      "pnl": 6.05,
+      "cum": 1067.84,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T07:33:11.108795+02:00",
+      "pnl": 5.05,
+      "cum": 1072.89,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T12:05:40.007419+02:00",
+      "pnl": 12.26,
+      "cum": 1085.15,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T15:21:28.694621+02:00",
+      "pnl": 2.27,
+      "cum": 1087.42,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T15:38:02.521383+02:00",
+      "pnl": 0.33,
+      "cum": 1087.75,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T16:14:49.796048+02:00",
+      "pnl": 0.39,
+      "cum": 1088.14,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T19:46:43.630584+02:00",
+      "pnl": 13.9,
+      "cum": 1102.04,
+      "symbol": "AMD",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T20:41:29.331482+02:00",
+      "pnl": 20.58,
+      "cum": 1122.62,
+      "symbol": "URA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T21:02:00.473416+02:00",
+      "pnl": -3.69,
+      "cum": 1118.93,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T21:29:31.574190+02:00",
+      "pnl": 1.53,
+      "cum": 1120.46,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T22:15:44.284776+02:00",
+      "pnl": 0.45,
+      "cum": 1120.91,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T22:15:44.287436+02:00",
+      "pnl": 0.22,
+      "cum": 1121.13,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T22:15:44.289744+02:00",
+      "pnl": -0.3,
+      "cum": 1120.83,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T22:15:44.292018+02:00",
+      "pnl": 0.7,
+      "cum": 1121.53,
+      "symbol": "MSFT",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T22:15:44.294357+02:00",
+      "pnl": 0.08,
+      "cum": 1121.61,
+      "symbol": "QQQ",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T22:15:44.296630+02:00",
+      "pnl": 0.64,
+      "cum": 1122.25,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T22:15:44.298915+02:00",
+      "pnl": 0.06,
+      "cum": 1122.31,
+      "symbol": "TSLA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T22:15:44.301178+02:00",
+      "pnl": 0.39,
+      "cum": 1122.7,
+      "symbol": "AAPL",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-22T22:15:44.303435+02:00",
+      "pnl": 0.07,
+      "cum": 1122.77,
+      "symbol": "AMZN",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T07:48:51.504576+02:00",
+      "pnl": 4.72,
+      "cum": 1127.5,
+      "symbol": "AVAX/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T11:20:09.329810+02:00",
+      "pnl": -5.61,
+      "cum": 1121.88,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T11:20:09.329810+02:00",
+      "pnl": -4.06,
+      "cum": 1117.82,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T17:22:58.730413+02:00",
+      "pnl": -11.41,
+      "cum": 1106.41,
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T18:08:06.673942+02:00",
+      "pnl": -4.52,
+      "cum": 1101.89,
+      "symbol": "AVAX/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T19:08:34.273063+02:00",
+      "pnl": 1.95,
+      "cum": 1103.84,
+      "symbol": "SOL/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T19:23:19.711648+02:00",
+      "pnl": 37.71,
+      "cum": 1141.55,
+      "symbol": "USO",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T19:43:25.838169+02:00",
+      "pnl": 10.24,
+      "cum": 1151.79,
+      "symbol": "MSFT",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T19:43:27.887538+02:00",
+      "pnl": 27.09,
+      "cum": 1178.88,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.756184+02:00",
+      "pnl": -0.48,
+      "cum": 1178.4,
+      "symbol": "TSLA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.758980+02:00",
+      "pnl": 1.12,
+      "cum": 1179.52,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.761797+02:00",
+      "pnl": 0.56,
+      "cum": 1180.08,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.764354+02:00",
+      "pnl": 0.23,
+      "cum": 1180.31,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.766797+02:00",
+      "pnl": 0.8,
+      "cum": 1181.11,
+      "symbol": "AVAX/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.769481+02:00",
+      "pnl": 0.62,
+      "cum": 1181.73,
+      "symbol": "ADA/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.772018+02:00",
+      "pnl": 0.45,
+      "cum": 1182.18,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.774494+02:00",
+      "pnl": 2.51,
+      "cum": 1184.69,
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.776873+02:00",
+      "pnl": 0.47,
+      "cum": 1185.15,
+      "symbol": "URA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.779307+02:00",
+      "pnl": -0.42,
+      "cum": 1184.73,
+      "symbol": "NVDA",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.781634+02:00",
+      "pnl": -0.2,
+      "cum": 1184.53,
+      "symbol": "TSLA",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-23T22:15:52.784032+02:00",
+      "pnl": 0.17,
+      "cum": 1184.7,
+      "symbol": "COPX",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T08:03:05.489848+02:00",
+      "pnl": 0.0,
+      "cum": 1184.7,
+      "symbol": "AVAX/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T13:18:00.685205+02:00",
+      "pnl": 0.0,
+      "cum": 1184.7,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T13:18:02.115239+02:00",
+      "pnl": 0.0,
+      "cum": 1184.7,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T14:18:25.939974+02:00",
+      "pnl": 0.0,
+      "cum": 1184.7,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T14:48:16.408212+02:00",
+      "pnl": 2.85,
+      "cum": 1187.55,
+      "symbol": "AVAX/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T14:48:17.441756+02:00",
+      "pnl": -2.53,
+      "cum": 1185.02,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T15:19:47.237221+02:00",
+      "pnl": 0.0,
+      "cum": 1185.02,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T15:19:48.775478+02:00",
+      "pnl": 0.0,
+      "cum": 1185.02,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T15:19:50.386011+02:00",
+      "pnl": 0.0,
+      "cum": 1185.02,
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T15:46:15.532396+02:00",
+      "pnl": 0.0,
+      "cum": 1185.02,
+      "symbol": "AMD",
+      "engine": "unknown",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T15:59:17.492137+02:00",
+      "pnl": 0.0,
+      "cum": 1185.02,
+      "symbol": "AMD",
+      "engine": "unknown",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T16:04:32.628301+02:00",
+      "pnl": 0.0,
+      "cum": 1185.02,
+      "symbol": "USO",
+      "engine": "unknown",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T16:08:06.603825+02:00",
+      "pnl": -15.57,
+      "cum": 1169.45,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T16:16:17.880971+02:00",
+      "pnl": 4.49,
+      "cum": 1173.94,
+      "symbol": "AMD",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T16:16:18.087944+02:00",
+      "pnl": 13.9,
+      "cum": 1187.84,
+      "symbol": "AMD",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T17:07:06.723053+02:00",
+      "pnl": -3.27,
+      "cum": 1184.57,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T17:45:12.009808+02:00",
+      "pnl": -25.2,
+      "cum": 1159.37,
+      "symbol": "USO",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T17:52:55.464371+02:00",
+      "pnl": 0.0,
+      "cum": 1159.37,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T17:52:57.316354+02:00",
+      "pnl": 0.0,
+      "cum": 1159.37,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T18:07:24.444343+02:00",
+      "pnl": 0.0,
+      "cum": 1159.37,
+      "symbol": "DOT/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T18:39:54.930455+02:00",
+      "pnl": -0.36,
+      "cum": 1159.01,
+      "symbol": "DIA",
+      "engine": "unknown",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T18:39:55.916783+02:00",
+      "pnl": -0.45,
+      "cum": 1158.56,
+      "symbol": "DIA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T18:42:53.983242+02:00",
+      "pnl": -3.26,
+      "cum": 1155.3,
+      "symbol": "DOT/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T19:05:08.461731+02:00",
+      "pnl": 11.2,
+      "cum": 1166.5,
+      "symbol": "META",
+      "engine": "unknown",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T19:05:10.155886+02:00",
+      "pnl": 11.18,
+      "cum": 1177.68,
+      "symbol": "META",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T19:19:37.390117+02:00",
+      "pnl": -1.24,
+      "cum": 1176.44,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.471676+02:00",
+      "pnl": 1.0,
+      "cum": 1177.44,
+      "symbol": "MSFT",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.474512+02:00",
+      "pnl": -0.28,
+      "cum": 1177.16,
+      "symbol": "QQQ",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.477083+02:00",
+      "pnl": -0.77,
+      "cum": 1176.39,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.479546+02:00",
+      "pnl": 0.3,
+      "cum": 1176.69,
+      "symbol": "AMZN",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.481936+02:00",
+      "pnl": -0.07,
+      "cum": 1176.63,
+      "symbol": "GOOG",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.484335+02:00",
+      "pnl": 0.0,
+      "cum": 1176.63,
+      "symbol": "MSFT",
+      "engine": "unknown",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.486741+02:00",
+      "pnl": 0.0,
+      "cum": 1176.63,
+      "symbol": "QQQ",
+      "engine": "unknown",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.489750+02:00",
+      "pnl": 0.0,
+      "cum": 1176.63,
+      "symbol": "NVDA",
+      "engine": "unknown",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.492724+02:00",
+      "pnl": 0.0,
+      "cum": 1176.63,
+      "symbol": "AMZN",
+      "engine": "unknown",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.495159+02:00",
+      "pnl": 0.0,
+      "cum": 1176.63,
+      "symbol": "GOOG",
+      "engine": "unknown",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-24T22:15:26.497700+02:00",
+      "pnl": 1.45,
+      "cum": 1178.08,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-25T14:09:19.952577+02:00",
+      "pnl": 0.0,
+      "cum": 1178.08,
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-25T20:17:52.926631+02:00",
+      "pnl": -5.4,
+      "cum": 1172.68,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-25T21:33:39.754823+02:00",
+      "pnl": -5.32,
+      "cum": 1167.36,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T18:06:57.822508+02:00",
+      "pnl": 10.83,
+      "cum": 1178.19,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T18:12:15.975298+02:00",
+      "pnl": -1.72,
+      "cum": 1176.47,
+      "symbol": "QQQ",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T21:13:13.607410+02:00",
+      "pnl": 18.4,
+      "cum": 1194.87,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.259764+02:00",
+      "pnl": 0.62,
+      "cum": 1195.49,
+      "symbol": "ADA/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.264341+02:00",
+      "pnl": 1.44,
+      "cum": 1196.93,
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.268414+02:00",
+      "pnl": 0.25,
+      "cum": 1197.18,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.271774+02:00",
+      "pnl": 0.67,
+      "cum": 1197.85,
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.275794+02:00",
+      "pnl": 0.23,
+      "cum": 1198.08,
+      "symbol": "SOL/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.279843+02:00",
+      "pnl": 1.77,
+      "cum": 1199.85,
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.283700+02:00",
+      "pnl": 1.99,
+      "cum": 1201.83,
+      "symbol": "GOOG",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.288412+02:00",
+      "pnl": 0.59,
+      "cum": 1202.42,
+      "symbol": "TSLA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.292499+02:00",
+      "pnl": -0.56,
+      "cum": 1201.86,
+      "symbol": "AMZN",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.295350+02:00",
+      "pnl": 0.18,
+      "cum": 1202.04,
+      "symbol": "COPX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-27T22:15:37.299686+02:00",
+      "pnl": -0.05,
+      "cum": 1201.99,
+      "symbol": "QQQ",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T16:15:56.293922+02:00",
+      "pnl": -0.2,
+      "cum": 1201.79,
+      "symbol": "ADA/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T16:15:58.003206+02:00",
+      "pnl": 15.92,
+      "cum": 1217.71,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T17:16:04.959561+02:00",
+      "pnl": -2.6,
+      "cum": 1215.11,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T17:31:31.399527+02:00",
+      "pnl": -10.41,
+      "cum": 1204.7,
+      "symbol": "TSLA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T22:15:42.773971+02:00",
+      "pnl": 0.81,
+      "cum": 1205.52,
+      "symbol": "DOT/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T22:15:42.777804+02:00",
+      "pnl": 0.0,
+      "cum": 1205.52,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T22:15:42.780987+02:00",
+      "pnl": 0.58,
+      "cum": 1206.1,
+      "symbol": "AAPL",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T22:15:42.784192+02:00",
+      "pnl": -0.22,
+      "cum": 1205.88,
+      "symbol": "MSFT",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T22:15:42.787183+02:00",
+      "pnl": -0.16,
+      "cum": 1205.72,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T22:15:42.791306+02:00",
+      "pnl": 1.68,
+      "cum": 1207.4,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T22:15:42.794400+02:00",
+      "pnl": 0.17,
+      "cum": 1207.56,
+      "symbol": "SMCI",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-28T22:15:42.797259+02:00",
+      "pnl": 1.63,
+      "cum": 1209.19,
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T18:22:03.795926+02:00",
+      "pnl": -2.73,
+      "cum": 1206.46,
+      "symbol": "META",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T20:45:31.848148+02:00",
+      "pnl": -5.16,
+      "cum": 1201.3,
+      "symbol": "GOOG",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T22:15:32.977042+02:00",
+      "pnl": 0.04,
+      "cum": 1201.34,
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T22:15:32.981226+02:00",
+      "pnl": 1.02,
+      "cum": 1202.36,
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T22:15:32.984848+02:00",
+      "pnl": 0.46,
+      "cum": 1202.82,
+      "symbol": "XRP/USD",
+      "engine": "crypto_24_7",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T22:15:32.987905+02:00",
+      "pnl": 0.88,
+      "cum": 1203.7,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T22:15:32.991114+02:00",
+      "pnl": -0.17,
+      "cum": 1203.53,
+      "symbol": "AAPL",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T22:15:32.995172+02:00",
+      "pnl": 1.25,
+      "cum": 1204.78,
+      "symbol": "AMZN",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T22:15:32.998416+02:00",
+      "pnl": -0.44,
+      "cum": 1204.34,
+      "symbol": "TSLA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T22:15:33.001535+02:00",
+      "pnl": 0.17,
+      "cum": 1204.5,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-29T22:15:33.005524+02:00",
+      "pnl": 0.01,
+      "cum": 1204.51,
+      "symbol": "DIA",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T16:17:37.265483+02:00",
+      "pnl": -1.05,
+      "cum": 1203.46,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T16:53:52.995419+02:00",
+      "pnl": -5.94,
+      "cum": 1197.52,
+      "symbol": "COPX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T17:01:36.819192+02:00",
+      "pnl": -9.66,
+      "cum": 1187.86,
+      "symbol": "GOOG",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T18:52:52.849295+02:00",
+      "pnl": 19.38,
+      "cum": 1207.24,
+      "symbol": "MSFT",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T20:17:03.660378+02:00",
+      "pnl": 14.1,
+      "cum": 1221.34,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T20:23:00.751178+02:00",
+      "pnl": 18.01,
+      "cum": 1239.35,
+      "symbol": "URA",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T21:09:07.855400+02:00",
+      "pnl": 14.61,
+      "cum": 1253.96,
+      "symbol": "TSLA",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T22:16:11.408800+02:00",
+      "pnl": 0.89,
+      "cum": 1254.86,
+      "symbol": "AAPL",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T22:16:11.412573+02:00",
+      "pnl": 0.16,
+      "cum": 1255.02,
+      "symbol": "SMCI",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T22:16:11.416318+02:00",
+      "pnl": -0.44,
+      "cum": 1254.58,
+      "symbol": "MSFT",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T22:16:11.419328+02:00",
+      "pnl": 0.33,
+      "cum": 1254.91,
+      "symbol": "MSFT",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-04-30T22:16:11.423109+02:00",
+      "pnl": -1.5,
+      "cum": 1253.41,
+      "symbol": "META",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T15:38:36.191125+02:00",
+      "pnl": 36.28,
+      "cum": 1289.69,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T15:57:50.641883+02:00",
+      "pnl": 42.9,
+      "cum": 1332.59,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T16:37:13.221300+02:00",
+      "pnl": 9.91,
+      "cum": 1342.5,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T16:53:56.385481+02:00",
+      "pnl": -8.32,
+      "cum": 1334.18,
+      "symbol": "GOOG",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T22:15:41.012052+02:00",
+      "pnl": 0.87,
+      "cum": 1335.05,
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T22:15:41.015602+02:00",
+      "pnl": -0.05,
+      "cum": 1335.0,
+      "symbol": "AAPL",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T22:15:41.018301+02:00",
+      "pnl": -0.42,
+      "cum": 1334.58,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T22:15:41.021642+02:00",
+      "pnl": 1.04,
+      "cum": 1335.62,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T22:15:41.024819+02:00",
+      "pnl": 1.44,
+      "cum": 1337.06,
+      "symbol": "AAPL",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T22:15:41.028258+02:00",
+      "pnl": -0.43,
+      "cum": 1336.63,
+      "symbol": "SMCI",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-01T22:15:41.031265+02:00",
+      "pnl": 0.05,
+      "cum": 1336.68,
+      "symbol": "DIA",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T16:46:27.155327+02:00",
+      "pnl": 18.46,
+      "cum": 1355.14,
+      "symbol": "AMZN",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T17:23:03.879412+02:00",
+      "pnl": 15.25,
+      "cum": 1370.39,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T22:15:30.816994+02:00",
+      "pnl": 0.18,
+      "cum": 1370.57,
+      "symbol": "AAPL",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T22:15:30.821127+02:00",
+      "pnl": -1.24,
+      "cum": 1369.33,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T22:15:30.824567+02:00",
+      "pnl": -0.03,
+      "cum": 1369.3,
+      "symbol": "MSFT",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T22:15:30.827550+02:00",
+      "pnl": -0.65,
+      "cum": 1368.65,
+      "symbol": "COPX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T22:15:30.830585+02:00",
+      "pnl": 0.3,
+      "cum": 1368.95,
+      "symbol": "AMZN",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T22:15:30.833329+02:00",
+      "pnl": 0.28,
+      "cum": 1369.23,
+      "symbol": "DIA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T22:15:30.836126+02:00",
+      "pnl": 0.07,
+      "cum": 1369.3,
+      "symbol": "NFLX",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T22:15:30.838970+02:00",
+      "pnl": -0.05,
+      "cum": 1369.25,
+      "symbol": "SPY",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-04T22:15:30.841942+02:00",
+      "pnl": 0.18,
+      "cum": 1369.43,
+      "symbol": "URA",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-05T17:30:27.145568+02:00",
+      "pnl": 12.29,
+      "cum": 1381.72,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-05T22:16:00.031926+02:00",
+      "pnl": 0.21,
+      "cum": 1381.93,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-05T22:16:00.035684+02:00",
+      "pnl": 0.4,
+      "cum": 1382.33,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-05T22:16:00.038679+02:00",
+      "pnl": -8.15,
+      "cum": 1374.19,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-05T22:16:00.041388+02:00",
+      "pnl": 1.65,
+      "cum": 1375.83,
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T16:06:50.313664+02:00",
+      "pnl": 13.39,
+      "cum": 1389.22,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T16:20:30.314821+02:00",
+      "pnl": 28.14,
+      "cum": 1417.36,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T16:57:07.773726+02:00",
+      "pnl": 13.85,
+      "cum": 1431.21,
+      "symbol": "MSFT",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T18:45:58.873627+02:00",
+      "pnl": 21.81,
+      "cum": 1453.02,
+      "symbol": "TSLA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T20:23:52.780651+02:00",
+      "pnl": 8.73,
+      "cum": 1461.75,
+      "symbol": "AMZN",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T22:16:11.657005+02:00",
+      "pnl": -4.79,
+      "cum": 1456.96,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T22:16:11.661671+02:00",
+      "pnl": 0.07,
+      "cum": 1457.03,
+      "symbol": "NFLX",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T22:16:11.665885+02:00",
+      "pnl": 2.01,
+      "cum": 1459.04,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T22:16:11.670516+02:00",
+      "pnl": 0.01,
+      "cum": 1459.05,
+      "symbol": "GOOG",
+      "engine": "D",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T22:16:11.673755+02:00",
+      "pnl": 0.05,
+      "cum": 1459.1,
+      "symbol": "AAPL",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T22:16:11.678115+02:00",
+      "pnl": -1.35,
+      "cum": 1457.75,
+      "symbol": "URA",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T22:16:11.681455+02:00",
+      "pnl": -25.82,
+      "cum": 1431.92,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-06T22:16:11.684598+02:00",
+      "pnl": 10.21,
+      "cum": 1442.13,
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-07T16:29:42.536015+02:00",
+      "pnl": 22.28,
+      "cum": 1464.41,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-07T21:18:14.183014+02:00",
+      "pnl": -6.61,
+      "cum": 1457.8,
+      "symbol": "META",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-07T22:15:45.806205+02:00",
+      "pnl": -1.15,
+      "cum": 1456.65,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-07T22:15:45.809584+02:00",
+      "pnl": 0.28,
+      "cum": 1456.93,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-07T22:15:45.812468+02:00",
+      "pnl": -0.17,
+      "cum": 1456.76,
+      "symbol": "GOOG",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-07T22:15:45.815371+02:00",
+      "pnl": 0.1,
+      "cum": 1456.86,
+      "symbol": "QQQ",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-07T22:15:45.818129+02:00",
+      "pnl": 0.52,
+      "cum": 1457.38,
+      "symbol": "URA",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-07T22:15:45.820824+02:00",
+      "pnl": 0.0,
+      "cum": 1457.38,
+      "symbol": "GLD",
+      "engine": "daytrading",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-08T21:34:39.465186+02:00",
+      "pnl": 1.16,
+      "cum": 1458.54,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-08T21:34:39.470929+02:00",
+      "pnl": 1.05,
+      "cum": 1459.59,
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-08T21:34:39.476320+02:00",
+      "pnl": 0.38,
+      "cum": 1459.97,
+      "symbol": "TSLA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-08T21:34:39.481379+02:00",
+      "pnl": 0.5,
+      "cum": 1460.47,
+      "symbol": "NVDA",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-08T21:34:39.485266+02:00",
+      "pnl": 0.1,
+      "cum": 1460.57,
+      "symbol": "QQQ",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-08T21:34:39.490066+02:00",
+      "pnl": 0.67,
+      "cum": 1461.24,
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-08T21:34:39.494787+02:00",
+      "pnl": 1.06,
+      "cum": 1462.31,
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-08T21:34:39.500221+02:00",
+      "pnl": 0.94,
+      "cum": 1463.25,
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-11T16:12:09.502636+02:00",
+      "pnl": -0.79,
+      "cum": 1462.46,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-11T16:24:19.756995+02:00",
+      "pnl": 5.88,
+      "cum": 1468.34,
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "hedge": "non_hedge"
+    },
+    {
+      "date": "2026-05-11T16:31:01.717993+02:00",
+      "pnl": 8.1,
+      "cum": 1476.44,
+      "symbol": "AMD",
+      "engine": "C",
+      "hedge": "non_hedge"
+    }
+  ],
+  "date_bounds": {
+    "first": "2026-02-24T17:29:27.235061+01:00",
+    "last": "2026-05-11T16:31:01.717993+02:00"
+  }
+}

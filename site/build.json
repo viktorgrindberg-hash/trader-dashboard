@@ -1,5 +1,5 @@
-{
-  "commit": "d82054f",
-  "built_at": "2026-05-11T14:38:43.619066+00:00",
-  "source": "github-actions"
+﻿{
+    "source":  "local-deploy",
+    "commit":  "188504c",
+    "built_at":  "2026-05-11T18:12:28.0287942+02:00"
 }

@@ -1,20 +1,20 @@
 {
   "day": {
-    "pnl": 0.0,
-    "trades": 0,
-    "wins": 0,
-    "win_rate": 0.0
+    "pnl": 13.19,
+    "trades": 3,
+    "wins": 2,
+    "win_rate": 66.7
   },
   "week": {
-    "pnl": 0.0,
-    "trades": 0,
-    "wins": 0,
-    "win_rate": 0.0
+    "pnl": 13.19,
+    "trades": 3,
+    "wins": 2,
+    "win_rate": 66.7
   },
   "month": {
-    "pnl": 0.0,
-    "trades": 0,
-    "wins": 0,
-    "win_rate": 0.0
+    "pnl": 223.02,
+    "trades": 59,
+    "wins": 43,
+    "win_rate": 72.9
   }
 }

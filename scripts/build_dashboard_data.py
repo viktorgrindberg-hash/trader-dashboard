@@ -7,6 +7,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
+import re
 
 REPO_DIR = Path(__file__).resolve().parents[1]
 WORKSPACE_DIR = REPO_DIR.parent
@@ -19,6 +20,7 @@ AIHF_JSON = LOCAL_DATA_DIR / 'ai-hedge-fund-committee-scan.json'
 AIHF_BLIND_JSON = LOCAL_DATA_DIR / 'ai-hedge-fund-committee-blind.json'
 AIHF_PORTFOLIO_JSON = LOCAL_DATA_DIR / 'aihf-paper-portfolio.json'
 AIHF_ALPACA_STATE_JSON = LOCAL_DATA_DIR / 'aihf-alpaca-paper-state.json'
+MT5_DIR = Path(r'C:\Users\vikto\metatradertest')
 OUT_DIR = REPO_DATA_DIR
 SITE_DATA_DIR = REPO_DIR / 'site' / 'data'
 CET = ZoneInfo('Europe/Stockholm')
@@ -36,6 +38,7 @@ ENGINE_LABELS = {
     'JOHN': 'Crypto John',
     'crypto_john': 'Crypto John Live',
     'xau_grid': 'XAU Grid',
+    'metatrader_xau': 'MetaTrader XAU Bot',
 }
 
 CONFIGURED_ENGINES = [
@@ -47,6 +50,7 @@ CONFIGURED_ENGINES = [
     {'key': 'crypto_24_7', 'label': 'Crypto 24/7', 'channel': '#engine-crypto', 'script': 'crypto-engine.py', 'cadence': '15 min 24/7', 'status': 'active'},
     {'key': 'crypto_john', 'label': 'Crypto John Live', 'channel': '#engine-john', 'script': 'crypto-engine-john-live.py', 'cadence': '15 min 24/7', 'status': 'active'},
     {'key': 'xau_grid', 'label': 'XAU Grid', 'channel': '#engine-xau-grid', 'script': 'xau-grid-engine.py', 'cadence': '5 min weekdays', 'status': 'active'},
+    {'key': 'metatrader_xau', 'label': 'MT5 XAUUSD Bot', 'channel': '#engine-xau-grid', 'script': r'C:\\Users\\vikto\\metatradertest\\run_live.py', 'cadence': '24/5 launcher', 'status': 'external'},
 ]
 
 
@@ -103,6 +107,7 @@ def health_for_engine(health, engine):
         'crypto_24_7': ['crypto_24_7','crypto'],
         'crypto_john': ['crypto_john','JOHN'],
         'xau_grid': ['xau_grid'],
+        'metatrader_xau': ['metatrader_xau'],
     }.get(engine, [engine])
     for key in aliases:
         if key in engines:
@@ -385,6 +390,89 @@ def summarize_governance(trades, positions_summary):
         items.append({'symbol':p['symbol'],'engine':p['engine_label'],'status':status,'score':score,'bull_case':'Entry valid while price respects setup and stop.','bear_case':'Invalidates if stop/kill level breaks or crypto exposure spikes.','kill_criteria':f"Stop {p.get('stop_loss') or '-'}",'rr':rr,'risk_dollars':round(risk,2)})
     return items
 
+
+def is_hedge_trade(t):
+    blob = ' '.join(str(t.get(k) or '') for k in ('symbol','engine','engine_name','trade_mode','setup_type','close_reason','exit_reason')).lower()
+    return any(x in blob for x in ('hedge','xau','gold','grid'))
+
+
+def trade_close_dt(t):
+    return parse_dt(t.get('timestamp_exit') or t.get('closed_at') or t.get('timestamp_entry') or t.get('entry_time_cet'))
+
+
+def summarize_analytics(trades):
+    now = datetime.now(CET)
+    starts = {
+        'today': now.date(),
+        'week': (now - timedelta(days=now.weekday())).date(),
+        'month': now.date().replace(day=1),
+        'last_30d': (now - timedelta(days=30)).date(),
+        'all': datetime(1970,1,1,tzinfo=CET).date(),
+    }
+    def empty(): return {'pnl':0.0,'trades':0,'wins':0,'losses':0,'profit':0.0,'loss':0.0,'best':None,'worst':None}
+    periods={k:empty() for k in starts}; by_engine=defaultdict(lambda:{k:empty() for k in starts}); by_hedge={k:empty() for k in starts}; daily=defaultdict(empty); monthly=defaultdict(empty); weekly=defaultdict(empty)
+    closed=[]
+    for t in trades:
+        if status_of_trade(t)=='open':
+            continue
+        dt=trade_close_dt(t)
+        if not dt: continue
+        pnl=pnl_of(t); engine=trade_engine(t); hedge='hedge' if is_hedge_trade(t) else 'non_hedge'; d=dt.date(); wk=f"{dt.isocalendar().year}-W{dt.isocalendar().week:02d}"; mo=dt.strftime('%Y-%m')
+        closed.append((dt,pnl,t,engine,hedge))
+        buckets=[daily[d.isoformat()], weekly[wk], monthly[mo]]
+        for key,start in starts.items():
+            if d>=start: buckets += [periods[key], by_engine[engine][key], by_hedge[key]]
+        for b in buckets:
+            b['pnl']+=pnl; b['trades']+=1; b['wins']+= pnl>0; b['losses']+= pnl<0; b['profit']+= max(pnl,0); b['loss']+= min(pnl,0)
+            if b['best'] is None or pnl>b['best']['pnl']: b['best']={'symbol':t.get('symbol'),'pnl':round(pnl,2),'date':dt.isoformat()}
+            if b['worst'] is None or pnl<b['worst']['pnl']: b['worst']={'symbol':t.get('symbol'),'pnl':round(pnl,2),'date':dt.isoformat()}
+    def finish(b):
+        b['pnl']=round(b['pnl'],2); b['profit']=round(b['profit'],2); b['loss']=round(b['loss'],2)
+        b['win_rate']=round(b['wins']/b['trades']*100,1) if b['trades'] else 0
+        b['profit_factor']=round(b['profit']/abs(b['loss']),2) if b['loss'] else (999 if b['profit'] else 0)
+        b['expectancy']=round(b['pnl']/b['trades'],2) if b['trades'] else 0
+        return b
+    def finish_map(m): return {k:finish(v) for k,v in sorted(m.items())}
+    equity=[]; cum=0
+    for dt,pnl,t,engine,hedge in sorted(closed, key=lambda x:x[0]):
+        cum+=pnl; equity.append({'date':dt.isoformat(),'pnl':round(pnl,2),'cum':round(cum,2),'symbol':t.get('symbol'),'engine':engine,'hedge':hedge})
+    return {
+        'generated_at': now.isoformat(),
+        'periods': finish_map(periods),
+        'by_engine': {ENGINE_LABELS.get(e,e): finish_map(v) for e,v in by_engine.items()},
+        'hedge_overlay': finish_map(by_hedge),
+        'daily': finish_map(daily),
+        'weekly': finish_map(weekly),
+        'monthly': finish_map(monthly),
+        'equity_curve': equity[-240:],
+        'date_bounds': {'first': closed[0][0].isoformat() if closed else None, 'last': closed[-1][0].isoformat() if closed else None},
+    }
+
+
+def summarize_metatrader_bot():
+    log_path = MT5_DIR / 'bot_run.log'
+    state = read_json(MT5_DIR / 'live_state.json', {})
+    lines = log_path.read_text(encoding='utf-8', errors='ignore').splitlines()[-220:] if log_path.exists() else []
+    signals=[]; errors=[]; account=None; equity=None; last_ts=None; autotrading_disabled=False
+    for line in lines:
+        m=re.search(r'(20\d\d-\d\d-\d\d[ T]\d\d:\d\d:\d\d)', line)
+        if m: last_ts=m.group(1).replace(' ', 'T')
+        if 'konto ' in line and 'MT5 anslutet' in line:
+            mm=re.search(r'konto\s+(\d+)\s+pa\s+(.+?)\s+\(typ:\s*(\d+)\)', line)
+            if mm: account={'id':mm.group(1),'server':mm.group(2),'type':mm.group(3)}
+        if 'start-equity:' in line or 'start-equity' in line:
+            mm=re.search(r'start-equity:\s*([0-9.]+)', line)
+            if mm: equity=float(mm.group(1))
+        if 'NEW SIGNAL:' in line:
+            mm=re.search(r'NEW SIGNAL:\s*(\w+)\s+? opening\s+([0-9.]+) lots', line)
+            signals.append({'time':last_ts,'side':mm.group(1) if mm else None,'lots':float(mm.group(2)) if mm else None,'raw':line[-220:]})
+        if 'ERROR' in line or 'misslyckades' in line:
+            autotrading_disabled = autotrading_disabled or 'AutoTrading disabled' in line
+            errors.append({'time':last_ts,'raw':line[-260:]})
+    status = 'blocked_autotrading' if autotrading_disabled else ('running_or_recent' if lines else 'unknown')
+    hb = MT5_DIR / 'live_heartbeat.txt'
+    return {'name':'XAUUSD MetaTrader Bot','path':str(MT5_DIR),'log':str(log_path),'status':status,'account':account,'start_equity':equity,'state':state,'last_seen':last_ts,'heartbeat_modified':datetime.fromtimestamp(hb.stat().st_mtime, CET).isoformat() if hb.exists() else None,'signals_last_220_lines':signals[-10:],'errors_last_220_lines':errors[-8:],'autotrading_disabled':autotrading_disabled,'next_action':'Enable AutoTrading in MT5 client before live orders can execute.' if autotrading_disabled else 'Monitor live_state and broker positions.'}
+
 def summarize_recent_trades(trades, limit=80):
     rows = []
     for t in trades:
@@ -449,6 +537,8 @@ def build():
         'engines.json': summarize_engines(trades, health, positions),
         'trades.json': summarize_recent_trades(trades),
         'periods.json': summarize_periods(trades),
+        'analytics.json': summarize_analytics(trades),
+        'metatrader.json': summarize_metatrader_bot(),
         'health.json': summarize_health(health),
         'status.json': {'stack': status, 'configured_engines': CONFIGURED_ENGINES},
         'run-monitor.json': summarize_run_monitor(trades, health),
