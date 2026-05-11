@@ -1,15 +1,64 @@
 {
   "name": "XAUUSD MetaTrader Bot",
   "path": "C:\\Users\\vikto\\metatradertest",
-  "log": "C:\\Users\\vikto\\metatradertest/bot_run.log",
-  "status": "unknown",
-  "account": null,
-  "start_equity": null,
-  "state": {},
-  "last_seen": null,
-  "heartbeat_modified": null,
-  "signals_last_220_lines": [],
-  "errors_last_220_lines": [],
-  "autotrading_disabled": false,
-  "next_action": "Monitor live_state and broker positions."
+  "log": "C:\\Users\\vikto\\metatradertest\\bot_run.log",
+  "status": "blocked_autotrading",
+  "account": {
+    "id": "106525549",
+    "server": "MetaQuotes-Demo",
+    "type": "0"
+  },
+  "start_equity": 20000.0,
+  "state": {
+    "consecutive_sl": 0,
+    "cooldown_until_utc": null
+  },
+  "last_seen": "2026-05-11T02:00:00",
+  "heartbeat_modified": "2026-05-11T18:59:37.151216+02:00",
+  "signals_last_220_lines": [
+    {
+      "time": "2026-05-06T01:10:04",
+      "side": "sell",
+      "lots": 0.13,
+      "raw": "2026-05-06 01:10:04,387 [INFO] NEW SIGNAL: sell  opening 0.13 lots"
+    },
+    {
+      "time": "2026-05-06T01:15:04",
+      "side": "sell",
+      "lots": 0.13,
+      "raw": "2026-05-06 01:15:04,864 [INFO] NEW SIGNAL: sell  opening 0.13 lots"
+    },
+    {
+      "time": "2026-05-11T00:05:04",
+      "side": "buy",
+      "lots": 0.13,
+      "raw": "2026-05-11 00:05:04,494 [INFO] NEW SIGNAL: buy  opening 0.13 lots"
+    },
+    {
+      "time": "2026-05-11T00:10:04",
+      "side": "buy",
+      "lots": 0.13,
+      "raw": "2026-05-11 00:10:04,963 [INFO] NEW SIGNAL: buy  opening 0.13 lots"
+    }
+  ],
+  "errors_last_220_lines": [
+    {
+      "time": "2026-05-06T01:10:04",
+      "raw": "ode_external=0, request=TradeRequest(action=1, magic=901001, order=0, symbol='XAUUSD', volume=0.13, price=4578.96, stoplimit=0.0, sl=0.0, tp=0.0, deviation=5, type=1, type_filling=1, type_time=0, expiration=0, comment='xau-grid-mr', position=0, position_by=0))"
+    },
+    {
+      "time": "2026-05-06T01:15:04",
+      "raw": "ode_external=0, request=TradeRequest(action=1, magic=901001, order=0, symbol='XAUUSD', volume=0.13, price=4589.46, stoplimit=0.0, sl=0.0, tp=0.0, deviation=5, type=1, type_filling=1, type_time=0, expiration=0, comment='xau-grid-mr', position=0, position_by=0))"
+    },
+    {
+      "time": "2026-05-11T00:05:04",
+      "raw": "ode_external=0, request=TradeRequest(action=1, magic=901001, order=0, symbol='XAUUSD', volume=0.13, price=4685.58, stoplimit=0.0, sl=0.0, tp=0.0, deviation=5, type=0, type_filling=1, type_time=0, expiration=0, comment='xau-grid-mr', position=0, position_by=0))"
+    },
+    {
+      "time": "2026-05-11T00:10:04",
+      "raw": "ode_external=0, request=TradeRequest(action=1, magic=901001, order=0, symbol='XAUUSD', volume=0.13, price=4689.05, stoplimit=0.0, sl=0.0, tp=0.0, deviation=5, type=0, type_filling=1, type_time=0, expiration=0, comment='xau-grid-mr', position=0, position_by=0))"
+    }
+  ],
+  "autotrading_disabled": true,
+  "next_action": "Enable AutoTrading in MT5 client before live orders can execute."
 }
