@@ -485,11 +485,13 @@ def summarize_analytics(trades):
 def summarize_metatrader_bot():
     log_path = MT5_DIR / 'bot_run.log'
     state = read_json(MT5_DIR / 'live_state.json', {})
-    lines = log_path.read_text(encoding='utf-8', errors='ignore').splitlines()[-220:] if log_path.exists() else []
-    signals=[]; errors=[]; account=None; equity=None; last_ts=None; autotrading_disabled=False
+    lines = log_path.read_text(encoding='utf-8', errors='ignore').splitlines()[-260:] if log_path.exists() else []
+    signals=[]; errors=[]; account=None; equity=None; last_ts=None; last_start_ts=None; last_disabled_ts=None
     for line in lines:
         m=re.search(r'(20\d\d-\d\d-\d\d[ T]\d\d:\d\d:\d\d)', line)
         if m: last_ts=m.group(1).replace(' ', 'T')
+        if 'Startar run_live.py' in line:
+            last_start_ts = last_ts
         if 'konto ' in line and 'MT5 anslutet' in line:
             mm=re.search(r'konto\s+(\d+)\s+pa\s+(.+?)\s+\(typ:\s*(\d+)\)', line)
             if mm: account={'id':mm.group(1),'server':mm.group(2),'type':mm.group(3)}
@@ -500,11 +502,17 @@ def summarize_metatrader_bot():
             mm=re.search(r'NEW SIGNAL:\s*(\w+)\s+? opening\s+([0-9.]+) lots', line)
             signals.append({'time':last_ts,'side':mm.group(1) if mm else None,'lots':float(mm.group(2)) if mm else None,'raw':line[-220:]})
         if 'ERROR' in line or 'misslyckades' in line:
-            autotrading_disabled = autotrading_disabled or 'AutoTrading disabled' in line
+            if 'AutoTrading disabled' in line:
+                last_disabled_ts = last_ts
             errors.append({'time':last_ts,'raw':line[-260:]})
-    status = 'blocked_autotrading' if autotrading_disabled else ('running_or_recent' if lines else 'unknown')
     hb = MT5_DIR / 'live_heartbeat.txt'
-    return {'name':'XAUUSD MetaTrader Bot','path':str(MT5_DIR),'log':str(log_path),'status':status,'account':account,'start_equity':equity,'state':state,'last_seen':last_ts,'heartbeat_modified':datetime.fromtimestamp(hb.stat().st_mtime, CET).isoformat() if hb.exists() else None,'signals_last_220_lines':signals[-10:],'errors_last_220_lines':errors[-8:],'autotrading_disabled':autotrading_disabled,'next_action':'Enable AutoTrading in MT5 client before live orders can execute.' if autotrading_disabled else 'Monitor live_state and broker positions.'}
+    heartbeat_modified = datetime.fromtimestamp(hb.stat().st_mtime, CET).isoformat() if hb.exists() else None
+    # Only show blocked if the latest AutoTrading error happened after the latest bot start.
+    # Old retcode=10027 errors are historical and should not keep the card blocked after restart.
+    autotrading_disabled = bool(last_disabled_ts and (not last_start_ts or last_disabled_ts >= last_start_ts))
+    status = 'blocked_autotrading' if autotrading_disabled else ('running_or_recent' if lines else 'unknown')
+    next_action = 'Enable AutoTrading in MT5 client before live orders can execute.' if autotrading_disabled else 'Running. Waiting for next valid signal.'
+    return {'name':'XAUUSD MetaTrader Bot','path':str(MT5_DIR),'log':str(log_path),'status':status,'account':account,'start_equity':equity,'state':state,'last_seen':last_ts,'heartbeat_modified':heartbeat_modified,'signals_last_220_lines':signals[-10:],'errors_last_220_lines':errors[-8:],'autotrading_disabled':autotrading_disabled,'next_action':next_action,'last_start':last_start_ts,'last_autotrading_disabled':last_disabled_ts}
 
 def summarize_recent_trades(trades, limit=80):
     rows = []
