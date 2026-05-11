@@ -127,6 +127,16 @@ def engine_explanation(cfg, h, row):
 def pnl_of(trade):
     return float(trade.get('realized_pnl') or trade.get('pnl') or 0)
 
+def r_multiple_of(trade):
+    pnl = pnl_of(trade)
+    try:
+        entry=float(trade.get('entry_price') or 0); stop=float(trade.get('stop_loss') or 0); qty=abs(float(trade.get('qty') or 0))
+        risk=abs(entry-stop)*qty
+        if risk>0: return pnl/risk
+    except Exception:
+        pass
+    return None
+
 
 def status_of_trade(trade):
     return str(trade.get('status') or '').lower()
@@ -409,7 +419,7 @@ def summarize_analytics(trades):
         'last_30d': (now - timedelta(days=30)).date(),
         'all': datetime(1970,1,1,tzinfo=CET).date(),
     }
-    def empty(): return {'pnl':0.0,'trades':0,'wins':0,'losses':0,'profit':0.0,'loss':0.0,'best':None,'worst':None}
+    def empty(): return {'pnl':0.0,'trades':0,'wins':0,'losses':0,'profit':0.0,'loss':0.0,'best':None,'worst':None,'r_sum':0.0,'r_count':0,'best_r':None,'worst_r':None}
     periods={k:empty() for k in starts}; by_engine=defaultdict(lambda:{k:empty() for k in starts}); by_hedge={k:empty() for k in starts}; daily=defaultdict(empty); monthly=defaultdict(empty); weekly=defaultdict(empty)
     closed=[]
     for t in trades:
@@ -417,7 +427,7 @@ def summarize_analytics(trades):
             continue
         dt=trade_close_dt(t)
         if not dt: continue
-        pnl=pnl_of(t); engine=trade_engine(t); hedge='hedge' if is_hedge_trade(t) else 'non_hedge'; d=dt.date(); wk=f"{dt.isocalendar().year}-W{dt.isocalendar().week:02d}"; mo=dt.strftime('%Y-%m')
+        pnl=pnl_of(t); r_mult=r_multiple_of(t); engine=trade_engine(t); hedge='hedge' if is_hedge_trade(t) else 'non_hedge'; d=dt.date(); wk=f"{dt.isocalendar().year}-W{dt.isocalendar().week:02d}"; mo=dt.strftime('%Y-%m')
         closed.append((dt,pnl,t,engine,hedge))
         buckets=[daily[d.isoformat()], weekly[wk], monthly[mo]]
         for key,start in starts.items():
@@ -426,11 +436,17 @@ def summarize_analytics(trades):
             b['pnl']+=pnl; b['trades']+=1; b['wins']+= pnl>0; b['losses']+= pnl<0; b['profit']+= max(pnl,0); b['loss']+= min(pnl,0)
             if b['best'] is None or pnl>b['best']['pnl']: b['best']={'symbol':t.get('symbol'),'pnl':round(pnl,2),'date':dt.isoformat()}
             if b['worst'] is None or pnl<b['worst']['pnl']: b['worst']={'symbol':t.get('symbol'),'pnl':round(pnl,2),'date':dt.isoformat()}
+            if r_mult is not None:
+                b['r_sum']+=r_mult; b['r_count']+=1
+                rr={'symbol':t.get('symbol'),'r':round(r_mult,2),'date':dt.isoformat()}
+                if b['best_r'] is None or r_mult>b['best_r']['r']: b['best_r']=rr
+                if b['worst_r'] is None or r_mult<b['worst_r']['r']: b['worst_r']=rr
     def finish(b):
         b['pnl']=round(b['pnl'],2); b['profit']=round(b['profit'],2); b['loss']=round(b['loss'],2)
         b['win_rate']=round(b['wins']/b['trades']*100,1) if b['trades'] else 0
         b['profit_factor']=round(b['profit']/abs(b['loss']),2) if b['loss'] else (999 if b['profit'] else 0)
         b['expectancy']=round(b['pnl']/b['trades'],2) if b['trades'] else 0
+        b['avg_r']=round(b['r_sum']/b['r_count'],2) if b.get('r_count') else 0
         return b
     def finish_map(m): return {k:finish(v) for k,v in sorted(m.items())}
     equity=[]; cum=0
@@ -445,6 +461,7 @@ def summarize_analytics(trades):
         'weekly': finish_map(weekly),
         'monthly': finish_map(monthly),
         'equity_curve': equity[-240:],
+        'r_distribution': [{'date':dt.isoformat(),'symbol':t.get('symbol'),'engine':engine,'r':round(r_multiple_of(t),2),'pnl':round(pnl,2)} for dt,pnl,t,engine,hedge in closed if r_multiple_of(t) is not None][-240:],
         'date_bounds': {'first': closed[0][0].isoformat() if closed else None, 'last': closed[-1][0].isoformat() if closed else None},
     }
 
