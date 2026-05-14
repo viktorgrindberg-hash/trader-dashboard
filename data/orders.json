@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": "6",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "231.4",
+    "created_at": "2026-05-14T14:45:12.539774762Z"
+  },
+  {
+    "symbol": "GOOG",
+    "side": "buy",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "400.78",
+    "created_at": "2026-05-14T14:12:59.480072Z"
+  },
+  {
+    "symbol": "AMD",
+    "side": "sell",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "436.84",
+    "created_at": "2026-05-14T14:12:58.059798Z"
+  },
+  {
+    "symbol": "SPY",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "756.66",
+    "created_at": "2026-05-14T13:57:51.251807Z"
+  },
+  {
+    "symbol": "VRT",
+    "side": "sell",
+    "qty": "4",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "366.37",
+    "created_at": "2026-05-14T13:44:20.619927Z"
+  },
+  {
+    "symbol": "AME",
+    "side": "sell",
+    "qty": "7",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "229.29",
+    "created_at": "2026-05-14T13:44:14.650445Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": "6",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "293.1",
+    "created_at": "2026-05-14T13:44:13.18563Z"
+  }
+]
