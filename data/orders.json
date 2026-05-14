@@ -2,13 +2,79 @@
   {
     "symbol": "NVDA",
     "side": "sell",
+    "qty": "2",
+    "type": "limit",
+    "order_class": "bracket",
+    "status": "new",
+    "limit_price": "240.23",
+    "stop_price": null,
+    "created_at": "2026-05-14T16:58:09.566033Z"
+  },
+  {
+    "symbol": "AMZN",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "264.75",
+    "created_at": "2026-05-14T16:47:10.261177Z"
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "613.09",
+    "created_at": "2026-05-14T16:12:32.087509Z"
+  },
+  {
+    "symbol": "URA",
+    "side": "sell",
+    "qty": "30",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "51.64",
+    "created_at": "2026-05-14T16:07:49.014387Z"
+  },
+  {
+    "symbol": "NFLX",
+    "side": "sell",
+    "qty": "19",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "86.75",
+    "created_at": "2026-05-14T16:00:08.274624Z"
+  },
+  {
+    "symbol": "TSLA",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "442.22",
+    "created_at": "2026-05-14T15:43:41.623388Z"
+  },
+  {
+    "symbol": "NVDA",
+    "side": "sell",
     "qty": "6",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
     "stop_price": "231.4",
-    "created_at": "2026-05-14T14:45:12.539774762Z"
+    "created_at": "2026-05-14T14:45:12.539775Z"
   },
   {
     "symbol": "GOOG",
@@ -53,17 +119,6 @@
     "limit_price": null,
     "stop_price": "366.37",
     "created_at": "2026-05-14T13:44:20.619927Z"
-  },
-  {
-    "symbol": "AME",
-    "side": "sell",
-    "qty": "7",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "229.29",
-    "created_at": "2026-05-14T13:44:14.650445Z"
   },
   {
     "symbol": "AAPL",
