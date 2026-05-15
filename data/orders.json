@@ -1,14 +1,25 @@
 [
   {
-    "symbol": "SMCI",
+    "symbol": "NVDA",
     "side": "buy",
-    "qty": "37",
+    "qty": "5",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "31.41",
-    "created_at": "2026-05-15T16:14:47.463358755Z"
+    "stop_price": "233.62",
+    "created_at": "2026-05-15T17:48:55.840183371Z"
+  },
+  {
+    "symbol": "COPX",
+    "side": "buy",
+    "qty": "14",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "84.5",
+    "created_at": "2026-05-15T16:48:24.633836Z"
   },
   {
     "symbol": "XLE",
@@ -53,27 +64,5 @@
     "limit_price": null,
     "stop_price": "89.01",
     "created_at": "2026-05-15T14:30:15.251765Z"
-  },
-  {
-    "symbol": "NVDA",
-    "side": "buy",
-    "qty": "5",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "230.08",
-    "created_at": "2026-05-15T13:57:42.208062Z"
-  },
-  {
-    "symbol": "AAPL",
-    "side": "sell",
-    "qty": "6",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "292.38",
-    "created_at": "2026-05-15T13:45:59.949821Z"
   }
 ]
