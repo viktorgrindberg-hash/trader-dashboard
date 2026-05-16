@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T23:33:19.275284+02:00",
+  "generated_at": "2026-05-17T00:28:50.891018+02:00",
   "periods": {
     "all": {
       "pnl": 1562.42,
@@ -36,38 +36,38 @@
       "avg_r": 0.06
     },
     "last_30d": {
-      "pnl": 801.53,
-      "trades": 304,
-      "wins": 174,
-      "losses": 97,
-      "profit": 1561.59,
-      "loss": -760.06,
+      "pnl": 544.72,
+      "trades": 250,
+      "wins": 146,
+      "losses": 82,
+      "profit": 834.42,
+      "loss": -289.7,
       "best": {
-        "symbol": "AVAXUSD",
-        "pnl": 189.93,
-        "date": "2026-04-16T20:53:08.150653+02:00"
+        "symbol": "BTC/USD",
+        "pnl": 84.77,
+        "date": "2026-05-11T22:15:28.060886+02:00"
       },
       "worst": {
-        "symbol": "URA",
-        "pnl": -177.25,
-        "date": "2026-04-16T17:53:02.990267+02:00"
+        "symbol": "ETH/USD",
+        "pnl": -25.82,
+        "date": "2026-05-06T22:16:11.681455+02:00"
       },
-      "r_sum": 70.44604445120454,
-      "r_count": 304,
+      "r_sum": 38.2674016763735,
+      "r_count": 250,
       "best_r": {
-        "symbol": "TSLA",
-        "r": 18.69,
-        "date": "2026-04-16T17:32:12.911388+02:00"
+        "symbol": "ETH/USD",
+        "r": 5.35,
+        "date": "2026-04-17T12:33:21.217941+02:00"
       },
       "worst_r": {
-        "symbol": "URA",
-        "r": -9.71,
-        "date": "2026-04-16T17:53:02.990267+02:00"
+        "symbol": "USO",
+        "r": -1.4,
+        "date": "2026-04-24T17:45:12.009808+02:00"
       },
-      "win_rate": 57.2,
-      "profit_factor": 2.05,
-      "expectancy": 2.64,
-      "avg_r": 0.23
+      "win_rate": 58.4,
+      "profit_factor": 2.88,
+      "expectancy": 2.18,
+      "avg_r": 0.15
     },
     "month": {
       "pnl": 309.0,
@@ -193,24 +193,24 @@
         "avg_r": 0.04
       },
       "last_30d": {
-        "pnl": 23.5,
-        "trades": 18,
-        "wins": 3,
-        "losses": 3,
-        "profit": 26.5,
-        "loss": -3.0,
+        "pnl": 10.84,
+        "trades": 10,
+        "wins": 1,
+        "losses": 1,
+        "profit": 11.2,
+        "loss": -0.36,
         "best": {
-          "symbol": "SMCI",
-          "pnl": 14.19,
-          "date": "2026-04-16T21:01:36.263314+02:00"
+          "symbol": "META",
+          "pnl": 11.2,
+          "date": "2026-04-24T19:05:08.461731+02:00"
         },
         "worst": {
-          "symbol": "COPX",
-          "pnl": -2.53,
-          "date": "2026-04-16T17:54:33.917140+02:00"
+          "symbol": "DIA",
+          "pnl": -0.36,
+          "date": "2026-04-24T18:39:54.930455+02:00"
         },
-        "r_sum": 1.8598577792654651,
-        "r_count": 18,
+        "r_sum": 1.0732998314403217,
+        "r_count": 10,
         "best_r": {
           "symbol": "META",
           "r": 1.09,
@@ -221,10 +221,10 @@
           "r": -0.02,
           "date": "2026-04-24T18:39:54.930455+02:00"
         },
-        "win_rate": 16.7,
-        "profit_factor": 8.83,
-        "expectancy": 1.31,
-        "avg_r": 0.1
+        "win_rate": 10.0,
+        "profit_factor": 31.11,
+        "expectancy": 1.08,
+        "avg_r": 0.11
       },
       "month": {
         "pnl": 0.0,
@@ -317,38 +317,38 @@
         "avg_r": 0.14
       },
       "last_30d": {
-        "pnl": 287.1,
-        "trades": 89,
-        "wins": 52,
-        "losses": 21,
-        "profit": 349.48,
-        "loss": -62.38,
+        "pnl": 70.02,
+        "trades": 64,
+        "wins": 37,
+        "losses": 17,
+        "profit": 130.78,
+        "loss": -60.76,
         "best": {
-          "symbol": "XRP/USD",
-          "pnl": 50.9,
-          "date": "2026-04-16T21:38:58.303089+02:00"
+          "symbol": "ETH/USD",
+          "pnl": 40.6,
+          "date": "2026-04-17T12:33:21.217941+02:00"
         },
         "worst": {
           "symbol": "XRP/USD",
           "pnl": -7.49,
           "date": "2026-04-19T16:17:59.508957+02:00"
         },
-        "r_sum": 36.71650722731963,
-        "r_count": 89,
+        "r_sum": 9.311031377588536,
+        "r_count": 64,
         "best_r": {
-          "symbol": "XRP/USD",
-          "r": 6.42,
-          "date": "2026-04-16T21:38:58.303089+02:00"
+          "symbol": "ETH/USD",
+          "r": 5.35,
+          "date": "2026-04-17T12:33:21.217941+02:00"
         },
         "worst_r": {
           "symbol": "XRP/USD",
           "r": -1.12,
           "date": "2026-04-19T16:17:59.508957+02:00"
         },
-        "win_rate": 58.4,
-        "profit_factor": 5.6,
-        "expectancy": 3.23,
-        "avg_r": 0.41
+        "win_rate": 57.8,
+        "profit_factor": 2.15,
+        "expectancy": 1.09,
+        "avg_r": 0.15
       },
       "month": {
         "pnl": 0.0,
@@ -549,11 +549,11 @@
         "avg_r": 0.01
       },
       "last_30d": {
-        "pnl": 146.21,
-        "trades": 24,
-        "wins": 21,
+        "pnl": 132.24,
+        "trades": 23,
+        "wins": 20,
         "losses": 3,
-        "profit": 148.04,
+        "profit": 134.07,
         "loss": -1.83,
         "best": {
           "symbol": "BTC/USD",
@@ -565,8 +565,8 @@
           "pnl": -1.35,
           "date": "2026-05-06T22:16:11.678115+02:00"
         },
-        "r_sum": 3.222763191247533,
-        "r_count": 24,
+        "r_sum": 2.458332553428521,
+        "r_count": 23,
         "best_r": {
           "symbol": "TSLA",
           "r": 0.86,
@@ -577,10 +577,10 @@
           "r": -0.06,
           "date": "2026-05-06T22:16:11.678115+02:00"
         },
-        "win_rate": 87.5,
-        "profit_factor": 80.9,
-        "expectancy": 6.09,
-        "avg_r": 0.13
+        "win_rate": 87.0,
+        "profit_factor": 73.26,
+        "expectancy": 5.75,
+        "avg_r": 0.11
       },
       "month": {
         "pnl": 83.91,
@@ -705,38 +705,22 @@
         "avg_r": -0.07
       },
       "last_30d": {
-        "pnl": 95.58,
-        "trades": 3,
-        "wins": 1,
-        "losses": 2,
-        "profit": 189.93,
-        "loss": -94.36,
-        "best": {
-          "symbol": "AVAXUSD",
-          "pnl": 189.93,
-          "date": "2026-04-16T20:53:08.150653+02:00"
-        },
-        "worst": {
-          "symbol": "MSFT",
-          "pnl": -47.53,
-          "date": "2026-04-16T17:42:01.351095+02:00"
-        },
-        "r_sum": -4.1944615473439235,
-        "r_count": 3,
-        "best_r": {
-          "symbol": "AVAXUSD",
-          "r": 0.41,
-          "date": "2026-04-16T20:53:08.150653+02:00"
-        },
-        "worst_r": {
-          "symbol": "MSFT",
-          "r": -2.99,
-          "date": "2026-04-16T17:42:01.351095+02:00"
-        },
-        "win_rate": 33.3,
-        "profit_factor": 2.01,
-        "expectancy": 31.86,
-        "avg_r": -1.4
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "profit": 0.0,
+        "loss": 0.0,
+        "best": null,
+        "worst": null,
+        "r_sum": 0.0,
+        "r_count": 0,
+        "best_r": null,
+        "worst_r": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0,
+        "avg_r": 0
       },
       "month": {
         "pnl": 0.0,
@@ -829,38 +813,38 @@
         "avg_r": 0.1
       },
       "last_30d": {
-        "pnl": 94.48,
-        "trades": 112,
-        "wins": 57,
-        "losses": 53,
-        "profit": 588.16,
-        "loss": -493.69,
+        "pnl": 283.72,
+        "trades": 101,
+        "wins": 54,
+        "losses": 46,
+        "profit": 405.65,
+        "loss": -121.94,
         "best": {
-          "symbol": "NVDA",
-          "pnl": 177.2,
-          "date": "2026-04-16T21:27:18.383385+02:00"
+          "symbol": "USO",
+          "pnl": 37.71,
+          "date": "2026-04-23T19:23:19.711648+02:00"
         },
         "worst": {
-          "symbol": "URA",
-          "pnl": -177.25,
-          "date": "2026-04-16T17:53:02.990267+02:00"
+          "symbol": "USO",
+          "pnl": -25.2,
+          "date": "2026-04-24T17:45:12.009808+02:00"
         },
-        "r_sum": 4.714632829412675,
-        "r_count": 112,
+        "r_sum": 17.04972726025008,
+        "r_count": 101,
         "best_r": {
-          "symbol": "NVDA",
-          "r": 8.39,
-          "date": "2026-04-16T21:27:18.383385+02:00"
+          "symbol": "USO",
+          "r": 2.13,
+          "date": "2026-04-23T19:23:19.711648+02:00"
         },
         "worst_r": {
-          "symbol": "URA",
-          "r": -9.71,
-          "date": "2026-04-16T17:53:02.990267+02:00"
+          "symbol": "USO",
+          "r": -1.4,
+          "date": "2026-04-24T17:45:12.009808+02:00"
         },
-        "win_rate": 50.9,
-        "profit_factor": 1.19,
-        "expectancy": 0.84,
-        "avg_r": 0.04
+        "win_rate": 53.5,
+        "profit_factor": 3.33,
+        "expectancy": 2.81,
+        "avg_r": 0.17
       },
       "month": {
         "pnl": 146.55,
@@ -985,38 +969,38 @@
         "avg_r": 0.68
       },
       "last_30d": {
-        "pnl": 114.46,
-        "trades": 14,
-        "wins": 8,
+        "pnl": 24.56,
+        "trades": 13,
+        "wins": 7,
         "losses": 6,
-        "profit": 117.62,
+        "profit": 27.72,
         "loss": -3.16,
         "best": {
-          "symbol": "TSLA",
-          "pnl": 89.9,
-          "date": "2026-04-16T17:32:12.911388+02:00"
+          "symbol": "AMD",
+          "pnl": 13.9,
+          "date": "2026-04-24T16:16:18.087944+02:00"
         },
         "worst": {
           "symbol": "META",
           "pnl": -1.5,
           "date": "2026-04-30T22:16:11.423109+02:00"
         },
-        "r_sum": 23.50468453479766,
-        "r_count": 14,
+        "r_sum": 4.8144558445687675,
+        "r_count": 13,
         "best_r": {
-          "symbol": "TSLA",
-          "r": 18.69,
-          "date": "2026-04-16T17:32:12.911388+02:00"
+          "symbol": "AMD",
+          "r": 2.91,
+          "date": "2026-04-24T16:16:18.087944+02:00"
         },
         "worst_r": {
           "symbol": "META",
           "r": -0.35,
           "date": "2026-04-30T22:16:11.423109+02:00"
         },
-        "win_rate": 57.1,
-        "profit_factor": 37.22,
-        "expectancy": 8.18,
-        "avg_r": 1.68
+        "win_rate": 53.8,
+        "profit_factor": 8.77,
+        "expectancy": 1.89,
+        "avg_r": 0.37
       },
       "month": {
         "pnl": 8.92,
@@ -1125,11 +1109,11 @@
         "avg_r": 0.08
       },
       "last_30d": {
-        "pnl": 40.2,
-        "trades": 44,
-        "wins": 32,
+        "pnl": 23.34,
+        "trades": 39,
+        "wins": 27,
         "losses": 9,
-        "profit": 141.85,
+        "profit": 124.99,
         "loss": -101.65,
         "best": {
           "symbol": "ETH/USD",
@@ -1141,8 +1125,8 @@
           "pnl": -25.82,
           "date": "2026-05-06T22:16:11.681455+02:00"
         },
-        "r_sum": 4.622060436505508,
-        "r_count": 44,
+        "r_sum": 3.5605548090972876,
+        "r_count": 39,
         "best_r": {
           "symbol": "ADA/USD",
           "r": 1.5,
@@ -1153,10 +1137,10 @@
           "r": -0.89,
           "date": "2026-05-06T22:16:11.681455+02:00"
         },
-        "win_rate": 72.7,
-        "profit_factor": 1.4,
-        "expectancy": 0.91,
-        "avg_r": 0.11
+        "win_rate": 69.2,
+        "profit_factor": 1.23,
+        "expectancy": 0.6,
+        "avg_r": 0.09
       },
       "month": {
         "pnl": 69.62,
@@ -1282,38 +1266,38 @@
       "avg_r": 0.06
     },
     "last_30d": {
-      "pnl": 801.53,
-      "trades": 304,
-      "wins": 174,
-      "losses": 97,
-      "profit": 1561.59,
-      "loss": -760.06,
+      "pnl": 544.72,
+      "trades": 250,
+      "wins": 146,
+      "losses": 82,
+      "profit": 834.42,
+      "loss": -289.7,
       "best": {
-        "symbol": "AVAXUSD",
-        "pnl": 189.93,
-        "date": "2026-04-16T20:53:08.150653+02:00"
+        "symbol": "BTC/USD",
+        "pnl": 84.77,
+        "date": "2026-05-11T22:15:28.060886+02:00"
       },
       "worst": {
-        "symbol": "URA",
-        "pnl": -177.25,
-        "date": "2026-04-16T17:53:02.990267+02:00"
+        "symbol": "ETH/USD",
+        "pnl": -25.82,
+        "date": "2026-05-06T22:16:11.681455+02:00"
       },
-      "r_sum": 70.44604445120454,
-      "r_count": 304,
+      "r_sum": 38.2674016763735,
+      "r_count": 250,
       "best_r": {
-        "symbol": "TSLA",
-        "r": 18.69,
-        "date": "2026-04-16T17:32:12.911388+02:00"
+        "symbol": "ETH/USD",
+        "r": 5.35,
+        "date": "2026-04-17T12:33:21.217941+02:00"
       },
       "worst_r": {
-        "symbol": "URA",
-        "r": -9.71,
-        "date": "2026-04-16T17:53:02.990267+02:00"
+        "symbol": "USO",
+        "r": -1.4,
+        "date": "2026-04-24T17:45:12.009808+02:00"
       },
-      "win_rate": 57.2,
-      "profit_factor": 2.05,
-      "expectancy": 2.64,
-      "avg_r": 0.23
+      "win_rate": 58.4,
+      "profit_factor": 2.88,
+      "expectancy": 2.18,
+      "avg_r": 0.15
     },
     "month": {
       "pnl": 309.0,
