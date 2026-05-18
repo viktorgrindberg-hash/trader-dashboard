@@ -1,5 +1,27 @@
 [
   {
+    "symbol": "USO",
+    "side": "sell",
+    "qty": "3",
+    "type": "limit",
+    "order_class": "bracket",
+    "status": "new",
+    "limit_price": "155.64",
+    "stop_price": null,
+    "created_at": "2026-05-18T18:28:20.609036636Z"
+  },
+  {
+    "symbol": "COPX",
+    "side": "buy",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "82.92",
+    "created_at": "2026-05-18T17:43:39.396521Z"
+  },
+  {
     "symbol": "AMD",
     "side": "buy",
     "qty": "1",
@@ -8,7 +30,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "423.03",
-    "created_at": "2026-05-18T16:32:18.399647449Z"
+    "created_at": "2026-05-18T16:32:18.399647Z"
   },
   {
     "symbol": "XLE",
@@ -20,17 +42,6 @@
     "limit_price": null,
     "stop_price": "59.6",
     "created_at": "2026-05-18T16:12:57.541297Z"
-  },
-  {
-    "symbol": "USO",
-    "side": "sell",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "148.29",
-    "created_at": "2026-05-18T15:11:49.060911Z"
   },
   {
     "symbol": "META",
@@ -64,17 +75,6 @@
     "limit_price": null,
     "stop_price": "748.61",
     "created_at": "2026-05-18T14:38:02.808649Z"
-  },
-  {
-    "symbol": "GOOG",
-    "side": "sell",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "395.87",
-    "created_at": "2026-05-18T14:12:14.868125Z"
   },
   {
     "symbol": "MSFT",
