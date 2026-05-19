@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "symbol": "USO",
+    "side": "sell",
+    "qty": "3",
+    "type": "limit",
+    "order_class": "bracket",
+    "status": "new",
+    "limit_price": "155.41",
+    "stop_price": null,
+    "created_at": "2026-05-19T16:36:20.990547Z"
+  },
+  {
+    "symbol": "META",
+    "side": "buy",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "611.35",
+    "created_at": "2026-05-19T16:16:32.408984Z"
+  },
+  {
+    "symbol": "XLE",
+    "side": "sell",
+    "qty": "8",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "59.89",
+    "created_at": "2026-05-19T15:59:05.524687Z"
+  },
+  {
+    "symbol": "AMZN",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "259.94",
+    "created_at": "2026-05-19T15:27:58.554604Z"
+  },
+  {
+    "symbol": "COPX",
+    "side": "buy",
+    "qty": "7",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "79.8",
+    "created_at": "2026-05-19T14:26:52.453061Z"
+  },
+  {
+    "symbol": "TSLA",
+    "side": "buy",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "403.19",
+    "created_at": "2026-05-19T14:19:41.902214Z"
+  },
+  {
+    "symbol": "QQQ",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "709.1",
+    "created_at": "2026-05-19T14:11:59.671922Z"
+  },
+  {
+    "symbol": "AME",
+    "side": "sell",
+    "qty": "8",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "217.68",
+    "created_at": "2026-05-19T13:42:22.183275Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": "5",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "295.27",
+    "created_at": "2026-05-19T13:42:19.388684Z"
+  }
+]
