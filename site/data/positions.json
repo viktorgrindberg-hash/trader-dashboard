@@ -1,20 +1,41 @@
 {
-  "count": 1,
-  "total_unrealized_pl": 0.58,
-  "longs": 1,
+  "count": 2,
+  "total_unrealized_pl": 1.52,
+  "longs": 2,
   "shorts": 0,
   "rows": [
+    {
+      "symbol": "ETHUSD",
+      "side": "long",
+      "qty": 0.235130543,
+      "avg_entry_price": 2122.332,
+      "current_price": 2122.79,
+      "market_value": 499.132765,
+      "cost_basis": 499.025076,
+      "unrealized_pl": 0.107689,
+      "unrealized_plpc": 0.02,
+      "change_today": 0.27,
+      "asset_class": "crypto",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "stop_loss": 2273.46,
+      "take_profit": 2391.29,
+      "opened_at": "2026-05-09T02:45:16.808660+02:00",
+      "protection": "protected",
+      "protection_orders": 0,
+      "stop_prices": []
+    },
     {
       "symbol": "XRPUSD",
       "side": "long",
       "qty": 524.204208,
       "avg_entry_price": 1.3653,
-      "current_price": 1.3664,
-      "market_value": 716.27263,
+      "current_price": 1.368,
+      "market_value": 717.111357,
       "cost_basis": 715.696005,
-      "unrealized_pl": 0.576625,
-      "unrealized_plpc": 0.08,
-      "change_today": 0.39,
+      "unrealized_pl": 1.415352,
+      "unrealized_plpc": 0.2,
+      "change_today": 0.51,
       "asset_class": "crypto",
       "engine": "crypto_john",
       "engine_label": "Crypto John Live",
@@ -26,7 +47,7 @@
       "stop_prices": []
     }
   ],
-  "protected_count": 1,
+  "protected_count": 2,
   "missing_stop_count": 0,
   "stale_journal_opens": [
     {
@@ -173,28 +194,6 @@
       "take_profit": 591.07
     },
     {
-      "symbol": "ETH/USD",
-      "engine": "crypto_24_7",
-      "engine_label": "Crypto 24/7",
-      "side": "buy",
-      "entry_price": 2303.7900390625,
-      "qty": 0.21703366692368767,
-      "opened_at": "2026-05-02T10:33:07.063800+02:00",
-      "stop_loss": 2266.93,
-      "take_profit": 2384.42
-    },
-    {
-      "symbol": "ETH/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 2303.080078125,
-      "qty": 0.7854,
-      "opened_at": "2026-05-02T12:31:06.000638+02:00",
-      "stop_loss": 2266.23,
-      "take_profit": 2383.69
-    },
-    {
       "symbol": "ADA/USD",
       "engine": "crypto_john",
       "engine_label": "Crypto John Live",
@@ -226,17 +225,6 @@
       "opened_at": "2026-05-03T17:45:19.520789+02:00",
       "stop_loss": 0.25,
       "take_profit": 0.26
-    },
-    {
-      "symbol": "ETH/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 2376.989990234375,
-      "qty": 0.761,
-      "opened_at": "2026-05-05T14:30:23.934251+02:00",
-      "stop_loss": 2338.96,
-      "take_profit": 2460.18
     },
     {
       "symbol": "AMD",
@@ -283,28 +271,6 @@
       "take_profit": 61.71
     },
     {
-      "symbol": "ETH/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 2376.989990234375,
-      "qty": 0.7608,
-      "opened_at": "2026-05-05T22:16:28.584995+02:00",
-      "stop_loss": 2338.96,
-      "take_profit": 2460.18
-    },
-    {
-      "symbol": "ETH/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 2376.989990234375,
-      "qty": 0.7608,
-      "opened_at": "2026-05-06T15:18:04.415360+02:00",
-      "stop_loss": 2338.96,
-      "take_profit": 2460.18
-    },
-    {
       "symbol": "NVDA",
       "engine": "C",
       "engine_label": "Engine C, ORB",
@@ -314,17 +280,6 @@
       "opened_at": "2026-05-06T16:07:46.942229+02:00",
       "stop_loss": 200.18,
       "take_profit": 210.34
-    },
-    {
-      "symbol": "ETH/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 2310.429931640625,
-      "qty": 0.7812,
-      "opened_at": "2026-05-09T02:45:16.808660+02:00",
-      "stop_loss": 2273.46,
-      "take_profit": 2391.29
     }
   ]
 }
