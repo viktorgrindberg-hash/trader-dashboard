@@ -1,13 +1,90 @@
 [
   {
-    "symbol": "AAPL",
+    "symbol": "GLD",
     "side": "buy",
     "qty": "1",
-    "type": "market",
+    "type": "limit",
     "order_class": "bracket",
     "status": "new",
-    "limit_price": null,
+    "limit_price": "398.97",
     "stop_price": null,
-    "created_at": "2026-05-25T13:31:39.683286Z"
+    "created_at": "2026-05-26T16:06:33.732997966Z"
+  },
+  {
+    "symbol": "TSLA",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "424.5",
+    "created_at": "2026-05-26T15:04:31.721802Z"
+  },
+  {
+    "symbol": "AMZN",
+    "side": "buy",
+    "qty": "4",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "270.05",
+    "created_at": "2026-05-26T14:33:53.295051Z"
+  },
+  {
+    "symbol": "USO",
+    "side": "sell",
+    "qty": "8",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "135.36",
+    "created_at": "2026-05-26T14:22:41.329445Z"
+  },
+  {
+    "symbol": "AMD",
+    "side": "sell",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "481.66",
+    "created_at": "2026-05-26T14:08:44.288308Z"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": "4",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "409.46",
+    "created_at": "2026-05-26T13:53:39.862888Z"
+  },
+  {
+    "symbol": "AME",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "223.15",
+    "created_at": "2026-05-26T13:41:55.625752Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "305.35",
+    "created_at": "2026-05-26T13:41:54.188116Z"
   }
 ]
