@@ -1,14 +1,47 @@
 [
   {
-    "symbol": "GLD",
-    "side": "buy",
-    "qty": "1",
+    "symbol": "SMCI",
+    "side": "sell",
+    "qty": "32",
     "type": "limit",
     "order_class": "bracket",
     "status": "new",
-    "limit_price": "398.97",
+    "limit_price": "39.14",
     "stop_price": null,
-    "created_at": "2026-05-26T16:06:33.732997966Z"
+    "created_at": "2026-05-26T18:31:18.587090425Z"
+  },
+  {
+    "symbol": "XLE",
+    "side": "buy",
+    "qty": "8",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "59.11",
+    "created_at": "2026-05-26T18:31:09.876073Z"
+  },
+  {
+    "symbol": "DIA",
+    "side": "buy",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "511.84",
+    "created_at": "2026-05-26T17:40:15.06751Z"
+  },
+  {
+    "symbol": "GLD",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "419.65",
+    "created_at": "2026-05-26T16:18:30.050644Z"
   },
   {
     "symbol": "TSLA",
@@ -20,17 +53,6 @@
     "limit_price": null,
     "stop_price": "424.5",
     "created_at": "2026-05-26T15:04:31.721802Z"
-  },
-  {
-    "symbol": "AMZN",
-    "side": "buy",
-    "qty": "4",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "270.05",
-    "created_at": "2026-05-26T14:33:53.295051Z"
   },
   {
     "symbol": "USO",
