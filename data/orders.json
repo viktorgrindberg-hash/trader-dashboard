@@ -5,7 +5,7 @@
     "qty": "1",
     "type": "market",
     "order_class": "bracket",
-    "status": "accepted",
+    "status": "new",
     "limit_price": null,
     "stop_price": null,
     "created_at": "2026-05-25T13:31:39.683286Z"
