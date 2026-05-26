@@ -1,102 +1,14 @@
 [
   {
-    "symbol": "SMCI",
-    "side": "sell",
-    "qty": "32",
-    "type": "limit",
-    "order_class": "bracket",
-    "status": "new",
-    "limit_price": "39.14",
-    "stop_price": null,
-    "created_at": "2026-05-26T18:31:18.587090425Z"
-  },
-  {
-    "symbol": "XLE",
-    "side": "buy",
-    "qty": "8",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "59.11",
-    "created_at": "2026-05-26T18:31:09.876073Z"
-  },
-  {
-    "symbol": "DIA",
-    "side": "buy",
-    "qty": "2",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "511.84",
-    "created_at": "2026-05-26T17:40:15.06751Z"
-  },
-  {
-    "symbol": "GLD",
-    "side": "buy",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "419.65",
-    "created_at": "2026-05-26T16:18:30.050644Z"
-  },
-  {
-    "symbol": "TSLA",
-    "side": "sell",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "424.5",
-    "created_at": "2026-05-26T15:04:31.721802Z"
-  },
-  {
-    "symbol": "USO",
-    "side": "sell",
-    "qty": "8",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "135.36",
-    "created_at": "2026-05-26T14:22:41.329445Z"
-  },
-  {
     "symbol": "AMD",
     "side": "sell",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "481.66",
-    "created_at": "2026-05-26T14:08:44.288308Z"
-  },
-  {
-    "symbol": "MSFT",
-    "side": "sell",
-    "qty": "4",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "409.46",
-    "created_at": "2026-05-26T13:53:39.862888Z"
-  },
-  {
-    "symbol": "AME",
-    "side": "sell",
     "qty": "1",
     "type": "stop",
     "order_class": "",
-    "status": "new",
+    "status": "accepted",
     "limit_price": null,
-    "stop_price": "223.15",
-    "created_at": "2026-05-26T13:41:55.625752Z"
+    "stop_price": "496.83",
+    "created_at": "2026-05-26T20:03:28.724072542Z"
   },
   {
     "symbol": "AAPL",
@@ -106,7 +18,7 @@
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "305.35",
-    "created_at": "2026-05-26T13:41:54.188116Z"
+    "stop_price": "303.78",
+    "created_at": "2026-05-26T19:28:50.304525Z"
   }
 ]
