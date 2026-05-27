@@ -7,18 +7,7 @@
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 496.83",
-    "rr": 22.4,
-    "risk_dollars": 7.64
-  },
-  {
-    "symbol": "ETHUSD",
-    "engine": "Crypto John Live",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 2273.46",
-    "rr": 1.59,
-    "risk_dollars": 173.84
+    "rr": 370.5,
+    "risk_dollars": 0.44
   }
 ]
