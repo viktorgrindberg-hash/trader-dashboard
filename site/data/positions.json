@@ -1,30 +1,9 @@
 {
-  "count": 3,
-  "total_unrealized_pl": 0.18,
-  "longs": 2,
+  "count": 4,
+  "total_unrealized_pl": 5.36,
+  "longs": 3,
   "shorts": 1,
   "rows": [
-    {
-      "symbol": "ADAUSD",
-      "side": "long",
-      "qty": 3013.365978,
-      "avg_entry_price": 0.23729,
-      "current_price": 0.2364,
-      "market_value": 712.359717,
-      "cost_basis": 715.041613,
-      "unrealized_pl": -2.681896,
-      "unrealized_plpc": -0.38,
-      "change_today": -0.13,
-      "asset_class": "crypto",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "stop_loss": 0.25,
-      "take_profit": 0.26,
-      "opened_at": "2026-05-03T17:45:19.520789+02:00",
-      "protection": "protected",
-      "protection_orders": 0,
-      "stop_prices": []
-    },
     {
       "symbol": "AMZN",
       "side": "short",
@@ -47,6 +26,48 @@
       "stop_prices": [
         275.05
       ]
+    },
+    {
+      "symbol": "AVAXUSD",
+      "side": "long",
+      "qty": 55.494995851,
+      "avg_entry_price": 9.003,
+      "current_price": 9.0102,
+      "market_value": 500.021012,
+      "cost_basis": 499.621448,
+      "unrealized_pl": 0.399564,
+      "unrealized_plpc": 0.08,
+      "change_today": 1.04,
+      "asset_class": "crypto",
+      "engine": "crypto_24_7",
+      "engine_label": "Crypto 24/7",
+      "stop_loss": 9.21,
+      "take_profit": 9.62,
+      "opened_at": "2026-04-26T00:35:18.513732+02:00",
+      "protection": "protected",
+      "protection_orders": 0,
+      "stop_prices": []
+    },
+    {
+      "symbol": "ADAUSD",
+      "side": "long",
+      "qty": 3013.365978,
+      "avg_entry_price": 0.23729,
+      "current_price": 0.237987,
+      "market_value": 717.141929,
+      "cost_basis": 715.041613,
+      "unrealized_pl": 2.100316,
+      "unrealized_plpc": 0.29,
+      "change_today": 0.54,
+      "asset_class": "crypto",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "stop_loss": 0.25,
+      "take_profit": 0.26,
+      "opened_at": "2026-05-03T17:45:19.520789+02:00",
+      "protection": "protected",
+      "protection_orders": 0,
+      "stop_prices": []
     },
     {
       "symbol": "META",
@@ -72,20 +93,9 @@
       ]
     }
   ],
-  "protected_count": 3,
+  "protected_count": 4,
   "missing_stop_count": 0,
   "stale_journal_opens": [
-    {
-      "symbol": "AVAX/USD",
-      "engine": "crypto_24_7",
-      "engine_label": "Crypto 24/7",
-      "side": "buy",
-      "entry_price": 9.359999656677246,
-      "qty": 53.418805378193525,
-      "opened_at": "2026-04-26T00:35:18.513732+02:00",
-      "stop_loss": 9.21,
-      "take_profit": 9.62
-    },
     {
       "symbol": "XRP/USD",
       "engine": "crypto_john",

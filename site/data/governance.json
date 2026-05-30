@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "ADAUSD",
-    "engine": "Crypto John Live",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 0.25",
-    "rr": 1.79,
-    "risk_dollars": 38.3
-  },
-  {
     "symbol": "AMZN",
     "engine": "Engine C, ORB",
     "status": "PAPER",
@@ -20,6 +9,28 @@
     "kill_criteria": "Stop 275.05",
     "rr": 3.34,
     "risk_dollars": 4.06
+  },
+  {
+    "symbol": "AVAXUSD",
+    "engine": "Crypto 24/7",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 9.21",
+    "rr": 2.98,
+    "risk_dollars": 11.49
+  },
+  {
+    "symbol": "ADAUSD",
+    "engine": "Crypto John Live",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 0.25",
+    "rr": 1.79,
+    "risk_dollars": 38.3
   },
   {
     "symbol": "META",
