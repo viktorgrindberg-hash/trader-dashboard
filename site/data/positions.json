@@ -1,30 +1,9 @@
 {
   "count": 4,
-  "total_unrealized_pl": 4.19,
+  "total_unrealized_pl": 7.47,
   "longs": 3,
   "shorts": 1,
   "rows": [
-    {
-      "symbol": "XRPUSD",
-      "side": "long",
-      "qty": 371.150122308,
-      "avg_entry_price": 1.345,
-      "current_price": 1.344,
-      "market_value": 498.825764,
-      "cost_basis": 499.196915,
-      "unrealized_pl": -0.371151,
-      "unrealized_plpc": -0.07,
-      "change_today": -1.25,
-      "asset_class": "crypto",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "stop_loss": 1.38,
-      "take_profit": 1.46,
-      "opened_at": "2026-05-07T00:45:22.000472+02:00",
-      "protection": "protected",
-      "protection_orders": 0,
-      "stop_prices": []
-    },
     {
       "symbol": "AMZN",
       "side": "short",
@@ -91,6 +70,27 @@
       "stop_prices": [
         620.55
       ]
+    },
+    {
+      "symbol": "XRPUSD",
+      "side": "long",
+      "qty": 371.150122308,
+      "avg_entry_price": 1.345,
+      "current_price": 1.35283,
+      "market_value": 502.10302,
+      "cost_basis": 499.196915,
+      "unrealized_pl": 2.906105,
+      "unrealized_plpc": 0.58,
+      "change_today": -0.6,
+      "asset_class": "crypto",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "stop_loss": 1.38,
+      "take_profit": 1.46,
+      "opened_at": "2026-05-07T00:45:22.000472+02:00",
+      "protection": "protected",
+      "protection_orders": 0,
+      "stop_prices": []
     }
   ],
   "protected_count": 4,
