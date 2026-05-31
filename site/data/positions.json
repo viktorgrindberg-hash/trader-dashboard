@@ -1,9 +1,30 @@
 {
   "count": 3,
-  "total_unrealized_pl": 3.99,
+  "total_unrealized_pl": 0.9,
   "longs": 2,
   "shorts": 1,
   "rows": [
+    {
+      "symbol": "ETHUSD",
+      "side": "long",
+      "qty": 0.246257267,
+      "avg_entry_price": 2027.9,
+      "current_price": 2019.923,
+      "market_value": 497.420718,
+      "cost_basis": 499.385112,
+      "unrealized_pl": -1.964394,
+      "unrealized_plpc": -0.39,
+      "change_today": -0.41,
+      "asset_class": "crypto",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "stop_loss": 2273.46,
+      "take_profit": 2391.29,
+      "opened_at": "2026-05-09T02:45:16.808660+02:00",
+      "protection": "protected",
+      "protection_orders": 0,
+      "stop_prices": []
+    },
     {
       "symbol": "AMZN",
       "side": "short",
@@ -26,27 +47,6 @@
       "stop_prices": [
         275.05
       ]
-    },
-    {
-      "symbol": "ETHUSD",
-      "side": "long",
-      "qty": 0.246257267,
-      "avg_entry_price": 2027.9,
-      "current_price": 2032.5,
-      "market_value": 500.517895,
-      "cost_basis": 499.385112,
-      "unrealized_pl": 1.132783,
-      "unrealized_plpc": 0.23,
-      "change_today": 0.21,
-      "asset_class": "crypto",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "stop_loss": 2273.46,
-      "take_profit": 2391.29,
-      "opened_at": "2026-05-09T02:45:16.808660+02:00",
-      "protection": "protected",
-      "protection_orders": 0,
-      "stop_prices": []
     },
     {
       "symbol": "META",
