@@ -1,6 +1,6 @@
 {
   "count": 3,
-  "total_unrealized_pl": 3.26,
+  "total_unrealized_pl": 3.99,
   "longs": 2,
   "shorts": 1,
   "rows": [
@@ -28,22 +28,22 @@
       ]
     },
     {
-      "symbol": "AVAXUSD",
+      "symbol": "ETHUSD",
       "side": "long",
-      "qty": 55.494995851,
-      "avg_entry_price": 9.003,
-      "current_price": 9.0102,
-      "market_value": 500.021012,
-      "cost_basis": 499.621448,
-      "unrealized_pl": 0.399564,
-      "unrealized_plpc": 0.08,
-      "change_today": 1.04,
+      "qty": 0.246257267,
+      "avg_entry_price": 2027.9,
+      "current_price": 2032.5,
+      "market_value": 500.517895,
+      "cost_basis": 499.385112,
+      "unrealized_pl": 1.132783,
+      "unrealized_plpc": 0.23,
+      "change_today": 0.21,
       "asset_class": "crypto",
-      "engine": "crypto_24_7",
-      "engine_label": "Crypto 24/7",
-      "stop_loss": 9.21,
-      "take_profit": 9.62,
-      "opened_at": "2026-04-26T00:35:18.513732+02:00",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "stop_loss": 2273.46,
+      "take_profit": 2391.29,
+      "opened_at": "2026-05-09T02:45:16.808660+02:00",
       "protection": "protected",
       "protection_orders": 0,
       "stop_prices": []
@@ -75,6 +75,39 @@
   "protected_count": 3,
   "missing_stop_count": 0,
   "stale_journal_opens": [
+    {
+      "symbol": "AVAX/USD",
+      "engine": "crypto_24_7",
+      "engine_label": "Crypto 24/7",
+      "side": "buy",
+      "entry_price": 9.359999656677246,
+      "qty": 53.418805378193525,
+      "opened_at": "2026-04-26T00:35:18.513732+02:00",
+      "stop_loss": 9.21,
+      "take_profit": 9.62
+    },
+    {
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "side": "buy",
+      "entry_price": 0.24709999561309814,
+      "qty": 2932.26,
+      "opened_at": "2026-04-30T04:30:20.438914+02:00",
+      "stop_loss": 0.24,
+      "take_profit": 0.25
+    },
+    {
+      "symbol": "ADA/USD",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "side": "buy",
+      "entry_price": 0.24660000205039978,
+      "qty": 2937.9,
+      "opened_at": "2026-04-30T11:00:24.719774+02:00",
+      "stop_loss": 0.24,
+      "take_profit": 0.25
+    },
     {
       "symbol": "XRP/USD",
       "engine": "crypto_john",
@@ -186,28 +219,6 @@
       "take_profit": 428.17
     },
     {
-      "symbol": "ETH/USD",
-      "engine": "crypto_24_7",
-      "engine_label": "Crypto 24/7",
-      "side": "buy",
-      "entry_price": 2303.7900390625,
-      "qty": 0.21703366692368767,
-      "opened_at": "2026-05-02T10:33:07.063800+02:00",
-      "stop_loss": 2266.93,
-      "take_profit": 2384.42
-    },
-    {
-      "symbol": "ETH/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 2303.080078125,
-      "qty": 0.7854,
-      "opened_at": "2026-05-02T12:31:06.000638+02:00",
-      "stop_loss": 2266.23,
-      "take_profit": 2383.69
-    },
-    {
       "symbol": "XRP/USD",
       "engine": "crypto_john",
       "engine_label": "Crypto John Live",
@@ -285,17 +296,6 @@
       "take_profit": 1.46
     },
     {
-      "symbol": "ETH/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 2376.989990234375,
-      "qty": 0.761,
-      "opened_at": "2026-05-05T14:30:23.934251+02:00",
-      "stop_loss": 2338.96,
-      "take_profit": 2460.18
-    },
-    {
       "symbol": "AMD",
       "engine": "C",
       "engine_label": "Engine C, ORB",
@@ -318,17 +318,6 @@
       "take_profit": 61.71
     },
     {
-      "symbol": "ETH/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 2376.989990234375,
-      "qty": 0.7608,
-      "opened_at": "2026-05-05T22:16:28.584995+02:00",
-      "stop_loss": 2338.96,
-      "take_profit": 2460.18
-    },
-    {
       "symbol": "XRP/USD",
       "engine": "crypto_john",
       "engine_label": "Crypto John Live",
@@ -349,17 +338,6 @@
       "opened_at": "2026-05-06T06:30:20.251740+02:00",
       "stop_loss": 1.38,
       "take_profit": 1.46
-    },
-    {
-      "symbol": "ETH/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 2376.989990234375,
-      "qty": 0.7608,
-      "opened_at": "2026-05-06T15:18:04.415360+02:00",
-      "stop_loss": 2338.96,
-      "take_profit": 2460.18
     },
     {
       "symbol": "XRP/USD",
@@ -393,17 +371,6 @@
       "opened_at": "2026-05-07T00:45:22.000472+02:00",
       "stop_loss": 1.38,
       "take_profit": 1.46
-    },
-    {
-      "symbol": "ETH/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 2310.429931640625,
-      "qty": 0.7812,
-      "opened_at": "2026-05-09T02:45:16.808660+02:00",
-      "stop_loss": 2273.46,
-      "take_profit": 2391.29
     }
   ]
 }
