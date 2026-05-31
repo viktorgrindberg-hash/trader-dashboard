@@ -2,8 +2,8 @@
   {
     "engine": "C",
     "label": "Engine C ORB",
-    "closed_month_trades": 37,
-    "closed_month_pnl": 146.55,
+    "closed_month_trades": 0,
+    "closed_month_pnl": 0.0,
     "open_positions": 2,
     "unrealized_pl": 2.86,
     "last_trade_at": "2026-05-11T22:15:28.057496+02:00",
@@ -13,7 +13,7 @@
     "run_status": "ok",
     "diagnosis": "Ran but did not execute.",
     "health_state": "active",
-    "action_hint": "Trading this month; monitor quality not quantity.",
+    "action_hint": "Check cron/log coverage and whether this engine is intentionally inactive.",
     "diagnostics": {}
   },
   {
@@ -36,8 +36,8 @@
   {
     "engine": "D",
     "label": "Engine D Scanner",
-    "closed_month_trades": 3,
-    "closed_month_pnl": 8.92,
+    "closed_month_trades": 0,
+    "closed_month_pnl": 0.0,
     "open_positions": 0,
     "unrealized_pl": 0.0,
     "last_trade_at": "2026-05-06T22:16:11.670516+02:00",
@@ -47,7 +47,7 @@
     "run_status": "ok",
     "diagnosis": "Ran but did not execute.",
     "health_state": "active",
-    "action_hint": "Trading this month; monitor quality not quantity.",
+    "action_hint": "Check cron/log coverage and whether this engine is intentionally inactive.",
     "diagnostics": {}
   },
   {
@@ -70,8 +70,8 @@
   {
     "engine": "crypto_john",
     "label": "Crypto John Live",
-    "closed_month_trades": 14,
-    "closed_month_pnl": 69.62,
+    "closed_month_trades": 0,
+    "closed_month_pnl": 0.0,
     "open_positions": 0,
     "unrealized_pl": 0.0,
     "last_trade_at": "2026-05-11T22:15:28.054171+02:00",
@@ -81,7 +81,7 @@
     "run_status": "ok",
     "diagnosis": "Ran but did not execute.",
     "health_state": "active",
-    "action_hint": "Trading this month; monitor quality not quantity.",
+    "action_hint": "Check cron/log coverage and whether this engine is intentionally inactive.",
     "diagnostics": {}
   },
   {
@@ -121,8 +121,8 @@
   {
     "engine": "daytrading",
     "label": "Daytrading",
-    "closed_month_trades": 11,
-    "closed_month_pnl": 83.91,
+    "closed_month_trades": 0,
+    "closed_month_pnl": 0.0,
     "open_positions": 0,
     "unrealized_pl": 0.0,
     "last_trade_at": "2026-05-11T22:15:28.060886+02:00",
@@ -132,7 +132,7 @@
     "run_status": "ok",
     "diagnosis": "Ran but did not execute.",
     "health_state": "active",
-    "action_hint": "Trading this month; monitor quality not quantity.",
+    "action_hint": "Check cron/log coverage and whether this engine is intentionally inactive.",
     "diagnostics": {}
   },
   {
