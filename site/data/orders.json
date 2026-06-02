@@ -1,145 +1,68 @@
 [
   {
-    "symbol": "USO",
-    "side": "sell",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "134.76",
-    "created_at": "2026-06-02T18:09:50.156770992Z"
-  },
-  {
-    "symbol": "AAPL",
-    "side": "sell",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "313.17",
-    "created_at": "2026-06-02T17:07:59.46045Z"
-  },
-  {
-    "symbol": "XLE",
-    "side": "sell",
-    "qty": "8",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "56.97",
-    "created_at": "2026-06-02T16:06:19.673761Z"
-  },
-  {
-    "symbol": "COPX",
-    "side": "sell",
-    "qty": "11",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "91.84",
-    "created_at": "2026-06-02T16:06:18.249196Z"
-  },
-  {
-    "symbol": "AMD",
-    "side": "sell",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "510.21",
-    "created_at": "2026-06-02T16:06:02.627655Z"
-  },
-  {
-    "symbol": "QQQ",
-    "side": "sell",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "732.71",
-    "created_at": "2026-06-02T15:04:37.963625Z"
-  },
-  {
-    "symbol": "MSFT",
-    "side": "buy",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "451.67",
-    "created_at": "2026-06-02T15:04:36.562835Z"
-  },
-  {
-    "symbol": "AMZN",
-    "side": "sell",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "255.52",
-    "created_at": "2026-06-02T15:04:35.151794Z"
-  },
-  {
     "symbol": "URA",
-    "side": "sell",
+    "side": "buy",
     "qty": "4",
     "type": "stop",
     "order_class": "",
-    "status": "new",
+    "status": "accepted",
     "limit_price": null,
-    "stop_price": "52.52",
-    "created_at": "2026-06-02T15:04:31.066019Z"
+    "stop_price": "54.3",
+    "created_at": "2026-06-02T20:13:28.106615754Z"
   },
   {
-    "symbol": "VRT",
-    "side": "sell",
-    "qty": "5",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "330.08",
-    "created_at": "2026-06-02T14:02:37.915265Z"
-  },
-  {
-    "symbol": "TSLA",
+    "symbol": "QQQ",
     "side": "buy",
     "qty": "1",
     "type": "stop",
     "order_class": "",
-    "status": "new",
+    "status": "accepted",
     "limit_price": null,
-    "stop_price": "423.49",
-    "created_at": "2026-06-02T14:02:36.529984Z"
+    "stop_price": "758.36",
+    "created_at": "2026-06-02T20:13:26.677106Z"
   },
   {
-    "symbol": "FSLR",
+    "symbol": "MSFT",
     "side": "sell",
-    "qty": "5",
+    "qty": "1",
     "type": "stop",
     "order_class": "",
-    "status": "new",
+    "status": "accepted",
     "limit_price": null,
-    "stop_price": "301.23",
-    "created_at": "2026-06-02T14:02:33.675167Z"
+    "stop_price": "434.98",
+    "created_at": "2026-06-02T20:13:25.25524Z"
   },
   {
-    "symbol": "AME",
-    "side": "sell",
-    "qty": "7",
+    "symbol": "AMZN",
+    "side": "buy",
+    "qty": "3",
     "type": "stop",
     "order_class": "",
-    "status": "new",
+    "status": "accepted",
     "limit_price": null,
-    "stop_price": "222.88",
-    "created_at": "2026-06-02T14:02:32.233197Z"
+    "stop_price": "261.39",
+    "created_at": "2026-06-02T20:13:23.817851Z"
+  },
+  {
+    "symbol": "AMD",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "accepted",
+    "limit_price": null,
+    "stop_price": "529.07",
+    "created_at": "2026-06-02T20:13:22.338208Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "accepted",
+    "limit_price": null,
+    "stop_price": "319.98",
+    "created_at": "2026-06-02T20:13:20.893409Z"
   }
 ]
