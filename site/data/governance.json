@@ -1,14 +1,14 @@
 [
   {
-    "symbol": "QQQ",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
+    "symbol": "MSFT",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 758.36",
-    "rr": null,
-    "risk_dollars": 12.73
+    "kill_criteria": "Stop 434.98",
+    "rr": 2.01,
+    "risk_dollars": 6.74
   },
   {
     "symbol": "URA",
@@ -22,15 +22,26 @@
     "risk_dollars": 4.2
   },
   {
-    "symbol": "MSFT",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
+    "symbol": "AAPL",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 434.98",
-    "rr": 2.01,
-    "risk_dollars": 6.74
+    "kill_criteria": "Stop 319.98",
+    "rr": null,
+    "risk_dollars": 5.03
+  },
+  {
+    "symbol": "QQQ",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 758.36",
+    "rr": null,
+    "risk_dollars": 12.73
   },
   {
     "symbol": "AMD",
@@ -42,17 +53,6 @@
     "kill_criteria": "Stop 529.07",
     "rr": 17.66,
     "risk_dollars": 10.49
-  },
-  {
-    "symbol": "AAPL",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 319.98",
-    "rr": null,
-    "risk_dollars": 5.03
   },
   {
     "symbol": "AMZN",
