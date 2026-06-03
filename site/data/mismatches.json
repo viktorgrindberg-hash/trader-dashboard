@@ -11,12 +11,12 @@
     ],
     "symbols": [
       "ADA/USD",
+      "AMD",
       "DOT/USD",
       "ETH/USD",
       "META",
-      "NVDA",
+      "MSFT",
       "SOL/USD",
-      "XLE",
       "XRP/USD"
     ]
   }
