@@ -6,64 +6,9 @@
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 224.25",
+    "kill_criteria": "Stop 231.65",
     "rr": null,
-    "risk_dollars": 38.57
-  },
-  {
-    "symbol": "VRT",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 329.52",
-    "rr": null,
-    "risk_dollars": 25.1
-  },
-  {
-    "symbol": "XLE",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 58.22",
-    "rr": 2.92,
-    "risk_dollars": 7.12
-  },
-  {
-    "symbol": "NFLX",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 82.85",
-    "rr": null,
-    "risk_dollars": 20.74
-  },
-  {
-    "symbol": "AMZN",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 253.87",
-    "rr": 7.8,
-    "risk_dollars": 9.02
-  },
-  {
-    "symbol": "QQQ",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 758.36",
-    "rr": null,
-    "risk_dollars": 12.73
+    "risk_dollars": 24.57
   },
   {
     "symbol": "USO",
@@ -72,30 +17,19 @@
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 137.3",
+    "kill_criteria": "Stop 138.72",
     "rr": null,
-    "risk_dollars": 6.27
+    "risk_dollars": 6.34
   },
   {
-    "symbol": "AAPL",
+    "symbol": "VRT",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 319.98",
+    "kill_criteria": "Stop 337.14",
     "rr": null,
-    "risk_dollars": 5.03
-  },
-  {
-    "symbol": "NVDA",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 220.53",
-    "rr": 2.13,
-    "risk_dollars": 9.78
+    "risk_dollars": 24.9
   }
 ]

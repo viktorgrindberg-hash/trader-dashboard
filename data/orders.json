@@ -1,36 +1,14 @@
 [
   {
-    "symbol": "XLE",
-    "side": "sell",
-    "qty": "8",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "58.22",
-    "created_at": "2026-06-03T16:07:13.183329577Z"
-  },
-  {
-    "symbol": "NFLX",
+    "symbol": "VRT",
     "side": "buy",
-    "qty": "17",
+    "qty": "5",
     "type": "stop",
     "order_class": "",
-    "status": "new",
+    "status": "accepted",
     "limit_price": null,
-    "stop_price": "82.85",
-    "created_at": "2026-06-03T16:07:11.764005Z"
-  },
-  {
-    "symbol": "AMZN",
-    "side": "buy",
-    "qty": "2",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "253.87",
-    "created_at": "2026-06-03T16:07:10.309684Z"
+    "stop_price": "337.14",
+    "created_at": "2026-06-03T20:18:40.379350369Z"
   },
   {
     "symbol": "USO",
@@ -38,64 +16,20 @@
     "qty": "3",
     "type": "stop",
     "order_class": "",
-    "status": "new",
+    "status": "accepted",
     "limit_price": null,
-    "stop_price": "137.3",
-    "created_at": "2026-06-03T15:05:17.88222Z"
-  },
-  {
-    "symbol": "VRT",
-    "side": "sell",
-    "qty": "5",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "329.52",
-    "created_at": "2026-06-03T14:03:10.817105Z"
-  },
-  {
-    "symbol": "NVDA",
-    "side": "buy",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "220.53",
-    "created_at": "2026-06-03T14:03:09.388096Z"
+    "stop_price": "138.72",
+    "created_at": "2026-06-03T20:18:38.62638Z"
   },
   {
     "symbol": "AME",
-    "side": "sell",
+    "side": "buy",
     "qty": "7",
     "type": "stop",
     "order_class": "",
-    "status": "new",
+    "status": "accepted",
     "limit_price": null,
-    "stop_price": "224.25",
-    "created_at": "2026-06-03T14:03:05.114978Z"
-  },
-  {
-    "symbol": "QQQ",
-    "side": "buy",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "758.36",
-    "created_at": "2026-06-02T20:13:26.677106Z"
-  },
-  {
-    "symbol": "AAPL",
-    "side": "buy",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "319.98",
-    "created_at": "2026-06-02T20:13:20.893409Z"
+    "stop_price": "231.65",
+    "created_at": "2026-06-03T20:18:36.822709Z"
   }
 ]
