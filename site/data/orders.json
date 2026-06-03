@@ -1,25 +1,25 @@
 [
   {
-    "symbol": "URA",
-    "side": "buy",
-    "qty": "4",
-    "type": "stop",
-    "order_class": "",
-    "status": "accepted",
-    "limit_price": null,
-    "stop_price": "54.3",
-    "created_at": "2026-06-02T20:13:28.106616Z"
-  },
-  {
     "symbol": "QQQ",
     "side": "buy",
     "qty": "1",
     "type": "stop",
     "order_class": "",
-    "status": "accepted",
+    "status": "new",
     "limit_price": null,
     "stop_price": "758.36",
     "created_at": "2026-06-02T20:13:26.677106Z"
+  },
+  {
+    "symbol": "AMD",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "529.07",
+    "created_at": "2026-06-02T20:13:22.338208Z"
   },
   {
     "symbol": "MSFT",
@@ -27,7 +27,7 @@
     "qty": "1",
     "type": "stop",
     "order_class": "",
-    "status": "accepted",
+    "status": "new",
     "limit_price": null,
     "stop_price": "434.98",
     "created_at": "2026-06-02T20:13:25.25524Z"
@@ -38,21 +38,10 @@
     "qty": "3",
     "type": "stop",
     "order_class": "",
-    "status": "accepted",
+    "status": "new",
     "limit_price": null,
     "stop_price": "261.39",
     "created_at": "2026-06-02T20:13:23.817851Z"
-  },
-  {
-    "symbol": "AMD",
-    "side": "buy",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "accepted",
-    "limit_price": null,
-    "stop_price": "529.07",
-    "created_at": "2026-06-02T20:13:22.338208Z"
   },
   {
     "symbol": "AAPL",
@@ -60,9 +49,20 @@
     "qty": "1",
     "type": "stop",
     "order_class": "",
-    "status": "accepted",
+    "status": "new",
     "limit_price": null,
     "stop_price": "319.98",
     "created_at": "2026-06-02T20:13:20.893409Z"
+  },
+  {
+    "symbol": "URA",
+    "side": "buy",
+    "qty": "4",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "54.3",
+    "created_at": "2026-06-02T20:13:28.106616Z"
   }
 ]
