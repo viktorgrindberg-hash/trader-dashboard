@@ -1,14 +1,25 @@
 [
   {
+    "symbol": "AMD",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "517.24",
+    "created_at": "2026-06-04T17:15:43.834291395Z"
+  },
+  {
     "symbol": "NVDA",
     "side": "sell",
     "qty": "4",
-    "type": "limit",
-    "order_class": "bracket",
+    "type": "stop",
+    "order_class": "",
     "status": "new",
-    "limit_price": "223.34",
-    "stop_price": null,
-    "created_at": "2026-06-04T15:20:20.880215Z"
+    "limit_price": null,
+    "stop_price": "216.02",
+    "created_at": "2026-06-04T16:06:43.892355Z"
   },
   {
     "symbol": "XLE",
