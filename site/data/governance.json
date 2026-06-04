@@ -8,7 +8,7 @@
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 138.72",
     "rr": null,
-    "risk_dollars": 6.34
+    "risk_dollars": 4.18
   },
   {
     "symbol": "AME",
@@ -30,6 +30,6 @@
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 337.14",
     "rr": null,
-    "risk_dollars": 24.9
+    "risk_dollars": 24.92
   }
 ]
