@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T23:43:41.412180+02:00",
+  "generated_at": "2026-06-06T00:48:15.930714+02:00",
   "periods": {
     "all": {
       "pnl": 1562.42,
@@ -36,38 +36,38 @@
       "avg_r": 0.06
     },
     "last_30d": {
-      "pnl": 186.58,
-      "trades": 38,
-      "wins": 29,
-      "losses": 9,
-      "profit": 239.97,
-      "loss": -53.38,
+      "pnl": 120.28,
+      "trades": 25,
+      "wins": 19,
+      "losses": 6,
+      "profit": 141.7,
+      "loss": -21.42,
       "best": {
         "symbol": "BTC/USD",
         "pnl": 84.77,
         "date": "2026-05-11T22:15:28.060886+02:00"
       },
       "worst": {
-        "symbol": "ETH/USD",
-        "pnl": -25.82,
-        "date": "2026-05-06T22:16:11.681455+02:00"
+        "symbol": "NFLX",
+        "pnl": -12.6,
+        "date": "2026-05-11T18:34:33.327334+02:00"
       },
-      "r_sum": 7.576743999431198,
-      "r_count": 38,
+      "r_sum": 2.4891459701224465,
+      "r_count": 25,
       "best_r": {
-        "symbol": "AMZN",
-        "r": 1.52,
-        "date": "2026-05-06T20:23:52.780651+02:00"
+        "symbol": "NVDA",
+        "r": 1.42,
+        "date": "2026-05-07T16:29:42.536015+02:00"
       },
       "worst_r": {
-        "symbol": "ETH/USD",
-        "r": -0.89,
-        "date": "2026-05-06T22:16:11.681455+02:00"
+        "symbol": "NFLX",
+        "r": -0.8,
+        "date": "2026-05-11T18:34:33.327334+02:00"
       },
-      "win_rate": 76.3,
-      "profit_factor": 4.5,
-      "expectancy": 4.91,
-      "avg_r": 0.2
+      "win_rate": 76.0,
+      "profit_factor": 6.62,
+      "expectancy": 4.81,
+      "avg_r": 0.1
     },
     "month": {
       "pnl": 0.0,
@@ -485,38 +485,38 @@
         "avg_r": 0.01
       },
       "last_30d": {
-        "pnl": 84.09,
-        "trades": 6,
-        "wins": 5,
-        "losses": 1,
-        "profit": 85.44,
-        "loss": -1.35,
+        "pnl": 85.39,
+        "trades": 4,
+        "wins": 4,
+        "losses": 0,
+        "profit": 85.39,
+        "loss": 0.0,
         "best": {
           "symbol": "BTC/USD",
           "pnl": 84.77,
           "date": "2026-05-11T22:15:28.060886+02:00"
         },
         "worst": {
-          "symbol": "URA",
-          "pnl": -1.35,
-          "date": "2026-05-06T22:16:11.678115+02:00"
+          "symbol": "GLD",
+          "pnl": 0.0,
+          "date": "2026-05-07T22:15:45.820824+02:00"
         },
-        "r_sum": 0.054224370051727866,
-        "r_count": 6,
+        "r_sum": 0.10937403286298555,
+        "r_count": 4,
         "best_r": {
           "symbol": "BTC/USD",
           "r": 0.07,
           "date": "2026-05-11T22:15:28.060886+02:00"
         },
         "worst_r": {
-          "symbol": "URA",
-          "r": -0.06,
-          "date": "2026-05-06T22:16:11.678115+02:00"
+          "symbol": "GLD",
+          "r": 0.0,
+          "date": "2026-05-07T22:15:45.820824+02:00"
         },
-        "win_rate": 83.3,
-        "profit_factor": 63.29,
-        "expectancy": 14.02,
-        "avg_r": 0.01
+        "win_rate": 100.0,
+        "profit_factor": 999,
+        "expectancy": 21.35,
+        "avg_r": 0.03
       },
       "month": {
         "pnl": 0.0,
@@ -717,38 +717,38 @@
         "avg_r": 0.1
       },
       "last_30d": {
-        "pnl": 97.67,
-        "trades": 21,
-        "wins": 14,
-        "losses": 7,
-        "profit": 123.89,
-        "loss": -26.21,
+        "pnl": 23.2,
+        "trades": 14,
+        "wins": 8,
+        "losses": 6,
+        "profit": 44.62,
+        "loss": -21.42,
         "best": {
-          "symbol": "AMD",
-          "pnl": 28.14,
-          "date": "2026-05-06T16:20:30.314821+02:00"
+          "symbol": "NVDA",
+          "pnl": 22.28,
+          "date": "2026-05-07T16:29:42.536015+02:00"
         },
         "worst": {
           "symbol": "NFLX",
           "pnl": -12.6,
           "date": "2026-05-11T18:34:33.327334+02:00"
         },
-        "r_sum": 5.454971910155717,
-        "r_count": 21,
+        "r_sum": 1.6919484142331072,
+        "r_count": 14,
         "best_r": {
-          "symbol": "AMD",
-          "r": 1.51,
-          "date": "2026-05-06T16:20:30.314821+02:00"
+          "symbol": "NVDA",
+          "r": 1.42,
+          "date": "2026-05-07T16:29:42.536015+02:00"
         },
         "worst_r": {
           "symbol": "NFLX",
           "r": -0.8,
           "date": "2026-05-11T18:34:33.327334+02:00"
         },
-        "win_rate": 66.7,
-        "profit_factor": 4.73,
-        "expectancy": 4.65,
-        "avg_r": 0.26
+        "win_rate": 57.1,
+        "profit_factor": 2.08,
+        "expectancy": 1.66,
+        "avg_r": 0.12
       },
       "month": {
         "pnl": 0.0,
@@ -841,38 +841,22 @@
         "avg_r": 0.68
       },
       "last_30d": {
-        "pnl": 8.74,
-        "trades": 2,
-        "wins": 2,
+        "pnl": 0.0,
+        "trades": 0,
+        "wins": 0,
         "losses": 0,
-        "profit": 8.74,
+        "profit": 0.0,
         "loss": 0.0,
-        "best": {
-          "symbol": "AMZN",
-          "pnl": 8.73,
-          "date": "2026-05-06T20:23:52.780651+02:00"
-        },
-        "worst": {
-          "symbol": "GOOG",
-          "pnl": 0.01,
-          "date": "2026-05-06T22:16:11.670516+02:00"
-        },
-        "r_sum": 1.5174333182640003,
-        "r_count": 2,
-        "best_r": {
-          "symbol": "AMZN",
-          "r": 1.52,
-          "date": "2026-05-06T20:23:52.780651+02:00"
-        },
-        "worst_r": {
-          "symbol": "GOOG",
-          "r": 0.0,
-          "date": "2026-05-06T22:16:11.670516+02:00"
-        },
-        "win_rate": 100.0,
-        "profit_factor": 999,
-        "expectancy": 4.37,
-        "avg_r": 0.76
+        "best": null,
+        "worst": null,
+        "r_sum": 0.0,
+        "r_count": 0,
+        "best_r": null,
+        "worst_r": null,
+        "win_rate": 0,
+        "profit_factor": 0,
+        "expectancy": 0,
+        "avg_r": 0
       },
       "month": {
         "pnl": 0.0,
@@ -965,38 +949,38 @@
         "avg_r": 0.08
       },
       "last_30d": {
-        "pnl": -3.92,
-        "trades": 9,
-        "wins": 8,
-        "losses": 1,
-        "profit": 21.9,
-        "loss": -25.82,
+        "pnl": 11.69,
+        "trades": 7,
+        "wins": 7,
+        "losses": 0,
+        "profit": 11.69,
+        "loss": 0.0,
         "best": {
-          "symbol": "XRP/USD",
-          "pnl": 10.21,
-          "date": "2026-05-06T22:16:11.684598+02:00"
+          "symbol": "ADA/USD",
+          "pnl": 5.88,
+          "date": "2026-05-11T16:24:19.756995+02:00"
         },
         "worst": {
-          "symbol": "ETH/USD",
-          "pnl": -25.82,
-          "date": "2026-05-06T22:16:11.681455+02:00"
-        },
-        "r_sum": 0.550114400959754,
-        "r_count": 9,
-        "best_r": {
           "symbol": "XRP/USD",
-          "r": 0.75,
-          "date": "2026-05-06T22:16:11.684598+02:00"
+          "pnl": 0.67,
+          "date": "2026-05-08T21:34:39.490066+02:00"
+        },
+        "r_sum": 0.6878235230263536,
+        "r_count": 7,
+        "best_r": {
+          "symbol": "ADA/USD",
+          "r": 0.24,
+          "date": "2026-05-11T16:24:19.756995+02:00"
         },
         "worst_r": {
           "symbol": "ETH/USD",
-          "r": -0.89,
-          "date": "2026-05-06T22:16:11.681455+02:00"
+          "r": 0.04,
+          "date": "2026-05-08T21:34:39.494787+02:00"
         },
-        "win_rate": 88.9,
-        "profit_factor": 0.85,
-        "expectancy": -0.44,
-        "avg_r": 0.06
+        "win_rate": 100.0,
+        "profit_factor": 999,
+        "expectancy": 1.67,
+        "avg_r": 0.1
       },
       "month": {
         "pnl": 0.0,
@@ -1090,38 +1074,38 @@
       "avg_r": 0.06
     },
     "last_30d": {
-      "pnl": 186.58,
-      "trades": 38,
-      "wins": 29,
-      "losses": 9,
-      "profit": 239.97,
-      "loss": -53.38,
+      "pnl": 120.28,
+      "trades": 25,
+      "wins": 19,
+      "losses": 6,
+      "profit": 141.7,
+      "loss": -21.42,
       "best": {
         "symbol": "BTC/USD",
         "pnl": 84.77,
         "date": "2026-05-11T22:15:28.060886+02:00"
       },
       "worst": {
-        "symbol": "ETH/USD",
-        "pnl": -25.82,
-        "date": "2026-05-06T22:16:11.681455+02:00"
+        "symbol": "NFLX",
+        "pnl": -12.6,
+        "date": "2026-05-11T18:34:33.327334+02:00"
       },
-      "r_sum": 7.576743999431198,
-      "r_count": 38,
+      "r_sum": 2.4891459701224465,
+      "r_count": 25,
       "best_r": {
-        "symbol": "AMZN",
-        "r": 1.52,
-        "date": "2026-05-06T20:23:52.780651+02:00"
+        "symbol": "NVDA",
+        "r": 1.42,
+        "date": "2026-05-07T16:29:42.536015+02:00"
       },
       "worst_r": {
-        "symbol": "ETH/USD",
-        "r": -0.89,
-        "date": "2026-05-06T22:16:11.681455+02:00"
+        "symbol": "NFLX",
+        "r": -0.8,
+        "date": "2026-05-11T18:34:33.327334+02:00"
       },
-      "win_rate": 76.3,
-      "profit_factor": 4.5,
-      "expectancy": 4.91,
-      "avg_r": 0.2
+      "win_rate": 76.0,
+      "profit_factor": 6.62,
+      "expectancy": 4.81,
+      "avg_r": 0.1
     },
     "month": {
       "pnl": 0.0,
