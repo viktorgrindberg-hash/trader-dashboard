@@ -12,14 +12,20 @@
     "symbols": [
       "ADA/USD",
       "AMD",
-      "AMZN",
       "DOT/USD",
       "ETH/USD",
       "META",
       "MSFT",
+      "NVDA",
       "SOL/USD",
       "XLE",
       "XRP/USD"
     ]
+  },
+  {
+    "type": "missing_stop",
+    "severity": "critical",
+    "action": "Add stop/protection",
+    "count": 3
   }
 ]
