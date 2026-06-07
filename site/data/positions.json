@@ -1,30 +1,9 @@
 {
-  "count": 4,
-  "total_unrealized_pl": 3.36,
-  "longs": 2,
+  "count": 3,
+  "total_unrealized_pl": 8.57,
+  "longs": 1,
   "shorts": 2,
   "rows": [
-    {
-      "symbol": "AVAXUSD",
-      "side": "long",
-      "qty": 73.584068519,
-      "avg_entry_price": 6.8123,
-      "current_price": 6.7414,
-      "market_value": 496.05964,
-      "cost_basis": 501.27675,
-      "unrealized_pl": -5.21711,
-      "unrealized_plpc": -1.04,
-      "change_today": -0.5,
-      "asset_class": "crypto",
-      "engine": "crypto_24_7",
-      "engine_label": "Crypto 24/7",
-      "stop_loss": 9.21,
-      "take_profit": 9.62,
-      "opened_at": "2026-04-26T00:35:18.513732+02:00",
-      "protection": "protected",
-      "protection_orders": 0,
-      "stop_prices": []
-    },
     {
       "symbol": "AAPL",
       "side": "short",
@@ -95,7 +74,7 @@
       ]
     }
   ],
-  "protected_count": 4,
+  "protected_count": 3,
   "missing_stop_count": 0,
   "stale_journal_opens": [
     {
