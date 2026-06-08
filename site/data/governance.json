@@ -11,6 +11,17 @@
     "risk_dollars": 23.38
   },
   {
+    "symbol": "AMZN",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 241.46",
+    "rr": 10.71,
+    "risk_dollars": 14.72
+  },
+  {
     "symbol": "DIA",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -31,17 +42,6 @@
     "kill_criteria": "Stop 57.44",
     "rr": 3.91,
     "risk_dollars": 5.22
-  },
-  {
-    "symbol": "AMZN",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 241.46",
-    "rr": 10.71,
-    "risk_dollars": 14.72
   },
   {
     "symbol": "AME",
