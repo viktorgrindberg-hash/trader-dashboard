@@ -1,79 +1,46 @@
 [
   {
-    "symbol": "GOOG",
+    "symbol": "XLE",
+    "side": "sell",
+    "qty": "8",
+    "type": "stop",
+    "order_class": "",
+    "status": "accepted",
+    "limit_price": null,
+    "stop_price": "56.36",
+    "created_at": "2026-06-09T20:13:51.693219594Z"
+  },
+  {
+    "symbol": "META",
+    "side": "buy",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "accepted",
+    "limit_price": null,
+    "stop_price": "594.97",
+    "created_at": "2026-06-09T20:13:50.264467Z"
+  },
+  {
+    "symbol": "DIA",
+    "side": "buy",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "accepted",
+    "limit_price": null,
+    "stop_price": "517.05",
+    "created_at": "2026-06-09T20:13:48.867437Z"
+  },
+  {
+    "symbol": "AAPL",
     "side": "sell",
     "qty": "1",
     "type": "stop",
     "order_class": "",
-    "status": "new",
+    "status": "accepted",
     "limit_price": null,
-    "stop_price": "357.41",
-    "created_at": "2026-06-09T18:45:47.620820545Z"
-  },
-  {
-    "symbol": "XLE",
-    "side": "buy",
-    "qty": "8",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "58.21",
-    "created_at": "2026-06-09T18:10:08.608319Z"
-  },
-  {
-    "symbol": "COPX",
-    "side": "buy",
-    "qty": "11",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "80.76",
-    "created_at": "2026-06-09T18:10:07.069999Z"
-  },
-  {
-    "symbol": "NVDA",
-    "side": "buy",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "209.19",
-    "created_at": "2026-06-09T15:04:28.073299Z"
-  },
-  {
-    "symbol": "AME",
-    "side": "buy",
-    "qty": "7",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "234.07",
-    "created_at": "2026-06-09T14:03:02.85485Z"
-  },
-  {
-    "symbol": "DIA",
-    "side": "sell",
-    "qty": "2",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "501.28",
-    "created_at": "2026-06-08T20:04:35.445094Z"
-  },
-  {
-    "symbol": "META",
-    "side": "sell",
-    "qty": "2",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "576.91",
-    "created_at": "2026-06-08T20:04:36.907471Z"
+    "stop_price": "284.72",
+    "created_at": "2026-06-09T20:13:47.397348Z"
   }
 ]
