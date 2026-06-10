@@ -1,5 +1,38 @@
 [
   {
+    "symbol": "URA",
+    "side": "buy",
+    "qty": "11",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "43.83",
+    "created_at": "2026-06-10T15:42:14.369454291Z"
+  },
+  {
+    "symbol": "USO",
+    "side": "sell",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "131.62",
+    "created_at": "2026-06-10T14:40:38.175569Z"
+  },
+  {
+    "symbol": "AMZN",
+    "side": "buy",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "246.05",
+    "created_at": "2026-06-10T14:40:35.221928Z"
+  },
+  {
     "symbol": "META",
     "side": "buy",
     "qty": "2",
@@ -31,16 +64,5 @@
     "limit_price": null,
     "stop_price": "284.72",
     "created_at": "2026-06-09T20:13:47.397348Z"
-  },
-  {
-    "symbol": "XLE",
-    "side": "sell",
-    "qty": "8",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "56.36",
-    "created_at": "2026-06-09T20:13:51.69322Z"
   }
 ]
