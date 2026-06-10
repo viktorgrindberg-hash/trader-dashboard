@@ -1,36 +1,36 @@
 [
   {
-    "symbol": "URA",
+    "symbol": "TSLA",
     "side": "buy",
-    "qty": "11",
-    "type": "stop",
-    "order_class": "",
+    "qty": "2",
+    "type": "limit",
+    "order_class": "bracket",
     "status": "new",
-    "limit_price": null,
-    "stop_price": "43.83",
-    "created_at": "2026-06-10T15:42:14.369454291Z"
+    "limit_price": "370.51",
+    "stop_price": null,
+    "created_at": "2026-06-10T17:52:09.419027176Z"
   },
   {
-    "symbol": "USO",
+    "symbol": "AAPL",
     "side": "sell",
     "qty": "2",
-    "type": "stop",
-    "order_class": "",
+    "type": "limit",
+    "order_class": "bracket",
     "status": "new",
-    "limit_price": null,
-    "stop_price": "131.62",
-    "created_at": "2026-06-10T14:40:38.175569Z"
+    "limit_price": "303.72",
+    "stop_price": null,
+    "created_at": "2026-06-10T17:50:15.522818Z"
   },
   {
-    "symbol": "AMZN",
+    "symbol": "NVDA",
     "side": "buy",
-    "qty": "2",
+    "qty": "3",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "246.05",
-    "created_at": "2026-06-10T14:40:35.221928Z"
+    "stop_price": "205.93",
+    "created_at": "2026-06-10T17:46:19.033526Z"
   },
   {
     "symbol": "META",
@@ -53,16 +53,5 @@
     "limit_price": null,
     "stop_price": "517.05",
     "created_at": "2026-06-09T20:13:48.867437Z"
-  },
-  {
-    "symbol": "AAPL",
-    "side": "sell",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "284.72",
-    "created_at": "2026-06-09T20:13:47.397348Z"
   }
 ]
