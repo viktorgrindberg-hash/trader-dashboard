@@ -8,7 +8,7 @@
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 284.72",
     "rr": null,
-    "risk_dollars": 4.34
+    "risk_dollars": 4.71
   },
   {
     "symbol": "XLE",
@@ -18,8 +18,8 @@
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 56.36",
-    "rr": 5.22,
-    "risk_dollars": 6.88
+    "rr": 5.23,
+    "risk_dollars": 6.87
   },
   {
     "symbol": "DIA",
@@ -30,7 +30,7 @@
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 517.05",
     "rr": null,
-    "risk_dollars": 17.98
+    "risk_dollars": 18.03
   },
   {
     "symbol": "META",
@@ -40,7 +40,7 @@
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 594.97",
-    "rr": 0.33,
-    "risk_dollars": 17.58
+    "rr": 0.34,
+    "risk_dollars": 17.52
   }
 ]
