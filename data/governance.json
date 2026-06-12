@@ -28,9 +28,20 @@
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop -",
+    "kill_criteria": "Stop 381.59",
     "rr": null,
-    "risk_dollars": 1163.22
+    "risk_dollars": 18.45
+  },
+  {
+    "symbol": "AMD",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 503.86",
+    "rr": 17.86,
+    "risk_dollars": 20.23
   },
   {
     "symbol": "GOOG",
@@ -44,15 +55,15 @@
     "risk_dollars": 8.49
   },
   {
-    "symbol": "COPX",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
+    "symbol": "XLE",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 84.34",
-    "rr": null,
-    "risk_dollars": 29.28
+    "kill_criteria": "Stop 58.52",
+    "rr": 4.71,
+    "risk_dollars": 6.88
   },
   {
     "symbol": "AAPL",
@@ -66,14 +77,14 @@
     "risk_dollars": 4.37
   },
   {
-    "symbol": "AMD",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
+    "symbol": "COPX",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 503.86",
-    "rr": 17.86,
-    "risk_dollars": 20.23
+    "kill_criteria": "Stop 84.34",
+    "rr": null,
+    "risk_dollars": 29.28
   }
 ]
