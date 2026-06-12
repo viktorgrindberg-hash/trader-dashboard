@@ -7,7 +7,7 @@
     "details": [
       "Crypto 24/7: 5 symbols",
       "Crypto John Live: 3 symbols",
-      "Engine C, ORB: 4 symbols"
+      "Engine C, ORB: 5 symbols"
     ],
     "symbols": [
       "ADA/USD",
@@ -15,6 +15,7 @@
       "DOT/USD",
       "ETH/USD",
       "META",
+      "MSFT",
       "NVDA",
       "SOL/USD",
       "XLE",
@@ -25,6 +26,6 @@
     "type": "missing_stop",
     "severity": "critical",
     "action": "Add stop/protection",
-    "count": 3
+    "count": 1
   }
 ]
