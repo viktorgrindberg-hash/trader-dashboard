@@ -3,12 +3,45 @@
     "symbol": "TSLA",
     "side": "sell",
     "qty": "1",
-    "type": "limit",
-    "order_class": "bracket",
+    "type": "stop",
+    "order_class": "",
     "status": "new",
-    "limit_price": "416.43",
-    "stop_price": null,
-    "created_at": "2026-06-16T15:10:24.574470762Z"
+    "limit_price": null,
+    "stop_price": "399.53",
+    "created_at": "2026-06-16T18:20:26.879744689Z"
+  },
+  {
+    "symbol": "QQQ",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "744.27",
+    "created_at": "2026-06-16T17:43:20.900256Z"
+  },
+  {
+    "symbol": "AMD",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "527.52",
+    "created_at": "2026-06-16T16:45:50.200439Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "294.11",
+    "created_at": "2026-06-16T16:10:44.114691Z"
   },
   {
     "symbol": "AMZN",
@@ -31,39 +64,6 @@
     "limit_price": null,
     "stop_price": "56.08",
     "created_at": "2026-06-16T14:40:39.945198Z"
-  },
-  {
-    "symbol": "AMD",
-    "side": "buy",
-    "qty": "2",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "536.29",
-    "created_at": "2026-06-16T14:30:38.516219Z"
-  },
-  {
-    "symbol": "NFLX",
-    "side": "buy",
-    "qty": "15",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "80.02",
-    "created_at": "2026-06-16T14:20:37.917057Z"
-  },
-  {
-    "symbol": "TSLA",
-    "side": "sell",
-    "qty": "2",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "400.99",
-    "created_at": "2026-06-16T14:12:47.207917Z"
   },
   {
     "symbol": "NVDA",
