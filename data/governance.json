@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "AVAXUSD",
-    "engine": "Crypto 24/7",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 9.21",
-    "rr": 1.19,
-    "risk_dollars": 1410.94
-  },
-  {
     "symbol": "MSFT",
     "engine": "Engine C, ORB",
     "status": "PAPER",
@@ -22,37 +11,26 @@
     "risk_dollars": 23.32
   },
   {
+    "symbol": "XLE",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 55.78",
+    "rr": 8.06,
+    "risk_dollars": 7.56
+  },
+  {
     "symbol": "AAPL",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 296.08",
+    "kill_criteria": "Stop 300.54",
     "rr": null,
-    "risk_dollars": 22.55
-  },
-  {
-    "symbol": "NVDA",
-    "engine": "Engine C, ORB",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 204.63",
-    "rr": 0.83,
-    "risk_dollars": 15.58
-  },
-  {
-    "symbol": "TSLA",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 404.86",
-    "rr": null,
-    "risk_dollars": 6.48
+    "risk_dollars": 4.45
   },
   {
     "symbol": "GOOG",
@@ -75,27 +53,5 @@
     "kill_criteria": "Stop 245.78",
     "rr": 11.68,
     "risk_dollars": 3.63
-  },
-  {
-    "symbol": "AME",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 229.86",
-    "rr": null,
-    "risk_dollars": 31.64
-  },
-  {
-    "symbol": "BTCUSD",
-    "engine": "Crypto 24/7",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop -",
-    "rr": null,
-    "risk_dollars": 4537.15
   }
 ]
