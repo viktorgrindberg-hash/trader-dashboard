@@ -1,5 +1,27 @@
 [
   {
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": "2",
+    "type": "limit",
+    "order_class": "bracket",
+    "status": "new",
+    "limit_price": "214.49",
+    "stop_price": null,
+    "created_at": "2026-06-18T18:25:39.412266Z"
+  },
+  {
+    "symbol": "SMCI",
+    "side": "sell",
+    "qty": "39",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "30.11",
+    "created_at": "2026-06-18T18:21:40.809943Z"
+  },
+  {
     "symbol": "XLE",
     "side": "buy",
     "qty": "9",
@@ -8,7 +30,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "54.37",
-    "created_at": "2026-06-18T15:14:26.411486944Z"
+    "created_at": "2026-06-18T15:14:26.411487Z"
   },
   {
     "symbol": "GOOG",
@@ -42,17 +64,6 @@
     "limit_price": null,
     "stop_price": "205.29",
     "created_at": "2026-06-18T14:17:39.212028Z"
-  },
-  {
-    "symbol": "QQQ",
-    "side": "buy",
-    "qty": "2",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "745.36",
-    "created_at": "2026-06-18T14:00:34.593741Z"
   },
   {
     "symbol": "AME",
