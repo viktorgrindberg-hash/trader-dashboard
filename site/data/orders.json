@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "AAPL",
-    "side": "buy",
-    "qty": "1",
-    "type": "market",
-    "order_class": "bracket",
-    "status": "accepted",
-    "limit_price": null,
-    "stop_price": null,
-    "created_at": "2026-06-19T13:30:19.789500067Z"
-  },
-  {
     "symbol": "SMCI",
     "side": "buy",
     "qty": "39",
@@ -18,8 +7,8 @@
     "order_class": "",
     "status": "accepted",
     "limit_price": null,
-    "stop_price": "31.22",
-    "created_at": "2026-06-18T20:24:24.530694Z"
+    "stop_price": "31.12",
+    "created_at": "2026-06-19T20:32:15.990894479Z"
   },
   {
     "symbol": "AMD",
@@ -29,7 +18,18 @@
     "order_class": "",
     "status": "accepted",
     "limit_price": null,
-    "stop_price": "528.7",
-    "created_at": "2026-06-18T20:24:23.113745Z"
+    "stop_price": "528.65",
+    "created_at": "2026-06-19T20:32:15.079899264Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "buy",
+    "qty": "1",
+    "type": "market",
+    "order_class": "bracket",
+    "status": "accepted",
+    "limit_price": null,
+    "stop_price": null,
+    "created_at": "2026-06-19T13:30:19.7895Z"
   }
 ]
