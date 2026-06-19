@@ -8,7 +8,7 @@
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 31.22",
     "rr": null,
-    "risk_dollars": 24.38
+    "risk_dollars": 24.47
   },
   {
     "symbol": "AMD",
@@ -18,7 +18,7 @@
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 528.7",
-    "rr": 23.2,
-    "risk_dollars": 8.8
+    "rr": 25.42,
+    "risk_dollars": 8.0
   }
 ]
