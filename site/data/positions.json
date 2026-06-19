@@ -1,9 +1,30 @@
 {
   "count": 3,
-  "total_unrealized_pl": -1.2,
+  "total_unrealized_pl": -5.88,
   "longs": 2,
   "shorts": 1,
   "rows": [
+    {
+      "symbol": "ADAUSD",
+      "side": "long",
+      "qty": 4378.865256,
+      "avg_entry_price": 0.162005,
+      "current_price": 0.16111,
+      "market_value": 705.478981,
+      "cost_basis": 709.398066,
+      "unrealized_pl": -3.919085,
+      "unrealized_plpc": -0.55,
+      "change_today": -2.12,
+      "asset_class": "crypto",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "stop_loss": 0.25,
+      "take_profit": 0.26,
+      "opened_at": "2026-05-03T17:45:19.520789+02:00",
+      "protection": "protected",
+      "protection_orders": 0,
+      "stop_prices": []
+    },
     {
       "symbol": "SMCI",
       "side": "short",
@@ -49,27 +70,6 @@
       "stop_prices": [
         528.65
       ]
-    },
-    {
-      "symbol": "ADAUSD",
-      "side": "long",
-      "qty": 4378.865256,
-      "avg_entry_price": 0.162005,
-      "current_price": 0.16218,
-      "market_value": 710.164367,
-      "cost_basis": 709.398066,
-      "unrealized_pl": 0.766301,
-      "unrealized_plpc": 0.11,
-      "change_today": -1.47,
-      "asset_class": "crypto",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "stop_loss": 0.25,
-      "take_profit": 0.26,
-      "opened_at": "2026-05-03T17:45:19.520789+02:00",
-      "protection": "protected",
-      "protection_orders": 0,
-      "stop_prices": []
     }
   ],
   "protected_count": 3,
