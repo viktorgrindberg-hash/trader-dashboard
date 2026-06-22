@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "SMCI",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 31.12",
-    "rr": null,
-    "risk_dollars": 20.57
-  },
-  {
     "symbol": "AMD",
     "engine": "Engine C, ORB",
     "status": "PAPER",
@@ -20,5 +9,16 @@
     "kill_criteria": "Stop 528.65",
     "rr": 25.26,
     "risk_dollars": 8.05
+  },
+  {
+    "symbol": "SMCI",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 31.12",
+    "rr": null,
+    "risk_dollars": 20.57
   }
 ]

@@ -1,43 +1,20 @@
 {
   "count": 2,
-  "total_unrealized_pl": -1.96,
+  "total_unrealized_pl": -8.74,
   "longs": 1,
   "shorts": 1,
   "rows": [
-    {
-      "symbol": "SMCI",
-      "side": "short",
-      "qty": -39.0,
-      "avg_entry_price": 30.592436,
-      "current_price": 30.66,
-      "market_value": -1195.74,
-      "cost_basis": -1193.105004,
-      "unrealized_pl": -2.634996,
-      "unrealized_plpc": -0.22,
-      "change_today": 0.0,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 31.12,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        31.12
-      ]
-    },
     {
       "symbol": "AMD",
       "side": "long",
       "qty": 1.0,
       "avg_entry_price": 536.7,
-      "current_price": 537.37,
-      "market_value": 537.37,
+      "current_price": 532.15,
+      "market_value": 532.15,
       "cost_basis": 536.7,
-      "unrealized_pl": 0.67,
-      "unrealized_plpc": 0.12,
-      "change_today": 0.0,
+      "unrealized_pl": -4.55,
+      "unrealized_plpc": -0.85,
+      "change_today": -0.97,
       "asset_class": "us_equity",
       "engine": "C",
       "engine_label": "Engine C, ORB",
@@ -48,6 +25,29 @@
       "protection_orders": 1,
       "stop_prices": [
         528.65
+      ]
+    },
+    {
+      "symbol": "SMCI",
+      "side": "short",
+      "qty": -39.0,
+      "avg_entry_price": 30.592436,
+      "current_price": 30.7,
+      "market_value": -1197.3,
+      "cost_basis": -1193.105004,
+      "unrealized_pl": -4.194996,
+      "unrealized_plpc": -0.35,
+      "change_today": 0.13,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 31.12,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        31.12
       ]
     }
   ],
