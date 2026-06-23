@@ -1,14 +1,14 @@
 [
   {
-    "symbol": "QQQ",
+    "symbol": "TSLA",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 707.72",
+    "kill_criteria": "Stop -",
     "rr": null,
-    "risk_dollars": 22.18
+    "risk_dollars": 381.05
   },
   {
     "symbol": "AAPL",
@@ -17,52 +17,8 @@
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 303.47",
+    "kill_criteria": "Stop -",
     "rr": null,
-    "risk_dollars": 7.23
-  },
-  {
-    "symbol": "NFLX",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 74.38",
-    "rr": null,
-    "risk_dollars": 18.4
-  },
-  {
-    "symbol": "NVDA",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 205.02",
-    "rr": 2.37,
-    "risk_dollars": 11.62
-  },
-  {
-    "symbol": "AMZN",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 239.98",
-    "rr": 13.56,
-    "risk_dollars": 7.1
-  },
-  {
-    "symbol": "URA",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 46.91",
-    "rr": null,
-    "risk_dollars": 14.0
+    "risk_dollars": 295.82
   }
 ]
