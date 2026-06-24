@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "TSLA",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop -",
-    "rr": null,
-    "risk_dollars": 381.05
-  },
-  {
     "symbol": "AAPL",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -19,6 +8,17 @@
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop -",
     "rr": null,
-    "risk_dollars": 295.82
+    "risk_dollars": 296.03
+  },
+  {
+    "symbol": "TSLA",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop -",
+    "rr": null,
+    "risk_dollars": 385.13
   }
 ]
