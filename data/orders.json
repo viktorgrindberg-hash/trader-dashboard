@@ -1,5 +1,82 @@
 [
   {
+    "symbol": "TSLA",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "379.79",
+    "created_at": "2026-06-25T18:15:31.651566028Z"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "buy",
+    "qty": "1",
+    "type": "limit",
+    "order_class": "bracket",
+    "status": "new",
+    "limit_price": "343.42",
+    "stop_price": null,
+    "created_at": "2026-06-25T17:40:25.872228Z"
+  },
+  {
+    "symbol": "SPY",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "743.98",
+    "created_at": "2026-06-25T17:25:32.038817Z"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "buy",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "356.57",
+    "created_at": "2026-06-25T16:55:33.579783Z"
+  },
+  {
+    "symbol": "URA",
+    "side": "buy",
+    "qty": "11",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "44.89",
+    "created_at": "2026-06-25T16:45:28.21784Z"
+  },
+  {
+    "symbol": "QQQ",
+    "side": "buy",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "729.4",
+    "created_at": "2026-06-25T16:15:43.873469Z"
+  },
+  {
+    "symbol": "NFLX",
+    "side": "buy",
+    "qty": "25",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "73.22",
+    "created_at": "2026-06-25T16:15:42.416838Z"
+  },
+  {
     "symbol": "XLE",
     "side": "sell",
     "qty": "6",
@@ -8,7 +85,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "53.11",
-    "created_at": "2026-06-25T14:10:30.966070649Z"
+    "created_at": "2026-06-25T14:10:30.966071Z"
   },
   {
     "symbol": "NVDA",
@@ -20,38 +97,5 @@
     "limit_price": null,
     "stop_price": "198.46",
     "created_at": "2026-06-25T14:10:29.300679Z"
-  },
-  {
-    "symbol": "AMD",
-    "side": "buy",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "529.39",
-    "created_at": "2026-06-25T14:10:27.610749Z"
-  },
-  {
-    "symbol": "MSFT",
-    "side": "buy",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "362.47",
-    "created_at": "2026-06-25T14:00:32.073776Z"
-  },
-  {
-    "symbol": "QQQ",
-    "side": "buy",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "717.45",
-    "created_at": "2026-06-25T13:55:36.129862Z"
   }
 ]
