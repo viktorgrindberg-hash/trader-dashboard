@@ -1,10 +1,34 @@
 {
-  "count": 0,
-  "total_unrealized_pl": 0,
-  "longs": 0,
+  "count": 1,
+  "total_unrealized_pl": 8.74,
+  "longs": 1,
   "shorts": 0,
-  "rows": [],
-  "protected_count": 0,
+  "rows": [
+    {
+      "symbol": "AME",
+      "side": "long",
+      "qty": 7.0,
+      "avg_entry_price": 236.981429,
+      "current_price": 238.23,
+      "market_value": 1667.61,
+      "cost_basis": 1658.870003,
+      "unrealized_pl": 8.739997,
+      "unrealized_plpc": 0.53,
+      "change_today": 0.3,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 233.05,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        233.05
+      ]
+    }
+  ],
+  "protected_count": 1,
   "missing_stop_count": 0,
   "stale_journal_opens": [
     {
