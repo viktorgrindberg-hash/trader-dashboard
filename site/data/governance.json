@@ -11,6 +11,28 @@
     "risk_dollars": 16.38
   },
   {
+    "symbol": "MSFT",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 366.07",
+    "rr": 10.15,
+    "risk_dollars": 5.57
+  },
+  {
+    "symbol": "AAPL",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 284.31",
+    "rr": null,
+    "risk_dollars": 13.17
+  },
+  {
     "symbol": "XLE",
     "engine": "Engine C, ORB",
     "status": "PAPER",
@@ -22,15 +44,15 @@
     "risk_dollars": 9.57
   },
   {
-    "symbol": "MSFT",
+    "symbol": "META",
     "engine": "Engine C, ORB",
     "status": "PAPER",
     "score": 24,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 366.07",
-    "rr": 10.15,
-    "risk_dollars": 5.57
+    "kill_criteria": "Stop 551.51",
+    "rr": 2.47,
+    "risk_dollars": 18.32
   },
   {
     "symbol": "TSLA",
