@@ -6,18 +6,16 @@
     "action": "Historical journal cleanup needed, not live risk",
     "details": [
       "Crypto 24/7: 5 symbols",
-      "Crypto John Live: 3 symbols",
-      "Engine C, ORB: 6 symbols"
+      "Crypto John Live: 2 symbols",
+      "Engine C, ORB: 4 symbols"
     ],
     "symbols": [
       "ADA/USD",
       "AMD",
       "AMZN",
+      "AVAX/USD",
       "DOT/USD",
-      "ETH/USD",
       "META",
-      "MSFT",
-      "NVDA",
       "SOL/USD",
       "XLE",
       "XRP/USD"
