@@ -1,25 +1,36 @@
 [
   {
-    "symbol": "TSLA",
+    "symbol": "SMCI",
     "side": "buy",
-    "qty": "3",
+    "qty": "43",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "403.55",
-    "created_at": "2026-07-02T15:30:33.149095965Z"
+    "stop_price": "27.33",
+    "created_at": "2026-07-02T17:55:34.925292136Z"
   },
   {
-    "symbol": "NFLX",
+    "symbol": "TSLA",
     "side": "sell",
-    "qty": "18",
+    "qty": "2",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "75.33",
-    "created_at": "2026-07-02T14:50:56.836176Z"
+    "stop_price": "385.09",
+    "created_at": "2026-07-02T17:12:33.396011Z"
+  },
+  {
+    "symbol": "SPY",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "754.94",
+    "created_at": "2026-07-02T16:25:36.706749Z"
   },
   {
     "symbol": "AAPL",
