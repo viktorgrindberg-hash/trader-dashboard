@@ -18,16 +18,18 @@
       "asset_class": "us_equity",
       "engine": "unknown",
       "engine_label": "unknown",
-      "stop_loss": null,
+      "stop_loss": 232.36,
       "take_profit": null,
       "opened_at": null,
-      "protection": "missing_stop",
-      "protection_orders": 0,
-      "stop_prices": []
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        232.36
+      ]
     }
   ],
-  "protected_count": 0,
-  "missing_stop_count": 1,
+  "protected_count": 1,
+  "missing_stop_count": 0,
   "stale_journal_opens": [
     {
       "symbol": "ADA/USD",
