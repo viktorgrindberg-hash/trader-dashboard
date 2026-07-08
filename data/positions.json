@@ -1,139 +1,12 @@
 {
-  "count": 5,
-  "total_unrealized_pl": -4.14,
-  "longs": 1,
-  "shorts": 4,
-  "rows": [
-    {
-      "symbol": "COPX",
-      "side": "short",
-      "qty": -12.0,
-      "avg_entry_price": 72.37,
-      "current_price": 73.07,
-      "market_value": -876.84,
-      "cost_basis": -868.44,
-      "unrealized_pl": -8.4,
-      "unrealized_plpc": -0.97,
-      "change_today": -2.09,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 73.51,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        73.51
-      ]
-    },
-    {
-      "symbol": "GOOG",
-      "side": "short",
-      "qty": -3.0,
-      "avg_entry_price": 355.71,
-      "current_price": 355.61,
-      "market_value": -1066.83,
-      "cost_basis": -1067.13,
-      "unrealized_pl": 0.3,
-      "unrealized_plpc": 0.03,
-      "change_today": -2.2,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 361.14,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        361.14
-      ]
-    },
-    {
-      "symbol": "AAPL",
-      "side": "long",
-      "qty": 2.0,
-      "avg_entry_price": 313.71,
-      "current_price": 313.95,
-      "market_value": 627.9,
-      "cost_basis": 627.42,
-      "unrealized_pl": 0.48,
-      "unrealized_plpc": 0.08,
-      "change_today": 1.06,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 309.0,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        309.0
-      ]
-    },
-    {
-      "symbol": "XLE",
-      "side": "short",
-      "qty": -4.0,
-      "avg_entry_price": 55.47,
-      "current_price": 55.315,
-      "market_value": -221.26,
-      "cost_basis": -221.88,
-      "unrealized_pl": 0.62,
-      "unrealized_plpc": 0.28,
-      "change_today": 1.23,
-      "asset_class": "us_equity",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "stop_loss": 56.31,
-      "take_profit": 61.71,
-      "opened_at": "2026-05-05T16:16:37.444561+02:00",
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        56.31
-      ]
-    },
-    {
-      "symbol": "TSLA",
-      "side": "short",
-      "qty": -2.0,
-      "avg_entry_price": 394.05,
-      "current_price": 392.62,
-      "market_value": -785.24,
-      "cost_basis": -788.1,
-      "unrealized_pl": 2.86,
-      "unrealized_plpc": 0.36,
-      "change_today": -2.55,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 400.04,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        400.04
-      ]
-    }
-  ],
-  "protected_count": 5,
+  "count": 0,
+  "total_unrealized_pl": 0,
+  "longs": 0,
+  "shorts": 0,
+  "rows": [],
+  "protected_count": 0,
   "missing_stop_count": 0,
   "stale_journal_opens": [
-    {
-      "symbol": "XRP/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 1.3717000484466553,
-      "qty": 527.84,
-      "opened_at": "2026-05-01T02:17:14.965433+02:00",
-      "stop_loss": 1.35,
-      "take_profit": 1.42
-    },
     {
       "symbol": "ADA/USD",
       "engine": "crypto_24_7",
@@ -364,6 +237,17 @@
       "opened_at": "2026-05-05T16:16:32.718237+02:00",
       "stop_loss": 613.49,
       "take_profit": 583.27
+    },
+    {
+      "symbol": "XLE",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "side": "buy",
+      "entry_price": 59.625,
+      "qty": 15,
+      "opened_at": "2026-05-05T16:16:37.444561+02:00",
+      "stop_loss": 58.73,
+      "take_profit": 61.71
     },
     {
       "symbol": "ETH/USD",
