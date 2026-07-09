@@ -22,17 +22,6 @@
     "created_at": "2026-07-09T15:15:47.050314Z"
   },
   {
-    "symbol": "GOOG",
-    "side": "buy",
-    "qty": "4",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "355.79",
-    "created_at": "2026-07-09T14:16:15.095212Z"
-  },
-  {
     "symbol": "NFLX",
     "side": "sell",
     "qty": "11",
