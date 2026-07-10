@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": "6",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "206.33",
+    "created_at": "2026-07-10T16:05:38.261203015Z"
+  },
+  {
     "symbol": "MSFT",
     "side": "buy",
     "qty": "3",
@@ -8,18 +19,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "390.02",
-    "created_at": "2026-07-10T14:30:18.29976249Z"
-  },
-  {
-    "symbol": "NVDA",
-    "side": "sell",
-    "qty": "5",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "203.62",
-    "created_at": "2026-07-10T14:10:29.740407Z"
+    "created_at": "2026-07-10T14:30:18.299762Z"
   },
   {
     "symbol": "META",

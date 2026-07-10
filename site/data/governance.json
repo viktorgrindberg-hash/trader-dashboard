@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "META",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 657.45",
+    "rr": 8.41,
+    "risk_dollars": 10.01
+  },
+  {
     "symbol": "XLE",
     "engine": "Engine C, ORB",
     "status": "PAPER",
@@ -9,17 +20,6 @@
     "kill_criteria": "Stop 54.17",
     "rr": 8.08,
     "risk_dollars": 4.98
-  },
-  {
-    "symbol": "ETHUSD",
-    "engine": "Crypto John Live",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 2273.46",
-    "rr": 1.24,
-    "risk_dollars": 481.68
   },
   {
     "symbol": "MSFT",
@@ -33,15 +33,26 @@
     "risk_dollars": 17.61
   },
   {
-    "symbol": "META",
+    "symbol": "NVDA",
     "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
+    "status": "WATCHLIST",
+    "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 657.45",
-    "rr": 8.41,
-    "risk_dollars": 10.01
+    "kill_criteria": "Stop 206.33",
+    "rr": 0.27,
+    "risk_dollars": 18.98
+  },
+  {
+    "symbol": "ETHUSD",
+    "engine": "Crypto John Live",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 2273.46",
+    "rr": 1.24,
+    "risk_dollars": 481.68
   },
   {
     "symbol": "AAPL",
@@ -53,16 +64,5 @@
     "kill_criteria": "Stop 306.36",
     "rr": null,
     "risk_dollars": 10.28
-  },
-  {
-    "symbol": "NVDA",
-    "engine": "Engine C, ORB",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 203.62",
-    "rr": 1.14,
-    "risk_dollars": 15.71
   }
 ]
