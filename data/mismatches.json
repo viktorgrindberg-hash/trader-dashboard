@@ -2,7 +2,7 @@
   {
     "type": "journal_open_not_in_alpaca_summary",
     "severity": "info",
-    "count": 30,
+    "count": 25,
     "action": "Historical journal cleanup needed, not live risk",
     "details": [
       "Crypto 24/7: 5 symbols",
@@ -14,12 +14,12 @@
       "AMD",
       "AVAX/USD",
       "DOT/USD",
+      "ETH/USD",
       "META",
       "MSFT",
       "NVDA",
       "SOL/USD",
-      "XLE",
-      "XRP/USD"
+      "XLE"
     ]
   }
 ]
