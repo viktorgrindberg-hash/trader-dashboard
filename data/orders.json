@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "377.9",
+    "created_at": "2026-07-14T14:10:57.389359548Z"
+  },
+  {
+    "symbol": "TSLA",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "404.3",
+    "created_at": "2026-07-14T14:05:51.225067Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": "5",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "309.8",
+    "created_at": "2026-07-14T13:40:24.927563Z"
+  }
+]
