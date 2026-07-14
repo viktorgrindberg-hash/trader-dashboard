@@ -33,17 +33,6 @@
     "risk_dollars": 6.32
   },
   {
-    "symbol": "MSFT",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 377.9",
-    "rr": 7.71,
-    "risk_dollars": 5.77
-  },
-  {
     "symbol": "NFLX",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -53,5 +42,16 @@
     "kill_criteria": "Stop 72.49",
     "rr": null,
     "risk_dollars": 15.68
+  },
+  {
+    "symbol": "MSFT",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 377.9",
+    "rr": 7.71,
+    "risk_dollars": 5.77
   }
 ]
