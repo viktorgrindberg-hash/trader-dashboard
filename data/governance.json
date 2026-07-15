@@ -7,7 +7,7 @@
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 2273.46",
-    "rr": 1.3,
-    "risk_dollars": 277.64
+    "rr": 1.29,
+    "risk_dollars": 286.66
   }
 ]
