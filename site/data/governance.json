@@ -1,14 +1,25 @@
 [
   {
-    "symbol": "NFLX",
+    "symbol": "SPY",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 74.23",
+    "kill_criteria": "Stop 742.18",
     "rr": null,
-    "risk_dollars": 17.98
+    "risk_dollars": 22.69
+  },
+  {
+    "symbol": "SMCI",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 25.39",
+    "rr": null,
+    "risk_dollars": 17.46
   },
   {
     "symbol": "QQQ",
@@ -22,26 +33,15 @@
     "risk_dollars": 10.62
   },
   {
-    "symbol": "SPY",
+    "symbol": "TSLA",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 742.18",
+    "kill_criteria": "Stop 394.67",
     "rr": null,
-    "risk_dollars": 22.69
-  },
-  {
-    "symbol": "GOOG",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 364.19",
-    "rr": null,
-    "risk_dollars": 11.42
+    "risk_dollars": 17.49
   },
   {
     "symbol": "NVDA",
@@ -53,5 +53,16 @@
     "kill_criteria": "Stop 210.87",
     "rr": 0.83,
     "risk_dollars": 15.6
+  },
+  {
+    "symbol": "GOOG",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 364.19",
+    "rr": null,
+    "risk_dollars": 11.42
   }
 ]

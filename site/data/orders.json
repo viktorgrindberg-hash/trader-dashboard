@@ -1,14 +1,25 @@
 [
   {
-    "symbol": "NFLX",
+    "symbol": "TSLA",
     "side": "buy",
-    "qty": "16",
+    "qty": "3",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "74.23",
-    "created_at": "2026-07-16T14:20:37.119508188Z"
+    "stop_price": "394.67",
+    "created_at": "2026-07-16T16:35:25.532515731Z"
+  },
+  {
+    "symbol": "SMCI",
+    "side": "buy",
+    "qty": "46",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "25.39",
+    "created_at": "2026-07-16T16:20:30.520295Z"
   },
   {
     "symbol": "SPY",
