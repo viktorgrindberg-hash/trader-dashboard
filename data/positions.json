@@ -1,196 +1,12 @@
 {
-  "count": 7,
-  "total_unrealized_pl": -1.65,
-  "longs": 1,
-  "shorts": 6,
-  "rows": [
-    {
-      "symbol": "SPY",
-      "side": "long",
-      "qty": 2.0,
-      "avg_entry_price": 753.525,
-      "current_price": 750.27,
-      "market_value": 1500.54,
-      "cost_basis": 1507.05,
-      "unrealized_pl": -6.51,
-      "unrealized_plpc": -0.43,
-      "change_today": -0.6,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 742.18,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        742.18
-      ]
-    },
-    {
-      "symbol": "TSLA",
-      "side": "short",
-      "qty": -3.0,
-      "avg_entry_price": 388.84,
-      "current_price": 390.805,
-      "market_value": -1172.415,
-      "cost_basis": -1166.52,
-      "unrealized_pl": -5.895,
-      "unrealized_plpc": -0.51,
-      "change_today": -0.93,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 394.67,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        394.67
-      ]
-    },
-    {
-      "symbol": "SMCI",
-      "side": "short",
-      "qty": -46.0,
-      "avg_entry_price": 25.010435,
-      "current_price": 25.036,
-      "market_value": -1151.656,
-      "cost_basis": -1150.48001,
-      "unrealized_pl": -1.17599,
-      "unrealized_plpc": -0.1,
-      "change_today": -6.89,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 25.39,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        25.39
-      ]
-    },
-    {
-      "symbol": "NVDA",
-      "side": "short",
-      "qty": -5.0,
-      "avg_entry_price": 207.75,
-      "current_price": 207.3204,
-      "market_value": -1036.602,
-      "cost_basis": -1038.75,
-      "unrealized_pl": 2.148,
-      "unrealized_plpc": 0.21,
-      "change_today": -2.44,
-      "asset_class": "us_equity",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "stop_loss": 210.87,
-      "take_profit": 210.34,
-      "opened_at": "2026-05-06T16:07:46.942229+02:00",
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        210.87
-      ]
-    },
-    {
-      "symbol": "QQQ",
-      "side": "short",
-      "qty": -1.0,
-      "avg_entry_price": 708.31,
-      "current_price": 705.8398,
-      "market_value": -705.8398,
-      "cost_basis": -708.31,
-      "unrealized_pl": 2.4702,
-      "unrealized_plpc": 0.35,
-      "change_today": -1.66,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 718.93,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        718.93
-      ]
-    },
-    {
-      "symbol": "URA",
-      "side": "short",
-      "qty": -38.0,
-      "avg_entry_price": 39.1,
-      "current_price": 39.0105,
-      "market_value": -1482.399,
-      "cost_basis": -1485.8,
-      "unrealized_pl": 3.401,
-      "unrealized_plpc": 0.23,
-      "change_today": -4.62,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 39.72,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        39.72
-      ]
-    },
-    {
-      "symbol": "AMD",
-      "side": "short",
-      "qty": -2.0,
-      "avg_entry_price": 497.15,
-      "current_price": 495.195,
-      "market_value": -990.39,
-      "cost_basis": -994.3,
-      "unrealized_pl": 3.91,
-      "unrealized_plpc": 0.39,
-      "change_today": -6.42,
-      "asset_class": "us_equity",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "stop_loss": 504.61,
-      "take_profit": 333.37,
-      "opened_at": "2026-05-05T16:16:25.273295+02:00",
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        504.61
-      ]
-    }
-  ],
-  "protected_count": 7,
+  "count": 0,
+  "total_unrealized_pl": 0,
+  "longs": 0,
+  "shorts": 0,
+  "rows": [],
+  "protected_count": 0,
   "missing_stop_count": 0,
   "stale_journal_opens": [
-    {
-      "symbol": "META",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "side": "sell",
-      "entry_price": 602.75,
-      "qty": 2,
-      "opened_at": "2026-04-30T15:58:43.610097+02:00",
-      "stop_loss": 611.79,
-      "take_profit": 581.65
-    },
-    {
-      "symbol": "XRP/USD",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "side": "buy",
-      "entry_price": 1.3717000484466553,
-      "qty": 527.84,
-      "opened_at": "2026-05-01T02:17:14.965433+02:00",
-      "stop_loss": 1.35,
-      "take_profit": 1.42
-    },
     {
       "symbol": "ADA/USD",
       "engine": "crypto_24_7",
@@ -390,6 +206,17 @@
       "take_profit": 2460.18
     },
     {
+      "symbol": "AMD",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "side": "sell",
+      "entry_price": 345.46,
+      "qty": 2,
+      "opened_at": "2026-05-05T16:16:25.273295+02:00",
+      "stop_loss": 350.64,
+      "take_profit": 333.37
+    },
+    {
       "symbol": "AMZN",
       "engine": "C",
       "engine_label": "Engine C, ORB",
@@ -476,6 +303,17 @@
       "opened_at": "2026-05-06T15:18:05.934846+02:00",
       "stop_loss": 1.38,
       "take_profit": 1.46
+    },
+    {
+      "symbol": "NVDA",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "side": "buy",
+      "entry_price": 203.23,
+      "qty": 5,
+      "opened_at": "2026-05-06T16:07:46.942229+02:00",
+      "stop_loss": 200.18,
+      "take_profit": 210.34
     },
     {
       "symbol": "XRP/USD",
