@@ -1,7 +1,7 @@
 {
-  "count": 2,
-  "total_unrealized_pl": -7.04,
-  "longs": 2,
+  "count": 1,
+  "total_unrealized_pl": -6.34,
+  "longs": 1,
   "shorts": 0,
   "rows": [
     {
@@ -9,12 +9,12 @@
       "side": "long",
       "qty": 633.762648,
       "avg_entry_price": 1.117,
-      "current_price": 1.11,
-      "market_value": 703.476539,
+      "current_price": 1.107,
+      "market_value": 701.575251,
       "cost_basis": 707.912878,
-      "unrealized_pl": -4.436339,
-      "unrealized_plpc": -0.63,
-      "change_today": -0.18,
+      "unrealized_pl": -6.337627,
+      "unrealized_plpc": -0.9,
+      "change_today": -0.45,
       "asset_class": "crypto",
       "engine": "crypto_john",
       "engine_label": "Crypto John Live",
@@ -24,30 +24,9 @@
       "protection": "protected",
       "protection_orders": 0,
       "stop_prices": []
-    },
-    {
-      "symbol": "ETHUSD",
-      "side": "long",
-      "qty": 0.92126874,
-      "avg_entry_price": 1919.9,
-      "current_price": 1917.077,
-      "market_value": 1766.143112,
-      "cost_basis": 1768.743854,
-      "unrealized_pl": -2.600742,
-      "unrealized_plpc": -0.15,
-      "change_today": -0.33,
-      "asset_class": "crypto",
-      "engine": "crypto_john",
-      "engine_label": "Crypto John Live",
-      "stop_loss": 2273.46,
-      "take_profit": 2391.29,
-      "opened_at": "2026-05-09T02:45:16.808660+02:00",
-      "protection": "protected",
-      "protection_orders": 0,
-      "stop_prices": []
     }
   ],
-  "protected_count": 2,
+  "protected_count": 1,
   "missing_stop_count": 0,
   "stale_journal_opens": [
     {
@@ -194,6 +173,28 @@
       "take_profit": 591.07
     },
     {
+      "symbol": "ETH/USD",
+      "engine": "crypto_24_7",
+      "engine_label": "Crypto 24/7",
+      "side": "buy",
+      "entry_price": 2303.7900390625,
+      "qty": 0.21703366692368767,
+      "opened_at": "2026-05-02T10:33:07.063800+02:00",
+      "stop_loss": 2266.93,
+      "take_profit": 2384.42
+    },
+    {
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "side": "buy",
+      "entry_price": 2303.080078125,
+      "qty": 0.7854,
+      "opened_at": "2026-05-02T12:31:06.000638+02:00",
+      "stop_loss": 2266.23,
+      "take_profit": 2383.69
+    },
+    {
       "symbol": "ADA/USD",
       "engine": "crypto_john",
       "engine_label": "Crypto John Live",
@@ -225,6 +226,17 @@
       "opened_at": "2026-05-03T17:45:19.520789+02:00",
       "stop_loss": 0.25,
       "take_profit": 0.26
+    },
+    {
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "side": "buy",
+      "entry_price": 2376.989990234375,
+      "qty": 0.761,
+      "opened_at": "2026-05-05T14:30:23.934251+02:00",
+      "stop_loss": 2338.96,
+      "take_profit": 2460.18
     },
     {
       "symbol": "AMD",
@@ -271,6 +283,28 @@
       "take_profit": 61.71
     },
     {
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "side": "buy",
+      "entry_price": 2376.989990234375,
+      "qty": 0.7608,
+      "opened_at": "2026-05-05T22:16:28.584995+02:00",
+      "stop_loss": 2338.96,
+      "take_profit": 2460.18
+    },
+    {
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "side": "buy",
+      "entry_price": 2376.989990234375,
+      "qty": 0.7608,
+      "opened_at": "2026-05-06T15:18:04.415360+02:00",
+      "stop_loss": 2338.96,
+      "take_profit": 2460.18
+    },
+    {
       "symbol": "NVDA",
       "engine": "C",
       "engine_label": "Engine C, ORB",
@@ -280,6 +314,17 @@
       "opened_at": "2026-05-06T16:07:46.942229+02:00",
       "stop_loss": 200.18,
       "take_profit": 210.34
+    },
+    {
+      "symbol": "ETH/USD",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "side": "buy",
+      "entry_price": 2310.429931640625,
+      "qty": 0.7812,
+      "opened_at": "2026-05-09T02:45:16.808660+02:00",
+      "stop_loss": 2273.46,
+      "take_profit": 2391.29
     }
   ]
 }
