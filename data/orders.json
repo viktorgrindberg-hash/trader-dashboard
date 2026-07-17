@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "NVDA",
+    "side": "buy",
+    "qty": "9",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "206.22",
+    "created_at": "2026-07-17T15:15:27.942345342Z"
+  },
+  {
     "symbol": "DIA",
     "side": "sell",
     "qty": "1",
@@ -8,7 +19,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "516.79",
-    "created_at": "2026-07-17T14:15:29.371692599Z"
+    "created_at": "2026-07-17T14:15:29.371693Z"
   },
   {
     "symbol": "AMZN",
