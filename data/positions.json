@@ -1,12 +1,127 @@
 {
-  "count": 0,
-  "total_unrealized_pl": 0,
-  "longs": 0,
-  "shorts": 0,
-  "rows": [],
-  "protected_count": 0,
+  "count": 4,
+  "total_unrealized_pl": 5.13,
+  "longs": 2,
+  "shorts": 2,
+  "rows": [
+    {
+      "symbol": "DIA",
+      "side": "long",
+      "qty": 1.0,
+      "avg_entry_price": 524.66,
+      "current_price": 524.62,
+      "market_value": 524.62,
+      "cost_basis": 524.66,
+      "unrealized_pl": -0.04,
+      "unrealized_plpc": -0.01,
+      "change_today": -0.04,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 516.79,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        516.79
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "side": "short",
+      "qty": -1.0,
+      "avg_entry_price": 391.47,
+      "current_price": 391.245,
+      "market_value": -391.245,
+      "cost_basis": -391.47,
+      "unrealized_pl": 0.225,
+      "unrealized_plpc": 0.06,
+      "change_today": -2.46,
+      "asset_class": "us_equity",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "stop_loss": 397.42,
+      "take_profit": 428.17,
+      "opened_at": "2026-05-01T15:54:19.610175+02:00",
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        397.42
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "side": "short",
+      "qty": -1.0,
+      "avg_entry_price": 382.5,
+      "current_price": 380.57,
+      "market_value": -380.57,
+      "cost_basis": -382.5,
+      "unrealized_pl": 1.93,
+      "unrealized_plpc": 0.51,
+      "change_today": -2.68,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 388.42,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        388.42
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "side": "long",
+      "qty": 2.0,
+      "avg_entry_price": 247.45,
+      "current_price": 248.96,
+      "market_value": 497.92,
+      "cost_basis": 494.9,
+      "unrealized_pl": 3.02,
+      "unrealized_plpc": 0.61,
+      "change_today": -0.37,
+      "asset_class": "us_equity",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "stop_loss": 243.74,
+      "take_profit": 284.56,
+      "opened_at": "2026-05-05T16:16:29.366978+02:00",
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        243.74
+      ]
+    }
+  ],
+  "protected_count": 4,
   "missing_stop_count": 0,
   "stale_journal_opens": [
+    {
+      "symbol": "AMD",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "side": "buy",
+      "entry_price": 345.01,
+      "qty": 3,
+      "opened_at": "2026-04-30T16:05:14.372393+02:00",
+      "stop_loss": 339.83,
+      "take_profit": 357.09
+    },
+    {
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "side": "buy",
+      "entry_price": 1.3717000484466553,
+      "qty": 527.84,
+      "opened_at": "2026-05-01T02:17:14.965433+02:00",
+      "stop_loss": 1.35,
+      "take_profit": 1.42
+    },
     {
       "symbol": "ADA/USD",
       "engine": "crypto_24_7",
@@ -72,17 +187,6 @@
       "opened_at": "2026-05-01T15:19:12.432490+02:00",
       "stop_loss": 1.37,
       "take_profit": 1.44
-    },
-    {
-      "symbol": "MSFT",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "side": "buy",
-      "entry_price": 413.69,
-      "qty": 2,
-      "opened_at": "2026-05-01T15:54:19.610175+02:00",
-      "stop_loss": 407.48,
-      "take_profit": 428.17
     },
     {
       "symbol": "META",
@@ -215,17 +319,6 @@
       "opened_at": "2026-05-05T16:16:25.273295+02:00",
       "stop_loss": 350.64,
       "take_profit": 333.37
-    },
-    {
-      "symbol": "AMZN",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "side": "buy",
-      "entry_price": 274.94,
-      "qty": 3,
-      "opened_at": "2026-05-05T16:16:29.366978+02:00",
-      "stop_loss": 270.82,
-      "take_profit": 284.56
     },
     {
       "symbol": "META",
