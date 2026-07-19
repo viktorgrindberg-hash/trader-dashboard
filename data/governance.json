@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "XRPUSD",
-    "engine": "Crypto John Live",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 1.38",
-    "rr": 1.28,
-    "risk_dollars": 181.15
-  },
-  {
     "symbol": "ETHUSD",
     "engine": "Crypto John Live",
     "status": "WATCHLIST",
@@ -20,5 +9,27 @@
     "kill_criteria": "Stop 2273.46",
     "rr": 1.29,
     "risk_dollars": 381.66
+  },
+  {
+    "symbol": "ADAUSD",
+    "engine": "Crypto John Live",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 0.25",
+    "rr": 1.12,
+    "risk_dollars": 357.07
+  },
+  {
+    "symbol": "XRPUSD",
+    "engine": "Crypto John Live",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 1.38",
+    "rr": 1.28,
+    "risk_dollars": 181.15
   }
 ]
