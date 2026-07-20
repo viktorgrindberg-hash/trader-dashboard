@@ -7,7 +7,7 @@
     "details": [
       "Crypto 24/7: 5 symbols",
       "Crypto John Live: 3 symbols",
-      "Engine C, ORB: 5 symbols"
+      "Engine C, ORB: 4 symbols"
     ],
     "symbols": [
       "ADA/USD",
@@ -18,7 +18,6 @@
       "META",
       "MSFT",
       "SOL/USD",
-      "XLE",
       "XRP/USD"
     ]
   }
