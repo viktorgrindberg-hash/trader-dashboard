@@ -1,14 +1,14 @@
 [
   {
-    "symbol": "ADAUSD",
-    "engine": "Crypto John Live",
+    "symbol": "NFLX",
+    "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 0.25",
-    "rr": 1.14,
-    "risk_dollars": 282.91
+    "kill_criteria": "Stop 69.13",
+    "rr": null,
+    "risk_dollars": 13.2
   },
   {
     "symbol": "META",
@@ -22,15 +22,15 @@
     "risk_dollars": 9.56
   },
   {
-    "symbol": "NFLX",
+    "symbol": "SPY",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 69.13",
+    "kill_criteria": "Stop 736.74",
     "rr": null,
-    "risk_dollars": 13.2
+    "risk_dollars": 11.8
   },
   {
     "symbol": "BTCUSD",
@@ -44,15 +44,15 @@
     "risk_dollars": 462.33
   },
   {
-    "symbol": "SPY",
-    "engine": "unknown",
+    "symbol": "ETHUSD",
+    "engine": "Crypto John Live",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 736.74",
-    "rr": null,
-    "risk_dollars": 11.8
+    "kill_criteria": "Stop 2273.46",
+    "rr": 1.36,
+    "risk_dollars": 300.9
   },
   {
     "symbol": "AAPL",
