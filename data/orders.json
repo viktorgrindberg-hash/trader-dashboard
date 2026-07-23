@@ -1,5 +1,27 @@
 [
   {
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": "8",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "206.11",
+    "created_at": "2026-07-23T16:30:45.743476412Z"
+  },
+  {
+    "symbol": "COPX",
+    "side": "sell",
+    "qty": "23",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "77.38",
+    "created_at": "2026-07-23T16:10:41.263439Z"
+  },
+  {
     "symbol": "USO",
     "side": "sell",
     "qty": "8",
@@ -8,7 +30,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "137.35",
-    "created_at": "2026-07-23T14:05:52.080489956Z"
+    "created_at": "2026-07-23T14:05:52.08049Z"
   },
   {
     "symbol": "AAPL",
