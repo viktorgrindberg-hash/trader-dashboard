@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "COPX",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 77.38",
+    "rr": null,
+    "risk_dollars": 23.75
+  },
+  {
     "symbol": "AAPL",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -11,15 +22,15 @@
     "risk_dollars": 26.8
   },
   {
-    "symbol": "COPX",
+    "symbol": "USO",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 77.38",
+    "kill_criteria": "Stop 138.95",
     "rr": null,
-    "risk_dollars": 27.05
+    "risk_dollars": 16.96
   },
   {
     "symbol": "NVDA",
@@ -33,14 +44,14 @@
     "risk_dollars": 25.12
   },
   {
-    "symbol": "USO",
+    "symbol": "NFLX",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 137.35",
+    "kill_criteria": "Stop 68.28",
     "rr": null,
-    "risk_dollars": 17.14
+    "risk_dollars": 17.68
   }
 ]
