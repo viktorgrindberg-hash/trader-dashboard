@@ -1,13 +1,24 @@
 [
   {
-    "symbol": "ETHUSD",
-    "engine": "Crypto John Live",
+    "symbol": "AAPL",
+    "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 2273.46",
-    "rr": 1.34,
-    "risk_dollars": 314.67
+    "kill_criteria": "Stop 316.29",
+    "rr": null,
+    "risk_dollars": 26.8
+  },
+  {
+    "symbol": "NVDA",
+    "engine": "Engine C, ORB",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 205.95",
+    "rr": 0.4,
+    "risk_dollars": 25.13
   }
 ]
