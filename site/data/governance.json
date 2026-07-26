@@ -19,7 +19,7 @@
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 0.25",
     "rr": 1.12,
-    "risk_dollars": 361.41
+    "risk_dollars": 355.56
   },
   {
     "symbol": "AAPL",
