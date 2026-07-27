@@ -1,24 +1,57 @@
 [
   {
-    "symbol": "NVDA",
-    "engine": "Engine C, ORB",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 204.27",
-    "rr": 0.95,
-    "risk_dollars": 24.86
-  },
-  {
-    "symbol": "AAPL",
+    "symbol": "GOOG",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 325.54",
+    "kill_criteria": "Stop 331.17",
     "rr": null,
-    "risk_dollars": 1.62
+    "risk_dollars": 16.8
+  },
+  {
+    "symbol": "NFLX",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 70.17",
+    "rr": null,
+    "risk_dollars": 14.04
+  },
+  {
+    "symbol": "SPY",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 752.55",
+    "rr": null,
+    "risk_dollars": 11.12
+  },
+  {
+    "symbol": "TSLA",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 314.71",
+    "rr": null,
+    "risk_dollars": 18.62
+  },
+  {
+    "symbol": "COPX",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 78.61",
+    "rr": null,
+    "risk_dollars": 17.4
   }
 ]
