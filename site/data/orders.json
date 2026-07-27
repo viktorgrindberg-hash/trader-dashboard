@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "META",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "606.44",
+    "created_at": "2026-07-27T19:00:24.922942131Z"
+  },
+  {
     "symbol": "NVDA",
     "side": "buy",
     "qty": "1",
@@ -8,7 +19,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "199.31",
-    "created_at": "2026-07-27T17:00:35.748977898Z"
+    "created_at": "2026-07-27T17:00:35.748978Z"
   },
   {
     "symbol": "NFLX",
@@ -31,17 +42,6 @@
     "limit_price": null,
     "stop_price": "70.17",
     "created_at": "2026-07-27T15:40:33.41608Z"
-  },
-  {
-    "symbol": "TSLA",
-    "side": "buy",
-    "qty": "4",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "314.71",
-    "created_at": "2026-07-27T15:10:27.145586Z"
   },
   {
     "symbol": "GOOG",
