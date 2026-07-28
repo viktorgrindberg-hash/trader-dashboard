@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "symbol": "AAPL",
+    "side": "buy",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "343.26",
+    "created_at": "2026-07-28T14:45:24.908906412Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "342.72",
+    "created_at": "2026-07-28T14:41:43.381181Z"
+  },
+  {
+    "symbol": "COPX",
+    "side": "buy",
+    "qty": "7",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "76.34",
+    "created_at": "2026-07-28T14:34:54.231536Z"
+  },
+  {
+    "symbol": "TSLA",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "305.76",
+    "created_at": "2026-07-28T14:19:25.492713Z"
+  },
+  {
+    "symbol": "QQQ",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "680.68",
+    "created_at": "2026-07-28T14:01:36.801031Z"
+  },
+  {
+    "symbol": "AMZN",
+    "side": "buy",
+    "qty": "5",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "233.37",
+    "created_at": "2026-07-28T13:56:15.92686Z"
+  }
+]

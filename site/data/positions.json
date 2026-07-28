@@ -1,12 +1,140 @@
 {
-  "count": 0,
-  "total_unrealized_pl": 0,
+  "count": 5,
+  "total_unrealized_pl": -4.69,
   "longs": 0,
-  "shorts": 0,
-  "rows": [],
-  "protected_count": 0,
+  "shorts": 5,
+  "rows": [
+    {
+      "symbol": "COPX",
+      "side": "short",
+      "qty": -7.0,
+      "avg_entry_price": 75.155714,
+      "current_price": 75.68,
+      "market_value": -529.76,
+      "cost_basis": -526.089998,
+      "unrealized_pl": -3.670002,
+      "unrealized_plpc": -0.7,
+      "change_today": -2.85,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 76.34,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        76.34
+      ]
+    },
+    {
+      "symbol": "QQQ",
+      "side": "short",
+      "qty": -1.0,
+      "avg_entry_price": 669.48,
+      "current_price": 673.12,
+      "market_value": -673.12,
+      "cost_basis": -669.48,
+      "unrealized_pl": -3.64,
+      "unrealized_plpc": -0.54,
+      "change_today": -1.32,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 680.68,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        680.68
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "side": "short",
+      "qty": -1.0,
+      "avg_entry_price": 301.04,
+      "current_price": 304.22,
+      "market_value": -304.22,
+      "cost_basis": -301.04,
+      "unrealized_pl": -3.18,
+      "unrealized_plpc": -1.06,
+      "change_today": -1.62,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 305.76,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        305.76
+      ]
+    },
+    {
+      "symbol": "AAPL",
+      "side": "short",
+      "qty": -3.0,
+      "avg_entry_price": 337.65,
+      "current_price": 337.09,
+      "market_value": -1011.27,
+      "cost_basis": -1012.95,
+      "unrealized_pl": 1.68,
+      "unrealized_plpc": 0.17,
+      "change_today": 0.05,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 343.26,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 2,
+      "stop_prices": [
+        343.26,
+        342.72
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "side": "short",
+      "qty": -5.0,
+      "avg_entry_price": 229.92,
+      "current_price": 229.095,
+      "market_value": -1145.475,
+      "cost_basis": -1149.6,
+      "unrealized_pl": 4.125,
+      "unrealized_plpc": 0.36,
+      "change_today": -0.99,
+      "asset_class": "us_equity",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "stop_loss": 233.37,
+      "take_profit": 284.56,
+      "opened_at": "2026-05-05T16:16:29.366978+02:00",
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        233.37
+      ]
+    }
+  ],
+  "protected_count": 5,
   "missing_stop_count": 0,
   "stale_journal_opens": [
+    {
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "side": "buy",
+      "entry_price": 1.3717000484466553,
+      "qty": 527.84,
+      "opened_at": "2026-05-01T02:17:14.965433+02:00",
+      "stop_loss": 1.35,
+      "take_profit": 1.42
+    },
     {
       "symbol": "ADA/USD",
       "engine": "crypto_24_7",
@@ -215,17 +343,6 @@
       "opened_at": "2026-05-05T16:16:25.273295+02:00",
       "stop_loss": 350.64,
       "take_profit": 333.37
-    },
-    {
-      "symbol": "AMZN",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "side": "buy",
-      "entry_price": 274.94,
-      "qty": 3,
-      "opened_at": "2026-05-05T16:16:29.366978+02:00",
-      "stop_loss": 270.82,
-      "take_profit": 284.56
     },
     {
       "symbol": "META",
