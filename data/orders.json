@@ -1,5 +1,27 @@
 [
   {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "392.7",
+    "created_at": "2026-07-28T17:01:08.447039429Z"
+  },
+  {
+    "symbol": "SPY",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "731.41",
+    "created_at": "2026-07-28T16:59:49.7246Z"
+  },
+  {
     "symbol": "AAPL",
     "side": "buy",
     "qty": "1",
@@ -8,7 +30,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "344.29",
-    "created_at": "2026-07-28T15:50:17.428216353Z"
+    "created_at": "2026-07-28T15:50:17.428216Z"
   },
   {
     "symbol": "AAPL",
@@ -31,27 +53,5 @@
     "limit_price": null,
     "stop_price": "342.72",
     "created_at": "2026-07-28T14:41:43.381181Z"
-  },
-  {
-    "symbol": "QQQ",
-    "side": "buy",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "680.68",
-    "created_at": "2026-07-28T14:01:36.801031Z"
-  },
-  {
-    "symbol": "AMZN",
-    "side": "buy",
-    "qty": "5",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "233.37",
-    "created_at": "2026-07-28T13:56:15.92686Z"
   }
 ]
