@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "COPX",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 76.34",
-    "rr": null,
-    "risk_dollars": 8.29
-  },
-  {
     "symbol": "QQQ",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -22,28 +11,6 @@
     "risk_dollars": 11.2
   },
   {
-    "symbol": "TSLA",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 305.76",
-    "rr": null,
-    "risk_dollars": 4.72
-  },
-  {
-    "symbol": "AAPL",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 343.26",
-    "rr": null,
-    "risk_dollars": 16.83
-  },
-  {
     "symbol": "AMZN",
     "engine": "Engine C, ORB",
     "status": "PAPER",
@@ -53,5 +20,16 @@
     "kill_criteria": "Stop 233.37",
     "rr": 15.84,
     "risk_dollars": 17.25
+  },
+  {
+    "symbol": "AAPL",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 344.29",
+    "rr": null,
+    "risk_dollars": 24.68
   }
 ]
