@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "symbol": "USO",
+    "side": "sell",
+    "qty": "6",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "127.05",
+    "created_at": "2026-07-29T13:55:40.526496258Z"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "396.39",
+    "created_at": "2026-07-29T13:55:38.264416Z"
+  },
+  {
+    "symbol": "GOOG",
+    "side": "buy",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "337.11",
+    "created_at": "2026-07-29T13:55:36.077136Z"
+  },
+  {
+    "symbol": "XLE",
+    "side": "buy",
+    "qty": "6",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "60.15",
+    "created_at": "2026-07-29T13:40:32.56876Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "345.41",
+    "created_at": "2026-07-29T13:35:32.213758Z"
+  }
+]
