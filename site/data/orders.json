@@ -1,14 +1,25 @@
 [
   {
+    "symbol": "NVDA",
+    "side": "buy",
+    "qty": "5",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "196.03",
+    "created_at": "2026-07-30T16:00:43.692404962Z"
+  },
+  {
     "symbol": "USO",
     "side": "sell",
     "qty": "6",
-    "type": "limit",
-    "order_class": "bracket",
+    "type": "stop",
+    "order_class": "",
     "status": "new",
-    "limit_price": "132.67",
-    "stop_price": null,
-    "created_at": "2026-07-30T14:26:02.574002Z"
+    "limit_price": null,
+    "stop_price": "126.2",
+    "created_at": "2026-07-30T14:30:24.836711Z"
   },
   {
     "symbol": "AMZN",
@@ -20,17 +31,6 @@
     "limit_price": null,
     "stop_price": "233.14",
     "created_at": "2026-07-30T14:25:53.755179Z"
-  },
-  {
-    "symbol": "NVDA",
-    "side": "sell",
-    "qty": "6",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "192.78",
-    "created_at": "2026-07-30T14:05:37.147821Z"
   },
   {
     "symbol": "URA",
