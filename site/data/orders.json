@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "QQQ",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "699.38",
+    "created_at": "2026-07-31T18:01:15.087475083Z"
+  },
+  {
     "symbol": "URA",
     "side": "sell",
     "qty": "9",
@@ -8,7 +19,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "38.63",
-    "created_at": "2026-07-31T17:26:29.556792037Z"
+    "created_at": "2026-07-31T17:26:29.556792Z"
   },
   {
     "symbol": "MSFT",
@@ -20,17 +31,6 @@
     "limit_price": null,
     "stop_price": "455.26",
     "created_at": "2026-07-31T16:01:16.056928Z"
-  },
-  {
-    "symbol": "TSLA",
-    "side": "buy",
-    "qty": "4",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "312.6",
-    "created_at": "2026-07-31T15:01:27.683347Z"
   },
   {
     "symbol": "NFLX",
@@ -53,16 +53,5 @@
     "limit_price": null,
     "stop_price": "194.31",
     "created_at": "2026-07-31T14:01:33.613573Z"
-  },
-  {
-    "symbol": "AAPL",
-    "side": "buy",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "309.67",
-    "created_at": "2026-07-31T13:56:18.175037Z"
   }
 ]
