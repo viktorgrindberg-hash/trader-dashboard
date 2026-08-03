@@ -1,14 +1,36 @@
 [
   {
-    "symbol": "AAPL",
-    "side": "buy",
-    "qty": "2",
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": "6",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "312.43",
-    "created_at": "2026-08-03T13:56:31.030883723Z"
+    "stop_price": "203.92",
+    "created_at": "2026-08-03T15:30:55.682009023Z"
+  },
+  {
+    "symbol": "TSLA",
+    "side": "sell",
+    "qty": "4",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "317.36",
+    "created_at": "2026-08-03T15:01:04.956324Z"
+  },
+  {
+    "symbol": "COPX",
+    "side": "sell",
+    "qty": "18",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "77.58",
+    "created_at": "2026-08-03T14:36:26.109953Z"
   },
   {
     "symbol": "MSFT",
