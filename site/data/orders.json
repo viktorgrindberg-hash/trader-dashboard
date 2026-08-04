@@ -1,14 +1,58 @@
 [
   {
-    "symbol": "NFLX",
+    "symbol": "SPY",
     "side": "sell",
-    "qty": "19",
+    "qty": "1",
+    "type": "limit",
+    "order_class": "bracket",
+    "status": "new",
+    "limit_price": "797.74",
+    "stop_price": null,
+    "created_at": "2026-08-04T17:01:33.042569094Z"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": "2",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "72.53",
-    "created_at": "2026-08-04T14:42:16.338216515Z"
+    "stop_price": "487.35",
+    "created_at": "2026-08-04T16:50:45.752584Z"
+  },
+  {
+    "symbol": "URA",
+    "side": "sell",
+    "qty": "9",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "41.99",
+    "created_at": "2026-08-04T16:35:22.430148Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "sell",
+    "qty": "4",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "301.87",
+    "created_at": "2026-08-04T16:35:20.244076Z"
+  },
+  {
+    "symbol": "NVDA",
+    "side": "buy",
+    "qty": "6",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "213.46",
+    "created_at": "2026-08-04T15:40:37.324003Z"
   },
   {
     "symbol": "AMZN",
@@ -22,17 +66,6 @@
     "created_at": "2026-08-04T14:31:18.913932Z"
   },
   {
-    "symbol": "AMD",
-    "side": "sell",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "506.77",
-    "created_at": "2026-08-04T14:11:10.462765Z"
-  },
-  {
     "symbol": "META",
     "side": "sell",
     "qty": "2",
@@ -42,17 +75,6 @@
     "limit_price": null,
     "stop_price": "576.13",
     "created_at": "2026-08-04T14:01:06.29208Z"
-  },
-  {
-    "symbol": "MSFT",
-    "side": "sell",
-    "qty": "3",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "480.33",
-    "created_at": "2026-08-04T13:40:55.33048Z"
   },
   {
     "symbol": "AME",
