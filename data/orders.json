@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "symbol": "NFLX",
+    "side": "sell",
+    "qty": "19",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "72.53",
+    "created_at": "2026-08-04T14:42:16.338216515Z"
+  },
+  {
+    "symbol": "AMZN",
+    "side": "buy",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "282.05",
+    "created_at": "2026-08-04T14:31:18.913932Z"
+  },
+  {
+    "symbol": "AMD",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "506.77",
+    "created_at": "2026-08-04T14:11:10.462765Z"
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "576.13",
+    "created_at": "2026-08-04T14:01:06.29208Z"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "480.33",
+    "created_at": "2026-08-04T13:40:55.33048Z"
+  },
+  {
+    "symbol": "AME",
+    "side": "sell",
+    "qty": "7",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "242.56",
+    "created_at": "2026-08-04T13:40:53.194139Z"
+  }
+]
