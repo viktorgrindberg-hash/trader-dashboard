@@ -8,7 +8,7 @@
     "status": "accepted",
     "limit_price": null,
     "stop_price": "484.84",
-    "created_at": "2026-08-08T05:12:45.800065977Z"
+    "created_at": "2026-08-08T05:12:45.800066Z"
   },
   {
     "symbol": "AME",
@@ -19,6 +19,6 @@
     "status": "accepted",
     "limit_price": null,
     "stop_price": "251.65",
-    "created_at": "2026-08-08T05:12:45.493765563Z"
+    "created_at": "2026-08-08T05:12:45.493766Z"
   }
 ]
