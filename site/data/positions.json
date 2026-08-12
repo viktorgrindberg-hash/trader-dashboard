@@ -1,43 +1,20 @@
 {
   "count": 2,
-  "total_unrealized_pl": 16.86,
+  "total_unrealized_pl": 6.96,
   "longs": 2,
   "shorts": 0,
   "rows": [
-    {
-      "symbol": "AME",
-      "side": "long",
-      "qty": 6.0,
-      "avg_entry_price": 256.79,
-      "current_price": 256.0,
-      "market_value": 1536.0,
-      "cost_basis": 1540.74,
-      "unrealized_pl": -4.74,
-      "unrealized_plpc": -0.31,
-      "change_today": -0.12,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 251.65,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        251.65
-      ]
-    },
     {
       "symbol": "MSFT",
       "side": "long",
       "qty": 3.0,
       "avg_entry_price": 494.73,
-      "current_price": 501.93,
-      "market_value": 1505.79,
+      "current_price": 492.92,
+      "market_value": 1478.76,
       "cost_basis": 1484.19,
-      "unrealized_pl": 21.6,
-      "unrealized_plpc": 1.46,
-      "change_today": -0.37,
+      "unrealized_pl": -5.43,
+      "unrealized_plpc": -0.37,
+      "change_today": -2.16,
       "asset_class": "us_equity",
       "engine": "C",
       "engine_label": "Engine C, ORB",
@@ -48,6 +25,29 @@
       "protection_orders": 1,
       "stop_prices": [
         484.84
+      ]
+    },
+    {
+      "symbol": "AME",
+      "side": "long",
+      "qty": 6.0,
+      "avg_entry_price": 256.79,
+      "current_price": 258.855,
+      "market_value": 1553.13,
+      "cost_basis": 1540.74,
+      "unrealized_pl": 12.39,
+      "unrealized_plpc": 0.8,
+      "change_today": 1.0,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 251.65,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        251.65
       ]
     }
   ],
