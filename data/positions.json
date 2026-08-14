@@ -1,6 +1,6 @@
 {
   "count": 2,
-  "total_unrealized_pl": -9.99,
+  "total_unrealized_pl": -10.05,
   "longs": 2,
   "shorts": 0,
   "rows": [
@@ -32,11 +32,11 @@
       "side": "long",
       "qty": 3.0,
       "avg_entry_price": 494.73,
-      "current_price": 495.4,
-      "market_value": 1486.2,
+      "current_price": 495.38,
+      "market_value": 1486.14,
       "cost_basis": 1484.19,
-      "unrealized_pl": 2.01,
-      "unrealized_plpc": 0.14,
+      "unrealized_pl": 1.95,
+      "unrealized_plpc": 0.13,
       "change_today": -0.3,
       "asset_class": "us_equity",
       "engine": "C",
