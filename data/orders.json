@@ -1,25 +1,58 @@
 [
   {
-    "symbol": "SMCI",
-    "side": "sell",
-    "qty": "45",
+    "symbol": "NFLX",
+    "side": "buy",
+    "qty": "2",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "37.71",
-    "created_at": "2026-08-17T13:40:23.866636961Z"
+    "stop_price": "78.04",
+    "created_at": "2026-08-17T14:30:23.926290214Z"
   },
   {
-    "symbol": "PLTR",
+    "symbol": "COPX",
     "side": "sell",
-    "qty": "10",
+    "qty": "13",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "170.8",
-    "created_at": "2026-08-17T13:40:21.901275Z"
+    "stop_price": "85.69",
+    "created_at": "2026-08-17T14:30:22.427586Z"
+  },
+  {
+    "symbol": "NFLX",
+    "side": "buy",
+    "qty": "11",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "78.06",
+    "created_at": "2026-08-17T14:25:17.796714Z"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "buy",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "491.83",
+    "created_at": "2026-08-17T14:20:16.904113Z"
+  },
+  {
+    "symbol": "AAPL",
+    "side": "buy",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "309.5",
+    "created_at": "2026-08-17T14:12:36.963357Z"
   },
   {
     "symbol": "NVDA",
