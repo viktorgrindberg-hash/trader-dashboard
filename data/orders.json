@@ -1,14 +1,36 @@
 [
   {
-    "symbol": "MSFT",
+    "symbol": "SMCI",
     "side": "sell",
-    "qty": "3",
+    "qty": "45",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "484.84",
-    "created_at": "2026-08-08T05:12:45.800066Z"
+    "stop_price": "37.71",
+    "created_at": "2026-08-17T13:40:23.866636961Z"
+  },
+  {
+    "symbol": "PLTR",
+    "side": "sell",
+    "qty": "10",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "170.8",
+    "created_at": "2026-08-17T13:40:21.901275Z"
+  },
+  {
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": "7",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "222.03",
+    "created_at": "2026-08-17T13:40:20.032517Z"
   },
   {
     "symbol": "AME",
