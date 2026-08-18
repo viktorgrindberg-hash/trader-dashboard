@@ -1,12 +1,45 @@
 {
-  "count": 0,
-  "total_unrealized_pl": 0,
+  "count": 1,
+  "total_unrealized_pl": -0.02,
   "longs": 0,
-  "shorts": 0,
-  "rows": [],
+  "shorts": 1,
+  "rows": [
+    {
+      "symbol": "AMZN",
+      "side": "short",
+      "qty": -4.0,
+      "avg_entry_price": 258.84,
+      "current_price": 258.845,
+      "market_value": -1035.38,
+      "cost_basis": -1035.36,
+      "unrealized_pl": -0.02,
+      "unrealized_plpc": -0.0,
+      "change_today": -0.94,
+      "asset_class": "us_equity",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "stop_loss": 270.82,
+      "take_profit": 284.56,
+      "opened_at": "2026-05-05T16:16:29.366978+02:00",
+      "protection": "missing_stop",
+      "protection_orders": 0,
+      "stop_prices": []
+    }
+  ],
   "protected_count": 0,
-  "missing_stop_count": 0,
+  "missing_stop_count": 1,
   "stale_journal_opens": [
+    {
+      "symbol": "XRP/USD",
+      "engine": "crypto_john",
+      "engine_label": "Crypto John Live",
+      "side": "buy",
+      "entry_price": 1.3717000484466553,
+      "qty": 527.84,
+      "opened_at": "2026-05-01T02:17:14.965433+02:00",
+      "stop_loss": 1.35,
+      "take_profit": 1.42
+    },
     {
       "symbol": "ADA/USD",
       "engine": "crypto_24_7",
@@ -215,17 +248,6 @@
       "opened_at": "2026-05-05T16:16:25.273295+02:00",
       "stop_loss": 350.64,
       "take_profit": 333.37
-    },
-    {
-      "symbol": "AMZN",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "side": "buy",
-      "entry_price": 274.94,
-      "qty": 3,
-      "opened_at": "2026-05-05T16:16:29.366978+02:00",
-      "stop_loss": 270.82,
-      "take_profit": 284.56
     },
     {
       "symbol": "META",
