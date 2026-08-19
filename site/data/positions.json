@@ -1,7 +1,7 @@
 {
-  "count": 5,
-  "total_unrealized_pl": -4.6,
-  "longs": 3,
+  "count": 4,
+  "total_unrealized_pl": -11.03,
+  "longs": 2,
   "shorts": 2,
   "rows": [
     {
@@ -9,12 +9,12 @@
       "side": "long",
       "qty": 8.0,
       "avg_entry_price": 219.5775,
-      "current_price": 219.1431,
-      "market_value": 1753.1448,
+      "current_price": 218.89,
+      "market_value": 1751.12,
       "cost_basis": 1756.62,
-      "unrealized_pl": -3.4752,
-      "unrealized_plpc": -0.2,
-      "change_today": -0.27,
+      "unrealized_pl": -5.5,
+      "unrealized_plpc": -0.31,
+      "change_today": -0.39,
       "asset_class": "us_equity",
       "engine": "C",
       "engine_label": "Engine C, ORB",
@@ -32,12 +32,12 @@
       "side": "short",
       "qty": -1.0,
       "avg_entry_price": 714.74,
-      "current_price": 718.16,
-      "market_value": -718.16,
+      "current_price": 717.695,
+      "market_value": -717.695,
       "cost_basis": -714.74,
-      "unrealized_pl": -3.42,
-      "unrealized_plpc": -0.48,
-      "change_today": 0.09,
+      "unrealized_pl": -2.955,
+      "unrealized_plpc": -0.41,
+      "change_today": 0.03,
       "asset_class": "us_equity",
       "engine": "unknown",
       "engine_label": "unknown",
@@ -51,14 +51,37 @@
       ]
     },
     {
+      "symbol": "AAPL",
+      "side": "long",
+      "qty": 2.0,
+      "avg_entry_price": 317.29,
+      "current_price": 316.24,
+      "market_value": 632.48,
+      "cost_basis": 634.58,
+      "unrealized_pl": -2.1,
+      "unrealized_plpc": -0.33,
+      "change_today": 2.0,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 312.49,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        312.49
+      ]
+    },
+    {
       "symbol": "AMD",
       "side": "short",
       "qty": -1.0,
       "avg_entry_price": 466.08,
-      "current_price": 466.57,
-      "market_value": -466.57,
+      "current_price": 466.55,
+      "market_value": -466.55,
       "cost_basis": -466.08,
-      "unrealized_pl": -0.49,
+      "unrealized_pl": -0.47,
       "unrealized_plpc": -0.1,
       "change_today": -3.68,
       "asset_class": "us_equity",
@@ -72,68 +95,11 @@
       "stop_prices": [
         473.07
       ]
-    },
-    {
-      "symbol": "MSFT",
-      "side": "long",
-      "qty": 3.0,
-      "avg_entry_price": 483.84,
-      "current_price": 483.96,
-      "market_value": 1451.88,
-      "cost_basis": 1451.52,
-      "unrealized_pl": 0.36,
-      "unrealized_plpc": 0.03,
-      "change_today": 0.48,
-      "asset_class": "us_equity",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "stop_loss": 476.58,
-      "take_profit": 428.17,
-      "opened_at": "2026-05-01T15:54:19.610175+02:00",
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        476.58
-      ]
-    },
-    {
-      "symbol": "AAPL",
-      "side": "long",
-      "qty": 2.0,
-      "avg_entry_price": 317.29,
-      "current_price": 318.505,
-      "market_value": 637.01,
-      "cost_basis": 634.58,
-      "unrealized_pl": 2.43,
-      "unrealized_plpc": 0.38,
-      "change_today": 2.73,
-      "asset_class": "us_equity",
-      "engine": "unknown",
-      "engine_label": "unknown",
-      "stop_loss": 312.49,
-      "take_profit": null,
-      "opened_at": null,
-      "protection": "protected",
-      "protection_orders": 1,
-      "stop_prices": [
-        312.49
-      ]
     }
   ],
-  "protected_count": 5,
+  "protected_count": 4,
   "missing_stop_count": 0,
   "stale_journal_opens": [
-    {
-      "symbol": "AMZN",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "side": "sell",
-      "entry_price": 259.48,
-      "qty": 4,
-      "opened_at": "2026-04-30T15:58:36.101109+02:00",
-      "stop_loss": 263.37,
-      "take_profit": 250.4
-    },
     {
       "symbol": "META",
       "engine": "C",
@@ -221,6 +187,17 @@
       "opened_at": "2026-05-01T15:19:12.432490+02:00",
       "stop_loss": 1.37,
       "take_profit": 1.44
+    },
+    {
+      "symbol": "MSFT",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "side": "buy",
+      "entry_price": 413.69,
+      "qty": 2,
+      "opened_at": "2026-05-01T15:54:19.610175+02:00",
+      "stop_loss": 407.48,
+      "take_profit": 428.17
     },
     {
       "symbol": "META",
