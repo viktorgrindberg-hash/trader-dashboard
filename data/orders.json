@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "URA",
-    "side": "sell",
-    "qty": "6",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "44.08",
-    "created_at": "2026-08-19T16:10:18.616452723Z"
-  },
-  {
     "symbol": "NFLX",
     "side": "sell",
     "qty": "12",
@@ -19,7 +8,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "79.27",
-    "created_at": "2026-08-19T16:05:18.843145Z"
+    "created_at": "2026-08-19T16:05:18.843145173Z"
   },
   {
     "symbol": "AMD",
