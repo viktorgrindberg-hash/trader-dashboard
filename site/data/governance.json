@@ -11,17 +11,6 @@
     "risk_dollars": 19.46
   },
   {
-    "symbol": "META",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 550.4",
-    "rr": 4.94,
-    "risk_dollars": 8.35
-  },
-  {
     "symbol": "NFLX",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -31,6 +20,17 @@
     "kill_criteria": "Stop 79.27",
     "rr": null,
     "risk_dollars": 16.32
+  },
+  {
+    "symbol": "META",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 550.4",
+    "rr": 4.94,
+    "risk_dollars": 8.35
   },
   {
     "symbol": "AAPL",
