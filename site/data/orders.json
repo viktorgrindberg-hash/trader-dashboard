@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "473.67",
+    "created_at": "2026-08-20T13:40:18.693930744Z"
+  },
+  {
     "symbol": "NFLX",
     "side": "sell",
     "qty": "12",
@@ -9,17 +20,6 @@
     "limit_price": null,
     "stop_price": "79.27",
     "created_at": "2026-08-19T16:05:18.843145Z"
-  },
-  {
-    "symbol": "AMD",
-    "side": "buy",
-    "qty": "1",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "473.07",
-    "created_at": "2026-08-19T14:15:27.118384Z"
   },
   {
     "symbol": "AAPL",
