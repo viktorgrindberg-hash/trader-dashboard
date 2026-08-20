@@ -1,5 +1,27 @@
 [
   {
+    "symbol": "NVDA",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 219.43",
+    "rr": 1.8,
+    "risk_dollars": 19.46
+  },
+  {
+    "symbol": "META",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 550.4",
+    "rr": 4.94,
+    "risk_dollars": 8.35
+  },
+  {
     "symbol": "NFLX",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -22,28 +44,6 @@
     "risk_dollars": 9.6
   },
   {
-    "symbol": "MSFT",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 473.67",
-    "rr": 6.81,
-    "risk_dollars": 23.5
-  },
-  {
-    "symbol": "NVDA",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 219.43",
-    "rr": 1.8,
-    "risk_dollars": 19.46
-  },
-  {
     "symbol": "QQQ",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -53,5 +53,16 @@
     "kill_criteria": "Stop 725.51",
     "rr": null,
     "risk_dollars": 10.77
+  },
+  {
+    "symbol": "MSFT",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 473.67",
+    "rr": 6.81,
+    "risk_dollars": 23.5
   }
 ]
