@@ -1,5 +1,27 @@
 [
   {
+    "symbol": "NVDA",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "219.43",
+    "created_at": "2026-08-20T15:45:20.716977617Z"
+  },
+  {
+    "symbol": "NVDA",
+    "side": "buy",
+    "qty": "5",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "219.43",
+    "created_at": "2026-08-20T15:40:19.299296Z"
+  },
+  {
     "symbol": "MSFT",
     "side": "sell",
     "qty": "3",
@@ -8,7 +30,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "473.67",
-    "created_at": "2026-08-20T13:40:18.693930744Z"
+    "created_at": "2026-08-20T13:40:18.693931Z"
   },
   {
     "symbol": "NFLX",
@@ -42,16 +64,5 @@
     "limit_price": null,
     "stop_price": "725.51",
     "created_at": "2026-08-19T13:55:19.956872Z"
-  },
-  {
-    "symbol": "NVDA",
-    "side": "sell",
-    "qty": "8",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "216.25",
-    "created_at": "2026-08-19T13:40:23.086815Z"
   }
 ]
