@@ -1,25 +1,25 @@
 [
   {
-    "symbol": "META",
-    "side": "sell",
-    "qty": "2",
-    "type": "limit",
-    "order_class": "bracket",
-    "status": "new",
-    "limit_price": "569.73",
-    "stop_price": null,
-    "created_at": "2026-08-21T14:15:32.456919Z"
-  },
-  {
     "symbol": "TSLA",
     "side": "sell",
     "qty": "3",
-    "type": "limit",
-    "order_class": "bracket",
+    "type": "stop",
+    "order_class": "",
     "status": "new",
-    "limit_price": "370.25",
-    "stop_price": null,
-    "created_at": "2026-08-21T14:15:20.4676Z"
+    "limit_price": null,
+    "stop_price": "352.91",
+    "created_at": "2026-08-21T14:20:18.720176991Z"
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": "2",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "541.53",
+    "created_at": "2026-08-21T14:20:16.655223Z"
   },
   {
     "symbol": "AMZN",
