@@ -22,17 +22,6 @@
     "risk_dollars": 18.42
   },
   {
-    "symbol": "AMZN",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 263.2",
-    "rr": 6.49,
-    "risk_dollars": 15.56
-  },
-  {
     "symbol": "MSFT",
     "engine": "Engine C, ORB",
     "status": "PAPER",
@@ -42,6 +31,17 @@
     "kill_criteria": "Stop 476.78",
     "rr": 7.7,
     "risk_dollars": 21.78
+  },
+  {
+    "symbol": "AMZN",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 263.2",
+    "rr": 6.49,
+    "risk_dollars": 15.56
   },
   {
     "symbol": "TSLA",
