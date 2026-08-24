@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-24T21:16:34.423764+02:00",
-  "portfolio_value": 87951.03,
-  "buying_power": 344299.43,
-  "cash": 88704.9,
-  "daily_pnl": 18.89,
+  "generated_at": "2026-08-24T21:53:01.667643+02:00",
+  "portfolio_value": 87952.81,
+  "buying_power": 349444.83,
+  "cash": 87845.6,
+  "daily_pnl": -3.17,
   "trades_today": null,
-  "positions_count": 5,
-  "orders_count": 5,
+  "positions_count": 2,
+  "orders_count": 0,
   "stack_status": {}
 }
