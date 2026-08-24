@@ -1,20 +1,112 @@
 {
-  "count": 1,
-  "total_unrealized_pl": 1.47,
-  "longs": 1,
-  "shorts": 0,
+  "count": 5,
+  "total_unrealized_pl": -0.52,
+  "longs": 2,
+  "shorts": 3,
   "rows": [
+    {
+      "symbol": "TSLA",
+      "side": "short",
+      "qty": -3.0,
+      "avg_entry_price": 353.923333,
+      "current_price": 357.8699,
+      "market_value": -1073.6097,
+      "cost_basis": -1061.769999,
+      "unrealized_pl": -11.839701,
+      "unrealized_plpc": -1.11,
+      "change_today": -1.38,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 360.81,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        360.81
+      ]
+    },
+    {
+      "symbol": "AAPL",
+      "side": "long",
+      "qty": 3.0,
+      "avg_entry_price": 312.93,
+      "current_price": 311.63,
+      "market_value": 934.89,
+      "cost_basis": 938.79,
+      "unrealized_pl": -3.9,
+      "unrealized_plpc": -0.41,
+      "change_today": 0.74,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 308.24,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        308.24
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "side": "short",
+      "qty": -5.0,
+      "avg_entry_price": 209.16,
+      "current_price": 208.99,
+      "market_value": -1044.95,
+      "cost_basis": -1045.8,
+      "unrealized_pl": 0.85,
+      "unrealized_plpc": 0.08,
+      "change_today": -2.67,
+      "asset_class": "us_equity",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "stop_loss": 212.92,
+      "take_profit": 210.34,
+      "opened_at": "2026-05-06T16:07:46.942229+02:00",
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        212.92
+      ]
+    },
+    {
+      "symbol": "USO",
+      "side": "short",
+      "qty": -8.0,
+      "avg_entry_price": 132.32,
+      "current_price": 131.96,
+      "market_value": -1055.68,
+      "cost_basis": -1058.56,
+      "unrealized_pl": 2.88,
+      "unrealized_plpc": 0.27,
+      "change_today": -1.99,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 134.3,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        134.3
+      ]
+    },
     {
       "symbol": "MSFT",
       "side": "long",
       "qty": 3.0,
       "avg_entry_price": 484.86,
-      "current_price": 485.35,
-      "market_value": 1456.05,
+      "current_price": 488.69,
+      "market_value": 1466.07,
       "cost_basis": 1454.58,
-      "unrealized_pl": 1.47,
-      "unrealized_plpc": 0.1,
-      "change_today": 0.44,
+      "unrealized_pl": 11.49,
+      "unrealized_plpc": 0.79,
+      "change_today": 1.13,
       "asset_class": "us_equity",
       "engine": "C",
       "engine_label": "Engine C, ORB",
@@ -28,9 +120,20 @@
       ]
     }
   ],
-  "protected_count": 1,
+  "protected_count": 5,
   "missing_stop_count": 0,
   "stale_journal_opens": [
+    {
+      "symbol": "AMD",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "side": "buy",
+      "entry_price": 345.01,
+      "qty": 3,
+      "opened_at": "2026-04-30T16:05:14.372393+02:00",
+      "stop_loss": 339.83,
+      "take_profit": 357.09
+    },
     {
       "symbol": "XRP/USD",
       "engine": "crypto_john",
@@ -327,17 +430,6 @@
       "opened_at": "2026-05-06T15:18:05.934846+02:00",
       "stop_loss": 1.38,
       "take_profit": 1.46
-    },
-    {
-      "symbol": "NVDA",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "side": "buy",
-      "entry_price": 203.23,
-      "qty": 5,
-      "opened_at": "2026-05-06T16:07:46.942229+02:00",
-      "stop_loss": 200.18,
-      "take_profit": 210.34
     },
     {
       "symbol": "XRP/USD",
