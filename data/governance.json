@@ -8,7 +8,7 @@
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop -",
     "rr": null,
-    "risk_dollars": 931.91
+    "risk_dollars": 931.94
   },
   {
     "symbol": "NVDA",
@@ -19,6 +19,6 @@
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
     "kill_criteria": "Stop 200.18",
     "rr": 0.23,
-    "risk_dollars": 41.4
+    "risk_dollars": 41.35
   }
 ]
