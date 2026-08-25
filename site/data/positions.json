@@ -1,6 +1,6 @@
 {
   "count": 2,
-  "total_unrealized_pl": 15.65,
+  "total_unrealized_pl": 7.75,
   "longs": 1,
   "shorts": 1,
   "rows": [
@@ -9,46 +9,50 @@
       "side": "short",
       "qty": -3.0,
       "avg_entry_price": 310.646667,
-      "current_price": 309.85,
-      "market_value": -929.55,
+      "current_price": 312.265,
+      "market_value": -936.795,
       "cost_basis": -931.940001,
-      "unrealized_pl": 2.390001,
-      "unrealized_plpc": 0.26,
-      "change_today": -0.16,
+      "unrealized_pl": -4.854999,
+      "unrealized_plpc": -0.52,
+      "change_today": 0.62,
       "asset_class": "us_equity",
       "engine": "unknown",
       "engine_label": "unknown",
-      "stop_loss": null,
+      "stop_loss": 315.31,
       "take_profit": null,
       "opened_at": null,
-      "protection": "missing_stop",
-      "protection_orders": 0,
-      "stop_prices": []
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        315.31
+      ]
     },
     {
       "symbol": "NVDA",
       "side": "long",
       "qty": 5.0,
       "avg_entry_price": 208.449,
-      "current_price": 211.1,
-      "market_value": 1055.5,
+      "current_price": 210.97,
+      "market_value": 1054.85,
       "cost_basis": 1042.245,
-      "unrealized_pl": 13.255,
-      "unrealized_plpc": 1.27,
-      "change_today": 1.26,
+      "unrealized_pl": 12.605,
+      "unrealized_plpc": 1.21,
+      "change_today": 1.19,
       "asset_class": "us_equity",
       "engine": "C",
       "engine_label": "Engine C, ORB",
-      "stop_loss": 200.18,
+      "stop_loss": 208.66,
       "take_profit": 210.34,
       "opened_at": "2026-05-06T16:07:46.942229+02:00",
-      "protection": "missing_stop",
-      "protection_orders": 0,
-      "stop_prices": []
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        208.66
+      ]
     }
   ],
-  "protected_count": 0,
-  "missing_stop_count": 2,
+  "protected_count": 2,
+  "missing_stop_count": 0,
   "stale_journal_opens": [
     {
       "symbol": "XRP/USD",

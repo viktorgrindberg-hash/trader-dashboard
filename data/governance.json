@@ -6,19 +6,19 @@
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop -",
+    "kill_criteria": "Stop 315.31",
     "rr": null,
-    "risk_dollars": 931.94
+    "risk_dollars": 13.99
   },
   {
     "symbol": "NVDA",
     "engine": "Engine C, ORB",
-    "status": "WATCHLIST",
-    "score": 18,
+    "status": "PAPER",
+    "score": 24,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 200.18",
-    "rr": 0.23,
-    "risk_dollars": 41.35
+    "kill_criteria": "Stop 208.66",
+    "rr": 8.96,
+    "risk_dollars": 1.05
   }
 ]

@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "symbol": "AAPL",
+    "side": "buy",
+    "qty": "3",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "315.31",
+    "created_at": "2026-08-25T13:00:33.272260548Z"
+  },
+  {
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": "5",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "208.66",
+    "created_at": "2026-08-25T13:00:24.471336Z"
+  }
+]
