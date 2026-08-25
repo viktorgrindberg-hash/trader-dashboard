@@ -33,17 +33,6 @@
     "risk_dollars": 13.99
   },
   {
-    "symbol": "MSFT",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 480.14",
-    "rr": 8.11,
-    "risk_dollars": 21.94
-  },
-  {
     "symbol": "COPX",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -53,6 +42,17 @@
     "kill_criteria": "Stop 93.59",
     "rr": null,
     "risk_dollars": 14.3
+  },
+  {
+    "symbol": "MSFT",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 480.14",
+    "rr": 8.11,
+    "risk_dollars": 21.94
   },
   {
     "symbol": "NVDA",
