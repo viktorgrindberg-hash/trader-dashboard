@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "URA",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 47.49",
-    "rr": null,
-    "risk_dollars": 3.9
-  },
-  {
     "symbol": "AMZN",
     "engine": "Engine C, ORB",
     "status": "PAPER",
@@ -20,6 +9,17 @@
     "kill_criteria": "Stop 265.25",
     "rr": 5.13,
     "risk_dollars": 14.01
+  },
+  {
+    "symbol": "URA",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 47.49",
+    "rr": null,
+    "risk_dollars": 3.9
   },
   {
     "symbol": "AAPL",
