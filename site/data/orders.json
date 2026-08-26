@@ -1,5 +1,16 @@
 [
   {
+    "symbol": "NFLX",
+    "side": "buy",
+    "qty": "5",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "82.74",
+    "created_at": "2026-08-26T16:16:06.348124637Z"
+  },
+  {
     "symbol": "PLTR",
     "side": "sell",
     "qty": "10",
@@ -8,7 +19,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "168.99",
-    "created_at": "2026-08-26T13:40:42.824267495Z"
+    "created_at": "2026-08-26T13:40:42.824267Z"
   },
   {
     "symbol": "URA",
