@@ -1,25 +1,58 @@
 [
   {
-    "symbol": "AMD",
+    "symbol": "DIA",
     "side": "buy",
-    "qty": "3",
+    "qty": "1",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "461.2",
-    "created_at": "2026-09-01T14:35:19.666650326Z"
+    "stop_price": "535.86",
+    "created_at": "2026-09-01T18:25:22.496860228Z"
+  },
+  {
+    "symbol": "QQQ",
+    "side": "buy",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "718.25",
+    "created_at": "2026-09-01T17:55:18.707616Z"
   },
   {
     "symbol": "COPX",
-    "side": "sell",
-    "qty": "15",
+    "side": "buy",
+    "qty": "11",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "90.47",
-    "created_at": "2026-09-01T14:30:27.437328Z"
+    "stop_price": "92.13",
+    "created_at": "2026-09-01T16:25:23.094644Z"
+  },
+  {
+    "symbol": "NFLX",
+    "side": "sell",
+    "qty": "17",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "79.83",
+    "created_at": "2026-09-01T15:55:28.352768Z"
+  },
+  {
+    "symbol": "NVDA",
+    "side": "sell",
+    "qty": "6",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "215.59",
+    "created_at": "2026-09-01T15:40:17.660854Z"
   },
   {
     "symbol": "AAPL",
@@ -31,17 +64,6 @@
     "limit_price": null,
     "stop_price": "320.08",
     "created_at": "2026-09-01T14:30:25.327527Z"
-  },
-  {
-    "symbol": "NVDA",
-    "side": "sell",
-    "qty": "8",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "212.99",
-    "created_at": "2026-09-01T13:40:21.305917Z"
   },
   {
     "symbol": "MSFT",
