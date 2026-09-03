@@ -1,5 +1,27 @@
 [
   {
+    "symbol": "QQQ",
+    "side": "sell",
+    "qty": "1",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "706.78",
+    "created_at": "2026-09-03T17:45:26.01286616Z"
+  },
+  {
+    "symbol": "SMCI",
+    "side": "sell",
+    "qty": "5",
+    "type": "stop",
+    "order_class": "",
+    "status": "new",
+    "limit_price": null,
+    "stop_price": "37.08",
+    "created_at": "2026-09-03T17:20:21.269199Z"
+  },
+  {
     "symbol": "SPY",
     "side": "buy",
     "qty": "1",
@@ -8,7 +30,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "780.49",
-    "created_at": "2026-09-03T14:30:55.985085199Z"
+    "created_at": "2026-09-03T14:30:55.985085Z"
   },
   {
     "symbol": "AMZN",
@@ -31,17 +53,6 @@
     "limit_price": null,
     "stop_price": "325.29",
     "created_at": "2026-09-03T14:30:51.987675Z"
-  },
-  {
-    "symbol": "NVDA",
-    "side": "sell",
-    "qty": "7",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "223.94",
-    "created_at": "2026-09-03T13:40:23.964347Z"
   },
   {
     "symbol": "MSFT",
