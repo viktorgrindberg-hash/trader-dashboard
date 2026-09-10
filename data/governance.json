@@ -22,17 +22,6 @@
     "risk_dollars": 18.96
   },
   {
-    "symbol": "MSFT",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 482.98",
-    "rr": 6.14,
-    "risk_dollars": 32.01
-  },
-  {
     "symbol": "AAPL",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -42,6 +31,17 @@
     "kill_criteria": "Stop 319.79",
     "rr": null,
     "risk_dollars": 9.46
+  },
+  {
+    "symbol": "MSFT",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 482.98",
+    "rr": 6.14,
+    "risk_dollars": 32.01
   },
   {
     "symbol": "QQQ",
