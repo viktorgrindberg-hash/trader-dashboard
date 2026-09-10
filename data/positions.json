@@ -1,30 +1,30 @@
 {
-  "count": 2,
-  "total_unrealized_pl": -24.04,
-  "longs": 2,
+  "count": 5,
+  "total_unrealized_pl": -9.72,
+  "longs": 5,
   "shorts": 0,
   "rows": [
     {
-      "symbol": "MSFT",
+      "symbol": "TSLA",
       "side": "long",
-      "qty": 3.0,
-      "avg_entry_price": 493.65,
-      "current_price": 488.32,
-      "market_value": 1464.96,
-      "cost_basis": 1480.95,
-      "unrealized_pl": -15.99,
-      "unrealized_plpc": -1.08,
-      "change_today": -0.68,
+      "qty": 2.0,
+      "avg_entry_price": 368.83,
+      "current_price": 365.9596,
+      "market_value": 731.9192,
+      "cost_basis": 737.66,
+      "unrealized_pl": -5.7408,
+      "unrealized_plpc": -0.78,
+      "change_today": -0.5,
       "asset_class": "us_equity",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "stop_loss": 482.98,
-      "take_profit": 428.17,
-      "opened_at": "2026-05-01T15:54:19.610175+02:00",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 362.07,
+      "take_profit": null,
+      "opened_at": null,
       "protection": "protected",
       "protection_orders": 1,
       "stop_prices": [
-        482.98
+        362.07
       ]
     },
     {
@@ -32,12 +32,12 @@
       "side": "long",
       "qty": 1.0,
       "avg_entry_price": 716.74,
-      "current_price": 708.69,
-      "market_value": 708.69,
+      "current_price": 711.27,
+      "market_value": 711.27,
       "cost_basis": 716.74,
-      "unrealized_pl": -8.05,
-      "unrealized_plpc": -1.12,
-      "change_today": -1.06,
+      "unrealized_pl": -5.47,
+      "unrealized_plpc": -0.76,
+      "change_today": -0.7,
       "asset_class": "us_equity",
       "engine": "unknown",
       "engine_label": "unknown",
@@ -49,11 +49,91 @@
       "stop_prices": [
         705.99
       ]
+    },
+    {
+      "symbol": "NFLX",
+      "side": "long",
+      "qty": 13.0,
+      "avg_entry_price": 76.05,
+      "current_price": 75.97,
+      "market_value": 987.61,
+      "cost_basis": 988.65,
+      "unrealized_pl": -1.04,
+      "unrealized_plpc": -0.1,
+      "change_today": -0.08,
+      "asset_class": "us_equity",
+      "engine": "unknown",
+      "engine_label": "unknown",
+      "stop_loss": 74.9,
+      "take_profit": null,
+      "opened_at": null,
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        74.9
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "side": "long",
+      "qty": 8.0,
+      "avg_entry_price": 218.99,
+      "current_price": 219.0096,
+      "market_value": 1752.0768,
+      "cost_basis": 1751.92,
+      "unrealized_pl": 0.1568,
+      "unrealized_plpc": 0.01,
+      "change_today": -2.08,
+      "asset_class": "us_equity",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "stop_loss": 215.55,
+      "take_profit": 210.34,
+      "opened_at": "2026-05-06T16:07:46.942229+02:00",
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        215.55
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "side": "long",
+      "qty": 3.0,
+      "avg_entry_price": 493.65,
+      "current_price": 494.44,
+      "market_value": 1483.32,
+      "cost_basis": 1480.95,
+      "unrealized_pl": 2.37,
+      "unrealized_plpc": 0.16,
+      "change_today": 0.57,
+      "asset_class": "us_equity",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "stop_loss": 482.98,
+      "take_profit": 428.17,
+      "opened_at": "2026-05-01T15:54:19.610175+02:00",
+      "protection": "protected",
+      "protection_orders": 1,
+      "stop_prices": [
+        482.98
+      ]
     }
   ],
-  "protected_count": 2,
+  "protected_count": 5,
   "missing_stop_count": 0,
   "stale_journal_opens": [
+    {
+      "symbol": "AMD",
+      "engine": "C",
+      "engine_label": "Engine C, ORB",
+      "side": "buy",
+      "entry_price": 345.01,
+      "qty": 3,
+      "opened_at": "2026-04-30T16:05:14.372393+02:00",
+      "stop_loss": 339.83,
+      "take_profit": 357.09
+    },
     {
       "symbol": "XRP/USD",
       "engine": "crypto_john",
@@ -350,17 +430,6 @@
       "opened_at": "2026-05-06T15:18:05.934846+02:00",
       "stop_loss": 1.38,
       "take_profit": 1.46
-    },
-    {
-      "symbol": "NVDA",
-      "engine": "C",
-      "engine_label": "Engine C, ORB",
-      "side": "buy",
-      "entry_price": 203.23,
-      "qty": 5,
-      "opened_at": "2026-05-06T16:07:46.942229+02:00",
-      "stop_loss": 200.18,
-      "take_profit": 210.34
     },
     {
       "symbol": "XRP/USD",
