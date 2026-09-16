@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "TSLA",
-    "side": "sell",
-    "qty": "2",
-    "type": "stop",
-    "order_class": "",
-    "status": "new",
-    "limit_price": null,
-    "stop_price": "357.56",
-    "created_at": "2026-09-16T14:51:12.374335744Z"
-  },
-  {
     "symbol": "NVDA",
     "side": "sell",
     "qty": "3",
@@ -19,7 +8,7 @@
     "status": "new",
     "limit_price": null,
     "stop_price": "212.02",
-    "created_at": "2026-09-16T14:21:12.387895Z"
+    "created_at": "2026-09-16T14:21:12.3878949Z"
   },
   {
     "symbol": "GOOG",

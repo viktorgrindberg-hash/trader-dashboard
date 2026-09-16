@@ -1,38 +1,5 @@
 [
   {
-    "symbol": "AAPL",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 329.42",
-    "rr": null,
-    "risk_dollars": 25.1
-  },
-  {
-    "symbol": "GOOG",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 346.04",
-    "rr": null,
-    "risk_dollars": 10.4
-  },
-  {
-    "symbol": "TSLA",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 357.56",
-    "rr": null,
-    "risk_dollars": 11.66
-  },
-  {
     "symbol": "MSFT",
     "engine": "Engine C, ORB",
     "status": "PAPER",
@@ -44,6 +11,17 @@
     "risk_dollars": 22.26
   },
   {
+    "symbol": "AAPL",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 329.42",
+    "rr": null,
+    "risk_dollars": 25.1
+  },
+  {
     "symbol": "NVDA",
     "engine": "Engine C, ORB",
     "status": "PAPER",
@@ -53,5 +31,16 @@
     "kill_criteria": "Stop 212.02",
     "rr": 1.52,
     "risk_dollars": 9.69
+  },
+  {
+    "symbol": "GOOG",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 346.04",
+    "rr": null,
+    "risk_dollars": 10.4
   }
 ]
