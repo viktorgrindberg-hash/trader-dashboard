@@ -1,14 +1,14 @@
 [
   {
-    "symbol": "XLE",
-    "side": "buy",
-    "qty": "13",
+    "symbol": "AMD",
+    "side": "sell",
+    "qty": "2",
     "type": "stop",
     "order_class": "",
     "status": "new",
     "limit_price": null,
-    "stop_price": "64.75",
-    "created_at": "2026-09-17T14:16:12.704728763Z"
+    "stop_price": "538.95",
+    "created_at": "2026-09-17T18:06:16.923326204Z"
   },
   {
     "symbol": "NVDA",
