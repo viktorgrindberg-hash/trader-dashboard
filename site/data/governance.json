@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "AAPL",
-    "engine": "unknown",
-    "status": "WATCHLIST",
-    "score": 18,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 331.22",
-    "rr": null,
-    "risk_dollars": 27.22
-  },
-  {
     "symbol": "COPX",
     "engine": "unknown",
     "status": "WATCHLIST",
@@ -20,17 +9,6 @@
     "kill_criteria": "Stop 87.56",
     "rr": null,
     "risk_dollars": 20.64
-  },
-  {
-    "symbol": "MSFT",
-    "engine": "Engine C, ORB",
-    "status": "PAPER",
-    "score": 24,
-    "bull_case": "Entry valid while price respects setup and stop.",
-    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 486.11",
-    "rr": 8.42,
-    "risk_dollars": 23.44
   },
   {
     "symbol": "TSLA",
@@ -44,15 +22,26 @@
     "risk_dollars": 17.04
   },
   {
-    "symbol": "URA",
+    "symbol": "AAPL",
     "engine": "unknown",
     "status": "WATCHLIST",
     "score": 18,
     "bull_case": "Entry valid while price respects setup and stop.",
     "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
-    "kill_criteria": "Stop 42.5",
+    "kill_criteria": "Stop 331.22",
     "rr": null,
-    "risk_dollars": 5.84
+    "risk_dollars": 27.22
+  },
+  {
+    "symbol": "GLD",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 395.68",
+    "rr": null,
+    "risk_dollars": 6.34
   },
   {
     "symbol": "NVDA",
@@ -64,5 +53,16 @@
     "kill_criteria": "Stop 216.11",
     "rr": 2.75,
     "risk_dollars": 23.03
+  },
+  {
+    "symbol": "MSFT",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 486.11",
+    "rr": 8.42,
+    "risk_dollars": 23.44
   }
 ]
