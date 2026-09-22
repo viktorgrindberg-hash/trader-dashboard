@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "symbol": "MSFT",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 492.7",
+    "rr": 8.16,
+    "risk_dollars": 27.02
+  },
+  {
+    "symbol": "NVDA",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 225.31",
+    "rr": 5.34,
+    "risk_dollars": 24.17
+  },
+  {
+    "symbol": "AMD",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 609.02",
+    "rr": 28.62,
+    "risk_dollars": 19.96
+  },
+  {
+    "symbol": "NFLX",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 73.1",
+    "rr": null,
+    "risk_dollars": 21.28
+  },
+  {
+    "symbol": "AAPL",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 335.95",
+    "rr": null,
+    "risk_dollars": 26.69
+  }
+]
