@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "symbol": "XLE",
+    "engine": "Engine C, ORB",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 63.72",
+    "rr": 0.73,
+    "risk_dollars": 8.12
+  },
+  {
+    "symbol": "GOOG",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 343.67",
+    "rr": null,
+    "risk_dollars": 15.25
+  },
+  {
+    "symbol": "AAPL",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 342.87",
+    "rr": null,
+    "risk_dollars": 15.21
+  },
+  {
+    "symbol": "MSFT",
+    "engine": "Engine C, ORB",
+    "status": "PAPER",
+    "score": 24,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 506.2",
+    "rr": 9.13,
+    "risk_dollars": 15.4
+  },
+  {
+    "symbol": "USO",
+    "engine": "unknown",
+    "status": "WATCHLIST",
+    "score": 18,
+    "bull_case": "Entry valid while price respects setup and stop.",
+    "bear_case": "Invalidates if stop/kill level breaks or crypto exposure spikes.",
+    "kill_criteria": "Stop 145.46",
+    "rr": null,
+    "risk_dollars": 15.68
+  }
+]
